@@ -1,0 +1,556 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   |------------------------------------------|       %
+%   |Aplicación de comercio electrónico para   |       %
+%   |teléfonos móviles con S.O. Android        |       %
+%   |                                          |       %
+%   | Proyecto de graduación                   |       %
+%   |__________________________________________|       %
+%                                                      %
+%   Autores                                            %
+%   -------                                            %
+%                                                      %
+% * Soto, Paula Fabiana (CX05-0967-4)                  %
+%     paulette255@gmail.com                            %
+% * Vallejo, Sergio Daniel (CX05-0392-4)               %
+%     vallejosergio@gmail.com                          %
+%                                                      %
+%   Tutor                                              %
+%   -------                                            %
+%                                                      %
+% * Ing. Augusto Maximiliano Odstrcil                  %
+%        modstrcil@gmail.com                           %
+%                                                      %
+%                                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Disciplina de Requisitos}
+\label{chap:requisito}
+
+\section{Introducción}
+
+Esta especificación tiene como objetivo analizar y documentar las necesidades funcionales que deberán ser soportadas por el sistema a desarrollar. Para ello, se identificarán los requisitos que ha de satisfacer el nuevo sistema mediante entrevistas, el estudio de los problemas de las unidades afectadas y sus necesidades actuales. Además de identificar los requisitos se deberán establecer las prioridades, los cual proporciona un punto de referencia para validar el sistema final que compruebe que se ajusta a las necesidades del usuario.
+
+\section{Identificación de usuarios participantes}
+
+Los objetivos de esta tarea son identificar a los responsables de cada una de las unidades y a los principales usuarios implicados. Para ello se consideran los siguientes aspectos:
+
+\begin{itemize}
+    \item Incorporación de usuarios al equipo de proyecto.
+    \item Conocimiento de los usuarios de las funciones a automatizar.
+    \item Repercusión del nuevo sistema sobre las actividades actuales de los usuarios.
+    \item Implicaciones legales del nuevo sistema.
+ 
+\end{itemize}
+
+Se identificaron los siguientes usuarios:
+
+ \begin{itemize}
+ 
+\item \emph{Grupo de Administradores:} Formado por los administradores de la aplicación web actual.
+ 
+\item \emph{Grupo de Usuarios Compradores:} Formado por usuarios que realizan operaciones de compra.
+ 
+\item \emph{Grupo de Usuarios Vendedores:} Formado por usuarios  que tienen una tienda con productos en venta.
+ 
+\item \emph{Grupo de Usuarios No Registrados:} Formado por usuarios que pueden realizar operaciones de búsqueda y listado de productos sin estar registrados en la aplicación.
+
+ \end{itemize}
+ 
+ Es de destacar la necesidad de una participación activa de los usuarios del futuro sistema en las actividades de desarrollo del mismo, con objeto de conseguir la máxima adecuación del sistema a sus necesidades y facilitar el conocimiento paulatino de dicho sistema, permitiendo una rápida implantación.
+
+  \section{Educción y extracción de requisitos.}
+
+  \subsection{Planificación y Realización de Entrevistas. Estudio de Documentación}
+  
+  Esta tarea tiene como finalidad capturar los requisitos de usuarios para el desarrollo del sistema.
+
+Para el análisis de requisitos se usaron distintas técnicas de educción de requisitos. Entre ellas el estudio de la documentación provista por parte de administradores de la aplicación web y de los Responsables; entrevistas abiertas y estructuradas, análisis de la aplicación web.
+  
+  \subsection{Entrevistas. Planificación y Realización}
+  
+  La entrevista consiste en una interacción sistemática con un usuario para educir los conocimientos de éste.
+
+Se hicieron entrevistas abiertas y estructuradas. 
+
+El proceso consiste en la  planificación de las entrevistas, en donde se incluye fecha, hora, lugar, duración estimada y guión de la entrevista; luego se llevan a cabo las entrevistas y se las documenta identificando los requisitos con sus prioridades.  
+
+A partir de las entrevistas realizadas con los administradores de la aplicación web, se identifican los requisitos que debe cumplir el sistema y se establecerá una prioridad para los mismos, de acuerdo a las necesidades de los usuarios y a los objetivos a cubrir por la aplicación para Android.
+
+  \subsection{Estudio de la Documentación}
+  
+El estudio de la documentación consiste en la extracción de requisitos de los documentos e impresiones que forman parte del sistema actual.
+
+Una vez que se obtiene toda la documentación relevante al sistema que se va a desarrollar, se lee cuidadosamente la información contenida en esos documentos y luego con la técnica de análisis estructural de textos, se extraen conceptos fundamentales del dominio buscando estructuras preestablecidas.
+
+\section{Estimación del proyecto}
+
+ \subsection{Puntos de Función y COCOMO}
+ 
+      \subsubsection{Introducción}
+      
+      Como alternativa se propuso en este trabajo la utilización combinada de dos métodos
+(Puntos de Función y COCOMO) tendientes a proporcionar una estimación más precisa.
+Primero se utilizará el  método de Puntos de Función para determinar las líneas de código del proyecto software, la cual mantiene una distorsión.
+
+En segundo lugar se aplicará el método COCOMO partiendo de la información producida por el anterior (líneas de código) para llegar a una estimación precisa de las horas hombre a aplicar y fundamentalmente a la estimación de la duración total del proyecto, dado por sus características intrínsecas independientemente de los recursos a emplear.
+
+      \subsubsection{Aplicación del Método}
+      
+      Este método calcula los puntos de función de un sistema descomponiendo al mismo en cinco funciones principales (entradas, salidas, consultas, ficheros internos y externos), asignándoles valores de acuerdo a su complejidad y en función de la cantidad de cada uno de ellos se llega a determinar, mediante su sumatoria, los puntos de función.
+A continuación se detallan los parámetros a considerar en el cálculo del método:
+
+ \begin{itemize}
+ 
+\item \emph{Datos lógicos internos (ILF):} Corresponde al almacén de datos identificados por un nombre en un diagrama de flujo de datos. Un ejemplo de este parámetro serían los archivos maestros.
+ 
+\item \emph{Datos de Interfase externos (EIF):} Similar a los ILF, pero estos almacenes de datos son mantenidos por otra aplicación. Por ejemplo un sitio Web  que muestra datos fuera de la empresa mantenido por otro sistema interno a la empresa.
+ 
+\item \emph{Entrada externas (EI):} Son datos o información de control que se introducen en la aplicación desde fuera de sus límites. Estos datos mantienen los datos lógicos internos. Un ejemplo de este parámetro son las pantallas de entradas en las que aparecen botones como agregar, modificar y quitar.
+ 
+\item \emph{Salidas externas (EO):} Son datos o información de control que salen de los límites de la aplicación. Esta salida debe ser considerada única si tiene un formato único o si el diseño requiere un proceso lógico distinto.  Un ejemplo de este parámetro son los informes, cada informe producido se cuenta como una salida.
+ 
+\item \emph{Consultas externas (EQ):} Representan los requisitos de información a la aplicación, no actualiza ILF y no contienen datos derivados. Por ejemplo se tienen las búsquedas inmediatas de datos.
+ \end{itemize}
+
+      \subsubsection{Descripción de la Técnica}
+      
+      Para el cálculo de la complejidad, se utilizaron los siguientes parámetros:
+     
+\begin{itemize}
+ 
+    \item \emph{Data Element Type (DET):} Campo único identificable por el usuario. Hace referencia a las claves únicas de los almacenes de datos.
+
+\item \emph{Record Element Type (RET):} Subgrupo de datos inidentificables por el usuario.
+
+\item \emph{File Type Referenced (FTR):} ILF leído o mantenido.
+
+\end{itemize}
+      \subsubsection{Definición de parámetros básicos externos del sistema}
+
+Para el cálculo de la complejidad en un ILF se accede a una tabla de doble entrada de acuerdo a la cantidad de DET y RET que presenta.
+      
+      \subsubsection{Ejecución del método en el proyecto actual}
+      
+    Se identificaron 4 ILF.
+    
+    No se identificó ningún EIF.
+    
+    \begin{table}[H]
+    \centering
+    \begin{tabular}{|l|l|l|l|l|}
+        \hline
+        ILF      & RET & DET & Complejidad & Valor \\ \hline
+        Usuario  & 1   & 3   & Baja        & 7     \\ \hline
+        Vendedor & 1   & 6   & Baja        & 7     \\ \hline
+        Producto & 1   & 6   & Baja        & 7     \\ \hline
+        Orden    & 1   & 7   & Baja        & 7     \\
+        \hline
+    \end{tabular}
+\end{table}
+
+Baja: $4 * 7 = 28$
+
+Total: 28
+
+      \begin{table}[H]
+      \centering
+    \begin{tabular}{|l|l|l|l|l|}
+        \hline
+        EI                 & FTR & DET & Complejidad & Valor \\ \hline
+        Alta Usuario       & 1   & 9   & Baja        & 3     \\ \hline
+        Modificar Usuario  & 1   & 9   & Baja        & 3     \\ \hline
+        Alta Tienda        & 1   & 4   & Baja        & 3     \\ \hline
+        Modificar Tienda   & 1   & 4   & Baja        & 3     \\ \hline
+        Alta Producto      & 1   & 6   & Baja        & 3     \\ \hline
+        Baja Producto      & 1   & 6   & Baja        & 3     \\ \hline
+        Modificar Producto & 1   & 6   & Baja        & 3     \\ \hline
+        Alta orden         & 1   & 7   & Baja        & 3     \\ \hline
+    \end{tabular}
+\end{table}
+
+Baja: $8 * 3 = 24$
+
+Total: 24
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|l|l|l|l|l|}
+        \hline
+        EO                   & FTR & DET & Complejidad & Valor \\ \hline
+        Listado de Productos & 1   & 7   & Baja        & 4     \\ \hline
+        Listado de Órdenes   & 2   & 9   & Media       & 5     \\
+        \hline
+    \end{tabular}
+\end{table}
+
+Baja: $1 * 4 = 4$
+
+Media: $1 * 5 = 5$
+
+Total: 9
+
+\begin{table}[H]
+\centering
+    \begin{tabular}{|l|l|l|l|l|}
+        \hline
+        EQ                   & FTR & DET & Complejidad & Valor \\ \hline
+        Inicio de sesión     & 1   & 2   & Baja        & 3     \\ \hline
+        Consulta de tienda   & 2   & 9   & Media       & 4     \\ \hline
+        Consulta de producto & 2   & 9   & Media       & 4     \\
+        \hline
+    \end{tabular}
+\end{table}
+
+Baja: $1 * 3 = 3$
+
+Media: $2 * 4 = 8$
+
+Total: 11
+
+    \subsubsection{Resumen}
+    
+    \begin{table}[H]
+    \centering
+    \begin{tabular}{|l|l|l|l|l|}
+        \hline
+        Parámetro & Complejidad & Cantidad & Peso & Total \\ \hline
+        ILF       & Baja        & 4        & 7    & 28    \\ \hline
+        EI        & Baja        & 8        & 3    & 24    \\ \hline
+        \multirow{2}{*}{EO}        & Baja        & 1        & 4    & 4     \\ \cline{2-5}
+                & Media       & 1        & 5    & 5     \\ \hline
+        \multirow{2}{*}{EQ}        & Baja        & 1        & 3    & 3     \\ \cline{2-5}
+                 & Media       & 2        & 4    & 8     \\ \hline
+    \end{tabular}
+\end{table}
+    
+    $PF = ILF + EI + EO + EQ$
+    
+    $PF = 28 + 24 + 9 + 11 = 72$
+    
+    $PF = 72$
+    
+    \subsubsection{Ajuste de los Puntos de Función}
+        
+   \begin{table}[H]
+   \centering
+    \begin{tabular}{|p{4cm}|p{10cm}|l|}
+        \hline
+        Característica & Descripción del grado de influencia & Valor \\ \hline
+        Comunicación de datos & Más de una PC front-end, pero la aplicación soporta un solo tipo de protocolo de comunicaciones & 4 \\ \hline
+        Funciones distribuidas & El proceso distribuido y la transferencia de datos son on-line en ambas direcciones & 3 \\ \hline
+        Rendimiento & Rendimiento y requisitos de diseño han sido definidos y revisados pero no requieren ninguna acción especial & 1 \\ \hline
+        Configuraciones fuertemente utilizadas & Existen algunas restricciones de seguridad o tiempo & 2 \\ \hline
+        Frecuencia de transacciones & No se anticipa ningún periodo de transacción pico & 0 \\ \hline
+        Entrada on-line de datos & Más del 30\% de las transacciones son entradas de datos interactivas & 5 \\ \hline
+        Diseño para la eficiencia del usuario final & Más de 6 funciones que incrementan la eficiencia del usuario final, y se establecieron requisitos de eficiencia del usuario que obligan a diseñar tareas que tienen en cuenta factores humanos & 4 \\ \hline
+        Actualización on-line & Actualización de 4 o más ILF. El volumen de actualización es bajo y la recuperación fácil & 2 \\ \hline
+        Procesos complejos & No hay procesos complejos & 0 \\ \hline
+        Reusabilidad & Se utiliza código reusable dentro de la aplicación & 1 \\ \hline
+        Facilidad de instalación & No se realizaron consideraciones ni se requirieron desarrollos especiales para la instalación por parte del usuario & 0 \\ \hline
+        Facilidad de operación & No se definieron por parte del usuario necesidades especiales de operación o respaldo distintas de las normales & 0 \\ \hline
+        Instalación en distintos lugares & Se necesita diseñar la aplicación para ser usada en múltiples lugares pero funcionará bajo entornos idénticos de hardware y software & 1 \\ \hline
+        Facilidad de cambio & No existe ninguna especificación por parte de los usuarios en este sentido & 0 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+Grado de Influencia: $TDI = 24$
+
+Factor de ajuste: VAF = $0.65 + 0.01 * TDI = 0.89$
+
+
+\paragraph{Puntos de función ajustados:} 
+
+PFA = $PF * AF = 72 * 0.89 = 64.08$
+
+\subsubsection{Estimación de las líneas de código necesarias}
+
+QSM SLOC/FP Data JavaScript: 54 LOC por PF
+
+
+\paragraph{LOC=} $54*64.08 = 3460.32$
+        
+\subsubsection{Aplicación del método COCOMO}
+
+    La estimación del tiempo de desarrollo y la cantidad necesaria de personas partipantes se realizó utilizando el método intermedio del modelo orgánico.
+
+\begin{table}[H]
+\centering
+    \begin{tabular}{|l|l|}
+        \hline
+        RELY & 1    \\ \hline
+        DATA & 1.08 \\ \hline
+        CPLX & 0.7  \\ \hline
+        TIME & 1    \\ \hline
+        STOR & 1    \\ \hline
+        VIRT & 0.87 \\ \hline
+        TURN & 0.87 \\ \hline
+        ACAP & 1.19 \\ \hline
+        AEXP & 1.13 \\ \hline
+        PCAP & 1    \\ \hline
+        VEXP & 1.1  \\ \hline
+        LEXP & 1.07 \\ \hline
+        MODP & 1    \\ \hline
+        TOOL & 0.83 \\ \hline
+        SCED & 1.04 \\
+        \hline
+    \end{tabular}
+\end{table}
+    
+    
+Factor de Ajuste: A = $0.782$
+\\
+
+\begin{framed}
+\centering
+MM = $A 3.2 (KLOC)^{1.05} = 9.21$ meses hombre
+
+TDEV = $2,5 (MM)^{0.38} = 5.81$ meses
+
+Número de personas = ${9.21}/{5.81} = 1.58 \approx 2$ personas
+\end{framed}
+
+\section{Especificación de Requisitos de Software}
+\setcounter{secnumdepth}{2}
+\renewcommand{\thesubsection}{\arabic{subsection}}
+ \subsection{Introducción}
+ 
+ Este documento es una Especificación de Requisitos Software de la Aplicación de comercio electrónico para teléfonos celulares con sistema operativo Android “DroidCommerce”. Esta documentación es fruto de las entrevistas, estudio de la documentación y del funcionamiento de la aplicación web actual, así como del análisis llevado a cabo por el equipo de desarrollo.
+
+El objetivo de la especificación es definir en forma clara, precisa, completa y verificable todas las funcionalidades y restricciones del sistema que se desea construir.
+
+Esta documentación está sujeta a revisiones por el grupo de administradores que se recogerán por medio de sucesivas versiones del documento, hasta alcanzar su aprobación por parte de los responsables de la aplicación web actual. Una vez aprobado, servirá de base al equipo de desarrollo para la construcción del nuevo sistema.
+
+Esta especificación se ha realizado de acuerdo al estándar “IEEE Recomended Practice for software Requirements Specifications(IEEE/ANSI 830-1993)”.
+
+ 
+    \subsubsection{Objetivos y alcance del sistema}
+% Esta subsección debería
+% a) Identificar el producto de software a ser producido por su nombre (ej: Report Generator, Host DBMS)
+% b) Explicar lo que el producto software hará y, si es necesario, lo que no hará.
+% c) Describir la aplicación del software que está siendo especificado, incluyendo beneficios relevantes, objetivos, y metas
+% En esta etapa se detallan los objetivos del sistema, describiendo brevemente QUÉ es lo que el sistema debe hacer. En el alcance del sistema %  se describe en lenguaje natural el ámbito del sistema, su dominio y sus límites.
+
+Los principales objetivos del sistema a desarrollar son permitir que usuarios puedan utilizar funcionalidades del sitio web existente desde cualquier dispositivo móvil con sistema operativo Android que servirá como complemento de la aplicación web, permitiendo aumentar la cantidad de usuarios y brindando facilidades para que puedan realizar operaciones desde cualquier lugar en el que se encuentren por más que no tengan acceso a un a computadora con Internet y aumentar enormemente el volumen de ventas de las tiendas. Estas funcionalidades abarcan compra, venta y comunicación entre usuarios.
+
+Otro de los objetivos es implementar un método de conexión con la aplicación web actual permitiendo operar con gran eficiencia y bajo costo.
+
+El sistema debe ser seguro, escalable, de fácil mantenimiento y muy simple de usar utilizando sólo interfaces táctiles.
+
+El desarrollo lo llevarán a cabo Paula Soto y Sergio Vallejo, con la opción a ser responsables del posterior mantenimiento del mismo.
+
+ 
+    \subsubsection{Definiciones, Acrónimos y Abreviaturas}
+%Esta subsección debería proveer las definiciones de todos los términos, acrónimos, y abreviaturas requeridas para interpretar apropiadamente la ERS. Esta información podría ser provista por referencia a uno o más apéndices en la ERS o por referencia a otros documentos
+    \subsubsection{Definiciones:}
+  
+        \begin{itemize}
+ 
+        \item \emph{Aplicación web:} una aplicación web es un sitio web en donde el contenido de todas o algunas de sus páginas se determina en el momento mismo de la solicitud, gracias a la ejecución de un intérprete en el servidor que traduce el código fuente en información visible en un navegador Web, de manera dinámica y con acceso en línea a los datos.
+ 
+        \item \emph{Régimen 24x7} disponibilidad los 7 días a la semana, 24 horas por día, 100 por ciento de disponibilidad.
+        \end{itemize}
+
+        \subsubsection{Acrónimos:}
+
+        \begin{itemize}
+
+        \item \emph{HTML:} HyperText Markup Language.
+        
+        \item \emph{HTTPS:} Hypertext Transfer Protocol Secure
+
+        \end{itemize}
+ 
+        \subsubsection{Abreviaturas:}
+
+        \begin{itemize}
+
+        \item \emph{IEEE:} Institute of Electrical and Electronics Engineers.
+ 
+        \item \emph{UP:} Unified Process.
+
+        \item \emph{MCVS:} Modelo de Ciclo de Vida del Sistema.
+
+         \end{itemize}
+    
+
+ \subsection{Descripción general}
+
+    Esta sección nos presenta una descripción general del sistema con el fin de conocer las funciones que debe soportar, los datos asociados, las restricciones impuestas y cualquier otro factor que pueda influir en la construcción del mismo.
+
+Las funciones que debe realizar el sistema se pueden agrupar de la siguiente manera:
+
+  \begin{itemize}
+  
+  \item \emph{Administración de usuarios:} debe permitir gestionar los usuarios teniendo en cuenta de si tratan de compradores o vendedores de productos en la aplicación.
+
+    Debe permitir la búsqueda y listado de productos de cualquier categoría.
+
+    Los usuarios podrán también consultar un listado de operaciones compras o ventas realizadas.
+    
+    Para que un usuario comprador pueda realizar una operación de compra o un usuario vendedor una venta deberán estar previamentes registrados en la aplicación.
+
+    Los usuarios deben poder también configurar opciones del perfil como el nombre, email, dirección, código postal, ciudad, provincia y país.
+  
+  \item \emph{Administración de productos:} debe permitir gestionar los productos que el usuario vendedor pone a la venta y sus configuraciones como fotografía, nombre de producto, categoría, descripción, precio de producto, precio de envio.
+  
+  \item \emph{Consultas de compras y ventas realizadas:} debe permitir obtener listados de las operaciones de compra y ventas realizadas por los usuarios, y se debe permitir la consulta de las mismas.
+  
+  \end{itemize}
+
+ \subsection{Requisitos específicos}
+        \subsubsection{Requisitos Funcionales}
+        
+        \begin{enumerate}[A.]
+
+        \item \textbf{Gestion de cuentas de usuarios}
+        
+        \paragraph{Introducción:} El sistema permite introducir información sobre usuarios compradores (Nombre y apellido, email, dirección, código postal, ciudad, provincia, país, etc) y editar los ya existentes.
+        
+        \paragraph{Entrada:} @nombreUsuario + Nombre + Apellido + Email + Dirección + CódigoPostal + Ciudad + Provincia + País
+        
+        \paragraph{Proceso:} Comprobar si se trata de un usuario nuevo, dándolo de alta o actualizarlo si ya existe.                  
+
+Se muestra en pantalla la ficha de datos de la persona.
+
+No pueden existir dos usuarios con el mismo número de Identificación. 
+        
+        \paragraph{Salida:}  Datos de usuarios actualizados y mensajes de lo que está ocurriendo.
+        
+
+        \item \textbf{Gestion de Tiendas}
+        
+        \paragraph{Introducción:}El sistema permite introducir información sobre las Tiendas (Nombre, Descripción, Moneda, Logo, etc), editar los ya existentes y borrarlos. 
+        
+        \paragraph{Entrada:} @nombreUsuario + NombreTienda + Descripción + Moneda + Logo 
+        
+        \paragraph{Proceso:} Comprobar si se trata de una tienda nueva dándola de alta en el sistema o actualizándola si ya existe.
+
+No pueden existir dos tiendas vinculadas a una misma cuenta de usuario.
+        
+        \paragraph{Salida:} Datos de la tienda actualizados y mensajes de lo que está ocurriendo.
+        
+         \item \textbf{Gestión de productos}
+        
+        \paragraph{Introducción:}El sistema permite introducir información sobre Productos (Nombre, Descripción, foto, precio de producto, precio de envio, etc), editar los ya existentes y borrarlos.
+        
+        \paragraph{Entrada:} @CódigoIdentificación + Nombre + Descripción + PrecioProducto + PrecioEnvio + Foto + Categoría 
+        
+        \paragraph{Proceso:} Se elimina el producto.
+        
+        \paragraph{Salida:} Datos del producto actualizados y mensajes de lo que está ocurriendo.
+        
+          \item \textbf{Búsqueda de productos}
+        
+        \paragraph{Introducción:}El sistema debe permitir la búsqueda de productos por el nombre del producto. 
+        
+        \paragraph{Entrada:} CadenaBúsqueda
+        
+        \paragraph{Proceso:} Buscar las correspondencias de productos usando la cadena de búsqueda. Mostrar los resultados, aunque no se haya encontrado nada.
+        
+        \paragraph{Salida:} {NombreProducto + Imagen + PrecioProducto + PrecioEnvio}
+        
+         \item \textbf{Comprar Productos a Vendedor}
+        
+        \paragraph{Introducción:} El sistema debe permitir elegir un producto del vendedor (puede ser previo paso por la pantalla de búsqueda) y asignar la cantidad del producto a comprar. Una vez finalizado, se genera la compra para ser informada al vendedor posteriormente. Se crea la obligación por parte del comprador, que debe haber iniciado la sesión previamente. 
+        
+        \paragraph{Entrada:} Fecha + IdComprador + IdProducto + Cantidad
+        
+        \paragraph{Proceso:} generar la compra/venta del producto incluyendo la cantidad especificada. Generar un aviso en el vendedor. En todo momento se deben mostrar mensajes de lo ocurrido, especialmente antes de generar, avisando que se obliga a la compra.
+        
+        \paragraph{Salida:} Datos de la nueva compra. Mensajes de lo que está ocurriendo. Notificación enviada al vendedor.
+        
+        \item \textbf{Listado de compras}
+        
+        \paragraph{Introducción:} Permite listar las compras realizadas de un determinado usuario comprador.
+        
+        
+        \paragraph{Entrada:} 
+        
+        \paragraph{Proceso:} Listar las compras realizadas
+        
+        \paragraph{Salida:} {NombreProducto + PrecioProducto + PrecioEnvio + PrecioTotal + Cantidad + FechaCompra + CódigoCompra + UsuarioVendedor}
+        
+         \item \textbf{Listado de ventas}
+        
+        \paragraph{Introducción:} Permite listar las ventas realizadas de un determinado usuario vendedor.
+        
+        \paragraph{Entrada:}
+        
+        \paragraph{Proceso:} Listar las ventas realizadas
+        
+        \paragraph{Salida:} {NombreProducto + PrecioProducto + PrecioEnvio + PrecioTotal + Cantidad + FechaVenta + CódigoCompra + UsuarioComprador}
+ 
+         \end{enumerate}
+         
+        \subsubsection{Suposiciones y Dependencias:}
+        
+            \alternativo{Suposiciones:} 
+            
+            Se asume que los requisitos en este documento son estables una vez que sean aprobados por los responsables de la aplicación web. Cualquier petición de cambios en la especificación debe ser aprobada por todas las partes intervinientes y será gestionada por el equipo de desarrollo.
+            
+            \alternativo{Dependencias:} 
+            
+            El sistema tiene dependencia con el actual sitio web con el que compartirá los datos.
+            
+          \subsubsection{Requisitos de Usuario y Tecnológicos:}
+        
+            \alternativo{Requisitos de usuario:} 
+            
+            Los usuarios serán los que descarguen la aplicación de la tienda de aplicaciones de Android.
+            
+            \alternativo{Requisitos tecnológicos:} 
+            
+            La aplicación actuará como cliente de la aplicación web que ofrecerá Web services para el acceso a los datos.
+
+            El cliente requiere un dispositivo móvil, con pantalla táctil superior a las 3 pulgadas y Sistema Operativo Android, versión mayor o igual a 2.1.
+            
+        \subsubsection{Requisitos de Interfaces Externas:}
+        
+            \alternativo{Interfaces de usuario:} 
+            
+            Las interfaces de la aplicación deben ser intuitivas, fáciles de usar, amigables y de respuesta rápida. La interfaz de usuario debe ser orientada al uso táctil.
+            
+            \alternativo{Interfaces Hardware:} 
+            
+            Dispositivo móvil con pantalla táctil de tamaño superior a las 3 pulgadas.
+            
+            \alternativo{Interfaces Software:} 
+            
+            Sistema Operativo Android, versión mayor o igual a 2.1.
+            
+        \subsubsection{Requisitos de Rendimiento:}
+        
+        El Tiempo de respuesta de la aplicación de cada función solicitada por el usuario no debe ser superior a los  10 segundos en una velocidad efectiva de conexión con el servidor a través de 3G.
+        
+        \subsubsection{Requisitos de Desarrollo:}
+        
+        El ciclo de vida será Prototipado Evolutivo, debiendo orientarse hacia el desarrollo de un sistema flexible que permita incorporar de manera sencilla cambios y nuevas funcionalidades.
+        
+       \subsubsection{Restricciones de Diseño:}
+       
+        \alternativo{Ajuste a estándares:} No se ha definido
+        
+        \alternativo{Seguridad:}
+        
+        La seguridad de los datos será establecida por la utilización de cifrado mediante el uso de HTTPS en la transmisión de datos.
+        
+Se implementará también ACL para cada objeto y de esa manera evitar accesos o modificaciones que no correspondan.
+
+        \alternativo{Política de respaldo:} 
+        
+        No se ha definido 
+        
+        \alternativo{Base de Datos:}
+        
+        La base de datos que se utilizará estará en el servidor web que funciona actualmente con la aplicación web y accederá a la misma utilizando la tecnología de web services REST.
+        
+        \alternativo{Política de Borrado:}
+        
+        No se ha definido
+        
+
+\setcounter{secnumdepth}{-1}
+
+
+

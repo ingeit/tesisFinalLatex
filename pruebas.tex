@@ -1,0 +1,89 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   |------------------------------------------|       %
+%   |Aplicación de comercio electrónico para   |       %
+%   |teléfonos móviles con S.O. Android        |       %
+%   |                                          |       %
+%   | Proyecto de graduación                   |       %
+%   |__________________________________________|       %
+%                                                      %
+%   Autores                                            %
+%   -------                                            %
+%                                                      %
+% * Soto, Paula Fabiana (CX05-0967-4)                  %
+%     paulette255@gmail.com                            %
+% * Vallejo, Sergio Daniel (CX05-0392-4)               %
+%     vallejosergio@gmail.com                          %
+%                                                      %
+%   Tutor                                              %
+%   -------                                            %
+%                                                      %
+% * Ing. Augusto Maximiliano Odstrcil                  %
+%        modstrcil@gmail.com                           %
+%                                                      %
+%                                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Disciplina de Pruebas}
+\label{chap:pruebas}
+
+\section{Test de Unidades}
+\subsection{Introducción}
+
+El Test de Unidades consiste en realizar pruebas de las unidades individuales de código. En esta fase se realizan las pruebas de caja blanca. 
+
+\subsection{Pruebas de Caja Blanca}
+Es un tipo de método de prueba que permite detectar errores internos del código de cada módulo. 
+
+Con estas pruebas se pueden garantizar que se ejercitan por lo menos una vez todos los caminos independientes de cada módulo, que las decisiones lógicas se evalúan en sus dos variantes (verdadera y falsa), que se ejecutan todos los bucles en sus límites operacionales y que se ejercitan las estructuras internas de datos para asegurar su validez.
+
+\section{Test de Módulos}
+
+\subsection{Introducción}
+El Test de Módulos consiste en realizar pruebas de los módulos funcionales del sistema. En esta fase se realizan las pruebas de caja negra y las pruebas de estrés. 
+
+\subsection{Pruebas de Caja Negra}
+
+En este método de prueba se ve a cada módulo como una caja negra y se generan conjuntos de condiciones de entrada que ejerciten completamente todos los requisitos funcionales del programa, observando las salidas.
+
+    Con estas pruebas se pueden detectar funciones incorrectas o ausentes, errores de interfaz, errores de rendimiento, etc.
+    
+\subsection{Pruebas de Estrés}
+
+Esta prueba se centra en realizar el análisis de valores límites, y en condiciones límites, ya que se ha demostrado que los errores tienden a darse más en los límites del campo de entrada y sometidos a condiciones límites.
+
+\section{Test de Integración}
+
+\subsection{Introducción}
+
+El Test de Integración consiste en realizar pruebas de la estructura modular del programa y su interacción a través de la prueba de integración.
+
+\subsection{Pruebas de Integración}
+
+En este tipo de prueba los errores surgen al integrar los módulos. En esta fase se pueden detectar errores como por ejemplo que las subfuncion, es cuando se combinan pueden no producir la función principal, un módulo puede tener un efecto adverso e inadvertido sobre otro, etc.
+
+    El objetivo es tomar los módulos probados y construir una estructura de programa que esté de acuerdo con lo que dicta la especificación C.
+    
+    Existen dos tipos de integración:
+
+Integración descendente: En este tipo se integran los módulos moviéndose hacia abajo por la jerarquía de control, comenzando con el módulo de control inicial.
+
+Integración ascendente: En este tipo se integran los módulos atómicos primero y luego se continúa con el nivel inmediato superior.
+
+En el desarrollo de este sistema se utilizó la integración descendente.
+
+    
+
+\section{Test de Aceptación}
+
+\subsection{Introducción}
+
+El Test de Aceptación consiste en realizar la prueba del software para validar si funciona de acuerdo con las expectativas razonables del cliente. En esta fase se llevan a cabo las pruebas Alfa y Beta.
+
+\subsection{Prueba Alfa}
+
+Esta prueba es conducida por el cliente en el lugar de desarrollo. Se usa el software de forma natural (previa capacitación), con el encargado de desarrollo mirando “por encima del hombro” del usuario y registrando errores y problemas de uso. Se lleva acabo en un entorno controlado.
+\subsection{Prueba Beta}
+
+Esta prueba se lleva a cabo en uno o más lugares de clientes, por los usuarios finales de software. El encargado de desarrollo no está presente. El cliente registra todos los problemas (reales o imaginarios) que  encuentra durante la prueba o informa a intervalos regulares al equipo de desarrollo. Se lleva a cabo en un entorno no controlado.
+
+Los procedimientos de prueba se diseñaron para asegurar que se satisfacen todos los requisitos funcionales y que se alcanzan todos los requisitos de rendimiento.
