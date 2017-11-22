@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.20)  22 NOV 2017 17:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.20)  22 NOV 2017 18:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -903,22 +903,22 @@ LaTeX Warning: Label `fig:login' multiply defined.
 (./bibliografia.aux))
 \openout1 = `informe.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Info: Redefining \. on input line 178.
-LaTeX Info: Redefining \% on input line 178.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Info: Redefining \. on input line 179.
+LaTeX Info: Redefining \% on input line 179.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -951,7 +951,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box38
-Package hyperref Info: Link coloring ON on input line 178.
+Package hyperref Info: Link coloring ON on input line 179.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -961,9 +961,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count161
 )
-LaTeX Info: Redefining \ref on input line 178.
-LaTeX Info: Redefining \pageref on input line 178.
-LaTeX Info: Redefining \nameref on input line 178.
+LaTeX Info: Redefining \ref on input line 179.
+LaTeX Info: Redefining \pageref on input line 179.
+LaTeX Info: Redefining \nameref on input line 179.
 
 (./informe.out) (./informe.out)
 \@outlinefile=\write3
@@ -1002,22 +1002,22 @@ nes/logo-unt.png>])
 
  (./agradecimientos.tex)
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 184.
+(babel)             in language  on input line 185.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 184.
+(babel)             in language  on input line 185.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 184.
+(babel)             in language  on input line 185.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 184.
+(babel)             in language  on input line 185.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 184.
+(babel)             in language  on input line 185.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 184.
+(babel)             in language  on input line 185.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.184 \include{agradecimientos}
+l.185 \include{agradecimientos}
                                 [1
 
 
@@ -1046,8 +1046,20 @@ Package babel Info: Redefining spanish shorthand "?
 
 
 ]
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 225.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 225.
 LaTeX Info: Redefining \% on input line 225.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 44.44049pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 225.
 Package babel Info: Redefining spanish shorthand >>
@@ -1060,7 +1072,11 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 225.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 225.
- [3]
+[3]
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 255.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 255.
 LaTeX Info: Redefining \% on input line 255.
 Package babel Info: Redefining spanish shorthand <<
@@ -1079,299 +1095,321 @@ Package babel Info: Redefining spanish shorthand "?
 \tf@toc=\write4
 \openout4 = `informe.toc'.
 
-LaTeX Info: Redefining \. on input line 189.
-LaTeX Info: Redefining \% on input line 189.
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 190.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 190.
+LaTeX Info: Redefining \% on input line 190.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 189.
+(babel)             in language  on input line 190.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 189.
+(babel)             in language  on input line 190.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 189.
+(babel)             in language  on input line 190.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 189.
+(babel)             in language  on input line 190.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 189.
+(babel)             in language  on input line 190.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 189.
-
-[5]
+(babel)             in language  on input line 190.
+ [5]
 \openout2 = `introduccion.aux'.
 
- (./introduccion.tex
+
+(./introduccion.tex
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 54.
+(babel)             in language  on input line 61.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 54.
+(babel)             in language  on input line 61.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 54.
+(babel)             in language  on input line 61.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 54.
+(babel)             in language  on input line 61.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 54.
+(babel)             in language  on input line 61.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 54.
+(babel)             in language  on input line 61.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 70.
  [6
 
 
 ]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 72.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 72.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 72.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 72.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 72.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 70.
-LaTeX Info: Redefining \. on input line 81.
-LaTeX Info: Redefining \% on input line 81.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 81.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 81.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 81.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 81.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 81.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 81.
- [7]
-<imagenes/ventasAndroid.png, id=528, 794.97pt x 543.02875pt>
+(babel)             in language  on input line 72.
+
+<imagenes/ventasAndroid.png, id=524, 794.97pt x 543.02875pt>
 File: imagenes/ventasAndroid.png Graphic file (type png)
 
 <use imagenes/ventasAndroid.png>
-Package pdftex.def Info: imagenes/ventasAndroid.png used on input line 86.
+Package pdftex.def Info: imagenes/ventasAndroid.png used on input line 88.
 (pdftex.def)             Requested size: 364.19667pt x 248.77707pt.
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 91.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 91.
+LaTeX Info: Redefining \% on input line 91.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 91.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 91.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 91.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 91.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 91.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 94.
-LaTeX Info: Redefining \. on input line 101.
-LaTeX Info: Redefining \% on input line 101.
+(babel)             in language  on input line 91.
+ [7]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 101.
+(babel)             in language  on input line 96.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 101.
+(babel)             in language  on input line 96.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 101.
+(babel)             in language  on input line 96.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 101.
+(babel)             in language  on input line 96.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 101.
+(babel)             in language  on input line 96.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 101.
+(babel)             in language  on input line 96.
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 113.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 113.
+LaTeX Info: Redefining \% on input line 113.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 113.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 113.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 113.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 113.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 113.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 113.
  [8 <./imagenes/ventasAndroid.png>]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 118.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 118.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 118.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 118.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 118.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 118.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 127.
+(babel)             in language  on input line 129.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 127.
+(babel)             in language  on input line 129.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 127.
+(babel)             in language  on input line 129.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 127.
+(babel)             in language  on input line 129.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 127.
+(babel)             in language  on input line 129.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 127.
-LaTeX Info: Redefining \. on input line 131.
-LaTeX Info: Redefining \% on input line 131.
+(babel)             in language  on input line 129.
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 137.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 137.
+LaTeX Info: Redefining \% on input line 137.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 131.
+(babel)             in language  on input line 137.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 131.
+(babel)             in language  on input line 137.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 131.
+(babel)             in language  on input line 137.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 131.
+(babel)             in language  on input line 137.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 131.
+(babel)             in language  on input line 137.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 131.
+(babel)             in language  on input line 137.
  [9]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 137.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 139.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 137.
-LaTeX Info: Redefining \. on input line 152.
-LaTeX Info: Redefining \% on input line 152.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 139.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 152.
+(babel)             in language  on input line 158.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 152.
+(babel)             in language  on input line 158.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 152.
+(babel)             in language  on input line 158.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 152.
+(babel)             in language  on input line 158.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 152.
+(babel)             in language  on input line 158.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 152.
+(babel)             in language  on input line 158.
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 161.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 161.
+LaTeX Info: Redefining \% on input line 161.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 161.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 161.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 161.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 161.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 161.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 161.
  [10]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 156.
+(babel)             in language  on input line 178.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 156.
+(babel)             in language  on input line 178.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 156.
+(babel)             in language  on input line 178.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 156.
+(babel)             in language  on input line 178.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 156.
+(babel)             in language  on input line 178.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 156.
-LaTeX Info: Redefining \. on input line 172.
-LaTeX Info: Redefining \% on input line 172.
+(babel)             in language  on input line 178.
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 182.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 182.
+LaTeX Info: Redefining \% on input line 182.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 172.
+(babel)             in language  on input line 182.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 172.
+(babel)             in language  on input line 182.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 172.
+(babel)             in language  on input line 182.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 172.
+(babel)             in language  on input line 182.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 172.
+(babel)             in language  on input line 182.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 172.
+(babel)             in language  on input line 182.
  [11]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 176.
+(babel)             in language  on input line 194.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 176.
+(babel)             in language  on input line 194.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 176.
+(babel)             in language  on input line 194.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 176.
+(babel)             in language  on input line 194.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 176.
+(babel)             in language  on input line 194.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 176.
-LaTeX Info: Redefining \. on input line 192.
-LaTeX Info: Redefining \% on input line 192.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 192.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 192.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 192.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 192.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 192.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 192.
+(babel)             in language  on input line 194.
+File: imagenes/logo-unt.png Graphic file (type png)
 
-[12]
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 198.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 198.
+LaTeX Info: Redefining \% on input line 198.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 192.
+(babel)             in language  on input line 198.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 192.
+(babel)             in language  on input line 198.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 192.
+(babel)             in language  on input line 198.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 192.
+(babel)             in language  on input line 198.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 192.
+(babel)             in language  on input line 198.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 192.
+(babel)             in language  on input line 198.
+ [12]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 204.
+(babel)             in language  on input line 206.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 204.
+(babel)             in language  on input line 206.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 204.
+(babel)             in language  on input line 206.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 204.
+(babel)             in language  on input line 206.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 204.
+(babel)             in language  on input line 206.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 204.
- <imagenes/rup.jpg, id=563, 501.875pt x 355.3275pt>
+(babel)             in language  on input line 206.
+
+<imagenes/rup.jpg, id=563, 501.875pt x 355.3275pt>
 File: imagenes/rup.jpg Graphic file (type jpg)
  <use imagenes/rup.jpg>
-Package pdftex.def Info: imagenes/rup.jpg used on input line 213.
+Package pdftex.def Info: imagenes/rup.jpg used on input line 215.
 (pdftex.def)             Requested size: 364.19667pt x 257.86336pt.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 219.
+(babel)             in language  on input line 221.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 219.
+(babel)             in language  on input line 221.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 219.
+(babel)             in language  on input line 221.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 219.
+(babel)             in language  on input line 221.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 219.
+(babel)             in language  on input line 221.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 219.
-LaTeX Info: Redefining \. on input line 223.
-LaTeX Info: Redefining \% on input line 223.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 223.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 223.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 223.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 223.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 223.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 223.
+(babel)             in language  on input line 221.
+File: imagenes/logo-unt.png Graphic file (type png)
 
-[13]
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 226.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 226.
 LaTeX Info: Redefining \% on input line 226.
 Package babel Info: Redefining spanish shorthand <<
@@ -1386,21 +1424,44 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 226.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 226.
- [14 <./imagenes/rup.jpg>])
-LaTeX Info: Redefining \. on input line 189.
-LaTeX Info: Redefining \% on input line 189.
+ [13]
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 232.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 232.
+LaTeX Info: Redefining \% on input line 232.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 189.
+(babel)             in language  on input line 232.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 189.
+(babel)             in language  on input line 232.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 189.
+(babel)             in language  on input line 232.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 189.
+(babel)             in language  on input line 232.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 189.
+(babel)             in language  on input line 232.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 189.
+(babel)             in language  on input line 232.
+ [14 <./imagenes/rup.jpg>])
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 190.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 190.
+LaTeX Info: Redefining \% on input line 190.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 190.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 190.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 190.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 190.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 190.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 190.
  [15]
 \openout2 = `requisitos.aux'.
 
@@ -1494,6 +1555,11 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 69.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 69.
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 78.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 78.
 LaTeX Info: Redefining \% on input line 78.
 Package babel Info: Redefining spanish shorthand <<
@@ -1545,6 +1611,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 87.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 87.
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 101.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 101.
 LaTeX Info: Redefining \% on input line 101.
 Package babel Info: Redefining spanish shorthand <<
@@ -1560,6 +1630,11 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 101.
  [18]
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 132.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 132.
 LaTeX Info: Redefining \% on input line 132.
 Package babel Info: Redefining spanish shorthand <<
@@ -1575,6 +1650,10 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 132.
  [19]
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 185.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 185.
 LaTeX Info: Redefining \% on input line 185.
 Package babel Info: Redefining spanish shorthand <<
@@ -1589,8 +1668,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 185.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 185.
-
-[20]
+ [20]
 Underfull \hbox (badness 1721) in paragraph at lines 242--242
 []|\OT1/cmr/m/n/12 Configuraciones fuer-
  []
@@ -1605,6 +1683,10 @@ Overfull \hbox (8.10667pt too wide) in paragraph at lines 236--255
  [][] 
  []
 
+File: imagenes/logo-unt.png Graphic file (type png)
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 256.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 256.
 LaTeX Info: Redefining \% on input line 256.
 Package babel Info: Redefining spanish shorthand <<
@@ -1619,9 +1701,14 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 256.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 256.
-[21]
+ [21]
 Overfull \vbox (49.49715pt too high) has occurred while \output is active []
 
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 256.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 256.
 LaTeX Info: Redefining \% on input line 256.
 Package babel Info: Redefining spanish shorthand <<
@@ -1636,12 +1723,15 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 256.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 256.
-
-[22]
+ [22]
 Underfull \hbox (badness 10000) in paragraph at lines 301--303
 
  []
 
+File: imagenes/logo-unt.png Graphic file (type png)
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 304.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 304.
 LaTeX Info: Redefining \% on input line 304.
 Package babel Info: Redefining spanish shorthand <<
@@ -1656,7 +1746,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 304.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 304.
-[23]
+ [23]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 313.
 Package babel Info: Redefining spanish shorthand >>
@@ -1681,6 +1771,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 316.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 316.
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 337.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 337.
 LaTeX Info: Redefining \% on input line 337.
 Package babel Info: Redefining spanish shorthand <<
@@ -1708,6 +1802,11 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 377.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 377.
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 381.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 381.
 LaTeX Info: Redefining \% on input line 381.
 Package babel Info: Redefining spanish shorthand <<
@@ -1735,6 +1834,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 401.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 401.
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 414.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 414.
 LaTeX Info: Redefining \% on input line 414.
 Package babel Info: Redefining spanish shorthand <<
@@ -1750,6 +1853,11 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 414.
  [26]
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 445.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 445.
 LaTeX Info: Redefining \% on input line 445.
 Package babel Info: Redefining spanish shorthand <<
@@ -1765,6 +1873,10 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 445.
  [27]
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 468.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 468.
 LaTeX Info: Redefining \% on input line 468.
 Package babel Info: Redefining spanish shorthand <<
@@ -1789,6 +1901,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 492--493
 
  []
 
+File: imagenes/logo-unt.png Graphic file (type png)
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 496.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 496.
 LaTeX Info: Redefining \% on input line 496.
 Package babel Info: Redefining spanish shorthand <<
@@ -1803,7 +1919,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 496.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 496.
-[29]
+ [29]
 Underfull \hbox (badness 10000) in paragraph at lines 498--499
 
  []
@@ -1828,6 +1944,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 518--519
 
  []
 
+File: imagenes/logo-unt.png Graphic file (type png)
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 525.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 525.
 LaTeX Info: Redefining \% on input line 525.
 Package babel Info: Redefining spanish shorthand <<
@@ -1842,7 +1962,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 525.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 525.
-[30]
+ [30]
 Underfull \hbox (badness 10000) in paragraph at lines 534--535
 
  []
@@ -1862,6 +1982,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 548--549
 
  []
 
+File: imagenes/logo-unt.png Graphic file (type png)
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 550.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 550.
 LaTeX Info: Redefining \% on input line 550.
 Package babel Info: Redefining spanish shorthand <<
@@ -1876,25 +2000,30 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 550.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 550.
-[31])
-LaTeX Info: Redefining \. on input line 192.
-LaTeX Info: Redefining \% on input line 192.
+ [31])
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 193.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 193.
+LaTeX Info: Redefining \% on input line 193.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 192.
+(babel)             in language  on input line 193.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 192.
+(babel)             in language  on input line 193.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 192.
+(babel)             in language  on input line 193.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 192.
+(babel)             in language  on input line 193.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 192.
+(babel)             in language  on input line 193.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 192.
+(babel)             in language  on input line 193.
  [32]
 \openout2 = `analisis.aux'.
 
- (./analisis.tex
+
+(./analisis.tex
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand >>
@@ -1988,6 +2117,10 @@ File: imagenes/analisis/casos-uso-general.png Graphic file (type png)
 Package pdftex.def Info: imagenes/analisis/casos-uso-general.png used on input 
 line 51.
 (pdftex.def)             Requested size: 318.66948pt x 270.56728pt.
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 57.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 57.
 LaTeX Info: Redefining \% on input line 57.
 Package babel Info: Redefining spanish shorthand <<
@@ -2002,7 +2135,8 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 57.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 57.
- [34 <./imagenes/analisis/diagrama-contexto.png>]
+
+[34 <./imagenes/analisis/diagrama-contexto.png>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 58.
 Package babel Info: Redefining spanish shorthand >>
@@ -2043,6 +2177,10 @@ File: imagenes/analisis/casos-uso-tienda.png Graphic file (type png)
 Package pdftex.def Info: imagenes/analisis/casos-uso-tienda.png used on input l
 ine 73.
 (pdftex.def)             Requested size: 318.66948pt x 204.49945pt.
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 79.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 79.
 LaTeX Info: Redefining \% on input line 79.
 Package babel Info: Redefining spanish shorthand <<
@@ -2057,8 +2195,9 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 79.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 79.
- [35 <./imagenes/analisis/casos-uso-general.png> <./imagenes/analisis/casos-uso
--usuario.png>]
+
+[35 <./imagenes/analisis/casos-uso-general.png> <./imagenes/analisis/casos-uso-
+usuario.png>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 81.
 Package babel Info: Redefining spanish shorthand >>
@@ -2113,6 +2252,11 @@ File: imagenes/analisis/diagrama-actividad-registrar.png Graphic file (type png
 Package pdftex.def Info: imagenes/analisis/diagrama-actividad-registrar.png use
 d on input line 96.
 (pdftex.def)             Requested size: 455.24411pt x 352.95592pt.
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 101.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 101.
 LaTeX Info: Redefining \% on input line 101.
 Package babel Info: Redefining spanish shorthand <<
@@ -2150,6 +2294,11 @@ png)
 Package pdftex.def Info: imagenes/analisis/diagrama-actividad-crear-tienda.png 
 used on input line 106.
 (pdftex.def)             Requested size: 405.01212pt x 298.86581pt.
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 111.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 111.
 LaTeX Info: Redefining \% on input line 111.
 Package babel Info: Redefining spanish shorthand <<
@@ -2164,8 +2313,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 111.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 111.
-
-[37 <./imagenes/analisis/diagrama-actividad-registrar.png>]
+ [37 <./imagenes/analisis/diagrama-actividad-registrar.png>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 112.
 Package babel Info: Redefining spanish shorthand >>
@@ -2186,6 +2334,11 @@ File: imagenes/analisis/actividad-comprar-producto.png Graphic file (type png)
 Package pdftex.def Info: imagenes/analisis/actividad-comprar-producto.png used 
 on input line 116.
 (pdftex.def)             Requested size: 455.24411pt x 316.93758pt.
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 121.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 121.
 LaTeX Info: Redefining \% on input line 121.
 Package babel Info: Redefining spanish shorthand <<
@@ -2222,35 +2375,45 @@ Package pdftex.def Info: imagenes/analisis/clases-dominio.png used on input lin
 e 127.
 (pdftex.def)             Requested size: 409.71692pt x 372.73332pt.
 )
-LaTeX Info: Redefining \. on input line 195.
-LaTeX Info: Redefining \% on input line 195.
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 196.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 196.
+LaTeX Info: Redefining \% on input line 196.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 196.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 196.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 196.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 196.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 196.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 195.
- [39 <./imagenes/analisis/actividad-comprar-producto.png>]
-LaTeX Info: Redefining \. on input line 195.
-LaTeX Info: Redefining \% on input line 195.
+(babel)             in language  on input line 196.
+
+[39 <./imagenes/analisis/actividad-comprar-producto.png>]
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 196.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 196.
+LaTeX Info: Redefining \% on input line 196.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 196.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 196.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 196.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 196.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 196.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 196.
  [40 <./imagenes/analisis/clases-dominio.png>]
 \openout2 = `disenio.aux'.
 
@@ -2309,6 +2472,10 @@ Package babel Info: Redefining spanish shorthand "?
 
 
 ]
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 112.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 112.
 LaTeX Info: Redefining \% on input line 112.
 Package babel Info: Redefining spanish shorthand <<
@@ -2336,6 +2503,11 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 122.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 122.
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 195.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 195.
 LaTeX Info: Redefining \% on input line 195.
 Package babel Info: Redefining spanish shorthand <<
@@ -2351,6 +2523,10 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 195.
  [43]
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 195.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 195.
 LaTeX Info: Redefining \% on input line 195.
 Package babel Info: Redefining spanish shorthand <<
@@ -2382,6 +2558,10 @@ Package babel Info: Redefining spanish shorthand "?
 Underfull \vbox (badness 1348) detected at line 250
  []
 
+File: imagenes/logo-unt.png Graphic file (type png)
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 250.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 250.
 LaTeX Info: Redefining \% on input line 250.
 Package babel Info: Redefining spanish shorthand <<
@@ -2396,7 +2576,11 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 250.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 250.
-[45]
+ [45]
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 250.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 250.
 LaTeX Info: Redefining \% on input line 250.
 Package babel Info: Redefining spanish shorthand <<
@@ -2424,6 +2608,11 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 259.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 259.
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 306.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 306.
 LaTeX Info: Redefining \% on input line 306.
 Package babel Info: Redefining spanish shorthand <<
@@ -2451,6 +2640,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 315.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 315.
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 362.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 362.
 LaTeX Info: Redefining \% on input line 362.
 Package babel Info: Redefining spanish shorthand <<
@@ -2478,6 +2671,11 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 371.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 371.
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 373.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 373.
 LaTeX Info: Redefining \% on input line 373.
 Package babel Info: Redefining spanish shorthand <<
@@ -2493,6 +2691,10 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 373.
  [49]
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 418.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 418.
 LaTeX Info: Redefining \% on input line 418.
 Package babel Info: Redefining spanish shorthand <<
@@ -2520,6 +2722,11 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 427.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 427.
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 474.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 474.
 LaTeX Info: Redefining \% on input line 474.
 Package babel Info: Redefining spanish shorthand <<
@@ -2547,6 +2754,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 483.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 483.
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 530.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 530.
 LaTeX Info: Redefining \% on input line 530.
 Package babel Info: Redefining spanish shorthand <<
@@ -2574,6 +2785,11 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 539.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 539.
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 541.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 541.
 LaTeX Info: Redefining \% on input line 541.
 Package babel Info: Redefining spanish shorthand <<
@@ -2589,6 +2805,10 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 541.
  [53]
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 583.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 583.
 LaTeX Info: Redefining \% on input line 583.
 Package babel Info: Redefining spanish shorthand <<
@@ -2616,6 +2836,11 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 591.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 591.
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 643.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 643.
 LaTeX Info: Redefining \% on input line 643.
 Package babel Info: Redefining spanish shorthand <<
@@ -2643,6 +2868,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 651.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 651.
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 698.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 698.
 LaTeX Info: Redefining \% on input line 698.
 Package babel Info: Redefining spanish shorthand <<
@@ -2670,6 +2899,11 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 707.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 707.
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 709.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 709.
 LaTeX Info: Redefining \% on input line 709.
 Package babel Info: Redefining spanish shorthand <<
@@ -2685,6 +2919,10 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 709.
  [57]
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 754.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 754.
 LaTeX Info: Redefining \% on input line 754.
 Package babel Info: Redefining spanish shorthand <<
@@ -2712,6 +2950,11 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 762.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 762.
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 793.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 793.
 LaTeX Info: Redefining \% on input line 793.
 Package babel Info: Redefining spanish shorthand <<
@@ -2747,6 +2990,10 @@ File: imagenes/disenio/clases-disenio.png Graphic file (type png)
 Package pdftex.def Info: imagenes/disenio/clases-disenio.png used on input line
  799.
 (pdftex.def)             Requested size: 455.24411pt x 431.96048pt.
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 804.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 804.
 LaTeX Info: Redefining \% on input line 804.
 Package babel Info: Redefining spanish shorthand <<
@@ -2793,6 +3040,10 @@ File: imagenes/disenio/secuencia-autenticar.png Graphic file (type png)
 Package pdftex.def Info: imagenes/disenio/secuencia-autenticar.png used on inpu
 t line 810.
 (pdftex.def)             Requested size: 344.78728pt x 170.88802pt.
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 815.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 815.
 LaTeX Info: Redefining \% on input line 815.
 Package babel Info: Redefining spanish shorthand <<
@@ -2807,7 +3058,8 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 815.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 815.
- [61 <./imagenes/disenio/clases-disenio.png>]
+
+[61 <./imagenes/disenio/clases-disenio.png>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 817.
 Package babel Info: Redefining spanish shorthand >>
@@ -2858,6 +3110,10 @@ Overfull \hbox (25.8019pt too wide) in paragraph at lines 829--833
  [][] 
  []
 
+File: imagenes/logo-unt.png Graphic file (type png)
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 834.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 834.
 LaTeX Info: Redefining \% on input line 834.
 Package babel Info: Redefining spanish shorthand <<
@@ -2872,8 +3128,8 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 834.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 834.
-[62 <./imagenes/disenio/secuencia-autenticar.png> <./imagenes/disenio/secuencia
--registrar.png>]
+ [62 <./imagenes/disenio/secuencia-autenticar.png> <./imagenes/disenio/secuenci
+a-registrar.png>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 835.
 Package babel Info: Redefining spanish shorthand >>
@@ -2914,6 +3170,11 @@ File: imagenes/disenio/secuencia-comprar-producto.png Graphic file (type png)
 Package pdftex.def Info: imagenes/disenio/secuencia-comprar-producto.png used o
 n input line 847.
 (pdftex.def)             Requested size: 455.24411pt x 217.44861pt.
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 852.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 852.
 LaTeX Info: Redefining \% on input line 852.
 Package babel Info: Redefining spanish shorthand <<
@@ -2942,12 +3203,17 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 853.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 853.
- <imagenes/capturas/home.png, id=1071, 481.8pt x 803.0pt>
+
+<imagenes/capturas/home.png, id=1071, 481.8pt x 803.0pt>
 File: imagenes/capturas/home.png Graphic file (type png)
 
 <use imagenes/capturas/home.png>
 Package pdftex.def Info: imagenes/capturas/home.png used on input line 857.
 (pdftex.def)             Requested size: 273.14923pt x 455.2642pt.
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 863.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 863.
 LaTeX Info: Redefining \% on input line 863.
 Package babel Info: Redefining spanish shorthand <<
@@ -2962,8 +3228,8 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 863.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 863.
- [64 <./imagenes/disenio/secuencia-comprar-producto.png>] <imagenes/capturas/lo
-gin.png, id=1076, 481.8pt x 803.0pt>
+ [64 <./imagenes/disenio/secuencia-comprar-producto.png>]
+<imagenes/capturas/login.png, id=1076, 481.8pt x 803.0pt>
 File: imagenes/capturas/login.png Graphic file (type png)
 
 <use imagenes/capturas/login.png>
@@ -3058,206 +3324,261 @@ Package pdftex.def Info: imagenes/capturas/listado-ventas.png used on input lin
 e 965.
 (pdftex.def)             Requested size: 273.14923pt x 455.2642pt.
 )
-LaTeX Info: Redefining \. on input line 198.
-LaTeX Info: Redefining \% on input line 198.
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 199.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 199.
+LaTeX Info: Redefining \% on input line 199.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 198.
- [65 <./imagenes/capturas/home.png (PNG copy)>]
-LaTeX Info: Redefining \. on input line 198.
-LaTeX Info: Redefining \% on input line 198.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 198.
- [66 <./imagenes/capturas/login.png (PNG copy)>]
-LaTeX Info: Redefining \. on input line 198.
-LaTeX Info: Redefining \% on input line 198.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 198.
- [67 <./imagenes/capturas/registro2.png (PNG copy)>]
-LaTeX Info: Redefining \. on input line 198.
-LaTeX Info: Redefining \% on input line 198.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 198.
- [68 <./imagenes/capturas/crear-tienda1.png (PNG copy)>]
-LaTeX Info: Redefining \. on input line 198.
-LaTeX Info: Redefining \% on input line 198.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 198.
- [69 <./imagenes/capturas/crear-tienda2.png (PNG copy)>]
-LaTeX Info: Redefining \. on input line 198.
-LaTeX Info: Redefining \% on input line 198.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 198.
- [70 <./imagenes/capturas/administracion-tienda.png (PNG copy)>]
-LaTeX Info: Redefining \. on input line 198.
-LaTeX Info: Redefining \% on input line 198.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 198.
- [71 <./imagenes/capturas/crear-producto1.png (PNG copy)>]
-LaTeX Info: Redefining \. on input line 198.
-LaTeX Info: Redefining \% on input line 198.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 198.
- [72 <./imagenes/capturas/crear-producto2.png (PNG copy)>]
-LaTeX Info: Redefining \. on input line 198.
-LaTeX Info: Redefining \% on input line 198.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 198.
- [73 <./imagenes/capturas/administracion-productos.png (PNG copy)>]
-LaTeX Info: Redefining \. on input line 198.
-LaTeX Info: Redefining \% on input line 198.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 198.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 199.
 
-[74 <./imagenes/capturas/vista-tienda.png (PNG copy)>]
-LaTeX Info: Redefining \. on input line 198.
-LaTeX Info: Redefining \% on input line 198.
+[65 <./imagenes/capturas/home.png (PNG copy)>]
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 199.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 199.
+LaTeX Info: Redefining \% on input line 199.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 199.
+
+[66 <./imagenes/capturas/login.png (PNG copy)>]
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 199.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 199.
+LaTeX Info: Redefining \% on input line 199.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 199.
+
+[67 <./imagenes/capturas/registro2.png (PNG copy)>]
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 199.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 199.
+LaTeX Info: Redefining \% on input line 199.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 199.
+ [68 <./imagenes/capturas/crear-tienda1.png (PNG copy)>]
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 199.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 199.
+LaTeX Info: Redefining \% on input line 199.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 199.
+ [69 <./imagenes/capturas/crear-tienda2.png (PNG copy)>]
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 199.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 199.
+LaTeX Info: Redefining \% on input line 199.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 199.
+ [70 <./imagenes/capturas/administracion-tienda.png (PNG copy)>]
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 199.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 199.
+LaTeX Info: Redefining \% on input line 199.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 199.
+ [71 <./imagenes/capturas/crear-producto1.png (PNG copy)>]
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 199.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 199.
+LaTeX Info: Redefining \% on input line 199.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 199.
+ [72 <./imagenes/capturas/crear-producto2.png (PNG copy)>]
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 199.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 199.
+LaTeX Info: Redefining \% on input line 199.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 199.
+ [73 <./imagenes/capturas/administracion-productos.png (PNG copy)>]
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 199.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 199.
+LaTeX Info: Redefining \% on input line 199.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 199.
+ [74 <./imagenes/capturas/vista-tienda.png (PNG copy)>]
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 199.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 199.
+LaTeX Info: Redefining \% on input line 199.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 199.
  [75 <./imagenes/capturas/busqueda.png (PNG copy)>]
-LaTeX Info: Redefining \. on input line 198.
-LaTeX Info: Redefining \% on input line 198.
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 199.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 199.
+LaTeX Info: Redefining \% on input line 199.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 199.
  [76 <./imagenes/capturas/pagina-producto.png (PNG copy)>]
-LaTeX Info: Redefining \. on input line 198.
-LaTeX Info: Redefining \% on input line 198.
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 199.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 199.
+LaTeX Info: Redefining \% on input line 199.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 199.
  [77 <./imagenes/capturas/listado-ventas.png (PNG copy)>]
 \openout2 = `implementacion.aux'.
 
-
-(./implementacion.tex
+ (./implementacion.tex
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand >>
@@ -3351,6 +3672,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 60.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 60.
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 65.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 65.
 LaTeX Info: Redefining \% on input line 65.
 Package babel Info: Redefining spanish shorthand <<
@@ -3366,6 +3691,10 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 65.
  [79 <./imagenes/implementacion/despliegue.png>]
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 71.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 71.
 LaTeX Info: Redefining \% on input line 71.
 Package babel Info: Redefining spanish shorthand <<
@@ -3407,6 +3736,10 @@ File: imagenes/phonegap.png Graphic file (type png)
 <use imagenes/phonegap.png>
 Package pdftex.def Info: imagenes/phonegap.png used on input line 88.
 (pdftex.def)             Requested size: 227.62206pt x 207.0118pt.
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 98.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 98.
 LaTeX Info: Redefining \% on input line 98.
 Package babel Info: Redefining spanish shorthand <<
@@ -3434,6 +3767,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 111.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 111.
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 119.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 119.
 LaTeX Info: Redefining \% on input line 119.
 Package babel Info: Redefining spanish shorthand <<
@@ -3473,6 +3810,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 131.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 131.
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 143.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 143.
 LaTeX Info: Redefining \% on input line 143.
 Package babel Info: Redefining spanish shorthand <<
@@ -3518,6 +3859,11 @@ File: imagenes/REST.jpg Graphic file (type jpg)
  <use imagenes/REST.jpg>
 Package pdftex.def Info: imagenes/REST.jpg used on input line 165.
 (pdftex.def)             Requested size: 364.19667pt x 250.97258pt.
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 175.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 175.
 LaTeX Info: Redefining \% on input line 175.
 Package babel Info: Redefining spanish shorthand <<
@@ -3532,8 +3878,11 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 175.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 175.
-
-[84]
+ [84]
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 181.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 181.
 LaTeX Info: Redefining \% on input line 181.
 Package babel Info: Redefining spanish shorthand <<
@@ -3573,6 +3922,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 193.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 193.
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 200.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 200.
 LaTeX Info: Redefining \% on input line 200.
 Package babel Info: Redefining spanish shorthand <<
@@ -3607,6 +3960,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 208.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 208.
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 213.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 213.
 LaTeX Info: Redefining \% on input line 213.
 Package babel Info: Redefining spanish shorthand <<
@@ -3621,8 +3978,8 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 213.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 213.
- [87 <./imagenes/implementacion/https.png>] <imagenes/implementacion/acl.png, i
-d=1261, 563.10374pt x 428.35031pt>
+ [87 <./imagenes/implementacion/https.png>]
+<imagenes/implementacion/acl.png, id=1261, 563.10374pt x 428.35031pt>
 File: imagenes/implementacion/acl.png Graphic file (type png)
 
 <use imagenes/implementacion/acl.png>
@@ -3641,6 +3998,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 237.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 237.
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 242.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 242.
 LaTeX Info: Redefining \% on input line 242.
 Package babel Info: Redefining spanish shorthand <<
@@ -3656,6 +4017,11 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 242.
  [88]
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 242.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 242.
 LaTeX Info: Redefining \% on input line 242.
 Package babel Info: Redefining spanish shorthand <<
@@ -3683,12 +4049,17 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 251.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 251.
- <imagenes/MVP.png, id=1276, 304.13625pt x 188.95593pt>
-File: imagenes/MVP.png Graphic file (type png)
 
-<use imagenes/MVP.png>
+<imagenes/MVP.png, id=1276, 304.13625pt x 188.95593pt>
+File: imagenes/MVP.png Graphic file (type png)
+ <use imagenes/MVP.png>
 Package pdftex.def Info: imagenes/MVP.png used on input line 260.
 (pdftex.def)             Requested size: 304.1355pt x 188.95546pt.
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 272.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 272.
 LaTeX Info: Redefining \% on input line 272.
 Package babel Info: Redefining spanish shorthand <<
@@ -3728,6 +4099,11 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 286.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 286.
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 295.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 295.
 LaTeX Info: Redefining \% on input line 295.
 Package babel Info: Redefining spanish shorthand <<
@@ -3755,6 +4131,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 301.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 301.
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 322.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 322.
 LaTeX Info: Redefining \% on input line 322.
 Package babel Info: Redefining spanish shorthand <<
@@ -3770,20 +4150,25 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 322.
  [92])
-LaTeX Info: Redefining \. on input line 201.
-LaTeX Info: Redefining \% on input line 201.
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 202.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 202.
+LaTeX Info: Redefining \% on input line 202.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 201.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 201.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 201.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 201.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 201.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 201.
+(babel)             in language  on input line 202.
  [93]
 \openout2 = `pruebas.aux'.
 
@@ -3884,7 +4269,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 47.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 47.
-[94
+ [94
 
 
 
@@ -3937,6 +4322,11 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 60.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 60.
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 72.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
 LaTeX Info: Redefining \. on input line 72.
 LaTeX Info: Redefining \% on input line 72.
 Package babel Info: Redefining spanish shorthand <<
@@ -4001,24 +4391,29 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 85.
 )
-LaTeX Info: Redefining \. on input line 204.
-LaTeX Info: Redefining \% on input line 204.
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 205.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 205.
+LaTeX Info: Redefining \% on input line 205.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 204.
+(babel)             in language  on input line 205.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 204.
+(babel)             in language  on input line 205.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 204.
+(babel)             in language  on input line 205.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 204.
+(babel)             in language  on input line 205.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 204.
+(babel)             in language  on input line 205.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 204.
+(babel)             in language  on input line 205.
  [96]
 \openout2 = `conclusiones.aux'.
 
- (./conclusiones.tex
+
+(./conclusiones.tex
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand >>
@@ -4033,146 +4428,163 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 26.
 )
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 207.
+(babel)             in language  on input line 208.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 207.
+(babel)             in language  on input line 208.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 207.
+(babel)             in language  on input line 208.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 207.
+(babel)             in language  on input line 208.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 207.
+(babel)             in language  on input line 208.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 207.
+(babel)             in language  on input line 208.
  [97
 
 
 
 ]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 211.
+(babel)             in language  on input line 212.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 211.
+(babel)             in language  on input line 212.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 211.
+(babel)             in language  on input line 212.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 211.
+(babel)             in language  on input line 212.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 211.
+(babel)             in language  on input line 212.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 211.
+(babel)             in language  on input line 212.
  [98
 
 
 
 ]
-LaTeX Info: Redefining \. on input line 211.
-LaTeX Info: Redefining \% on input line 211.
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 212.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 212.
+LaTeX Info: Redefining \% on input line 212.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 211.
+(babel)             in language  on input line 212.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 211.
+(babel)             in language  on input line 212.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 211.
+(babel)             in language  on input line 212.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 211.
+(babel)             in language  on input line 212.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 211.
+(babel)             in language  on input line 212.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 211.
+(babel)             in language  on input line 212.
  [99]
-LaTeX Info: Redefining \. on input line 211.
-LaTeX Info: Redefining \% on input line 211.
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 212.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 212.
+LaTeX Info: Redefining \% on input line 212.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 211.
+(babel)             in language  on input line 212.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 211.
+(babel)             in language  on input line 212.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 211.
+(babel)             in language  on input line 212.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 211.
+(babel)             in language  on input line 212.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 211.
+(babel)             in language  on input line 212.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 211.
+(babel)             in language  on input line 212.
  [100]
-LaTeX Info: Redefining \. on input line 211.
-LaTeX Info: Redefining \% on input line 211.
+File: imagenes/logo-unt.png Graphic file (type png)
+ <use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 212.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 212.
+LaTeX Info: Redefining \% on input line 212.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 211.
+(babel)             in language  on input line 212.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 211.
+(babel)             in language  on input line 212.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 211.
+(babel)             in language  on input line 212.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 211.
+(babel)             in language  on input line 212.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 211.
+(babel)             in language  on input line 212.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 211.
+(babel)             in language  on input line 212.
  [101]
-LaTeX Info: Redefining \. on input line 215.
-LaTeX Info: Redefining \% on input line 215.
+File: imagenes/logo-unt.png Graphic file (type png)
+
+<use imagenes/logo-unt.png>
+Package pdftex.def Info: imagenes/logo-unt.png used on input line 216.
+(pdftex.def)             Requested size: 31.8704pt x 40.09045pt.
+LaTeX Info: Redefining \. on input line 216.
+LaTeX Info: Redefining \% on input line 216.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 215.
+(babel)             in language  on input line 216.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 215.
+(babel)             in language  on input line 216.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 215.
+(babel)             in language  on input line 216.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 215.
+(babel)             in language  on input line 216.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 215.
+(babel)             in language  on input line 216.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 215.
+(babel)             in language  on input line 216.
  [102]
 \openout2 = `bibliografia.aux'.
 
-
-(./bibliografia.tex)
+ (./bibliografia.tex)
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 215.
+(babel)             in language  on input line 216.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 215.
+(babel)             in language  on input line 216.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 215.
+(babel)             in language  on input line 216.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 215.
+(babel)             in language  on input line 216.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 215.
+(babel)             in language  on input line 216.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 215.
+(babel)             in language  on input line 216.
  [103
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 217.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 217.
- (./informe.aux (./portada.aux)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 218.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 218.
+ (./informe.aux
+(./portada.aux)
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
-
-(./agradecimientos.aux) (./introduccion.aux) (./requisitos.aux) (./analisis.aux
-) (./disenio.aux) (./implementacion.aux) (./pruebas.aux) (./conclusiones.aux)
-(./bibliografia.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 217.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 217.
+ (./agradecimientos.aux) (./introduccion.aux) (./requisitos.aux) (./analisis.au
+x) (./disenio.aux) (./implementacion.aux) (./pruebas.aux)
+(./conclusiones.aux) (./bibliografia.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 218.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 218.
 Package rerunfilecheck Info: File `informe.out' has not changed.
 (rerunfilecheck)             Checksum: 8E64644073EA2F3720029DFF467CB470;6985.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 217.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 218.
  ) 
 Here is how much of TeX's memory you used:
  16398 strings out of 492995
  263374 string characters out of 6132703
- 416759 words of memory out of 5000000
+ 416719 words of memory out of 5000000
  19025 multiletter control sequences out of 15000+600000
  12993 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,73p,1995b,707s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,16n,73p,1995b,791s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
@@ -4187,7 +4599,7 @@ xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/tex
 live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texli
 ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texliv
 e/2017/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy10.pfb>
-Output written on informe.pdf (104 pages, 2069163 bytes).
+Output written on informe.pdf (104 pages, 2076234 bytes).
 PDF statistics:
  1571 PDF objects out of 1728 (max. 8388607)
  1395 compressed objects within 14 object streams

@@ -4,10 +4,10 @@
 \contentsline {section}{Android}{7}{section*.8}
 \contentsline {section}{Desarrollo de Software}{8}{section*.9}
 \contentsline {section}{An\IeC {\'a}lisis y Dise\IeC {\~n}o Orientado a Objetos}{9}{section*.10}
-\contentsline {section}{Lenguaje de Modelado Unificado (UML)}{10}{section*.11}
+\contentsline {section}{Lenguaje de Modelado Unificado (UML)}{9}{section*.11}
 \contentsline {section}{Algunas definiciones}{11}{section*.12}
 \contentsline {section}{Ciclo de vida Iterativo Evolutivo}{12}{section*.13}
-\contentsline {subsection}{Beneficios}{13}{section*.14}
+\contentsline {subsection}{Beneficios}{12}{section*.14}
 \contentsline {section}{Proceso Unificado (UP)}{13}{section*.15}
 \contentsline {subsection}{Caracter\IeC {\'\i }sticas}{13}{section*.16}
 \contentsline {chapter}{Disciplina de Requisitos}{16}{chapter*.17}
