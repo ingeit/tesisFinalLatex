@@ -9,7 +9,7 @@
 \contentsline {section}{Ciclo de vida Iterativo Evolutivo}{11}{section*.13}
 \contentsline {subsection}{Beneficios}{12}{section*.14}
 \contentsline {section}{Proceso Unificado (UP)}{12}{section*.15}
-\contentsline {subsection}{Caracter\IeC {\'\i }sticas}{12}{section*.16}
+\contentsline {subsection}{Caracter\IeC {\'\i }sticas}{13}{section*.16}
 \contentsline {chapter}{Disciplina de Requisitos}{15}{chapter*.17}
 \contentsline {section}{Introducci\IeC {\'o}n}{15}{section*.18}
 \contentsline {section}{Identificaci\IeC {\'o}n de usuarios participantes}{15}{section*.19}
@@ -22,247 +22,247 @@
 \contentsline {subsubsection}{Introducci\IeC {\'o}n}{17}{section*.26}
 \contentsline {subsubsection}{Aplicaci\IeC {\'o}n del M\IeC {\'e}todo}{17}{section*.27}
 \contentsline {subsubsection}{Descripci\IeC {\'o}n de la T\IeC {\'e}cnica}{18}{section*.28}
-\contentsline {subsubsection}{Definici\IeC {\'o}n de par\IeC {\'a}metros b\IeC {\'a}sicos externos del sistema}{19}{section*.29}
+\contentsline {subsubsection}{Definici\IeC {\'o}n de par\IeC {\'a}metros b\IeC {\'a}sicos externos del sistema}{18}{section*.29}
 \contentsline {subsubsection}{Ejecuci\IeC {\'o}n del m\IeC {\'e}todo en el proyecto actual}{19}{section*.30}
 \contentsline {subsubsection}{Resumen}{20}{section*.31}
-\contentsline {subsubsection}{Ajuste de los Puntos de Funci\IeC {\'o}n}{21}{section*.32}
-\contentsline {paragraph}{Puntos de funci\IeC {\'o}n ajustados:}{22}{section*.33}
-\contentsline {subsubsection}{Estimaci\IeC {\'o}n de las l\IeC {\'\i }neas de c\IeC {\'o}digo necesarias}{22}{section*.34}
-\contentsline {paragraph}{LOC=}{22}{section*.35}
-\contentsline {subsubsection}{Aplicaci\IeC {\'o}n del m\IeC {\'e}todo COCOMO}{22}{section*.36}
-\contentsline {section}{Especificaci\IeC {\'o}n de Requisitos de Software}{23}{section*.37}
-\contentsline {subsection}{\numberline {1}Introducci\IeC {\'o}n}{23}{subsection.0.0.1}
-\contentsline {subsubsection}{Objetivos y alcance del sistema}{23}{section*.38}
-\contentsline {subsubsection}{Definiciones, Acr\IeC {\'o}nimos y Abreviaturas}{24}{section*.39}
-\contentsline {subsubsection}{Definiciones:}{24}{section*.40}
-\contentsline {subsubsection}{Acr\IeC {\'o}nimos:}{24}{section*.41}
-\contentsline {subsubsection}{Abreviaturas:}{24}{section*.42}
-\contentsline {subsection}{\numberline {2}Descripci\IeC {\'o}n general}{24}{subsection.0.0.2}
-\contentsline {subsection}{\numberline {3}Requisitos espec\IeC {\'\i }ficos}{25}{subsection.0.0.3}
-\contentsline {subsubsection}{Requisitos Funcionales}{25}{section*.43}
-\contentsline {paragraph}{Introducci\IeC {\'o}n:}{25}{section*.44}
-\contentsline {paragraph}{Entrada:}{25}{section*.45}
-\contentsline {paragraph}{Proceso:}{26}{section*.46}
-\contentsline {paragraph}{Salida:}{26}{section*.47}
-\contentsline {paragraph}{Introducci\IeC {\'o}n:}{26}{section*.48}
-\contentsline {paragraph}{Entrada:}{26}{section*.49}
-\contentsline {paragraph}{Proceso:}{26}{section*.50}
-\contentsline {paragraph}{Salida:}{26}{section*.51}
-\contentsline {paragraph}{Introducci\IeC {\'o}n:}{26}{section*.52}
-\contentsline {paragraph}{Entrada:}{26}{section*.53}
-\contentsline {paragraph}{Proceso:}{26}{section*.54}
-\contentsline {paragraph}{Salida:}{27}{section*.55}
-\contentsline {paragraph}{Introducci\IeC {\'o}n:}{27}{section*.56}
-\contentsline {paragraph}{Entrada:}{27}{section*.57}
-\contentsline {paragraph}{Proceso:}{27}{section*.58}
-\contentsline {paragraph}{Salida:}{27}{section*.59}
-\contentsline {paragraph}{Introducci\IeC {\'o}n:}{27}{section*.60}
-\contentsline {paragraph}{Entrada:}{27}{section*.61}
-\contentsline {paragraph}{Proceso:}{27}{section*.62}
-\contentsline {paragraph}{Salida:}{27}{section*.63}
-\contentsline {paragraph}{Introducci\IeC {\'o}n:}{28}{section*.64}
-\contentsline {paragraph}{Entrada:}{28}{section*.65}
-\contentsline {paragraph}{Proceso:}{28}{section*.66}
-\contentsline {paragraph}{Salida:}{28}{section*.67}
-\contentsline {paragraph}{Introducci\IeC {\'o}n:}{28}{section*.68}
-\contentsline {paragraph}{Entrada:}{28}{section*.69}
-\contentsline {paragraph}{Proceso:}{28}{section*.70}
-\contentsline {paragraph}{Salida:}{28}{section*.71}
-\contentsline {subsubsection}{Suposiciones y Dependencias:}{28}{section*.72}
-\contentsline {paragraph}{Suposiciones:}{28}{section*.73}
-\contentsline {paragraph}{Dependencias:}{29}{section*.74}
-\contentsline {subsubsection}{Requisitos de Usuario y Tecnol\IeC {\'o}gicos:}{29}{section*.75}
-\contentsline {paragraph}{Requisitos de usuario:}{29}{section*.76}
-\contentsline {paragraph}{Requisitos tecnol\IeC {\'o}gicos:}{29}{section*.77}
-\contentsline {subsubsection}{Requisitos de Interfaces Externas:}{29}{section*.78}
-\contentsline {paragraph}{Interfaces de usuario:}{29}{section*.79}
-\contentsline {paragraph}{Interfaces Hardware:}{29}{section*.80}
-\contentsline {paragraph}{Interfaces Software:}{29}{section*.81}
-\contentsline {subsubsection}{Requisitos de Rendimiento:}{30}{section*.82}
-\contentsline {subsubsection}{Requisitos de Desarrollo:}{30}{section*.83}
-\contentsline {subsubsection}{Restricciones de Dise\IeC {\~n}o:}{30}{section*.84}
-\contentsline {paragraph}{Ajuste a est\IeC {\'a}ndares:}{30}{section*.85}
-\contentsline {paragraph}{Seguridad:}{30}{section*.86}
-\contentsline {paragraph}{Pol\IeC {\'\i }tica de respaldo:}{30}{section*.87}
-\contentsline {paragraph}{Base de Datos:}{30}{section*.88}
-\contentsline {paragraph}{Pol\IeC {\'\i }tica de Borrado:}{31}{section*.89}
-\contentsline {chapter}{Disciplina de An\IeC {\'a}lisis}{32}{chapter*.90}
-\contentsline {section}{Vista de Casos de Uso}{32}{section*.91}
-\contentsline {section}{Diagrama de Contexto}{33}{section*.92}
-\contentsline {section}{Diagramas de Casos de Uso}{34}{section*.93}
-\contentsline {subsection}{Diagrama de Casos de Uso general}{34}{section*.94}
-\contentsline {subsection}{Diagrama de Casos de Uso de gesti\IeC {\'o}n de usuarios}{34}{section*.95}
-\contentsline {subsection}{Diagrama de Casos de Uso de gesti\IeC {\'o}n de tienda}{35}{section*.96}
-\contentsline {section}{Diagramas de Actividad}{35}{section*.97}
-\contentsline {subsection}{Autenticar}{35}{section*.98}
-\contentsline {subsection}{Registrar}{36}{section*.99}
-\contentsline {subsection}{Crear Tienda}{37}{section*.100}
-\contentsline {subsection}{Comprar Producto}{38}{section*.101}
-\contentsline {section}{Diagrama de Clases del Dominio}{39}{section*.102}
-\contentsline {chapter}{Disciplina de Dise\IeC {\~n}o}{40}{chapter*.103}
-\contentsline {section}{Descripci\IeC {\'o}n Textual de Casos de Uso}{40}{section*.104}
-\contentsline {subsection}{Caso de Uso UC1: Autenticar}{40}{section*.105}
-\contentsline {subsubsection}{Resumen:}{40}{section*.106}
-\contentsline {subsubsection}{Actores:}{40}{section*.107}
-\contentsline {subsubsection}{Personal Involucrado y Metas:}{40}{section*.108}
-\contentsline {subsubsection}{Precondiciones:}{41}{section*.109}
-\contentsline {subsubsection}{Poscondiciones:}{41}{section*.110}
-\contentsline {subsubsection}{Escenario Principal: }{41}{section*.111}
-\contentsline {subsubsection}{Flujos Alternativos: }{41}{section*.112}
-\contentsline {paragraph}{A1: El sistema encuentra alg\IeC {\'u}n fallo para comunicarse con S}{41}{section*.113}
-\contentsline {paragraph}{A2: Nombre de usuario inexistente}{42}{section*.114}
-\contentsline {paragraph}{A3: Nombre de usuario existe pero contrase\IeC {\~n}a inv\IeC {\'a}lida }{42}{section*.115}
-\contentsline {subsubsection}{Requisitos de Interfaz de Usuario para todos los casos de uso: }{42}{section*.116}
-\contentsline {subsubsection}{Requisitos No-Funcionales para todos los casos de uso:}{42}{section*.117}
-\contentsline {subsection}{Caso de Uso UC2: Registrar}{42}{section*.118}
-\contentsline {subsubsection}{Resumen:}{42}{section*.119}
-\contentsline {subsubsection}{Actores:}{42}{section*.120}
-\contentsline {subsubsection}{Personal Involucrado y Metas:}{43}{section*.121}
-\contentsline {subsubsection}{Precondiciones:}{43}{section*.122}
-\contentsline {subsubsection}{Poscondiciones:}{43}{section*.123}
-\contentsline {subsubsection}{Escenario Principal: }{43}{section*.124}
-\contentsline {subsubsection}{Flujos Alternativos: }{43}{section*.125}
-\contentsline {paragraph}{A1:El sistema encuentra alg\IeC {\'u}n fallo para comunicarse con S}{43}{section*.126}
-\contentsline {paragraph}{A2: Nombre de usuario existente}{44}{section*.127}
-\contentsline {paragraph}{A3: Contrase\IeC {\~n}a inv\IeC {\'a}lida o no coincide con la confirmaci\IeC {\'o}n }{44}{section*.128}
-\contentsline {paragraph}{A4: direcci\IeC {\'o}n de correo electr\IeC {\'o}nico existente }{44}{section*.129}
-\contentsline {subsection}{Caso de Uso UC3: Crear Tienda}{44}{section*.130}
-\contentsline {subsubsection}{Resumen:}{44}{section*.131}
-\contentsline {subsubsection}{Actores:}{44}{section*.132}
-\contentsline {subsubsection}{Personal Involucrado y Metas:}{45}{section*.133}
-\contentsline {subsubsection}{Precondiciones:}{45}{section*.134}
-\contentsline {subsubsection}{Poscondiciones:}{45}{section*.135}
-\contentsline {subsubsection}{Escenario Principal: }{45}{section*.136}
-\contentsline {subsubsection}{Flujos Alternativos: }{45}{section*.137}
-\contentsline {paragraph}{A1:el sistema encuentra alg\IeC {\'u}n fallo para comunicarse con S}{45}{section*.138}
-\contentsline {subsection}{Caso de Uso UC4: Editar Tienda}{46}{section*.139}
-\contentsline {subsubsection}{Resumen:}{46}{section*.140}
-\contentsline {subsubsection}{Actores:}{46}{section*.141}
-\contentsline {subsubsection}{Personal Involucrado y Metas:}{46}{section*.142}
-\contentsline {subsubsection}{Precondiciones:}{46}{section*.143}
-\contentsline {subsubsection}{Poscondiciones:}{46}{section*.144}
-\contentsline {subsubsection}{Escenario Principal: }{46}{section*.145}
-\contentsline {subsubsection}{Flujos Alternativos: }{47}{section*.146}
-\contentsline {paragraph}{A1:El sistema encuentra alg\IeC {\'u}n fallo para comunicarse con S}{47}{section*.147}
-\contentsline {subsection}{Caso de Uso UC5: Editar Perfil}{47}{section*.148}
-\contentsline {subsubsection}{Resumen:}{47}{section*.149}
-\contentsline {subsubsection}{Actores:}{47}{section*.150}
-\contentsline {subsubsection}{Personal Involucrado y Metas:}{47}{section*.151}
-\contentsline {subsubsection}{Precondiciones:}{48}{section*.152}
-\contentsline {subsubsection}{Poscondiciones:}{48}{section*.153}
-\contentsline {subsubsection}{Escenario Principal: }{48}{section*.154}
-\contentsline {subsubsection}{Flujos Alternativos: }{48}{section*.155}
-\contentsline {paragraph}{A1:el sistema encuentra alg\IeC {\'u}n fallo para comunicarse con S}{48}{section*.156}
-\contentsline {subsection}{Caso de Uso UC6: Crear Producto}{49}{section*.157}
-\contentsline {subsubsection}{Resumen:}{49}{section*.158}
-\contentsline {subsubsection}{Actores:}{49}{section*.159}
-\contentsline {subsubsection}{Personal Involucrado y Metas:}{49}{section*.160}
-\contentsline {subsubsection}{Precondiciones:}{49}{section*.161}
-\contentsline {subsubsection}{Poscondiciones:}{49}{section*.162}
-\contentsline {subsubsection}{Escenario Principal: }{49}{section*.163}
-\contentsline {subsubsection}{Flujos Alternativos: }{50}{section*.164}
-\contentsline {paragraph}{A1:el sistema encuentra alg\IeC {\'u}n fallo para comunicarse con S}{50}{section*.165}
-\contentsline {subsection}{Caso de Uso UC7: Editar Producto}{50}{section*.166}
-\contentsline {subsubsection}{Resumen:}{50}{section*.167}
-\contentsline {subsubsection}{Actores:}{50}{section*.168}
-\contentsline {subsubsection}{Personal Involucrado y Metas:}{50}{section*.169}
-\contentsline {subsubsection}{Precondiciones:}{50}{section*.170}
-\contentsline {subsubsection}{Poscondiciones:}{50}{section*.171}
-\contentsline {subsubsection}{Escenario Principal: }{51}{section*.172}
-\contentsline {subsubsection}{Flujos Alternativos: }{51}{section*.173}
-\contentsline {paragraph}{A1:el sistema encuentra alg\IeC {\'u}n fallo para comunicarse con S}{51}{section*.174}
-\contentsline {subsection}{Caso de Uso UC8: Eliminar Producto}{51}{section*.175}
-\contentsline {subsubsection}{Resumen:}{51}{section*.176}
-\contentsline {subsubsection}{Actores:}{51}{section*.177}
-\contentsline {subsubsection}{Personal Involucrado y Metas:}{52}{section*.178}
-\contentsline {subsubsection}{Precondiciones:}{52}{section*.179}
-\contentsline {subsubsection}{Poscondiciones:}{52}{section*.180}
-\contentsline {subsubsection}{Escenario Principal: }{52}{section*.181}
-\contentsline {subsubsection}{Flujos Alternativos: }{52}{section*.182}
-\contentsline {paragraph}{A1:el sistema encuentra alg\IeC {\'u}n fallo para comunicarse con S}{52}{section*.183}
-\contentsline {subsection}{Caso de Uso UC9: Buscar Producto}{53}{section*.184}
-\contentsline {subsubsection}{Resumen:}{53}{section*.185}
-\contentsline {subsubsection}{Actores:}{53}{section*.186}
-\contentsline {subsubsection}{Personal Involucrado y Metas:}{53}{section*.187}
-\contentsline {subsubsection}{Poscondiciones:}{53}{section*.188}
-\contentsline {subsubsection}{Escenario Principal: }{53}{section*.189}
-\contentsline {subsubsection}{Flujos Alternativos: }{54}{section*.190}
-\contentsline {paragraph}{A1:el sistema encuentra alg\IeC {\'u}n fallo para comunicarse con S}{54}{section*.191}
-\contentsline {subsection}{Caso de Uso UC10: Comprar Producto}{54}{section*.192}
-\contentsline {subsubsection}{Resumen:}{54}{section*.193}
-\contentsline {subsubsection}{Actores:}{54}{section*.194}
-\contentsline {subsubsection}{Personal Involucrado y Metas:}{54}{section*.195}
-\contentsline {subsubsection}{Precondiciones:}{54}{section*.196}
-\contentsline {subsubsection}{Poscondiciones:}{54}{section*.197}
-\contentsline {subsubsection}{Escenario Principal: }{55}{section*.198}
-\contentsline {subsubsection}{Flujos Alternativos: }{55}{section*.199}
-\contentsline {paragraph}{A1:el sistema encuentra alg\IeC {\'u}n fallo para comunicarse con S}{55}{section*.200}
-\contentsline {subsection}{Caso de Uso UC11: Listar compras realizadas}{55}{section*.201}
-\contentsline {subsubsection}{Resumen:}{55}{section*.202}
-\contentsline {subsubsection}{Actores:}{56}{section*.203}
-\contentsline {subsubsection}{Personal Involucrado y Metas:}{56}{section*.204}
-\contentsline {subsubsection}{Precondiciones:}{56}{section*.205}
-\contentsline {subsubsection}{Poscondiciones:}{56}{section*.206}
-\contentsline {subsubsection}{Escenario Principal: }{56}{section*.207}
-\contentsline {subsubsection}{Flujos Alternativos: }{56}{section*.208}
-\contentsline {paragraph}{A1:el sistema encuentra alg\IeC {\'u}n fallo para comunicarse con S}{56}{section*.209}
-\contentsline {subsection}{Caso de Uso UC12: Listar ventas realizadas}{57}{section*.210}
-\contentsline {subsubsection}{Resumen:}{57}{section*.211}
-\contentsline {subsubsection}{Actores:}{57}{section*.212}
-\contentsline {subsubsection}{Personal Involucrado y Metas:}{57}{section*.213}
-\contentsline {subsubsection}{Precondiciones:}{57}{section*.214}
-\contentsline {subsubsection}{Poscondiciones:}{57}{section*.215}
-\contentsline {subsubsection}{Escenario Principal: }{57}{section*.216}
-\contentsline {subsubsection}{Flujos Alternativos: }{58}{section*.217}
-\contentsline {paragraph}{A1:el sistema encuentra alg\IeC {\'u}n fallo para comunicarse con S}{58}{section*.218}
-\contentsline {subsection}{Caso de Uso UC13: Contactar Usuario}{58}{section*.219}
-\contentsline {subsubsection}{Resumen:}{58}{section*.220}
-\contentsline {subsubsection}{Actores:}{58}{section*.221}
-\contentsline {subsubsection}{Personal Involucrado y Metas:}{58}{section*.222}
-\contentsline {subsubsection}{Precondiciones:}{58}{section*.223}
-\contentsline {subsubsection}{Poscondiciones:}{58}{section*.224}
-\contentsline {subsubsection}{Escenario Principal: }{59}{section*.225}
-\contentsline {section}{Diagrama de Clases de Dise\IeC {\~n}o}{60}{section*.226}
-\contentsline {section}{Diagramas de Secuencia}{61}{section*.227}
-\contentsline {subsection}{Autenticar}{61}{section*.228}
-\contentsline {subsection}{Registrar}{61}{section*.229}
-\contentsline {subsection}{Crear Tienda}{62}{section*.230}
-\contentsline {subsection}{Agregar Producto}{62}{section*.231}
-\contentsline {subsection}{Comprar Producto}{63}{section*.232}
-\contentsline {section}{Interfaz de Usuario}{64}{section*.233}
-\contentsline {chapter}{Disciplina de Implementaci\IeC {\'o}n}{77}{chapter*.234}
-\contentsline {section}{Arquitectura de la aplicaci\IeC {\'o}n}{77}{section*.235}
-\contentsline {section}{Diagrama de Despliegue}{78}{section*.236}
-\contentsline {section}{Elecci\IeC {\'o}n del Lenguaje}{78}{section*.237}
-\contentsline {section}{Arquitectura de Android}{79}{section*.238}
-\contentsline {section}{PhoneGap}{80}{section*.239}
-\contentsline {subsection}{Ventajas de PhoneGap}{81}{section*.240}
-\contentsline {subsection}{Desventaja de phoneGap}{82}{section*.241}
-\contentsline {section}{Web services}{82}{section*.242}
-\contentsline {subsection}{Razones para crear servicios Web}{83}{section*.243}
-\contentsline {subsection}{REST}{83}{section*.244}
-\contentsline {subsubsection}{Recursos}{85}{section*.245}
-\contentsline {section}{Caracter\IeC {\'\i }sticas de seguridad}{85}{section*.246}
-\contentsline {subsection}{Canal de comunicaci\IeC {\'o}n cifrado}{85}{section*.247}
-\contentsline {subsection}{ACL para cada objeto}{86}{section*.248}
-\contentsline {section}{Backbone.js}{87}{section*.249}
-\contentsline {subsection}{Modelo Vista Presentador (MVP)}{89}{section*.250}
-\contentsline {section}{jQuery}{90}{section*.251}
-\contentsline {section}{jQuery Mobile}{90}{section*.252}
-\contentsline {section}{Herramientas de desarrollo}{91}{section*.253}
-\contentsline {chapter}{Disciplina de Pruebas}{93}{chapter*.254}
-\contentsline {section}{Test de Unidades}{93}{section*.255}
-\contentsline {subsection}{Introducci\IeC {\'o}n}{93}{section*.256}
-\contentsline {subsection}{Pruebas de Caja Blanca}{93}{section*.257}
-\contentsline {section}{Test de M\IeC {\'o}dulos}{93}{section*.258}
-\contentsline {subsection}{Introducci\IeC {\'o}n}{93}{section*.259}
-\contentsline {subsection}{Pruebas de Caja Negra}{94}{section*.260}
-\contentsline {subsection}{Pruebas de Estr\IeC {\'e}s}{94}{section*.261}
-\contentsline {section}{Test de Integraci\IeC {\'o}n}{94}{section*.262}
-\contentsline {subsection}{Introducci\IeC {\'o}n}{94}{section*.263}
-\contentsline {subsection}{Pruebas de Integraci\IeC {\'o}n}{94}{section*.264}
-\contentsline {section}{Test de Aceptaci\IeC {\'o}n}{95}{section*.265}
-\contentsline {subsection}{Introducci\IeC {\'o}n}{95}{section*.266}
-\contentsline {subsection}{Prueba Alfa}{95}{section*.267}
-\contentsline {subsection}{Prueba Beta}{95}{section*.268}
-\contentsline {chapter}{Conclusiones}{96}{chapter*.269}
+\contentsline {subsubsection}{Ajuste de los Puntos de Funci\IeC {\'o}n}{22}{section*.32}
+\contentsline {paragraph}{Puntos de funci\IeC {\'o}n ajustados:}{23}{section*.33}
+\contentsline {subsubsection}{Estimaci\IeC {\'o}n de las l\IeC {\'\i }neas de c\IeC {\'o}digo necesarias}{23}{section*.34}
+\contentsline {paragraph}{LOC=}{23}{section*.35}
+\contentsline {subsubsection}{Aplicaci\IeC {\'o}n del m\IeC {\'e}todo COCOMO}{23}{section*.36}
+\contentsline {section}{Especificaci\IeC {\'o}n de Requisitos de Software}{24}{section*.37}
+\contentsline {subsection}{\numberline {1}Introducci\IeC {\'o}n}{24}{subsection.0.0.1}
+\contentsline {subsubsection}{Objetivos y alcance del sistema}{24}{section*.38}
+\contentsline {subsubsection}{Definiciones, Acr\IeC {\'o}nimos y Abreviaturas}{25}{section*.39}
+\contentsline {subsubsection}{Definiciones:}{25}{section*.40}
+\contentsline {subsubsection}{Acr\IeC {\'o}nimos:}{25}{section*.41}
+\contentsline {subsubsection}{Abreviaturas:}{25}{section*.42}
+\contentsline {subsection}{\numberline {2}Descripci\IeC {\'o}n general}{25}{subsection.0.0.2}
+\contentsline {subsection}{\numberline {3}Requisitos espec\IeC {\'\i }ficos}{26}{subsection.0.0.3}
+\contentsline {subsubsection}{Requisitos Funcionales}{26}{section*.43}
+\contentsline {paragraph}{Introducci\IeC {\'o}n:}{26}{section*.44}
+\contentsline {paragraph}{Entrada:}{26}{section*.45}
+\contentsline {paragraph}{Proceso:}{27}{section*.46}
+\contentsline {paragraph}{Salida:}{27}{section*.47}
+\contentsline {paragraph}{Introducci\IeC {\'o}n:}{27}{section*.48}
+\contentsline {paragraph}{Entrada:}{27}{section*.49}
+\contentsline {paragraph}{Proceso:}{27}{section*.50}
+\contentsline {paragraph}{Salida:}{27}{section*.51}
+\contentsline {paragraph}{Introducci\IeC {\'o}n:}{27}{section*.52}
+\contentsline {paragraph}{Entrada:}{27}{section*.53}
+\contentsline {paragraph}{Proceso:}{27}{section*.54}
+\contentsline {paragraph}{Salida:}{28}{section*.55}
+\contentsline {paragraph}{Introducci\IeC {\'o}n:}{28}{section*.56}
+\contentsline {paragraph}{Entrada:}{28}{section*.57}
+\contentsline {paragraph}{Proceso:}{28}{section*.58}
+\contentsline {paragraph}{Salida:}{28}{section*.59}
+\contentsline {paragraph}{Introducci\IeC {\'o}n:}{28}{section*.60}
+\contentsline {paragraph}{Entrada:}{28}{section*.61}
+\contentsline {paragraph}{Proceso:}{28}{section*.62}
+\contentsline {paragraph}{Salida:}{28}{section*.63}
+\contentsline {paragraph}{Introducci\IeC {\'o}n:}{29}{section*.64}
+\contentsline {paragraph}{Entrada:}{29}{section*.65}
+\contentsline {paragraph}{Proceso:}{29}{section*.66}
+\contentsline {paragraph}{Salida:}{29}{section*.67}
+\contentsline {paragraph}{Introducci\IeC {\'o}n:}{29}{section*.68}
+\contentsline {paragraph}{Entrada:}{29}{section*.69}
+\contentsline {paragraph}{Proceso:}{29}{section*.70}
+\contentsline {paragraph}{Salida:}{29}{section*.71}
+\contentsline {subsubsection}{Suposiciones y Dependencias:}{29}{section*.72}
+\contentsline {paragraph}{Suposiciones:}{29}{section*.73}
+\contentsline {paragraph}{Dependencias:}{30}{section*.74}
+\contentsline {subsubsection}{Requisitos de Usuario y Tecnol\IeC {\'o}gicos:}{30}{section*.75}
+\contentsline {paragraph}{Requisitos de usuario:}{30}{section*.76}
+\contentsline {paragraph}{Requisitos tecnol\IeC {\'o}gicos:}{30}{section*.77}
+\contentsline {subsubsection}{Requisitos de Interfaces Externas:}{30}{section*.78}
+\contentsline {paragraph}{Interfaces de usuario:}{30}{section*.79}
+\contentsline {paragraph}{Interfaces Hardware:}{30}{section*.80}
+\contentsline {paragraph}{Interfaces Software:}{30}{section*.81}
+\contentsline {subsubsection}{Requisitos de Rendimiento:}{31}{section*.82}
+\contentsline {subsubsection}{Requisitos de Desarrollo:}{31}{section*.83}
+\contentsline {subsubsection}{Restricciones de Dise\IeC {\~n}o:}{31}{section*.84}
+\contentsline {paragraph}{Ajuste a est\IeC {\'a}ndares:}{31}{section*.85}
+\contentsline {paragraph}{Seguridad:}{31}{section*.86}
+\contentsline {paragraph}{Pol\IeC {\'\i }tica de respaldo:}{31}{section*.87}
+\contentsline {paragraph}{Base de Datos:}{31}{section*.88}
+\contentsline {paragraph}{Pol\IeC {\'\i }tica de Borrado:}{32}{section*.89}
+\contentsline {chapter}{Disciplina de An\IeC {\'a}lisis}{33}{chapter*.90}
+\contentsline {section}{Vista de Casos de Uso}{33}{section*.91}
+\contentsline {section}{Diagrama de Contexto}{34}{section*.92}
+\contentsline {section}{Diagramas de Casos de Uso}{35}{section*.93}
+\contentsline {subsection}{Diagrama de Casos de Uso general}{35}{section*.94}
+\contentsline {subsection}{Diagrama de Casos de Uso de gesti\IeC {\'o}n de usuarios}{35}{section*.95}
+\contentsline {subsection}{Diagrama de Casos de Uso de gesti\IeC {\'o}n de tienda}{36}{section*.96}
+\contentsline {section}{Diagramas de Actividad}{36}{section*.97}
+\contentsline {subsection}{Autenticar}{36}{section*.98}
+\contentsline {subsection}{Registrar}{37}{section*.99}
+\contentsline {subsection}{Crear Tienda}{38}{section*.100}
+\contentsline {subsection}{Comprar Producto}{39}{section*.101}
+\contentsline {section}{Diagrama de Clases del Dominio}{40}{section*.102}
+\contentsline {chapter}{Disciplina de Dise\IeC {\~n}o}{41}{chapter*.103}
+\contentsline {section}{Descripci\IeC {\'o}n Textual de Casos de Uso}{41}{section*.104}
+\contentsline {subsection}{Caso de Uso UC1: Autenticar}{41}{section*.105}
+\contentsline {subsubsection}{Resumen:}{41}{section*.106}
+\contentsline {subsubsection}{Actores:}{41}{section*.107}
+\contentsline {subsubsection}{Personal Involucrado y Metas:}{41}{section*.108}
+\contentsline {subsubsection}{Precondiciones:}{42}{section*.109}
+\contentsline {subsubsection}{Poscondiciones:}{42}{section*.110}
+\contentsline {subsubsection}{Escenario Principal: }{42}{section*.111}
+\contentsline {subsubsection}{Flujos Alternativos: }{42}{section*.112}
+\contentsline {paragraph}{A1: El sistema encuentra alg\IeC {\'u}n fallo para comunicarse con S}{42}{section*.113}
+\contentsline {paragraph}{A2: Nombre de usuario inexistente}{43}{section*.114}
+\contentsline {paragraph}{A3: Nombre de usuario existe pero contrase\IeC {\~n}a inv\IeC {\'a}lida }{43}{section*.115}
+\contentsline {subsubsection}{Requisitos de Interfaz de Usuario para todos los casos de uso: }{43}{section*.116}
+\contentsline {subsubsection}{Requisitos No-Funcionales para todos los casos de uso:}{43}{section*.117}
+\contentsline {subsection}{Caso de Uso UC2: Registrar}{43}{section*.118}
+\contentsline {subsubsection}{Resumen:}{43}{section*.119}
+\contentsline {subsubsection}{Actores:}{43}{section*.120}
+\contentsline {subsubsection}{Personal Involucrado y Metas:}{44}{section*.121}
+\contentsline {subsubsection}{Precondiciones:}{44}{section*.122}
+\contentsline {subsubsection}{Poscondiciones:}{44}{section*.123}
+\contentsline {subsubsection}{Escenario Principal: }{44}{section*.124}
+\contentsline {subsubsection}{Flujos Alternativos: }{44}{section*.125}
+\contentsline {paragraph}{A1:El sistema encuentra alg\IeC {\'u}n fallo para comunicarse con S}{44}{section*.126}
+\contentsline {paragraph}{A2: Nombre de usuario existente}{45}{section*.127}
+\contentsline {paragraph}{A3: Contrase\IeC {\~n}a inv\IeC {\'a}lida o no coincide con la confirmaci\IeC {\'o}n }{45}{section*.128}
+\contentsline {paragraph}{A4: direcci\IeC {\'o}n de correo electr\IeC {\'o}nico existente }{45}{section*.129}
+\contentsline {subsection}{Caso de Uso UC3: Crear Tienda}{45}{section*.130}
+\contentsline {subsubsection}{Resumen:}{45}{section*.131}
+\contentsline {subsubsection}{Actores:}{45}{section*.132}
+\contentsline {subsubsection}{Personal Involucrado y Metas:}{46}{section*.133}
+\contentsline {subsubsection}{Precondiciones:}{46}{section*.134}
+\contentsline {subsubsection}{Poscondiciones:}{46}{section*.135}
+\contentsline {subsubsection}{Escenario Principal: }{46}{section*.136}
+\contentsline {subsubsection}{Flujos Alternativos: }{46}{section*.137}
+\contentsline {paragraph}{A1:el sistema encuentra alg\IeC {\'u}n fallo para comunicarse con S}{46}{section*.138}
+\contentsline {subsection}{Caso de Uso UC4: Editar Tienda}{47}{section*.139}
+\contentsline {subsubsection}{Resumen:}{47}{section*.140}
+\contentsline {subsubsection}{Actores:}{47}{section*.141}
+\contentsline {subsubsection}{Personal Involucrado y Metas:}{47}{section*.142}
+\contentsline {subsubsection}{Precondiciones:}{47}{section*.143}
+\contentsline {subsubsection}{Poscondiciones:}{47}{section*.144}
+\contentsline {subsubsection}{Escenario Principal: }{47}{section*.145}
+\contentsline {subsubsection}{Flujos Alternativos: }{48}{section*.146}
+\contentsline {paragraph}{A1:El sistema encuentra alg\IeC {\'u}n fallo para comunicarse con S}{48}{section*.147}
+\contentsline {subsection}{Caso de Uso UC5: Editar Perfil}{48}{section*.148}
+\contentsline {subsubsection}{Resumen:}{48}{section*.149}
+\contentsline {subsubsection}{Actores:}{48}{section*.150}
+\contentsline {subsubsection}{Personal Involucrado y Metas:}{48}{section*.151}
+\contentsline {subsubsection}{Precondiciones:}{49}{section*.152}
+\contentsline {subsubsection}{Poscondiciones:}{49}{section*.153}
+\contentsline {subsubsection}{Escenario Principal: }{49}{section*.154}
+\contentsline {subsubsection}{Flujos Alternativos: }{49}{section*.155}
+\contentsline {paragraph}{A1:el sistema encuentra alg\IeC {\'u}n fallo para comunicarse con S}{49}{section*.156}
+\contentsline {subsection}{Caso de Uso UC6: Crear Producto}{50}{section*.157}
+\contentsline {subsubsection}{Resumen:}{50}{section*.158}
+\contentsline {subsubsection}{Actores:}{50}{section*.159}
+\contentsline {subsubsection}{Personal Involucrado y Metas:}{50}{section*.160}
+\contentsline {subsubsection}{Precondiciones:}{50}{section*.161}
+\contentsline {subsubsection}{Poscondiciones:}{50}{section*.162}
+\contentsline {subsubsection}{Escenario Principal: }{50}{section*.163}
+\contentsline {subsubsection}{Flujos Alternativos: }{51}{section*.164}
+\contentsline {paragraph}{A1:el sistema encuentra alg\IeC {\'u}n fallo para comunicarse con S}{51}{section*.165}
+\contentsline {subsection}{Caso de Uso UC7: Editar Producto}{51}{section*.166}
+\contentsline {subsubsection}{Resumen:}{51}{section*.167}
+\contentsline {subsubsection}{Actores:}{51}{section*.168}
+\contentsline {subsubsection}{Personal Involucrado y Metas:}{51}{section*.169}
+\contentsline {subsubsection}{Precondiciones:}{51}{section*.170}
+\contentsline {subsubsection}{Poscondiciones:}{51}{section*.171}
+\contentsline {subsubsection}{Escenario Principal: }{52}{section*.172}
+\contentsline {subsubsection}{Flujos Alternativos: }{52}{section*.173}
+\contentsline {paragraph}{A1:el sistema encuentra alg\IeC {\'u}n fallo para comunicarse con S}{52}{section*.174}
+\contentsline {subsection}{Caso de Uso UC8: Eliminar Producto}{52}{section*.175}
+\contentsline {subsubsection}{Resumen:}{52}{section*.176}
+\contentsline {subsubsection}{Actores:}{52}{section*.177}
+\contentsline {subsubsection}{Personal Involucrado y Metas:}{53}{section*.178}
+\contentsline {subsubsection}{Precondiciones:}{53}{section*.179}
+\contentsline {subsubsection}{Poscondiciones:}{53}{section*.180}
+\contentsline {subsubsection}{Escenario Principal: }{53}{section*.181}
+\contentsline {subsubsection}{Flujos Alternativos: }{53}{section*.182}
+\contentsline {paragraph}{A1:el sistema encuentra alg\IeC {\'u}n fallo para comunicarse con S}{53}{section*.183}
+\contentsline {subsection}{Caso de Uso UC9: Buscar Producto}{54}{section*.184}
+\contentsline {subsubsection}{Resumen:}{54}{section*.185}
+\contentsline {subsubsection}{Actores:}{54}{section*.186}
+\contentsline {subsubsection}{Personal Involucrado y Metas:}{54}{section*.187}
+\contentsline {subsubsection}{Poscondiciones:}{54}{section*.188}
+\contentsline {subsubsection}{Escenario Principal: }{54}{section*.189}
+\contentsline {subsubsection}{Flujos Alternativos: }{55}{section*.190}
+\contentsline {paragraph}{A1:el sistema encuentra alg\IeC {\'u}n fallo para comunicarse con S}{55}{section*.191}
+\contentsline {subsection}{Caso de Uso UC10: Comprar Producto}{55}{section*.192}
+\contentsline {subsubsection}{Resumen:}{55}{section*.193}
+\contentsline {subsubsection}{Actores:}{55}{section*.194}
+\contentsline {subsubsection}{Personal Involucrado y Metas:}{55}{section*.195}
+\contentsline {subsubsection}{Precondiciones:}{55}{section*.196}
+\contentsline {subsubsection}{Poscondiciones:}{55}{section*.197}
+\contentsline {subsubsection}{Escenario Principal: }{56}{section*.198}
+\contentsline {subsubsection}{Flujos Alternativos: }{56}{section*.199}
+\contentsline {paragraph}{A1:el sistema encuentra alg\IeC {\'u}n fallo para comunicarse con S}{56}{section*.200}
+\contentsline {subsection}{Caso de Uso UC11: Listar compras realizadas}{56}{section*.201}
+\contentsline {subsubsection}{Resumen:}{56}{section*.202}
+\contentsline {subsubsection}{Actores:}{57}{section*.203}
+\contentsline {subsubsection}{Personal Involucrado y Metas:}{57}{section*.204}
+\contentsline {subsubsection}{Precondiciones:}{57}{section*.205}
+\contentsline {subsubsection}{Poscondiciones:}{57}{section*.206}
+\contentsline {subsubsection}{Escenario Principal: }{57}{section*.207}
+\contentsline {subsubsection}{Flujos Alternativos: }{57}{section*.208}
+\contentsline {paragraph}{A1:el sistema encuentra alg\IeC {\'u}n fallo para comunicarse con S}{57}{section*.209}
+\contentsline {subsection}{Caso de Uso UC12: Listar ventas realizadas}{58}{section*.210}
+\contentsline {subsubsection}{Resumen:}{58}{section*.211}
+\contentsline {subsubsection}{Actores:}{58}{section*.212}
+\contentsline {subsubsection}{Personal Involucrado y Metas:}{58}{section*.213}
+\contentsline {subsubsection}{Precondiciones:}{58}{section*.214}
+\contentsline {subsubsection}{Poscondiciones:}{58}{section*.215}
+\contentsline {subsubsection}{Escenario Principal: }{58}{section*.216}
+\contentsline {subsubsection}{Flujos Alternativos: }{59}{section*.217}
+\contentsline {paragraph}{A1:el sistema encuentra alg\IeC {\'u}n fallo para comunicarse con S}{59}{section*.218}
+\contentsline {subsection}{Caso de Uso UC13: Contactar Usuario}{59}{section*.219}
+\contentsline {subsubsection}{Resumen:}{59}{section*.220}
+\contentsline {subsubsection}{Actores:}{59}{section*.221}
+\contentsline {subsubsection}{Personal Involucrado y Metas:}{59}{section*.222}
+\contentsline {subsubsection}{Precondiciones:}{59}{section*.223}
+\contentsline {subsubsection}{Poscondiciones:}{59}{section*.224}
+\contentsline {subsubsection}{Escenario Principal: }{60}{section*.225}
+\contentsline {section}{Diagrama de Clases de Dise\IeC {\~n}o}{61}{section*.226}
+\contentsline {section}{Diagramas de Secuencia}{62}{section*.227}
+\contentsline {subsection}{Autenticar}{62}{section*.228}
+\contentsline {subsection}{Registrar}{62}{section*.229}
+\contentsline {subsection}{Crear Tienda}{63}{section*.230}
+\contentsline {subsection}{Agregar Producto}{63}{section*.231}
+\contentsline {subsection}{Comprar Producto}{64}{section*.232}
+\contentsline {section}{Interfaz de Usuario}{65}{section*.233}
+\contentsline {chapter}{Disciplina de Implementaci\IeC {\'o}n}{78}{chapter*.234}
+\contentsline {section}{Arquitectura de la aplicaci\IeC {\'o}n}{78}{section*.235}
+\contentsline {section}{Diagrama de Despliegue}{79}{section*.236}
+\contentsline {section}{Elecci\IeC {\'o}n del Lenguaje}{79}{section*.237}
+\contentsline {section}{Arquitectura de Android}{80}{section*.238}
+\contentsline {section}{PhoneGap}{81}{section*.239}
+\contentsline {subsection}{Ventajas de PhoneGap}{82}{section*.240}
+\contentsline {subsection}{Desventaja de phoneGap}{83}{section*.241}
+\contentsline {section}{Web services}{83}{section*.242}
+\contentsline {subsection}{Razones para crear servicios Web}{84}{section*.243}
+\contentsline {subsection}{REST}{84}{section*.244}
+\contentsline {subsubsection}{Recursos}{86}{section*.245}
+\contentsline {section}{Caracter\IeC {\'\i }sticas de seguridad}{86}{section*.246}
+\contentsline {subsection}{Canal de comunicaci\IeC {\'o}n cifrado}{86}{section*.247}
+\contentsline {subsection}{ACL para cada objeto}{87}{section*.248}
+\contentsline {section}{Backbone.js}{88}{section*.249}
+\contentsline {subsection}{Modelo Vista Presentador (MVP)}{90}{section*.250}
+\contentsline {section}{jQuery}{91}{section*.251}
+\contentsline {section}{jQuery Mobile}{91}{section*.252}
+\contentsline {section}{Herramientas de desarrollo}{92}{section*.253}
+\contentsline {chapter}{Disciplina de Pruebas}{94}{chapter*.254}
+\contentsline {section}{Test de Unidades}{94}{section*.255}
+\contentsline {subsection}{Introducci\IeC {\'o}n}{94}{section*.256}
+\contentsline {subsection}{Pruebas de Caja Blanca}{94}{section*.257}
+\contentsline {section}{Test de M\IeC {\'o}dulos}{94}{section*.258}
+\contentsline {subsection}{Introducci\IeC {\'o}n}{94}{section*.259}
+\contentsline {subsection}{Pruebas de Caja Negra}{95}{section*.260}
+\contentsline {subsection}{Pruebas de Estr\IeC {\'e}s}{95}{section*.261}
+\contentsline {section}{Test de Integraci\IeC {\'o}n}{95}{section*.262}
+\contentsline {subsection}{Introducci\IeC {\'o}n}{95}{section*.263}
+\contentsline {subsection}{Pruebas de Integraci\IeC {\'o}n}{95}{section*.264}
+\contentsline {section}{Test de Aceptaci\IeC {\'o}n}{96}{section*.265}
+\contentsline {subsection}{Introducci\IeC {\'o}n}{96}{section*.266}
+\contentsline {subsection}{Prueba Alfa}{96}{section*.267}
+\contentsline {subsection}{Prueba Beta}{96}{section*.268}
+\contentsline {chapter}{Conclusiones}{97}{chapter*.269}

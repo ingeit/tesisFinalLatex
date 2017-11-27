@@ -1,24 +1,31 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   |------------------------------------------|       %
-%   |Aplicación de comercio electrónico para   |       %
-%   |teléfonos móviles con S.O. Android        |       %
+%   | Web App embebida en dispositivos móviles |       %
+%   |  para la gestión de registros sobre la   |       %
+%   |   contaminación de afluentes y ríos.     |       %
 %   |                                          |       %
-%   | Proyecto de graduación                   |       %
+%   |          Proyecto de graduación          |       %
 %   |__________________________________________|       %
 %                                                      %
 %   Autores                                            %
 %   -------                                            %
 %                                                      %
-% * Soto, Paula Fabiana (CX05-0967-4)                  %
-%     paulette255@gmail.com                            %
-% * Vallejo, Sergio Daniel (CX05-0392-4)               %
-%     vallejosergio@gmail.com                          %
+% * Bruno, Ricardo Hugo (CX 1409686)                   %
+%     rburnount@gmail.com                              %
+% * Gomez Veliz, Kevin Shionen (CX 1411828)            %
+%     ing.gomezvelizkevin@gmail.com                    %
 %                                                      %
 %   Tutor                                              %
 %   -------                                            %
 %                                                      %
-% * Ing. Augusto Maximiliano Odstrcil                  %
-%        modstrcil@gmail.com                           %
+% * Ing. Cohen, Daniel Eduardo                         %
+%        dcohen.tuc@gmail.com                          %
+%                                                      %
+%   Cotutor                                            %
+%   -------                                            %
+%                                                      %
+% * Ing. Nieto, Luis Eduardo                           %
+%        lnieto@herrera.unt.edu.ar                     %
 %                                                      %
 %                                                      %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -46,13 +53,9 @@ Se identificaron los siguientes usuarios:
 
  \begin{itemize}
  
-\item \emph{Grupo de Administradores:} Formado por los administradores de la aplicación web actual.
+\item \emph{Grupo de Administradores:} Formado por los solicitantes del software en cuestión.
  
-\item \emph{Grupo de Usuarios Compradores:} Formado por usuarios que realizan operaciones de compra.
- 
-\item \emph{Grupo de Usuarios Vendedores:} Formado por usuarios  que tienen una tienda con productos en venta.
- 
-\item \emph{Grupo de Usuarios No Registrados:} Formado por usuarios que pueden realizar operaciones de búsqueda y listado de productos sin estar registrados en la aplicación.
+\item \emph{Grupo de Usuarios:} Formado por usuarios que realizan muestras, las cuales generan registros en el sistema.
 
  \end{itemize}
  
@@ -64,21 +67,19 @@ Se identificaron los siguientes usuarios:
   
   Esta tarea tiene como finalidad capturar los requisitos de usuarios para el desarrollo del sistema.
 
-Para el análisis de requisitos se usaron distintas técnicas de educción de requisitos. Entre ellas el estudio de la documentación provista por parte de administradores de la aplicación web y de los Responsables; entrevistas abiertas y estructuradas, análisis de la aplicación web.
+Para el análisis de requisitos se usaron distintas técnicas de educción de requisitos. Entre ellas el estudio de la documentación provista por parte del cliente; entrevistas abiertas y estructuradas, análisis del proceso actual.
   
   \subsection{Entrevistas. Planificación y Realización}
   
-  La entrevista consiste en una interacción sistemática con un usuario para educir los conocimientos de éste.
-
-Se hicieron entrevistas abiertas y estructuradas. 
+  La entrevista consiste en una interacción sistemática con un usuario para educir los conocimientos de éste. Se hicieron entrevistas abiertas y estructuradas. 
 
 El proceso consiste en la  planificación de las entrevistas, en donde se incluye fecha, hora, lugar, duración estimada y guión de la entrevista; luego se llevan a cabo las entrevistas y se las documenta identificando los requisitos con sus prioridades.  
 
-A partir de las entrevistas realizadas con los administradores de la aplicación web, se identifican los requisitos que debe cumplir el sistema y se establecerá una prioridad para los mismos, de acuerdo a las necesidades de los usuarios y a los objetivos a cubrir por la aplicación para Android.
+A partir de las entrevistas realizadas con el cliente, se identifican los requisitos que debe cumplir el sistema y se establecerá una prioridad para los mismos, de acuerdo a las necesidades de los usuarios y a los objetivos a cubrir por el sistema completo.
 
   \subsection{Estudio de la Documentación}
   
-El estudio de la documentación consiste en la extracción de requisitos de los documentos e impresiones que forman parte del sistema actual.
+El estudio de la documentación consiste en la extracción de requisitos de los documentos e impresiones que forman parte del proceso actual.
 
 Una vez que se obtiene toda la documentación relevante al sistema que se va a desarrollar, se lee cuidadosamente la información contenida en esos documentos y luego con la técnica de análisis estructural de textos, se extraen conceptos fundamentales del dominio buscando estructuras preestablecidas.
 
@@ -120,7 +121,7 @@ A continuación se detallan los parámetros a considerar en el cálculo del mét
  
     \item \emph{Data Element Type (DET):} Campo único identificable por el usuario. Hace referencia a las claves únicas de los almacenes de datos.
 
-\item \emph{Record Element Type (RET):} Subgrupo de datos inidentificables por el usuario.
+\item \emph{Record Element Type (RET):} Subgrupo de datos identificables por el usuario.
 
 \item \emph{File Type Referenced (FTR):} ILF leído o mantenido.
 
@@ -130,90 +131,119 @@ A continuación se detallan los parámetros a considerar en el cálculo del mét
 Para el cálculo de la complejidad en un ILF se accede a una tabla de doble entrada de acuerdo a la cantidad de DET y RET que presenta.
       
       \subsubsection{Ejecución del método en el proyecto actual}
-      
-    Se identificaron 4 ILF.
+
+\begin{itemize}
     
-    No se identificó ningún EIF.
+    \item Se identificaron 4 ILF.
     
     \begin{table}[H]
-    \centering
-    \begin{tabular}{|l|l|l|l|l|}
-        \hline
-        ILF      & RET & DET & Complejidad & Valor \\ \hline
-        Usuario  & 1   & 3   & Baja        & 7     \\ \hline
-        Vendedor & 1   & 6   & Baja        & 7     \\ \hline
-        Producto & 1   & 6   & Baja        & 7     \\ \hline
-        Orden    & 1   & 7   & Baja        & 7     \\
-        \hline
-    \end{tabular}
-\end{table}
+        \centering
+        \begin{tabular}{|l|l|l|l|l|}
+            \hline
+            ILF         & RET & DET & Complejidad & Valor \\ \hline
+            Insectos    & 1   & 1   & Baja        & 7     \\ \hline
+            Registros   & 1   & 12  & Baja        & 7     \\ \hline
+            Ubicaciones & 1   & 3   & Baja        & 7     \\ \hline
+            Usuarios    & 1   & 12  & Baja        & 7     \\ 
+            \hline
+        \end{tabular}
+    \end{table}
+    
+    Baja: $4 * 7 = 28$ -
+    Media: 0 -
+    Alta: 0
 
-Baja: $4 * 7 = 28$
+    Total = 28
+    
+    \item Se identificaron 3 ELF.
+    
+    \begin{table}[H]
+        \centering
+        \begin{tabular}{|l|l|l|l|l|}
+            \hline
+            ELF                             & RET & DET & Complejidad & Valor \\ \hline
+            Google Maps                     & 1   & 2   & Baja        & 5     \\ \hline
+            Google Geocodificación inversa  & 1   & 2   & Baja        & 5     \\ \hline
+            Google Statics Maps             & 1   & 2   & Baja        & 5     \\
+            \hline
+        \end{tabular}
+    \end{table}
 
-Total: 28
+    Baja: $3 * 5 = 15$
+    Media: 0 -
+    Alta: 0
+    
+    Total = 15
 
-      \begin{table}[H]
-      \centering
-    \begin{tabular}{|l|l|l|l|l|}
-        \hline
-        EI                 & FTR & DET & Complejidad & Valor \\ \hline
-        Alta Usuario       & 1   & 9   & Baja        & 3     \\ \hline
-        Modificar Usuario  & 1   & 9   & Baja        & 3     \\ \hline
-        Alta Tienda        & 1   & 4   & Baja        & 3     \\ \hline
-        Modificar Tienda   & 1   & 4   & Baja        & 3     \\ \hline
-        Alta Producto      & 1   & 6   & Baja        & 3     \\ \hline
-        Baja Producto      & 1   & 6   & Baja        & 3     \\ \hline
-        Modificar Producto & 1   & 6   & Baja        & 3     \\ \hline
-        Alta orden         & 1   & 7   & Baja        & 3     \\ \hline
-    \end{tabular}
-\end{table}
+    \item Se identificaron x EI.
+    
+    \begin{table}[H]
+        \centering
+        \begin{tabular}{|l|l|l|l|l|}
+            \hline
+            EI                 & FTR & DET & Complejidad & Valor \\ \hline
+            Nuevo Registro     & 2   & 16  & Alta        & 6     \\ \hline
+            Eliminar Registro  & 1   & 1   & Baja        & 3     \\ \hline
+            Nuevo Usuario      & 1   & 9   & Baja        & 3     \\ \hline
+            Modificar Usuario  & 1   & 6   & Baja        & 3     \\ \hline
+            Eliminar Usuario   & 1   & 1   & Baja        & 3     \\ \hline
+        \end{tabular}
+    \end{table}
+    
+    Baja: $4 * 3 = 12$ -
+    Media: 0 -
+    Alta: $1 * 6 = 6$
 
-Baja: $8 * 3 = 24$
+    Total = 18
 
-Total: 24
+    \item Se identificaron x EO.
+    
+    \begin{table}[H]
+        \centering
+        \begin{tabular}{|l|l|l|l|l|}
+            \hline
+            EO                   & FTR & DET & Complejidad & Valor \\ \hline
+            Listado de Productos & 1   & 7   & Baja        & 4     \\ \hline
+            Listado de Órdenes   & 2   & 9   & Media       & 5     \\
+            \hline
+        \end{tabular}
+    \end{table}
+    
+    Baja: $1 * 4 = 4$
+    
+    Media: $1 * 5 = 5$
+    
+    Total: 9
+    
+    \item Se identificaron x EQ.
 
-\begin{table}[H]
-    \centering
-    \begin{tabular}{|l|l|l|l|l|}
-        \hline
-        EO                   & FTR & DET & Complejidad & Valor \\ \hline
-        Listado de Productos & 1   & 7   & Baja        & 4     \\ \hline
-        Listado de Órdenes   & 2   & 9   & Media       & 5     \\
-        \hline
-    \end{tabular}
-\end{table}
-
-Baja: $1 * 4 = 4$
-
-Media: $1 * 5 = 5$
-
-Total: 9
-
-\begin{table}[H]
-\centering
-    \begin{tabular}{|l|l|l|l|l|}
-        \hline
-        EQ                   & FTR & DET & Complejidad & Valor \\ \hline
-        Inicio de sesión     & 1   & 2   & Baja        & 3     \\ \hline
-        Consulta de tienda   & 2   & 9   & Media       & 4     \\ \hline
-        Consulta de producto & 2   & 9   & Media       & 4     \\
-        \hline
-    \end{tabular}
-\end{table}
-
-Baja: $1 * 3 = 3$
-
-Media: $2 * 4 = 8$
-
-Total: 11
+    \begin{table}[H]
+        \centering
+        \begin{tabular}{|l|l|l|l|l|}
+            \hline
+            EQ                   & FTR & DET & Complejidad & Valor \\ \hline
+            Inicio de sesión     & 1   & 2   & Baja        & 3     \\ \hline
+            Consulta de tienda   & 2   & 9   & Media       & 4     \\ \hline
+            Consulta de producto & 2   & 9   & Media       & 4     \\
+            \hline
+        \end{tabular}
+    \end{table}
+    
+    Baja: $1 * 3 = 3$
+    
+    Media: $2 * 4 = 8$
+    
+    Total: 11
+    
+\end{itemize}
 
     \subsubsection{Resumen}
     
     \begin{table}[H]
-    \centering
-    \begin{tabular}{|l|l|l|l|l|}
-        \hline
-        Parámetro & Complejidad & Cantidad & Peso & Total \\ \hline
+        \centering
+        \begin{tabular}{|l|l|l|l|l|}
+            \hline
+            Parámetro & Complejidad & Cantidad & Peso & Total \\ \hline
         ILF       & Baja        & 4        & 7    & 28    \\ \hline
         EI        & Baja        & 8        & 3    & 24    \\ \hline
         \multirow{2}{*}{EO}        & Baja        & 1        & 4    & 4     \\ \cline{2-5}
