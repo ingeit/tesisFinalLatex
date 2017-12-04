@@ -175,7 +175,7 @@ Para el cálculo de la complejidad en un ILF se accede a una tabla de doble entr
     
     Total = 15
 
-    \item Se identificaron x EI.
+    \item Se identificaron  EI.
     
     \begin{table}[H]
         \centering
@@ -196,44 +196,45 @@ Para el cálculo de la complejidad en un ILF se accede a una tabla de doble entr
 
     Total = 18
 
-    \item Se identificaron x EO.
+    \item Se identificaron x EO. // PROCESAMIENTO ADICIONAL
     
     \begin{table}[H]
         \centering
         \begin{tabular}{|l|l|l|l|l|}
             \hline
-            EO                   & FTR & DET & Complejidad & Valor \\ \hline
-            Listado de Productos & 1   & 7   & Baja        & 4     \\ \hline
-            Listado de Órdenes   & 2   & 9   & Media       & 5     \\
+            EO                      & FTR & DET  & Complejidad & Valor \\ \hline
+            Inicio de sesión        & 1   & 4    & Baja        & 4     \\ \hline
+            Filtro de Usuarios      & 1   & 14   & Baja        & 4     \\ \hline
+            Filtro de Registros     & 1   & 16   & Baja        & 4     \\ \hline
+            Renderizado de Mapa     & 1   & 3    & Baja        & 4     \\
             \hline
         \end{tabular}
     \end{table}
     
-    Baja: $1 * 4 = 4$
+    Baja: $4 * 4 = 16$ -
+    Media: 0 -
+    Alta: 0 
+
+    Total = 16
     
-    Media: $1 * 5 = 5$
-    
-    Total: 9
-    
-    \item Se identificaron x EQ.
+    \item Se identificaron x EQ. SIN PROCESAMIENTO
 
     \begin{table}[H]
         \centering
         \begin{tabular}{|l|l|l|l|l|}
             \hline
-            EQ                   & FTR & DET & Complejidad & Valor \\ \hline
-            Inicio de sesión     & 1   & 2   & Baja        & 3     \\ \hline
-            Consulta de tienda   & 2   & 9   & Media       & 4     \\ \hline
-            Consulta de producto & 2   & 9   & Media       & 4     \\
+            EQ                      & FTR & DET & Complejidad & Valor \\ \hline
+            Listado de Usuarios     & 1   & 13  & Baja        & 3     \\ \hline
+            Listado de Registros    & 1   & 15  & Baja        & 3     \\
             \hline
         \end{tabular}
     \end{table}
     
-    Baja: $1 * 3 = 3$
-    
-    Media: $2 * 4 = 8$
-    
-    Total: 11
+    Baja: $2 * 3 = 6$ -
+    Media: 0 -
+    Alta: 0 
+
+    Total = 6
     
 \end{itemize}
 
@@ -243,62 +244,68 @@ Para el cálculo de la complejidad en un ILF se accede a una tabla de doble entr
         \centering
         \begin{tabular}{|l|l|l|l|l|}
             \hline
-            Parámetro & Complejidad & Cantidad & Peso & Total \\ \hline
-        ILF       & Baja        & 4        & 7    & 28    \\ \hline
-        EI        & Baja        & 8        & 3    & 24    \\ \hline
-        \multirow{2}{*}{EO}        & Baja        & 1        & 4    & 4     \\ \cline{2-5}
-                & Media       & 1        & 5    & 5     \\ \hline
-        \multirow{2}{*}{EQ}        & Baja        & 1        & 3    & 3     \\ \cline{2-5}
-                 & Media       & 2        & 4    & 8     \\ \hline
+                    Parámetro & Complejidad & Cantidad & Peso & Total   \\ \hline
+                    ILF       & Baja        & 4        & 7    & 28      \\ \hline
+                    ELF       & Baja        & 3        & 5    & 15      \\ \hline
+    \multirow{3}{*}{EI}       & Baja        & 4        & 3    & 12      \\ \cline{2-5}
+                              & Alta        & 1        & 6    & 6       \\ \cline{2-5}
+                              &             &          & TOTAL    & 18  \\ \hline
+                    EO        & Baja        & 4        & 4    & 16      \\ \hline
+                    EQ        & Baja        & 2        & 3    & 6       \\ \hline
     \end{tabular}
 \end{table}
     
-    $PF = ILF + EI + EO + EQ$
+    $PF = ILF + ELF + EI + EO + EQ$
     
-    $PF = 28 + 24 + 9 + 11 = 72$
+    $PF = 28 + 15 + 18 + 16 + 6 = 83$
     
-    $PF = 72$
+    $PF = 83$
     
     \subsubsection{Ajuste de los Puntos de Función}
         
    \begin{table}[H]
    \centering
-    \begin{tabular}{|p{4cm}|p{10cm}|l|}
+    \begin{tabular}{|p{5cm}|p{10cm}|l|}
         \hline
         Característica & Descripción del grado de influencia & Valor \\ \hline
-        Comunicación de datos & Más de una PC front-end, pero la aplicación soporta un solo tipo de protocolo de comunicaciones & 4 \\ \hline
-        Funciones distribuidas & El proceso distribuido y la transferencia de datos son on-line en ambas direcciones & 3 \\ \hline
-        Rendimiento & Rendimiento y requisitos de diseño han sido definidos y revisados pero no requieren ninguna acción especial & 1 \\ \hline
-        Configuraciones fuertemente utilizadas & Existen algunas restricciones de seguridad o tiempo & 2 \\ \hline
-        Frecuencia de transacciones & No se anticipa ningún periodo de transacción pico & 0 \\ \hline
-        Entrada on-line de datos & Más del 30\% de las transacciones son entradas de datos interactivas & 5 \\ \hline
+        Comunicación de datos & Mas de una pc cliente y aplicación para dispositivos móviles, pero la aplicación soporta un solo tipo de protocolo de comunicaciones & 4 \\ \hline
+        Funciones distribuidas & El proceso es distribuido y la transferencia de datos son en ambas direcciones & 4 \\ \hline
+        Rendimiento & Herramientas y desarrollo especifico para los requisitos impuestos por el cliente & 5 \\ \hline
+        Configuración de explotación usada por otros sistemas & No se indican restricciones & 0 \\ \hline
+        Tasa de transacciones & No se prevén picos & 0 \\ \hline
+        Entrada de datos EN-LÍNEA & Más del 30\% de las transacciones son entradas de datos interactivas & 5 \\ \hline
         Diseño para la eficiencia del usuario final & Más de 6 funciones que incrementan la eficiencia del usuario final, y se establecieron requisitos de eficiencia del usuario que obligan a diseñar tareas que tienen en cuenta factores humanos & 4 \\ \hline
-        Actualización on-line & Actualización de 4 o más ILF. El volumen de actualización es bajo y la recuperación fácil & 2 \\ \hline
-        Procesos complejos & No hay procesos complejos & 0 \\ \hline
-        Reusabilidad & Se utiliza código reusable dentro de la aplicación & 1 \\ \hline
+        Actualización on-line & Actualización de 4 o más ficheros. El volumen de actualización es bajo y la recuperación fácil & 2 \\ \hline
+        Lógica de proceso interno compleja & Se requiere cumplir con 3 de las 5 características & 3 \\ \hline
+        Reutilización del código & Se reutiliza código dentro de la misma aplicación & 1 \\ \hline
         Facilidad de instalación & No se realizaron consideraciones ni se requirieron desarrollos especiales para la instalación por parte del usuario & 0 \\ \hline
+    \end{tabular}
+\end{table}
+\begin{table}[H]
+    \centering
+     \begin{tabular}{|p{5cm}|p{10cm}|l|}
+         \hline
         Facilidad de operación & No se definieron por parte del usuario necesidades especiales de operación o respaldo distintas de las normales & 0 \\ \hline
-        Instalación en distintos lugares & Se necesita diseñar la aplicación para ser usada en múltiples lugares pero funcionará bajo entornos idénticos de hardware y software & 1 \\ \hline
-        Facilidad de cambio & No existe ninguna especificación por parte de los usuarios en este sentido & 0 \\
-        \hline
+        Instalación en distintos lugares & Se necesita diseñar la aplicación para ser usada en múltiples lugares y funcionará  en múltiples entornos de  Hardware y Software & 3 \\ \hline
+        Facilidad de cambio & No existe ninguna especificación por parte de los usuarios en este sentido & 0 \\ \hline
     \end{tabular}
 \end{table}
 
-Grado de Influencia: $TDI = 24$
+Grado de Influencia: $TDI = 31$
 
-Factor de ajuste: VAF = $0.65 + 0.01 * TDI = 0.89$
+Factor de ajuste: VAF = $ (TDI*0.01) + 0.65 = 0.96$
 
 
 \paragraph{Puntos de función ajustados:} 
 
-PFA = $PF * AF = 72 * 0.89 = 64.08$
+PFA = $PF * VAF = 83 * 0.96 = 79.68$
 
 \subsubsection{Estimación de las líneas de código necesarias}
 
 QSM SLOC/FP Data JavaScript: 54 LOC por PF
 
 
-\paragraph{LOC=} $54*64.08 = 3460.32$
+\paragraph{LOC=} $54*79.68 = 4302.72$
         
 \subsubsection{Aplicación del método COCOMO}
 
@@ -333,11 +340,12 @@ Factor de Ajuste: A = $0.782$
 
 \begin{framed}
 \centering
-MM = $A 3.2 (KLOC)^{1.05} = 9.21$ meses hombre
+% KLOC son las lineas de codigo en MILES, osea es el LOC calculado dividido 1000
+MM = $A*3.2*(KLOC)^{1.05} = 11.58$ meses hombre
 
-TDEV = $2,5 (MM)^{0.38} = 5.81$ meses
+TDEV = $2,5 (MM)^{0.38} = 6.34$ meses
 
-Número de personas = ${9.21}/{5.81} = 1.58 \approx 2$ personas
+Número de personas = ${11.58}/{6.34} = 1.82 \approx 2$ personas
 \end{framed}
 
 \section{Especificación de Requisitos de Software}
@@ -345,11 +353,11 @@ Número de personas = ${9.21}/{5.81} = 1.58 \approx 2$ personas
 \renewcommand{\thesubsection}{\arabic{subsection}}
  \subsection{Introducción}
  
- Este documento es una Especificación de Requisitos Software de la Aplicación de comercio electrónico para teléfonos celulares con sistema operativo Android “DroidCommerce”. Esta documentación es fruto de las entrevistas, estudio de la documentación y del funcionamiento de la aplicación web actual, así como del análisis llevado a cabo por el equipo de desarrollo.
+ Este documento es una Especificación de Requisitos Software de la  Web App embebida en dispositivos móviles para la gestión de registros sobre la contaminación de afluentes y ríos. Esta documentación es fruto de las entrevistas, estudio de la documentación y del funcionamiento de la aplicación web actual, así como del análisis llevado a cabo por el equipo de desarrollo.
 
 El objetivo de la especificación es definir en forma clara, precisa, completa y verificable todas las funcionalidades y restricciones del sistema que se desea construir.
 
-Esta documentación está sujeta a revisiones por el grupo de administradores que se recogerán por medio de sucesivas versiones del documento, hasta alcanzar su aprobación por parte de los responsables de la aplicación web actual. Una vez aprobado, servirá de base al equipo de desarrollo para la construcción del nuevo sistema.
+Esta documentación está sujeta a revisiones por el grupo de administradores que se recogerán por medio de sucesivas versiones del documento, hasta alcanzar la aprobación por parte de los mismos. Una vez aprobado, servirá de base al equipo de desarrollo para la construcción del sistema en cuestión.
 
 Esta especificación se ha realizado de acuerdo al estándar “IEEE Recomended Practice for software Requirements Specifications(IEEE/ANSI 830-1993)”.
 
@@ -361,13 +369,18 @@ Esta especificación se ha realizado de acuerdo al estándar “IEEE Recomended 
 % c) Describir la aplicación del software que está siendo especificado, incluyendo beneficios relevantes, objetivos, y metas
 % En esta etapa se detallan los objetivos del sistema, describiendo brevemente QUÉ es lo que el sistema debe hacer. En el alcance del sistema %  se describe en lenguaje natural el ámbito del sistema, su dominio y sus límites.
 
-Los principales objetivos del sistema a desarrollar son permitir que usuarios puedan utilizar funcionalidades del sitio web existente desde cualquier dispositivo móvil con sistema operativo Android que servirá como complemento de la aplicación web, permitiendo aumentar la cantidad de usuarios y brindando facilidades para que puedan realizar operaciones desde cualquier lugar en el que se encuentren por más que no tengan acceso a un a computadora con Internet y aumentar enormemente el volumen de ventas de las tiendas. Estas funcionalidades abarcan compra, venta y comunicación entre usuarios.
+Los principales objetivos del sistema a desarrollar son permitir que los usuarios puedan hacer uso del mismo mediante un SmartPhone con cualquier Sistema Operativo (iOS, Android, Windows Phone), pudiendo asi, realizar los siguientes items:
+\begin{itemize}
+    \item En las salidas de campo, poder generar registros con información sensible (imágenes capturadas con la cámara de fotos, coordenadas obtenidas mediante el GPS integrado, entre otras)  para la futura gestión por parte de los administradores.
+    \item Lo anterior se realizará sin conexión a internet (2G, 3G, Wifi, etc), generando un registro de manera local, que luego, de manera automática, se subirá a los servidores al momento de adquirir alguna conexión a internet.
+    \item Los administradores podrán gestionar los registros previamente creados y guardados en el servidor mediante el sistema desde un navegador web (Google Chrome, Internet Explorer, Mozilla, etc).
+    \item Los administradores podrán ver el renderizado de un mapa (Google Maps) con los trazos en donde se muestre la información que ellos requieren.
+\end{itemize}
+ 
 
-Otro de los objetivos es implementar un método de conexión con la aplicación web actual permitiendo operar con gran eficiencia y bajo costo.
+El sistema debe ser seguro, escalable, de fácil mantenimiento y muy simple de usar utilizando sólo interfaces táctiles para los usuarios finales.
 
-El sistema debe ser seguro, escalable, de fácil mantenimiento y muy simple de usar utilizando sólo interfaces táctiles.
-
-El desarrollo lo llevarán a cabo Paula Soto y Sergio Vallejo, con la opción a ser responsables del posterior mantenimiento del mismo.
+El desarrollo lo llevarán a cabo los alumnos Ricardo Hugo Bruno y Kevin Shionen Gomez Veliz, con la opción a ser responsables del posterior mantenimiento del mismo.
 
  
     \subsubsection{Definiciones, Acrónimos y Abreviaturas}

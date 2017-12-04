@@ -25,13 +25,13 @@
 \contentsline {subsubsection}{Definici\IeC {\'o}n de par\IeC {\'a}metros b\IeC {\'a}sicos externos del sistema}{18}{section*.29}
 \contentsline {subsubsection}{Ejecuci\IeC {\'o}n del m\IeC {\'e}todo en el proyecto actual}{19}{section*.30}
 \contentsline {subsubsection}{Resumen}{20}{section*.31}
-\contentsline {subsubsection}{Ajuste de los Puntos de Funci\IeC {\'o}n}{22}{section*.32}
-\contentsline {paragraph}{Puntos de funci\IeC {\'o}n ajustados:}{23}{section*.33}
-\contentsline {subsubsection}{Estimaci\IeC {\'o}n de las l\IeC {\'\i }neas de c\IeC {\'o}digo necesarias}{23}{section*.34}
-\contentsline {paragraph}{LOC=}{23}{section*.35}
-\contentsline {subsubsection}{Aplicaci\IeC {\'o}n del m\IeC {\'e}todo COCOMO}{23}{section*.36}
-\contentsline {section}{Especificaci\IeC {\'o}n de Requisitos de Software}{24}{section*.37}
-\contentsline {subsection}{\numberline {1}Introducci\IeC {\'o}n}{24}{subsection.0.0.1}
+\contentsline {subsubsection}{Ajuste de los Puntos de Funci\IeC {\'o}n}{21}{section*.32}
+\contentsline {paragraph}{Puntos de funci\IeC {\'o}n ajustados:}{22}{section*.33}
+\contentsline {subsubsection}{Estimaci\IeC {\'o}n de las l\IeC {\'\i }neas de c\IeC {\'o}digo necesarias}{22}{section*.34}
+\contentsline {paragraph}{LOC=}{22}{section*.35}
+\contentsline {subsubsection}{Aplicaci\IeC {\'o}n del m\IeC {\'e}todo COCOMO}{22}{section*.36}
+\contentsline {section}{Especificaci\IeC {\'o}n de Requisitos de Software}{23}{section*.37}
+\contentsline {subsection}{\numberline {1}Introducci\IeC {\'o}n}{23}{subsection.0.0.1}
 \contentsline {subsubsection}{Objetivos y alcance del sistema}{24}{section*.38}
 \contentsline {subsubsection}{Definiciones, Acr\IeC {\'o}nimos y Abreviaturas}{25}{section*.39}
 \contentsline {subsubsection}{Definiciones:}{25}{section*.40}
