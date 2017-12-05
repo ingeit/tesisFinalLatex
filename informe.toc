@@ -35,56 +35,56 @@
 \contentsline {subsubsection}{Objetivos y alcance del sistema}{24}{section*.38}
 \contentsline {subsubsection}{Definiciones, Acr\IeC {\'o}nimos y Abreviaturas}{25}{section*.39}
 \contentsline {subsubsection}{Definiciones:}{25}{section*.40}
-\contentsline {subsubsection}{Acr\IeC {\'o}nimos:}{25}{section*.41}
-\contentsline {subsubsection}{Abreviaturas:}{25}{section*.42}
-\contentsline {subsection}{\numberline {2}Descripci\IeC {\'o}n general}{25}{subsection.0.0.2}
-\contentsline {subsection}{\numberline {3}Requisitos espec\IeC {\'\i }ficos}{26}{subsection.0.0.3}
-\contentsline {subsubsection}{Requisitos Funcionales}{26}{section*.43}
-\contentsline {paragraph}{Introducci\IeC {\'o}n:}{26}{section*.44}
-\contentsline {paragraph}{Entrada:}{26}{section*.45}
+\contentsline {subsubsection}{Acr\IeC {\'o}nimos:}{26}{section*.41}
+\contentsline {subsubsection}{Abreviaturas:}{26}{section*.42}
+\contentsline {subsection}{\numberline {2}Descripci\IeC {\'o}n general}{26}{subsection.0.0.2}
+\contentsline {subsection}{\numberline {3}Requisitos espec\IeC {\'\i }ficos}{27}{subsection.0.0.3}
+\contentsline {subsubsection}{Requisitos Funcionales}{27}{section*.43}
+\contentsline {paragraph}{Introducci\IeC {\'o}n:}{27}{section*.44}
+\contentsline {paragraph}{Entrada:}{27}{section*.45}
 \contentsline {paragraph}{Proceso:}{27}{section*.46}
 \contentsline {paragraph}{Salida:}{27}{section*.47}
-\contentsline {paragraph}{Introducci\IeC {\'o}n:}{27}{section*.48}
-\contentsline {paragraph}{Entrada:}{27}{section*.49}
-\contentsline {paragraph}{Proceso:}{27}{section*.50}
-\contentsline {paragraph}{Salida:}{27}{section*.51}
-\contentsline {paragraph}{Introducci\IeC {\'o}n:}{27}{section*.52}
-\contentsline {paragraph}{Entrada:}{27}{section*.53}
-\contentsline {paragraph}{Proceso:}{27}{section*.54}
+\contentsline {paragraph}{Introducci\IeC {\'o}n:}{28}{section*.48}
+\contentsline {paragraph}{Entrada:}{28}{section*.49}
+\contentsline {paragraph}{Proceso:}{28}{section*.50}
+\contentsline {paragraph}{Salida:}{28}{section*.51}
+\contentsline {paragraph}{Introducci\IeC {\'o}n:}{28}{section*.52}
+\contentsline {paragraph}{Entrada:}{28}{section*.53}
+\contentsline {paragraph}{Proceso:}{28}{section*.54}
 \contentsline {paragraph}{Salida:}{28}{section*.55}
 \contentsline {paragraph}{Introducci\IeC {\'o}n:}{28}{section*.56}
 \contentsline {paragraph}{Entrada:}{28}{section*.57}
-\contentsline {paragraph}{Proceso:}{28}{section*.58}
-\contentsline {paragraph}{Salida:}{28}{section*.59}
-\contentsline {paragraph}{Introducci\IeC {\'o}n:}{28}{section*.60}
-\contentsline {paragraph}{Entrada:}{28}{section*.61}
-\contentsline {paragraph}{Proceso:}{28}{section*.62}
-\contentsline {paragraph}{Salida:}{28}{section*.63}
+\contentsline {paragraph}{Proceso:}{29}{section*.58}
+\contentsline {paragraph}{Salida:}{29}{section*.59}
+\contentsline {paragraph}{Introducci\IeC {\'o}n:}{29}{section*.60}
+\contentsline {paragraph}{Entrada:}{29}{section*.61}
+\contentsline {paragraph}{Proceso:}{29}{section*.62}
+\contentsline {paragraph}{Salida:}{29}{section*.63}
 \contentsline {paragraph}{Introducci\IeC {\'o}n:}{29}{section*.64}
 \contentsline {paragraph}{Entrada:}{29}{section*.65}
 \contentsline {paragraph}{Proceso:}{29}{section*.66}
-\contentsline {paragraph}{Salida:}{29}{section*.67}
-\contentsline {paragraph}{Introducci\IeC {\'o}n:}{29}{section*.68}
-\contentsline {paragraph}{Entrada:}{29}{section*.69}
-\contentsline {paragraph}{Proceso:}{29}{section*.70}
-\contentsline {paragraph}{Salida:}{29}{section*.71}
-\contentsline {subsubsection}{Suposiciones y Dependencias:}{29}{section*.72}
-\contentsline {paragraph}{Suposiciones:}{29}{section*.73}
+\contentsline {paragraph}{Salida:}{30}{section*.67}
+\contentsline {paragraph}{Introducci\IeC {\'o}n:}{30}{section*.68}
+\contentsline {paragraph}{Entrada:}{30}{section*.69}
+\contentsline {paragraph}{Proceso:}{30}{section*.70}
+\contentsline {paragraph}{Salida:}{30}{section*.71}
+\contentsline {subsubsection}{Suposiciones y Dependencias:}{30}{section*.72}
+\contentsline {paragraph}{Suposiciones:}{30}{section*.73}
 \contentsline {paragraph}{Dependencias:}{30}{section*.74}
 \contentsline {subsubsection}{Requisitos de Usuario y Tecnol\IeC {\'o}gicos:}{30}{section*.75}
 \contentsline {paragraph}{Requisitos de usuario:}{30}{section*.76}
-\contentsline {paragraph}{Requisitos tecnol\IeC {\'o}gicos:}{30}{section*.77}
-\contentsline {subsubsection}{Requisitos de Interfaces Externas:}{30}{section*.78}
-\contentsline {paragraph}{Interfaces de usuario:}{30}{section*.79}
-\contentsline {paragraph}{Interfaces Hardware:}{30}{section*.80}
-\contentsline {paragraph}{Interfaces Software:}{30}{section*.81}
+\contentsline {paragraph}{Requisitos tecnol\IeC {\'o}gicos:}{31}{section*.77}
+\contentsline {subsubsection}{Requisitos de Interfaces Externas:}{31}{section*.78}
+\contentsline {paragraph}{Interfaces de usuario:}{31}{section*.79}
+\contentsline {paragraph}{Interfaces Hardware:}{31}{section*.80}
+\contentsline {paragraph}{Interfaces Software:}{31}{section*.81}
 \contentsline {subsubsection}{Requisitos de Rendimiento:}{31}{section*.82}
 \contentsline {subsubsection}{Requisitos de Desarrollo:}{31}{section*.83}
-\contentsline {subsubsection}{Restricciones de Dise\IeC {\~n}o:}{31}{section*.84}
-\contentsline {paragraph}{Ajuste a est\IeC {\'a}ndares:}{31}{section*.85}
-\contentsline {paragraph}{Seguridad:}{31}{section*.86}
-\contentsline {paragraph}{Pol\IeC {\'\i }tica de respaldo:}{31}{section*.87}
-\contentsline {paragraph}{Base de Datos:}{31}{section*.88}
+\contentsline {subsubsection}{Restricciones de Dise\IeC {\~n}o:}{32}{section*.84}
+\contentsline {paragraph}{Ajuste a est\IeC {\'a}ndares:}{32}{section*.85}
+\contentsline {paragraph}{Seguridad:}{32}{section*.86}
+\contentsline {paragraph}{Pol\IeC {\'\i }tica de respaldo:}{32}{section*.87}
+\contentsline {paragraph}{Base de Datos:}{32}{section*.88}
 \contentsline {paragraph}{Pol\IeC {\'\i }tica de Borrado:}{32}{section*.89}
 \contentsline {chapter}{Disciplina de An\IeC {\'a}lisis}{33}{chapter*.90}
 \contentsline {section}{Vista de Casos de Uso}{33}{section*.91}

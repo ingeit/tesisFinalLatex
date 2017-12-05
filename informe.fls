@@ -278,8 +278,6 @@ OUTPUT introduccion.aux
 INPUT introduccion.tex
 INPUT introduccion.tex
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmti12.tfm
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/omscmr.fd
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/omscmr.fd
 INPUT imagenes/rup.jpg
 INPUT ./imagenes/rup.jpg
 INPUT ./imagenes/rup.jpg

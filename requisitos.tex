@@ -55,7 +55,7 @@ Se identificaron los siguientes usuarios:
  
 \item \emph{Grupo de Administradores:} Formado por los solicitantes del software en cuestión.
  
-\item \emph{Grupo de Usuarios:} Formado por usuarios que realizan muestras, las cuales generan registros en el sistema.
+\item \emph{Grupo de Usuarios:} Formado principalmente por alumnos de escuelas/colegios que realizan muestras, las cuales generan registros en el sistema.
 
  \end{itemize}
  
@@ -371,18 +371,27 @@ Esta especificación se ha realizado de acuerdo al estándar “IEEE Recomended 
 
 Los principales objetivos del sistema a desarrollar son permitir que los usuarios puedan hacer uso del mismo mediante un SmartPhone con cualquier Sistema Operativo (iOS, Android, Windows Phone), pudiendo asi, realizar los siguientes items:
 \begin{itemize}
-    \item En las salidas de campo, poder generar registros con información sensible (imágenes capturadas con la cámara de fotos, coordenadas obtenidas mediante el GPS integrado, entre otras)  para la futura gestión por parte de los administradores.
+    \item En las salidas de campo, los alumnos podrán generar registros con la siguiente información:
+    \begin{itemize}
+        \item Dos imágenes capturadas con la cámara de fotos del SmartPhone:
+        \begin{itemize}
+            \item La primera imagen sera una foto de los insectos encontrados en un rio o afluente. El objetivo es encontrar 4 insectos diferentes para analizar la biodiversidad.
+            \item La segunda imagen sera una foto del paisaje que servirá como un futuro punto de referencia para próximas salidas de campo. 
+        \end{itemize}
+        \item Capturar coordenadas de manera automática con una precisión propia al GPS integrado del SmartPhone, las cuales se guardaran como \emph{latitud} y \emph{longitud}
+        \item El usuario deberá seleccionar, según su criterio personal, cuales de los 4 insectos fueron encontrados por él, mediante un formulario interactivo, el cual consta de imágenes reales de los mismos para una buena comparación y un campo de observaciones para realizar comentarios subjetivos sobre la muestra en cuestión.
+        \item Al completar toda la información mencionada anteriormente, se mostrara una ruleta animada virtual, la cual mostrará un valor (indice), indicando el posible grado contaminación del agua en donde se realizo la muestra.
+    \end{itemize}
     \item Lo anterior se realizará sin conexión a internet (2G, 3G, Wifi, etc), generando un registro de manera local, que luego, de manera automática, se subirá a los servidores al momento de adquirir alguna conexión a internet.
-    \item Los administradores podrán gestionar los registros previamente creados y guardados en el servidor mediante el sistema desde un navegador web (Google Chrome, Internet Explorer, Mozilla, etc).
-    \item Los administradores podrán ver el renderizado de un mapa (Google Maps) con los trazos en donde se muestre la información que ellos requieren.
+    \item Los administradores podrán gestionar, mediante un navegador web (Google Chrome, Internet Explorer, Mozilla, etc) o desde la aplicacion en el SmartPhone, los registros previamente creados y guardados en el servidor. 
+    \item Analizando todos los registros, se creará un renderizado de un mapa  (Google Maps) en donde los administradores y usuarios podrán visualizar, con trazos de diferentes colores, el grado de contaminación del agua en el curso de los riós o afluentes analizados en las salidas de campo.
 \end{itemize}
  
 
-El sistema debe ser seguro, escalable, de fácil mantenimiento y muy simple de usar utilizando sólo interfaces táctiles para los usuarios finales.
+El sistema debe ser seguro, escalable, de fácil mantenimiento y muy simple de usar utilizando sólo interfaces táctiles para los usuarios finales. El futuro sistema llevará el nombre \emph{Aguita}.
 
 El desarrollo lo llevarán a cabo los alumnos Ricardo Hugo Bruno y Kevin Shionen Gomez Veliz, con la opción a ser responsables del posterior mantenimiento del mismo.
 
- 
     \subsubsection{Definiciones, Acrónimos y Abreviaturas}
 %Esta subsección debería proveer las definiciones de todos los términos, acrónimos, y abreviaturas requeridas para interpretar apropiadamente la ERS. Esta información podría ser provista por referencia a uno o más apéndices en la ERS o por referencia a otros documentos
     \subsubsection{Definiciones:}
@@ -425,19 +434,25 @@ Las funciones que debe realizar el sistema se pueden agrupar de la siguiente man
 
   \begin{itemize}
   
-  \item \emph{Administración de usuarios:} debe permitir gestionar los usuarios teniendo en cuenta de si tratan de compradores o vendedores de productos en la aplicación.
-
-    Debe permitir la búsqueda y listado de productos de cualquier categoría.
-
-    Los usuarios podrán también consultar un listado de operaciones compras o ventas realizadas.
+  \item \emph{Administración de usuarios:} Debe permitir gestionar los usuarios teniendo en cuenta de si tratan de un usuario propiamente dicho o administradores de la aplicación.
     
-    Para que un usuario comprador pueda realizar una operación de compra o un usuario vendedor una venta deberán estar previamentes registrados en la aplicación.
+    Para que un usuario pueda generar un registro, deberá estar previamente registrado e iniciar sesión por una única vez en su SmartPhone.
+    
+    Los usuarios deben poder configurar/modificar las opciones de su perfil como ser: nombre, apellido, lugar de residencia, institución a la que pertenece y grado correspondiente.
 
-    Los usuarios deben poder también configurar opciones del perfil como el nombre, email, dirección, código postal, ciudad, provincia y país.
+    Los usuarios no pueden consultar la información personal de otros usuarios
   
-  \item \emph{Administración de productos:} debe permitir gestionar los productos que el usuario vendedor pone a la venta y sus configuraciones como fotografía, nombre de producto, categoría, descripción, precio de producto, precio de envio.
+  \item \emph{Administración de registros:} Los administradores pueden interactuar con los registros cambiando su estado (aceptado - rechazado) según la información brindada por los mismos (correcta o no).
   
-  \item \emph{Consultas de compras y ventas realizadas:} debe permitir obtener listados de las operaciones de compra y ventas realizadas por los usuarios, y se debe permitir la consulta de las mismas.
+  \item \emph{Consultas de registros realizados:} Los usuarios podrán consultar un listado de sus registros creados con la información completa.
+  
+  Los usuarios no podrán consultar los registros de otros usuarios.
+
+  Los administradores podrán ver los registros creados por los todos los usuarios de la aplicación con toda su información correspondiente.
+
+  \item \emph{Consulta de mapa:} Los usuarios y administradores pueden ver el mapa final con toda la información recopilada de todos los registros creados por los mismos.
+
+  Todos los registros que estén en un estado \emph{rechazado} no se eliminaran de la base de datos, no obstante, los mismos no se tomaran en cuenta para el renderizado del mapa final. 
   
   \end{itemize}
 
@@ -446,9 +461,9 @@ Las funciones que debe realizar el sistema se pueden agrupar de la siguiente man
         
         \begin{enumerate}[A.]
 
-        \item \textbf{Gestion de cuentas de usuarios}
+        \item \textbf{Gestión de cuentas de usuarios}
         
-        \paragraph{Introducción:} El sistema permite introducir información sobre usuarios compradores (Nombre y apellido, email, dirección, código postal, ciudad, provincia, país, etc) y editar los ya existentes.
+        \paragraph{Introducción:} El sistema permite introducir información sobre usuarios (Nombre y apellido, email, dirección, código postal, ciudad, provincia, país, etc) y editar los ya existentes.
         
         \paragraph{Entrada:} @nombreUsuario + Nombre + Apellido + Email + Dirección + CódigoPostal + Ciudad + Provincia + País
         
