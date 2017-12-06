@@ -380,7 +380,7 @@ Los principales objetivos del sistema a desarrollar son permitir que los usuario
         \end{itemize}
         \item Capturar coordenadas de manera automática con una precisión propia al GPS integrado del SmartPhone, las cuales se guardaran como \emph{latitud} y \emph{longitud}
         \item El usuario deberá seleccionar, según su criterio personal, cuales de los 4 insectos fueron encontrados por él, mediante un formulario interactivo, el cual consta de imágenes reales de los mismos para una buena comparación y un campo de observaciones para realizar comentarios subjetivos sobre la muestra en cuestión.
-        \item Al completar toda la información mencionada anteriormente, se mostrara una ruleta animada virtual, la cual mostrará un valor (indice), indicando el posible grado contaminación del agua en donde se realizo la muestra.
+        \item Al completar toda la información mencionada anteriormente, se mostrara una ruleta animada virtual, la cual mostrará un valor (indice de contaminación), indicando el posible grado contaminación del agua en donde se realizo la muestra.
     \end{itemize}
     \item Lo anterior se realizará sin conexión a internet (2G, 3G, Wifi, etc), generando un registro de manera local, que luego, de manera automática, se subirá a los servidores al momento de adquirir alguna conexión a internet.
     \item Los administradores podrán gestionar, mediante un navegador web (Google Chrome, Internet Explorer, Mozilla, etc) o desde la aplicacion en el SmartPhone, los registros previamente creados y guardados en el servidor. 
@@ -398,9 +398,34 @@ El desarrollo lo llevarán a cabo los alumnos Ricardo Hugo Bruno y Kevin Shionen
   
         \begin{itemize}
  
-        \item \emph{Aplicación web:} una aplicación web es un sitio web en donde el contenido de todas o algunas de sus páginas se determina en el momento mismo de la solicitud, gracias a la ejecución de un intérprete en el servidor que traduce el código fuente en información visible en un navegador Web, de manera dinámica y con acceso en línea a los datos.
+        \item \emph{Aplicación web:} Una aplicación web es un sitio web en donde el contenido de todas o algunas de sus páginas se determina en el momento mismo de la solicitud, gracias a la ejecución de un intérprete en el servidor que traduce el código fuente en información visible en un navegador Web, de manera dinámica y con acceso en línea a los datos.
  
-        \item \emph{Régimen 24x7} disponibilidad los 7 días a la semana, 24 horas por día, 100 por ciento de disponibilidad.
+        \item \emph{Salida de campo:} La principal aportación de la salida de campo es que permite al alumnado adquirir un aprendizaje significativo en el que el principal elemento del proceso de enseñanza- aprendizaje es la construcción de significados. La persona aprende un concepto, un fenómeno, un procedimiento, un comportamiento, etc.
+
+        \item \emph{Insectos:} Nuestro universo de estudio obliga solo a tener en cuenta 4 insectos, los cuales sirven para indicar el posible grado de contaminacion del agua. Estos insectos son los siguientes:
+            \begin{itemize}
+                \item Elimidos.
+                \item Patudos.
+                \item Plecopteros.
+                \item Tricopteros.
+            \end{itemize}
+
+        \item \emph{Indice de Contaminación}: Para el sistema, el indice de contaminación es el valor calculado, mediante la cantidad de insectos encontrados en el universo de estudio, de la siguiente manera:
+        \begin{table}[H]
+            \centering
+            \begin{tabular}{|p{3.8cm}|l|}
+                \hline
+                \centering
+                Cantidad de insectos encontrados  & Indice \\ \hline
+                            0                     & 0 \\ \hline
+                            1                     & 1 \\ \hline
+                            2                     & 2 \\ \hline
+                            3                     & 3 \\ \hline
+                            4                     & 4 \\ 
+                            \hline
+            \end{tabular}
+        \end{table}
+
         \end{itemize}
 
         \subsubsection{Acrónimos:}
@@ -461,62 +486,47 @@ Las funciones que debe realizar el sistema se pueden agrupar de la siguiente man
         
         \begin{enumerate}[A.]
 
-        \item \textbf{Gestión de cuentas de usuarios}
+        \item \textbf{Gestión de Usuarios}
         
-        \paragraph{Introducción:} El sistema permite introducir información sobre usuarios (Nombre y apellido, email, dirección, código postal, ciudad, provincia, país, etc) y editar los ya existentes.
+        \paragraph{Introducción:} El sistema permite introducir información sobre usuarios (Nombre y apellido, email, residencia, institución), modificar los ya existentes o borrarlos.
         
-        \paragraph{Entrada:} @nombreUsuario + Nombre + Apellido + Email + Dirección + CódigoPostal + Ciudad + Provincia + País
+        \paragraph{Entrada:} @NombreUsuario + Nombre + Apellido + Institución + Grado + Residencia + Email
         
-        \paragraph{Proceso:} Comprobar si se trata de un usuario nuevo, dándolo de alta o actualizarlo si ya existe.                  
-
-Se muestra en pantalla la ficha de datos de la persona.
-
-No pueden existir dos usuarios con el mismo número de Identificación. 
+        \paragraph{Proceso:} Comprobar si se trata de un usuario nuevo, dándolo de alta o actualizarlo si ya existe.
+        Se muestra en pantalla la ficha de datos de la persona. No pueden existir dos usuarios con el mismo nombre de usuario y y/o Email. 
         
         \paragraph{Salida:}  Datos de usuarios actualizados y mensajes de lo que está ocurriendo.
         
+        \item \textbf{Gestión de Registros}
+        
+        \paragraph{Introducción:}El sistema debe permitir la  creación de registros (Indice, fecha, coordenadas, fotos capturadas, etc). 
+        
+        \paragraph{Entrada:} @idRegistro + Indice + FechaCreacion + Latitud + Longitud + FotoPaisaje + FotoInsectos + FotoMapa + Observaciones + Usuario + Ubicación 
+        
+        \paragraph{Proceso:} Cuando se crea un registro, se codifican todas las fotos, se recopila toda la información y se lo guarda de manera local hasta obtener una conexión a internet para la sincronización con el servidor online.
 
-        \item \textbf{Gestion de Tiendas}
+        No pueden existir 2 o mas registros con el mismo idRegistro
         
-        \paragraph{Introducción:}El sistema permite introducir información sobre las Tiendas (Nombre, Descripción, Moneda, Logo, etc), editar los ya existentes y borrarlos. 
+        \paragraph{Salida:} Datos de lso registros actualizados y mensajes de lo que está ocurriendo.
         
-        \paragraph{Entrada:} @nombreUsuario + NombreTienda + Descripción + Moneda + Logo 
+          \item \textbf{Búsqueda de usuarios}
         
-        \paragraph{Proceso:} Comprobar si se trata de una tienda nueva dándola de alta en el sistema o actualizándola si ya existe.
-
-No pueden existir dos tiendas vinculadas a una misma cuenta de usuario.
+        \paragraph{Introducción:}El sistema debe permitir la búsqueda de usuarios por su nombre de usuario o nombre y apellido o institución. 
         
-        \paragraph{Salida:} Datos de la tienda actualizados y mensajes de lo que está ocurriendo.
+        \paragraph{Entrada:} Tipo de Búsqueda (nombre de usuario o nombre y apellido o institución) + CadenaBúsqueda
         
-         \item \textbf{Gestión de productos}
+        \paragraph{Proceso:} Buscar las correspondencias de usuarios usando el tipo y la cadena de búsqueda. Mostrar los resultados, aunque no se haya encontrado nada.
         
-        \paragraph{Introducción:}El sistema permite introducir información sobre Productos (Nombre, Descripción, foto, precio de producto, precio de envio, etc), editar los ya existentes y borrarlos.
+        \paragraph{Salida:} Usuario {Nombre de usuario + Nombre + Apellido + Institución + Grado + Residencia + Email + Registros realizados}
         
-        \paragraph{Entrada:} @CódigoIdentificación + Nombre + Descripción + PrecioProducto + PrecioEnvio + Foto + Categoría 
+         \item \textbf{Busqueda de registros}
         
-        \paragraph{Proceso:} Se elimina el producto.
+        \paragraph{Introducción:} El sistema debe permitir la búsqueda de registros por su fecha de creación, indice o institución.
+        \paragraph{Entrada:} Tipo de Busqueda (fecha de creación o indice o institución) + CadenaBusqueda
         
-        \paragraph{Salida:} Datos del producto actualizados y mensajes de lo que está ocurriendo.
+        \paragraph{Proceso:} Buscar las correspondencias de registros usando el tipo y la cadena de búsqueda. Mostrar los resultados, aunque no se haya encontrado nada.
         
-          \item \textbf{Búsqueda de productos}
-        
-        \paragraph{Introducción:}El sistema debe permitir la búsqueda de productos por el nombre del producto. 
-        
-        \paragraph{Entrada:} CadenaBúsqueda
-        
-        \paragraph{Proceso:} Buscar las correspondencias de productos usando la cadena de búsqueda. Mostrar los resultados, aunque no se haya encontrado nada.
-        
-        \paragraph{Salida:} {NombreProducto + Imagen + PrecioProducto + PrecioEnvio}
-        
-         \item \textbf{Comprar Productos a Vendedor}
-        
-        \paragraph{Introducción:} El sistema debe permitir elegir un producto del vendedor (puede ser previo paso por la pantalla de búsqueda) y asignar la cantidad del producto a comprar. Una vez finalizado, se genera la compra para ser informada al vendedor posteriormente. Se crea la obligación por parte del comprador, que debe haber iniciado la sesión previamente. 
-        
-        \paragraph{Entrada:} Fecha + IdComprador + IdProducto + Cantidad
-        
-        \paragraph{Proceso:} generar la compra/venta del producto incluyendo la cantidad especificada. Generar un aviso en el vendedor. En todo momento se deben mostrar mensajes de lo ocurrido, especialmente antes de generar, avisando que se obliga a la compra.
-        
-        \paragraph{Salida:} Datos de la nueva compra. Mensajes de lo que está ocurriendo. Notificación enviada al vendedor.
+        \paragraph{Salida:} Registro {idRegistro + Indice + FechaCreacion + Latitud + Longitud + FotoPaisaje + FotoInsectos + FotoMapa + Observaciones + Usuario + Ubicación }
         
         \item \textbf{Listado de compras}
         
