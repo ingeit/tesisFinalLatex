@@ -286,6 +286,8 @@ INPUT ./imagenes/rup.jpg
 OUTPUT requisitos.aux
 INPUT requisitos.tex
 INPUT requisitos.tex
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/omscmr.fd
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/omscmr.fd
 OUTPUT analisis.aux
 INPUT analisis.tex
 INPUT analisis.tex

@@ -493,13 +493,13 @@ Las funciones que debe realizar el sistema se pueden agrupar de la siguiente man
         \paragraph{Entrada:} @NombreUsuario + Nombre + Apellido + Institución + Grado + Residencia + Email
         
         \paragraph{Proceso:} Comprobar si se trata de un usuario nuevo, dándolo de alta o actualizarlo si ya existe.
-        Se muestra en pantalla la ficha de datos de la persona. No pueden existir dos usuarios con el mismo nombre de usuario y y/o Email. 
+        Se muestra en pantalla la ficha de datos del usuario. No pueden existir dos usuarios con el mismo nombre de usuario y/o Email. 
         
-        \paragraph{Salida:}  Datos de usuarios actualizados y mensajes de lo que está ocurriendo.
+        \paragraph{Salida:} Datos de usuarios actualizados y mensajes de lo que está ocurriendo.
         
         \item \textbf{Gestión de Registros}
         
-        \paragraph{Introducción:}El sistema debe permitir la  creación de registros (Indice, fecha, coordenadas, fotos capturadas, etc). 
+        \paragraph{Introducción:} El sistema debe permitir la  creación de registros (Indice, fecha, coordenadas, fotos capturadas, etc). 
         
         \paragraph{Entrada:} @idRegistro + Indice + FechaCreacion + Latitud + Longitud + FotoPaisaje + FotoInsectos + FotoMapa + Observaciones + Usuario + Ubicación 
         
@@ -507,9 +507,9 @@ Las funciones que debe realizar el sistema se pueden agrupar de la siguiente man
 
         No pueden existir 2 o mas registros con el mismo idRegistro
         
-        \paragraph{Salida:} Datos de lso registros actualizados y mensajes de lo que está ocurriendo.
+        \paragraph{Salida:} Datos de los registros actualizados y mensajes de lo que está ocurriendo.
         
-          \item \textbf{Búsqueda de usuarios}
+        \item \textbf{Búsqueda de usuarios}
         
         \paragraph{Introducción:}El sistema debe permitir la búsqueda de usuarios por su nombre de usuario o nombre y apellido o institución. 
         
@@ -517,7 +517,7 @@ Las funciones que debe realizar el sistema se pueden agrupar de la siguiente man
         
         \paragraph{Proceso:} Buscar las correspondencias de usuarios usando el tipo y la cadena de búsqueda. Mostrar los resultados, aunque no se haya encontrado nada.
         
-        \paragraph{Salida:} Usuario {Nombre de usuario + Nombre + Apellido + Institución + Grado + Residencia + Email + Registros realizados}
+        \paragraph{Salida:} Usuario \{Nombre de usuario + Nombre + Apellido + Institución + Grado + Residencia + Email + Cantidad de Registros realizados\}
         
          \item \textbf{Busqueda de registros}
         
@@ -526,54 +526,61 @@ Las funciones que debe realizar el sistema se pueden agrupar de la siguiente man
         
         \paragraph{Proceso:} Buscar las correspondencias de registros usando el tipo y la cadena de búsqueda. Mostrar los resultados, aunque no se haya encontrado nada.
         
-        \paragraph{Salida:} Registro {idRegistro + Indice + FechaCreacion + Latitud + Longitud + FotoPaisaje + FotoInsectos + FotoMapa + Observaciones + Usuario + Ubicación }
+        \paragraph{Salida:} Registro \{idRegistro + Indice + FechaCreacion + Latitud + Longitud + FotoPaisaje + FotoInsectos + FotoMapa + Observaciones + Usuario + Ubicación \}
         
-        \item \textbf{Listado de compras}
+        \item \textbf{Listado de Usuarios}
         
-        \paragraph{Introducción:} Permite listar las compras realizadas de un determinado usuario comprador.
-        
-        
-        \paragraph{Entrada:} 
-        
-        \paragraph{Proceso:} Listar las compras realizadas
-        
-        \paragraph{Salida:} {NombreProducto + PrecioProducto + PrecioEnvio + PrecioTotal + Cantidad + FechaCompra + CódigoCompra + UsuarioVendedor}
-        
-         \item \textbf{Listado de ventas}
-        
-        \paragraph{Introducción:} Permite listar las ventas realizadas de un determinado usuario vendedor.
+        \paragraph{Introducción:} Permite listar todos los Usuarios registrados.
         
         \paragraph{Entrada:}
         
-        \paragraph{Proceso:} Listar las ventas realizadas
+        \paragraph{Proceso:} Listar los usuarios registrados que estén dados de alta en el sistema
         
-        \paragraph{Salida:} {NombreProducto + PrecioProducto + PrecioEnvio + PrecioTotal + Cantidad + FechaVenta + CódigoCompra + UsuarioComprador}
- 
-         \end{enumerate}
+        \paragraph{Salida:} Usuarios \{Nombre de usuario + Nombre + Apellido + Institución + Grado + Residencia + Email + Registros realizados\}
+
+        \item \textbf{Listado de Registros}
+        
+        \paragraph{Introducción:} Permite listar todos los registros credos por todos los usuarios.
+        
+        \paragraph{Entrada:} 
+        
+        \paragraph{Proceso:} Listar los registros realizados
+        
+        \paragraph{Salida:} Registros \{idRegistro + Indice + FechaCreacion + Latitud + Longitud + FotoPaisaje + FotoInsectos + FotoMapa + Observaciones + Usuario + Ubicación\}
+
+        \item \textbf{Listar Mapa}
+        
+        \paragraph{Introducción:} Permite ver el mapa interactivo con la información de los registros creados por los usuarios.
+        
+        \paragraph{Entrada:} 
+        
+        \paragraph{Proceso:} Listar Mapa con puntos obtenidos mediante la latitud y longitud de los registros almacenados, indicando el indice de contaminación en dichos puntos
+        
+        \paragraph{Salida:} Mapa \{Latitud + Longitud + Indice\}
+
+        \end{enumerate}
          
         \subsubsection{Suposiciones y Dependencias:}
         
             \alternativo{Suposiciones:} 
             
-            Se asume que los requisitos en este documento son estables una vez que sean aprobados por los responsables de la aplicación web. Cualquier petición de cambios en la especificación debe ser aprobada por todas las partes intervinientes y será gestionada por el equipo de desarrollo.
+            Se asume que los requisitos en este documento son estables una vez que sean aprobados por los responsables de la aplicación. Cualquier petición de cambios en la especificación debe ser aprobada por todas las partes intervinientes y será gestionada por el equipo de desarrollo.
             
             \alternativo{Dependencias:} 
             
-            El sistema tiene dependencia con el actual sitio web con el que compartirá los datos.
+            No existen dependencias.
             
           \subsubsection{Requisitos de Usuario y Tecnológicos:}
         
             \alternativo{Requisitos de usuario:} 
             
-            Los usuarios serán los que descarguen la aplicación de la tienda de aplicaciones de Android.
+            Los usuarios serán los que descarguen la aplicación desde Google Play, App Store o Tienda de aplicaciones de Windows mediante su SmartPhone.
             
             \alternativo{Requisitos tecnológicos:} 
             
-            La aplicación actuará como cliente de la aplicación web que ofrecerá Web services para el acceso a los datos.
-
-            El cliente requiere un dispositivo móvil, con pantalla táctil superior a las 3 pulgadas y Sistema Operativo Android, versión mayor o igual a 2.1.
+            En vista de que es necesario instalar la aplicacion en SmartPhones y ademas en una PC convencional (PC de escritorio, notebook o similares), se opto por un entorno económico y fácil de instalar. La aplicacion se ejecutara sobre un esquema cliente/servidor, con los procesos e interfaz de usuario ejecutándose en los SmartPhones y éstos solicitando requerimientos al servidor que cumple su proceso.
             
-        \subsubsection{Requisitos de Interfaces Externas:}
+        \subsubsection{Requisitos de Interfaces Externas}
         
             \alternativo{Interfaces de usuario:} 
             
@@ -581,15 +588,56 @@ Las funciones que debe realizar el sistema se pueden agrupar de la siguiente man
             
             \alternativo{Interfaces Hardware:} 
             
-            Dispositivo móvil con pantalla táctil de tamaño superior a las 3 pulgadas.
+            \begin{itemize}
+                \item Requisitos para los SmartPhones:
+                \begin{itemize}
+                    \item Los SmartPhones de los usuarios que ejecutaran la aplicacion deberán tener las siguientes características independientemente de su S.O:
+                    \begin{itemize}
+                        \item Cámara fotográfica de 1 Mega Pixeles.
+                        \item GPS integrado.
+                        \item Conexión a internet
+                        \item Pantalla táctil de 3.5" o superior.
+                        \item Espacio disponible de 5 MB para la instalación de la aplicacion + Cantidad de MB variable ocupado por cada registro creado. 
+                    \end{itemize}
+                \end{itemize}
+                \item Requisitos mínimos para el servidor:
+                \begin{itemize}
+                    \item Procesador AMD Sempron 3000 o equivalente.  Procesador Intel Celeron o equivalente.
+                    \item 1 GB de memoria RAM.
+                    \item Conexión a internet.
+                \end{itemize}
+                \item Requisitos mínimos para las PC o notebook de los administradores
+                \begin{itemize}
+                    \item Procesador AMD Sempron 3000 o equivalente. Procesador Intel Celeron o equivalente.
+                    \item 1 GB de memoria RAM.
+                    \item Periféricos de entrada/salida.
+                    \item Conexión a internet
+                \end{itemize}
+            \end{itemize}
             
             \alternativo{Interfaces Software:} 
             
-            Sistema Operativo Android, versión mayor o igual a 2.1.
+            S.O soportados por la aplicación:
+            \begin{itemize}
+                \item SmartPhones 
+                \begin{itemize}
+                    \item Android 5.0 o posterior.
+                    \item iOS 9.0 o posterior.
+                    \item Windows Mobile 5.0 o posterior. 
+                \end{itemize}
+                \item Servidor 
+                \begin{itemize}
+                    \item  El sistema operativo sera Ubuntu Server 14.04 LTS. 
+                \end{itemize}
+                \item PC o notebook de los administradores 
+                \begin{itemize}
+                    \item Sistema Operativo Ubuntu 14.04 LTS o Windows 7 en adelante. 
+                \end{itemize} 
+            \end{itemize}
             
         \subsubsection{Requisitos de Rendimiento:}
         
-        El Tiempo de respuesta de la aplicación de cada función solicitada por el usuario no debe ser superior a los  10 segundos en una velocidad efectiva de conexión con el servidor a través de 3G.
+        El Tiempo de respuesta de la aplicación de cada función solicitada por el usuario no debe ser superior a los 3 segundos en una velocidad efectiva de conexión con el servidor a través de 3G.
         
         \subsubsection{Requisitos de Desarrollo:}
         
@@ -597,21 +645,19 @@ Las funciones que debe realizar el sistema se pueden agrupar de la siguiente man
         
        \subsubsection{Restricciones de Diseño:}
        
-        \alternativo{Ajuste a estándares:} No se ha definido
+        \alternativo{Ajuste a estándares:} Interfaz de usuario basada Material Desing (Google)
         
-        \alternativo{Seguridad:}
-        
-        La seguridad de los datos será establecida por la utilización de cifrado mediante el uso de HTTPS en la transmisión de datos.
-        
-Se implementará también ACL para cada objeto y de esa manera evitar accesos o modificaciones que no correspondan.
+        \alternativo{Seguridad:} La seguridad de los datos y de sesion será establecida por la utilización de JSON Web Tokens incorporado al uso de API RESTful ademas de la seguridad brindada por el Sistema Gestor de Base de Datos Relacional y No Relacional.
 
         \alternativo{Política de respaldo:} 
         
-        No se ha definido 
+        El administrador llevará a cabo un respaldo de datos en discos externos o en la nube por el tiempo que el considere necesario. El motor de Base de datos estará configurado para realizar backups una vez al mes. Conservar los
+        respectivos archivos de respaldo de los últimos 6 backups.
         
         \alternativo{Base de Datos:}
         
-        La base de datos que se utilizará estará en el servidor web que funciona actualmente con la aplicación web y accederá a la misma utilizando la tecnología de web services REST.
+        El Sistema Gestor de Base de Datos debe ser relacional en el servidor y se accederán a los mismos usando la tecnología innoDB.
+        En los SmartPhone el Sistema Gestor de Base de Datos es No Relacional dado el requisito de creacion de registros de manera local y posterior sincronizacion automática al detectar una conexion de internet. 
         
         \alternativo{Política de Borrado:}
         
