@@ -51,6 +51,10 @@ La vista de casos de uso captura el comportamiento de un sistema, subsistema, cl
 
 \section{Diagramas de Casos de Uso}
 
+Primeramente se muestra un diagrama de caso de uso general donde se agruparon los casos de uso por las acciones en común, luego se va a explorar cada caso de uso de manera mas descriptiva.
+
+Por ejemplo, en ``Gestión de Registros'' van a estar todos los casos de uso referidos a los mismos (alta, baja, listar, buscar, etc)
+
 \subsection{Diagrama de Casos de Uso general}
 
 \begin{figure}[H]
@@ -62,78 +66,96 @@ La vista de casos de uso captura el comportamiento de un sistema, subsistema, cl
 	\label{fig:casos-de-uso}
 \end{figure}
 
-\subsection{Diagrama de Casos de Uso de gestión de usuarios}
+% \subsection{Diagrama de Casos de Uso de gestión de usuarios}
 
-\begin{figure}[H]
-  \centering
-    \includegraphics[width=0.7\textwidth]{imagenes/analisis/casos-uso-usuario.png}
-        %%Me parece que queda mejor sin el hfill
-        %\hfill
-    %\caption{epígrafe}
-	\label{fig:casos-de-uso-usuario}
-\end{figure}
+% \begin{figure}[H]
+%   \centering
+%     \includegraphics[width=0.7\textwidth]{imagenes/analisis/casos-uso-usuario.png}
+%         %%Me parece que queda mejor sin el hfill
+%         %\hfill
+%     %\caption{epígrafe}
+% 	\label{fig:casos-de-uso-usuario}
+% \end{figure}
 
-\subsection{Diagrama de Casos de Uso de gestión de tienda}
+% \subsection{Diagrama de Casos de Uso de gestión de tienda}
 
-\begin{figure}[H]
-  \centering
-    \includegraphics[width=0.7\textwidth]{imagenes/analisis/casos-uso-tienda.png}
-        %%Me parece que queda mejor sin el hfill
-        %\hfill
-    %\caption{epígrafe}
-    \label{fig:casos-de-uso-tienda}
-\end{figure}
-
-
-\section{Diagramas de Actividad}
-
-\subsection{Autenticar}
-\begin{figure}[H]
-  \centering
-    \includegraphics{imagenes/analisis/diagrama-actividad-autenticar.png}
-        %%Me parece que queda mejor sin el hfill
-        %\hfill
-    \label{fig:diagrama-actividad-autenticar}
-\end{figure}
-
-\subsection{Registrar}
-
-\begin{figure}[H]
-  \centering
-    \includegraphics[width=1\textwidth]{imagenes/analisis/diagrama-actividad-registrar.png}
-        %%Me parece que queda mejor sin el hfill
-        %\hfill
-	\label{fig:diagrama-actividad-registrar}
-\end{figure}
-
-\subsection{Crear Tienda}
-
-\begin{figure}[H]
-  \centering
-    \includegraphics{imagenes/analisis/diagrama-actividad-crear-tienda.png}
-        %%Me parece que queda mejor sin el hfill
-        %\hfill
-    \label{fig:diagrama-actividad-crear-tienda}
-\end{figure}
-
-\subsection{Comprar Producto}
-
-\begin{figure}[H]
-  \centering
-    \includegraphics[width=1\textwidth]{imagenes/analisis/actividad-comprar-producto.png}
-        %%Me parece que queda mejor sin el hfill
-        %\hfill
-    \label{fig:diagrama-actividad-comprar-producto}
-\end{figure}
+% \begin{figure}[H]
+%   \centering
+%     \includegraphics[width=0.7\textwidth]{imagenes/analisis/casos-uso-tienda.png}
+%         %%Me parece que queda mejor sin el hfill
+%         %\hfill
+%     %\caption{epígrafe}
+%     \label{fig:casos-de-uso-tienda}
+% \end{figure}
 
 
-\section{Diagrama de Clases del Dominio}
+% \section{Diagramas de Actividad}
 
-\begin{figure}[H]
-  \centering
-    \includegraphics[width=0.9\textwidth]{imagenes/analisis/clases-dominio.png}
-        %%Me parece que queda mejor sin el hfill
-        %\hfill
-    %\caption{epígrafe}
-    \label{fig:clases-dominio}
-\end{figure}
+% \subsection{Autenticar}
+% \begin{figure}[H]
+%   \centering
+%     \includegraphics{imagenes/analisis/diagrama-actividad-autenticar.png}
+%         %%Me parece que queda mejor sin el hfill
+%         %\hfill
+%     \label{fig:diagrama-actividad-autenticar}
+% \end{figure}
+
+% \subsection{Registrar}
+
+% \begin{figure}[H]
+%   \centering
+%     \includegraphics[width=1\textwidth]{imagenes/analisis/diagrama-actividad-registrar.png}
+%         %%Me parece que queda mejor sin el hfill
+%         %\hfill
+% 	\label{fig:diagrama-actividad-registrar}
+% \end{figure}
+
+% \subsection{Crear Tienda}
+
+% \begin{figure}[H]
+%   \centering
+%     \includegraphics{imagenes/analisis/diagrama-actividad-crear-tienda.png}
+%         %%Me parece que queda mejor sin el hfill
+%         %\hfill
+%     \label{fig:diagrama-actividad-crear-tienda}
+% \end{figure}
+
+% \subsection{Comprar Producto}
+
+% \begin{figure}[H]
+%   \centering
+%     \includegraphics[width=1\textwidth]{imagenes/analisis/actividad-comprar-producto.png}
+%         %%Me parece que queda mejor sin el hfill
+%         %\hfill
+%     \label{fig:diagrama-actividad-comprar-producto}
+% \end{figure}
+
+\newpage
+\subsection{Casos de Uso Principales}
+
+\begin{enumerate}
+    \itemsep-1em
+    \item Un alumno no registrado desea registrarse en el sistema.
+    \item Un alumno registrado desea iniciar sesión.
+    \item Un alumno registrado desea crear un registro.
+    \item Un alumno registrado desea ver un registro en particular.
+    \item Un alumno registrado desea ver el mapa general.
+    \item Un alumno registrado desea ver su perfil.
+    \item Un alumno registrado desea modificar su perfil.
+    \item Un alumno registrado desea cerrar sesión.
+    \item Un alumno registrado desea eliminar su cuenta.
+    \item Un administrador desea iniciar sesión.
+    \item Un administrador desea borrar o dar de baja un alumno.
+    \item Un administrador desea listar los alumnos.
+    \item Un administrador desea listar los registros.
+    \item Un administrador desea aprobar o rechazar registros.
+    \item Un administrador desea ver un registro en particular.
+    \item Un administrador desea buscar registros por fecha de creación.
+    \item Un administrador desea buscar registros por institución.
+    \item Un administrador desea buscar registros por indice.
+    \item Un administrador desea ver el mapa general.
+    \item Un administrador desea exportar a Excel la información.
+    \item Un administrador desea cerrar sesión.
+
+
+\end{enumerate}
