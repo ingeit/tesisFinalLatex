@@ -49,31 +49,106 @@ Por el Principio de Pareto\footnote{Cuando se habla de los costes de desarrollo 
 \begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
     \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
     \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } Este caso de uso permite a los usuarios registrarse como usuarios de la aplicación, permitiendo introducir sus datos personales
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: } Usuario (primario). Servidor (en adelante S. Secundario)
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+    
+    \emph{Usuario:} quiere transformarse en un usuario del sistema, así pueda realizar las transacciones con la aplicación de un modo seguro y personalizado.
+    
+    \emph{Servidor: } quiere registrar la mayor cantidad de usuarios posibles y que el proceso sea lo más rápido y seguro posible.
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } El usuario no está registrado en la aplicación
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
-
-    } \\ \hline
-
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: } Se registra al usuario como usuario de la aplicación. El usuario puede realizar operaciones en la aplicación.
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
+        \begin{enumerate}
+            \item El usuario ejecuta la aplicación móvil (en adelante APP) en su SmartPhone y decide registrarse.
+            \item APP muestra un formulario de carga donde ingresa sus datos personales y su nombre de usuario y contraseña.
+            \item APP verifica los datos ingresados.
+            \item APP solicita a S el registro del usuario.
+            \item S registra al usuario y lo informa a APP.
+            \item APP da la bienvenida al usuario.
+        \end{enumerate}
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+
+    \textbf{A1: El sistema encuentra algún fallo para comunicarse con S}
+
+    La secuencia A1 comienza en el punto 4 del escenario principal.
+    \begin{enumerate}
+        \setcounter{enumi}{4}
+        \item APP informa al usuario el problema de conexión a través de un mensaje por la pantalla.
+    \end{enumerate}
+
+    El escenario vuelve al punto 4.
+
+    \textbf{A2: Nombre de usuario existente}
+    
+    La secuencia A2 comienza en el punto 4 del escenario principal.
+    \begin{enumerate}
+        \setcounter{enumi}{4}
+        \item S comunica que el nombre de usuario es existente.
+    \end{enumerate}
+
+    El escenario vuelve al punto 3.
+
+    \textbf{A3: Contraseña inválida o no coincide con la confirmación}
+    
+    La secuencia A3 comienza en el punto 3 del escenario principal.
+    \begin{enumerate}
+        \setcounter{enumi}{3}
+        \item APP informa el problema a través de un mensaje por pantalla.
+    \end{enumerate}
+
+    El escenario vuelve al punto 2.
+
+    \textbf{A4: Dirección de correo electrónico existente}
+    
+    La secuencia A4 comienza en el punto 4 del escenario principal.
+    \begin{enumerate}
+        \setcounter{enumi}{4}
+        \item S comunica que la dirección de correo electrónico es existente.
+    \end{enumerate}
+
+    El escenario vuelve al punto 2.
+
+    \textbf{A5: Tipo de datos ingresados de manera incorrecta}
+    
+    La secuencia A5 comienza en el punto 3 del escenario principal.
+    \begin{enumerate}
+        \setcounter{enumi}{3}
+        \item APP informa el problema a través de un mensaje por pantalla.
+    \end{enumerate}
+
+    El escenario vuelve al punto 2.
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Requisitos de Interfaz de Usuario para todos los casos de uso: }
+
+    SmartPhone con SO Android o iOS o Windows Mobile, con pantalla táctil, cámara y GPS integrado.
+    
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Requisitos No-Funcionales para todos los casos de uso: }
+
+    \emph{Tiempo de respuesta:} la interfaz debe responder dentro de un tiempo máximo de 3 segundos en una velocidad efectiva de conexión con el servidor a través de 3G.
+
+    \emph{Disponibilidad:} debe poder accederse a toda hora, los 365 días del año. asdadasdasdasd
 
     } \\ \hline
 
@@ -87,113 +162,83 @@ Por el Principio de Pareto\footnote{Cuando se habla de los costes de desarrollo 
 %#
 %#############################################################################
 
-\subsection{Caso de Uso UC2: Registrar}
+\subsection{Caso de Uso UC2: Un alumno registrado desea iniciar sesión.}
 
 \begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
-    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} CU02 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Iniciar Sesión} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
     \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } Este caso de uso permite a los usuarios iniciar sesión con el nombre de usuario y contraseña de manera que el sistema le permita realizar tareas.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: } Usuario (Primario). Servidor (en adelante S. Secundario)
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
 
+    \emph{Usuario:} quiere que el sistema lo reconozca como tal, así pueda realizar las tareas con la aplicación de un modo seguro y personalizado.
+
+    \emph{Servidor:} requiere identificar confiablemente a sus usuarios de manera de satisfacer sus intereses en cuando a seguridad, accesos a su cuenta personal y datos privados.
+
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } El usuario está registrado.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: } Se identifica y autentica al usuario. Se conocen sus datos personales y opciones de personalización.
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
 
+    \begin{enumerate}
+        \item El usuario ejecuta la aplicación móvil (en adelante APP) en su SmartPhone.
+        \item APP solicita al usuario su nombre de usuario y contraseña.
+        \item El usuario ingresa su nombre de usuario y contraseña.
+        \item APP solicita a S la validación del usuario
+        \item S valida al usuario y comunica sus datos personales.
+        \item APP da la bienvenida al usuario
+    \end{enumerate}
+
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
 
+    \textbf{A1: El sistema encuentra algún fallo para comunicarse con S}
+    
+    La secuencia A1 comienza en el punto 4 del escenario principal.
+    \begin{enumerate}
+        \setcounter{enumi}{4}
+        \item APP informa al usuario el problema de conexión a través de un mensaje por la pantalla.
+    \end{enumerate}
+
+    El escenario vuelve al punto 2.
+
+    \textbf{A2: Nombre de usuario inexistente}
+    
+    La secuencia A2 comienza en el punto 4 del escenario principal.
+    \begin{enumerate}
+        \setcounter{enumi}{4}
+        \item S comunica que el nombre de usuario es inexistente.
+    \end{enumerate}
+
+    El escenario vuelve al punto 2.
+
+    \textbf{A3: Nombre de usuario existente pero contraseña inválida}
+    
+    La secuencia A3 comienza en el punto 4 del escenario principal.
+    \begin{enumerate}
+        \setcounter{enumi}{3}
+        \item S comunica que la contraseña es inválida.
+    \end{enumerate}
+
+    El escenario vuelve al punto 2.
+
     } \\ \hline
 
 \end{longtable}
-
-\begin{framed}
-
-%\noindent\hline
-
-\subsubsection{Resumen:} Este caso de uso permite a los usuarios registrarse como usuarios de la aplicación, permitiendo introducir sus datos y preferencias personales
-
-
-\subsubsection{Actores:} Usuario (primario). Servidor (en adelante S secundario)
-
-\subsubsection{Personal Involucrado y Metas:}
-
-\emph{Usuario:} quiere transformarse en un usuario del sistema, así pueda realizar las transacciones con la aplicación de un modo seguro y personalizado.
-
-\emph{Servidor:} quiere registrar la mayor cantidad de usuarios posibles y que el proceso sea lo más rápido y seguro posible. 
-
-\subsubsection{Precondiciones:} 
-El usuario no está registrado en la aplicación. 
-
-\subsubsection{Poscondiciones:} 
-Se registra al usuario como usuario de la aplicación. El usuario puede realizar operaciones en la aplicación.
-
-\subsubsection{Escenario Principal: }
-
-\begin{enumerate}
-    \item El usuario ejecuta la AM en su teléfono celular y decide registrarse. 
-    \item AM muestra un formulario de carga donde ingresa sus datos personales y su nombre de usuario y contraseña.
-    \item AM solicita a S el registro del usuario. 
-    \item S registra al usuario y lo informa a AM. 
-    \item AM da la bienvenida al usuario
-   
-\end{enumerate}
-
-\subsubsection{Flujos Alternativos: }
-
-%El  comando alternativo está definido en el documento principal. Es un paragraph con salto de línea
-\alternativo{A1:El sistema encuentra algún fallo para comunicarse con S}
-La secuencia A1 comienza en el punto 3 del escenario principal. 
-\begin{enumerate}
-    %Comienza a partir del 5° item
-    \setcounter{enumi}{3}
-    \item AM informa al usuario el problema de conexión a través de un mensaje por la pantalla.
-\end{enumerate}
-El escenario vuelve al punto 3. 
-
-
-\alternativo{A2: Nombre de usuario existente}
-La secuencia A2 comienza en el punto 3 del escenario principal.
-\begin{enumerate}
-    \setcounter{enumi}{3}
-        \item S comunica que el nombre de usuario es existente.
-\end{enumerate}
-El escenario vuelve al punto 2. 
-
-
-\alternativo{A3: Contraseña inválida o no coincide con la confirmación }
-La secuencia A2 comienza en el punto 3 del escenario principal. 
-\begin{enumerate}
-    \setcounter{enumi}{3}
-    \item S comunica que la contraseña es inválida. 
-\end{enumerate}
-El escenario vuelve al punto 2. 
-
-\alternativo{A4: dirección de correo electrónico existente }
-La secuencia A2 comienza en el punto 3 del escenario principal. 
-\begin{enumerate}
-    \setcounter{enumi}{3}
-    \item S comunica que la dirección de correo electrónico es existente. 
-\end{enumerate}
-El escenario vuelve al punto 2. 
-
-%}}
-\end{framed}
 
 %#############################################################################
 %#   
