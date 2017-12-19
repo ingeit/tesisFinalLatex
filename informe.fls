@@ -180,6 +180,12 @@ INPUT C:/Program Files/MiKTeX 2.9/tex/latex/multirow/multirow.sty
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/multirow/multirow.sty
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/enumerate.sty
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/enumerate.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/xcolor/xcolor.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/xcolor/xcolor.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/colortbl/colortbl.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/colortbl/colortbl.sty
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/framed/framed.sty
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/framed/framed.sty
 OUTPUT glosario.aux
@@ -326,11 +332,11 @@ INPUT ./imagenes/analisis/diagrama-actividad-crear-registro.png
 INPUT ./imagenes/analisis/diagrama-actividad-crear-registro.png
 INPUT ./imagenes/analisis/diagrama-actividad-crear-registro.png
 INPUT ./imagenes/analisis/diagrama-actividad-crear-registro.png
-INPUT imagenes/analisis/actividad-comprar-producto.png
-INPUT ./imagenes/analisis/actividad-comprar-producto.png
-INPUT ./imagenes/analisis/actividad-comprar-producto.png
-INPUT ./imagenes/analisis/actividad-comprar-producto.png
-INPUT ./imagenes/analisis/actividad-comprar-producto.png
+INPUT imagenes/analisis/diagrama-actividad-ver-mapa.png
+INPUT ./imagenes/analisis/diagrama-actividad-ver-mapa.png
+INPUT ./imagenes/analisis/diagrama-actividad-ver-mapa.png
+INPUT ./imagenes/analisis/diagrama-actividad-ver-mapa.png
+INPUT ./imagenes/analisis/diagrama-actividad-ver-mapa.png
 OUTPUT disenio.aux
 INPUT disenio.tex
 INPUT disenio.tex

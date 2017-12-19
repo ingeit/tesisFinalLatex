@@ -34,6 +34,7 @@
 \label{chap:disenio}
 
 Por el Principio de Pareto\footnote{Cuando se habla de los costes de desarrollo de software enunciarse de la siguiente manera: ``El 80\% del esfuerzo de desarrollo (en tiempo y recursos) produce el 20\% del código, mientras que el 80\% restante es producido con tan sólo un 20\% del esfuerzo''}, se hicieron los diagramas relevantes. Como se procura tener homogeneidad en la implementación de las clases, basta un solo diagrama de cada tipo para una clase, para describir también el comportamiento de las otras clases.
+    
 
 \section{Descripción Textual de Casos de Uso}
 
@@ -43,80 +44,41 @@ Por el Principio de Pareto\footnote{Cuando se habla de los costes de desarrollo 
 %#
 %#############################################################################
 
-\subsection{Caso de Uso UC1: Autenticar}
+\subsection{Caso de Uso 01: Un alumno no registrado desea registrarse en el sistema.}
 
-\begin{framed}
+\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
+    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
 
-%\noindent\hline
+    } \\ \hline
 
-\subsubsection{Resumen:} Este caso de uso permite a los usuarios autenticarse con el nombre de usuario y contraseña de manera que el sistema les permita realizar operaciones.
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
 
+    } \\ \hline
 
-\subsubsection{Actores:} Usuario (primario). Servidor (en adelante S secundario)
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
 
-\subsubsection{Personal Involucrado y Metas:}
+    } \\ \hline
 
-\emph{Usuario:} quiere que el sistema lo reconozca como tal, así pueda realizar las transacciones con la aplicación de un modo seguro y personalizado.
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
 
-\emph{Servidor:} requiere identificar confiablemente a sus usuarios de manera de satisfacer sus intereses en cuanto a seguridad, accesos a su cuenta personal y datos privados. 
+    } \\ \hline
 
-\subsubsection{Precondiciones:} 
-El usuario está registrado 
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
 
-\subsubsection{Poscondiciones:} 
-Se identifica y autentica al usuario. Se conocen sus datos personales y opciones de personalización.
+    } \\ \hline
 
-\subsubsection{Escenario Principal: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
 
-\begin{enumerate}
-    \item El usuario ejecuta la aplicación móvil (en adelante AM) en su teléfono celular. 
-    \item AM solicita al usuario su identificador y contraseña. 
-    \item El usuario ingresa su identificador y contraseña. 
-    \item AM solicita a S la validación del usuario. 
-    \item S valida al usuario y comunica sus datos personales. 
-    \item AM da la bienvenida al usuario. 
-\end{enumerate}
+    } \\ \hline
 
-\subsubsection{Flujos Alternativos: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
 
-%El  comando alternativo está definido en el documento principal. Es un paragraph con salto de línea
-\alternativo{A1: El sistema encuentra algún fallo para comunicarse con S}
-La secuencia A1 comienza en el punto 4 del escenario principal. 
-\begin{enumerate}
-    %Comienza a partir del 5° item
-    \setcounter{enumi}{4}
-    \item AM informa al usuario el problema de conexión a través de un mensaje por la pantalla. 
-\end{enumerate}
-El escenario vuelve al punto 4. 
+    } \\ \hline
 
+\end{longtable}
 
-\alternativo{A2: Nombre de usuario inexistente}
-La secuencia A2 comienza en el punto 4 del escenario principal.
-\begin{enumerate}
-    \setcounter{enumi}{4}
-        \item S comunica que el nombre de usuario es inexistente. 
-\end{enumerate}
-El escenario vuelve al punto 2. 
-
-
-\alternativo{A3: Nombre de usuario existe pero contraseña inválida }
-La secuencia A2 comienza en el punto 4 del escenario principal. 
-\begin{enumerate}
-    \setcounter{enumi}{4}
-    \item S comunica que la contraseña es inválida. 
-\end{enumerate}
-El escenario vuelve al punto 2. 
-
-
-\subsubsection{Requisitos de Interfaz de Usuario para todos los casos de uso: }
-Teléfono celular con SO Android y pantalla táctil 
-
-\subsubsection{Requisitos No-Funcionales para todos los casos de uso:}
-\emph{Tiempo de respuesta:} la interfaz debe responder dentro de un tiempo máximo de 10 segundos en una velocidad efectiva de conexión con el servidor a través de 3G.
-
-\emph{Disponibilidad:} debe poder accederse en un régimen 24x7.
-%}}
-\end{framed}
 
 
 %#############################################################################
@@ -125,8 +87,40 @@ Teléfono celular con SO Android y pantalla táctil
 %#
 %#############################################################################
 
-
 \subsection{Caso de Uso UC2: Registrar}
+
+\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
+    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+
+    } \\ \hline
+
+\end{longtable}
 
 \begin{framed}
 
@@ -209,6 +203,39 @@ El escenario vuelve al punto 2.
 
 \subsection{Caso de Uso UC3: Crear Tienda}
 
+\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
+    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+
+    } \\ \hline
+
+\end{longtable}
+
 \begin{framed}
 
 %\noindent\hline
@@ -262,8 +289,40 @@ El escenario vuelve al punto 4.
 %#
 %#############################################################################
 
-
 \subsection{Caso de Uso UC4: Editar Tienda}
+
+\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
+    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+
+    } \\ \hline
+
+\end{longtable}
 
 \begin{framed}
 
@@ -318,8 +377,41 @@ El escenario vuelve al punto 4.
 %#
 %#############################################################################
 
-
 \subsection{Caso de Uso UC5: Editar Perfil}
+
+\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
+    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+
+    } \\ \hline
+
+\end{longtable}
+
 
 \begin{framed}
 
@@ -374,8 +466,41 @@ El escenario vuelve al punto 4.
 %#
 %#############################################################################
 
-
 \subsection{Caso de Uso UC6: Crear Producto}
+
+\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
+    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+
+    } \\ \hline
+
+\end{longtable}
+
 
 \begin{framed}
 
@@ -430,8 +555,40 @@ El escenario vuelve al punto 4.
 %#
 %#############################################################################
 
-
 \subsection{Caso de Uso UC7: Editar Producto}
+
+\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
+    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+
+    } \\ \hline
+
+\end{longtable}
 
 \begin{framed}
 
@@ -486,8 +643,40 @@ El escenario vuelve al punto 4.
 %#
 %#############################################################################
 
-
 \subsection{Caso de Uso UC8: Eliminar Producto}
+
+\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
+    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+
+    } \\ \hline
+
+\end{longtable}
 
 \begin{framed}
 
@@ -542,8 +731,42 @@ El escenario vuelve al punto 4.
 %#
 %#############################################################################
 
-
 \subsection{Caso de Uso UC9: Buscar Producto}
+
+\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
+    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+
+    } \\ \hline
+
+\end{longtable}
+
+
 
 \begin{framed}
 
@@ -596,6 +819,39 @@ El escenario vuelve al punto 3.
 %#############################################################################
 
 \subsection{Caso de Uso UC10: Comprar Producto}
+
+\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
+    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+
+    } \\ \hline
+
+\end{longtable}
 
 \begin{framed}
 
@@ -657,6 +913,39 @@ El escenario vuelve al punto 4.
 
 \subsection{Caso de Uso UC11: Listar compras realizadas}
 
+\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
+    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+
+    } \\ \hline
+
+\end{longtable}
+
 \begin{framed}
 
 %\noindent\hline
@@ -710,8 +999,40 @@ El escenario vuelve al punto 2.
 %#
 %#############################################################################
 
-
 \subsection{Caso de Uso UC12: Listar ventas realizadas}
+
+\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
+    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+
+    } \\ \hline
+
+\end{longtable}
 
 \begin{framed}
 
@@ -766,7 +1087,41 @@ El escenario vuelve al punto 2.
 %#
 %#############################################################################
 
-\subsection{Caso de Uso UC13: Contactar Usuario}
+
+
+\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
+    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+
+    } \\ \hline
+
+\end{longtable}
+
 
 \begin{framed}
 
@@ -798,6 +1153,336 @@ Se envía el mensaje al usuario destinatario a través de e-mail.
 \end{enumerate}
 
 \end{framed}
+
+%#############################################################################
+%#   
+%#   Caso de uso 14
+%#
+%#############################################################################
+
+\subsection{Caso de Uso UC14: blabla}
+
+\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
+    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+
+    } \\ \hline
+
+\end{longtable}
+
+%#############################################################################
+%#   
+%#   Caso de uso 15
+%#
+%#############################################################################
+
+\subsection{Caso de Uso UC15: blabla}
+
+\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
+    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+
+    } \\ \hline
+
+\end{longtable}
+
+%#############################################################################
+%#   
+%#   Caso de uso 16
+%#
+%#############################################################################
+
+\subsection{Caso de Uso UC16: blabla}
+
+\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
+    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+
+    } \\ \hline
+
+\end{longtable}
+
+%#############################################################################
+%#   
+%#   Caso de uso 17
+%#
+%#############################################################################
+
+\subsection{Caso de Uso UC17: blabla}
+
+\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
+    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+
+    } \\ \hline
+
+\end{longtable}
+
+%#############################################################################
+%#   
+%#   Caso de uso 18
+%#
+%#############################################################################
+
+\subsection{Caso de Uso UC18: blabla}
+
+\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
+    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+
+    } \\ \hline
+
+\end{longtable}
+
+%#############################################################################
+%#   
+%#   Caso de uso 19
+%#
+%#############################################################################
+
+\subsection{Caso de Uso UC19: blabla}
+
+\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
+    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+
+    } \\ \hline
+
+\end{longtable}
+
+%#############################################################################
+%#   
+%#   Caso de uso 20
+%#
+%#############################################################################
+
+\subsection{Caso de Uso UC20: blabla}
+
+\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
+    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+
+    } \\ \hline
+
+\end{longtable}
+
+%#############################################################################
+%#   
+%#   Caso de uso 21
+%#
+%#############################################################################
+
+\subsection{Caso de Uso UC21: blabla}
+
+\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
+    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
+
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+
+    } \\ \hline
+
+\end{longtable}
+
+
 
 \section{Diagrama de Clases de Diseño}
 
