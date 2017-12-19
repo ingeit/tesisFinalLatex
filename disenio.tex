@@ -148,7 +148,7 @@ Por el Principio de Pareto\footnote{Cuando se habla de los costes de desarrollo 
 
     \emph{Tiempo de respuesta:} la interfaz debe responder dentro de un tiempo máximo de 3 segundos en una velocidad efectiva de conexión con el servidor a través de 3G.
 
-    \emph{Disponibilidad:} debe poder accederse a toda hora, los 365 días del año. asdadasdasdasd
+    \emph{Disponibilidad:} debe poder accederse a toda hora, los 365 días del año.
 
     } \\ \hline
 
@@ -162,7 +162,7 @@ Por el Principio de Pareto\footnote{Cuando se habla de los costes de desarrollo 
 %#
 %#############################################################################
 
-\subsection{Caso de Uso UC2: Un alumno registrado desea iniciar sesión.}
+\subsection{Caso de Uso 02: Un alumno registrado desea iniciar sesión.}
 
 \begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
     \cellcolor{grisOscuro} CU02 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Iniciar Sesión} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
@@ -246,87 +246,64 @@ Por el Principio de Pareto\footnote{Cuando se habla de los costes de desarrollo 
 %#
 %#############################################################################
 
-\subsection{Caso de Uso UC3: Crear Tienda}
+\subsection{Caso de Uso 03: Un alumno registrado desea crear un registro}
 
 \begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
-    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} CU03 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Crear Registro} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
     \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } Este caso de uso permite al usuario crear un registro de manera que el sistema lo almacene en una base de datos para luego mostrarlo como información del mapa general
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: } Usuario (Primario). Servidor (en adelante S. Secundario)
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
 
+    \emph{Usuario:} quiere que el sistema lo reconozca como tal, así pueda realizar los registros a través de la aplicación móvil (en adelante APP) de un modo seguro y personalizado.
+
+    \emph{Servidor:} quiere identificar confiablemente a sus usuarios de manera de satisfacer sus intereses en cuanto a seguridad y datos privados.
+
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } Los usuarios deben estar autenticados en APP
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: } Se almacena un nuevo registro en el sistema con los datos correspondientes necesarios para luego aportar información al mapa general
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
 
+    \begin{enumerate}
+        \item El usuario selecciona la opción para crear registro.
+        \item APP solicita al usuario a través de un formulario los datos requeridos para la creacion del registro.
+        \item El usuario completa el formulario y presiona un botón para finalizar.
+        \item APP verifica que los tipos de datos ingresados en el formulario sean correctos y almacena el registro de forma local.
+        \item APP envía de manera segura los datos a S para que sean validados.
+        \item S valida los datos, realiza la creacion del registro y envía una confirmación.
+        \item APP informa al usuario que la operación se realizó exitosamente.
+    \end{enumerate}
+
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
 
+    \textbf{A1: El sistema encuentra algún fallo para comunicarse con S}
+    
+    La secuencia A1 comienza en el punto 5 del escenario principal.
+    \begin{enumerate}
+        \setcounter{enumi}{5}
+        \item APP reintenta enviar la información de manera automática por tiempo indefinido.
+    \end{enumerate}
+
+    El escenario vuelve al punto 5.
+
     } \\ \hline
 
 \end{longtable}
-
-\begin{framed}
-
-%\noindent\hline
-
-\subsubsection{Resumen:} Este caso de uso permite al vendedor crear una tienda de manera que el sistema le permita realizar transacciones y operaciones sobre sus productos.
-
-
-\subsubsection{Actores:} Vendedor (primario). S (secundario)
-
-\subsubsection{Personal Involucrado y Metas:}
-
-\emph{Vendedor:} quiere que el sistema lo reconozca como tal, así pueda realizar las transacciones a través del sitio, y la administración de sus productos de un modo seguro y personalizado.
-
-\emph{Servidor:} requiere identificar confiablemente a sus usuarios vendedores de manera de satisfacer sus intereses en cuanto a seguridad, productos publicados y datos privados. 
-
-\subsubsection{Precondiciones:} 
-Los usuarios deben estar autenticados en AM. 
-
-\subsubsection{Poscondiciones:} 
-Se registra una nueva tienda en el sistema con los datos básicos necesarios para realizar ventas.
-
-\subsubsection{Escenario Principal: }
-
-\begin{enumerate}
-    \item El vendedor selecciona la opción para crear tienda. 
-    \item AM solicita al vendedor a través de un formulario los datos básicos requeridos para la creación de la tienda.
-    \item El vendedor completa el formulario y presiona un botón para finalizar.
-    \item AM envía de manera segura los datos a S para que sean validados.
-    \item S valida los datos, realiza la creación la tienda y envía una confirmación.
-    \item AM informa al usuario que la operación se realizó exitosamente.
-\end{enumerate}
-
-\subsubsection{Flujos Alternativos: }
-
-%El  comando alternativo está definido en el documento principal. Es un paragraph con salto de línea
-\alternativo{A1:el sistema encuentra algún fallo para comunicarse con S}
-La secuencia A1 comienza en el punto 4 del escenario principal. 
-\begin{enumerate}
-    %Comienza a partir del 5° item
-    \setcounter{enumi}{4}
-    \item AM informa al usuario el problema de conexión a través de un mensaje por la pantalla.
-\end{enumerate}
-El escenario vuelve al punto 4.
-
-%}}
-\end{framed}
 
 %#############################################################################
 %#   
@@ -334,87 +311,61 @@ El escenario vuelve al punto 4.
 %#
 %#############################################################################
 
-\subsection{Caso de Uso UC4: Editar Tienda}
+\subsection{Caso de Uso 04: Un alumno registrado desea listar sus registros.}
 
 \begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
-    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} CU04 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Listar Registros} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
     \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } Este caso de uso permite a un usuario listar la información de todos los registros que realizo.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: } Usuario (Primario). Servidor (Secundario).
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
 
+    \emph{Usuario:} quiere visualizar de manera completa la información de los registros realizados.
+
+    \emph{Servidor:} quiere que el usuario pueda ver la información relacionada con sus registros de manera segura.
+
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } El usuario debe estar autenticado en APP.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: } Se muestra un listado de registros realizados.
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
 
+    \begin{enumerate}
+        \item El usuario selecciona la opción para listar los registros realizados.
+        \item APP envía la solicitud a S.
+        \item S envía los datos necesarios para generar el listado de registros a APP.
+        \item APP muestra el listado al usuario.
+    \end{enumerate}
+
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+    
+    \textbf{A1: El sistema encuentra algún fallo para comunicarse con S}
+    
+    La secuencia A1 comienza en el punto 2 del escenario principal.
+    \begin{enumerate}
+        \setcounter{enumi}{2}
+        \item APP informa al usuario el problema de conexión a través de un mensaje por la pantalla.
+    \end{enumerate}
+
+    El escenario vuelve al punto 2.
 
     } \\ \hline
 
 \end{longtable}
-
-\begin{framed}
-
-%\noindent\hline
-
-\subsubsection{Resumen:} Este caso de uso permite al vendedor editar los datos de su tienda.
-
-
-\subsubsection{Actores:} Vendedor (primario). S (secundario)
-
-\subsubsection{Personal Involucrado y Metas:}
-
-\emph{Vendedor:} quiere editar los datos de su tienda.
-
-\emph{Servidor:} requiere mantener actualizados los datos del vendedor.
-
-\subsubsection{Precondiciones:} 
-El vendedor debe estar autenticado en AM. 
-
-\subsubsection{Poscondiciones:} 
-Se registran los cambios de los datos de la tienda en el servidor.
-
-\subsubsection{Escenario Principal: }
-
-\begin{enumerate}
-    \item El vendedor selecciona la opción para editar tienda. 
-    \item AM solicita al vendedor a través de un formulario los datos de la tienda que pueden ser modificados o mantenidos.
-    \item El vendedor completa el formulario y presiona un botón para finalizar.
-    \item AM envía de manera segura los datos a S para que sean validados.
-    \item S valida los datos, realiza la actualización y envía una confirmación.
-    \item AM informa al usuario que la operación se realizó exitosamente.
-\end{enumerate}
-
-\subsubsection{Flujos Alternativos: }
-
-%El  comando alternativo está definido en el documento principal. Es un paragraph con salto de línea
-\alternativo{A1:El sistema encuentra algún fallo para comunicarse con S}
-La secuencia A1 comienza en el punto 4 del escenario principal.
-\begin{enumerate}
-    %Comienza a partir del 5° item
-    \setcounter{enumi}{4}
-    \item AM informa al usuario el problema de conexión a través de un mensaje por la pantalla.
-\end{enumerate}
-El escenario vuelve al punto 4.
-
-%}}
-\end{framed}
 
 %#############################################################################
 %#   
@@ -422,88 +373,61 @@ El escenario vuelve al punto 4.
 %#
 %#############################################################################
 
-\subsection{Caso de Uso UC5: Editar Perfil}
+\subsection{Caso de Uso 05: Un alumno registrado desea ver un registro en particular}
 
 \begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
-    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} CU05 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Ver Registro} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
     \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } Este caso de uso permite al usuario ver un registro especifico que él realizo.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: } Usuario (Primario). Servidor (Secundario)
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+    
+    \emph{Usuario:} quiere visualizar de manera completa la información de un registro, realizado por él, en particular.
+
+    \emph{Servidor:} quiere que el usuario pueda ver la información relacionada con su registro de manera segura.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } El usuario debe estar autenticado en APP.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: } Se muestra la informacion completa de un registro.
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
 
+    \begin{enumerate}
+        \item El usuario selecciona la opción para ver un registro realizado.
+        \item APP envía la solicitud a S.
+        \item S envía los datos necesarios para generar la vista de un registro a APP.
+        \item APP muestra el registro al usuario.
+    \end{enumerate}
+
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+    
+    \textbf{A1: El sistema encuentra algún fallo para comunicarse con S}
+    
+    La secuencia A1 comienza en el punto 2 del escenario principal.
+    \begin{enumerate}
+        \setcounter{enumi}{2}
+        \item APP informa al usuario el problema de conexión a través de un mensaje por la pantalla.
+    \end{enumerate}
+
+    El escenario vuelve al punto 2.
 
     } \\ \hline
 
 \end{longtable}
-
-
-\begin{framed}
-
-%\noindent\hline
-
-\subsubsection{Resumen:} Este caso de uso permite al usuario editar los datos de su perfil.
-
-
-\subsubsection{Actores:} Usuario(primario). S (secundario)
-
-\subsubsection{Personal Involucrado y Metas:}
-
-\emph{Usuario:} quiere editar los datos de su perfil.
-
-\emph{Servidor:} requiere mantener actualizados los datos del usuario.
-
-\subsubsection{Precondiciones:} 
-El usuario debe estar autenticado en AM. 
-
-\subsubsection{Poscondiciones:} 
-Se registran los cambios de los datos de perfil en el servidor.
-
-\subsubsection{Escenario Principal: }
-
-\begin{enumerate}
-    \item El usuario selecciona la opción para editar perfil. 
-    \item AM solicita al usuario a través de un formulario los datos del perfil de usuario que pueden ser modificados o mantenidos.
-    \item El usuario completa el formulario y presiona un botón para finalizar.
-    \item AM envía de manera segura los datos a S para que sean validados.
-    \item S valida los datos, realiza la actualización y envía una confirmación.
-    \item AM informa al usuario que la operación se realizó exitosamente.
-\end{enumerate}
-
-\subsubsection{Flujos Alternativos: }
-
-%El  comando alternativo está definido en el documento principal. Es un paragraph con salto de línea
-\alternativo{A1:el sistema encuentra algún fallo para comunicarse con S}
-La secuencia A1 comienza en el punto 4 del escenario principal.
-\begin{enumerate}
-    %Comienza a partir del 5° item
-    \setcounter{enumi}{4}
-    \item AM informa al usuario el problema de conexión a través de un mensaje por la pantalla.
-\end{enumerate}
-El escenario vuelve al punto 4.
-
-%}}
-\end{framed}
 
 %#############################################################################
 %#   
@@ -511,88 +435,65 @@ El escenario vuelve al punto 4.
 %#
 %#############################################################################
 
-\subsection{Caso de Uso UC6: Crear Producto}
+\subsection{Caso de Uso 06: Un alumno registrado desea ver el mapa general.}
 
 \begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
-    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} CU06 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Ver Mapa} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
     \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } Este caso de uso permite al usuario ver el mapa general con la informacion de todos los registros.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: } Usuario (Primario). Servidor (Secundario)
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+    
+    \emph{Usuario:} quiere visualizar de manera completa la información del mapa general.
+
+    \emph{Servidor:} quiere que el usuario pueda ver la información relacionada con el mapa general de forma segura.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } 
+    
+    El usuario debe estar autenticado en APP.
+    
+    Debe existir al menos 1 registro en el servidor.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: } Se muestra la informacion completa del mapa general.
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
 
+    \begin{enumerate}
+        \item El usuario selecciona la opción para ver el mapa general.
+        \item APP envía la solicitud a S.
+        \item S envía los datos necesarios para generar la vista del mapa general a APP.
+        \item APP muestra el mapa general al usuario.
+    \end{enumerate}
+
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+    
+    \textbf{A1: El sistema encuentra algún fallo para comunicarse con S}
+    
+    La secuencia A1 comienza en el punto 2 del escenario principal.
+    \begin{enumerate}
+        \setcounter{enumi}{2}
+        \item APP informa al usuario el problema de conexión a través de un mensaje por la pantalla.
+    \end{enumerate}
+
+    El escenario vuelve al punto 2.
 
     } \\ \hline
 
 \end{longtable}
-
-
-\begin{framed}
-
-%\noindent\hline
-
-\subsubsection{Resumen:} Este caso de uso permite al vendedor crear un producto de manera que el sistema le permita ofrecerlo a la venta.
-
-
-\subsubsection{Actores:} Vendedor (primario). S (secundario)
-
-\subsubsection{Personal Involucrado y Metas:}
-
-\emph{Vendedor:} quiere ofrecer sus productos a través del sistema.
-
-\emph{Servidor:} requiere obtener la información de los  productos de manera que sea posible ofrecérselo a los compradores.
-
-\subsubsection{Precondiciones:} 
-El vendedor debe estar autenticados en AM. 
-
-\subsubsection{Poscondiciones:} 
-Se crea un nuevo producto en el sistema.
-
-\subsubsection{Escenario Principal: }
-
-\begin{enumerate}
-    \item El vendedor selecciona la opción para crear producto. 
-    \item AM solicita al vendedor a través de un formulario los datos básicos requeridos para la creación del producto.
-    \item El vendedor completa el formulario y presiona un botón para finalizar.
-    \item AM envía de manera segura los datos a S para que sean validados.
-    \item S valida los datos, realiza la creación del producto y envía una confirmación.
-    \item AM informa al usuario que la operación se realizó exitosamente.
-\end{enumerate}
-
-\subsubsection{Flujos Alternativos: }
-
-%El  comando alternativo está definido en el documento principal. Es un paragraph con salto de línea
-\alternativo{A1:el sistema encuentra algún fallo para comunicarse con S}
-La secuencia A1 comienza en el punto 4 del escenario principal.
-\begin{enumerate}
-    %Comienza a partir del 5° item
-    \setcounter{enumi}{4}
-    \item AM informa al vendedor el problema de conexión a través de un mensaje por la pantalla.
-\end{enumerate}
-El escenario vuelve al punto 4.
-
-%}}
-\end{framed}
 
 %#############################################################################
 %#   
@@ -600,87 +501,61 @@ El escenario vuelve al punto 4.
 %#
 %#############################################################################
 
-\subsection{Caso de Uso UC7: Editar Producto}
+\subsection{Caso de Uso 07: Un alumno registrado desea ver su perfil.}
 
 \begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
-    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} CU07 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Ver Perfil de Usuario} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
     \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } Este caso de uso permite al usuario ver su perfil con la informacion de sus datos.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: } Usuario (Primario). Servidor (Secundario)
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+    
+    \emph{Usuario:} quiere visualizar de manera completa la información de su perfil.
+
+    \emph{Servidor:} quiere que el usuario pueda ver la información relacionada con su perfil de forma segura.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } El usuario debe estar autenticado en APP.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: } Se muestra la informacion completa del perfil del usuario.
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
 
+    \begin{enumerate}
+        \item El usuario selecciona la opción para ver su perfil.
+        \item APP envía la solicitud a S.
+        \item S envía los datos necesarios para generar la vista del perfil a APP.
+        \item APP muestra el perfil de usuario por pantalla.
+    \end{enumerate}
+
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+    
+    \textbf{A1: El sistema encuentra algún fallo para comunicarse con S}
+    
+    La secuencia A1 comienza en el punto 2 del escenario principal.
+    \begin{enumerate}
+        \setcounter{enumi}{2}
+        \item APP informa al usuario el problema de conexión a través de un mensaje por la pantalla.
+    \end{enumerate}
+
+    El escenario vuelve al punto 1.
 
     } \\ \hline
 
 \end{longtable}
-
-\begin{framed}
-
-%\noindent\hline
-
-\subsubsection{Resumen:} Este caso de uso permite al vendedor editar los datos de uno de sus productos.
-
-
-\subsubsection{Actores:} Vendedor (primario). S (secundario)
-
-\subsubsection{Personal Involucrado y Metas:}
-
-\emph{Vendedor:} quiere ofrecer sus productos a través del sistema.
-
-\emph{Servidor:} requiere obtener la información de los  productos de manera que sea posible ofrecérselo a los compradores.
-
-\subsubsection{Precondiciones:} 
-El vendedor debe estar autenticados en AM. 
-
-\subsubsection{Poscondiciones:} 
-Se registran los cambios de los datos del producto en el servidor.
-
-\subsubsection{Escenario Principal: }
-
-\begin{enumerate}
-    \item El vendedor selecciona la opción para editar producto. 
-    \item AM solicita al vendedor a través de un formulario los datos del producto que pueden ser modificados o mantenidos.
-    \item El vendedor completa el formulario y presiona un botón para finalizar.
-    \item AM envía de manera segura los datos a S para que sean validados.
-    \item S valida los datos, realiza la actualización y envía una confirmación.
-    \item AM informa al usuario que la operación se realizó exitosamente.
-\end{enumerate}
-
-\subsubsection{Flujos Alternativos: }
-
-%El  comando alternativo está definido en el documento principal. Es un paragraph con salto de línea
-\alternativo{A1:el sistema encuentra algún fallo para comunicarse con S}
-La secuencia A1 comienza en el punto 4 del escenario principal.
-\begin{enumerate}
-    %Comienza a partir del 5° item
-    \setcounter{enumi}{4}
-    \item AM informa al vendedor el problema de conexión a través de un mensaje por la pantalla.
-\end{enumerate}
-El escenario vuelve al punto 4.
-
-%}}
-\end{framed}
 
 %#############################################################################
 %#   
@@ -688,174 +563,63 @@ El escenario vuelve al punto 4.
 %#
 %#############################################################################
 
-\subsection{Caso de Uso UC8: Eliminar Producto}
+\subsection{Caso de Uso 08: Un alumno registrado desea modificar su perfil.}
 
 \begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
-    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} CU08 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Modificar Perfil de Usuario} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
     \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } Este caso de uso permite al usuario editar los datos de su perfil.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: } Usuario (Primario). Servidor (Secundario)
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+    
+    \emph{Usuario:} quiere editar los datos de su perfil.
+
+    \emph{Servidor:} quiere mantener actualizados los datos del usuario.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } El usuario debe estar autenticado en APP.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: } Se registran los cambios de los datos del perfil de usuario en el servidor.
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
 
-    } \\ \hline
-
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
-
-    } \\ \hline
-
-\end{longtable}
-
-\begin{framed}
-
-%\noindent\hline
-
-\subsubsection{Resumen:} Este caso de uso permite al vendedor eliminar un producto de la tienda.
-
-
-\subsubsection{Actores:} Vendedor (primario). S (secundario)
-
-\subsubsection{Personal Involucrado y Metas:}
-
-\emph{Vendedor:} quiere eliminar un producto de su tienda.
-
-\emph{Servidor:} elimina al producto.
-
-\subsubsection{Precondiciones:} 
-El vendedor debe estar autenticados en AM. 
-
-\subsubsection{Poscondiciones:} 
-Se elimina el producto de la tienda.
-
-\subsubsection{Escenario Principal: }
-
-\begin{enumerate}
-    \item El vendedor selecciona la opción para eliminar el producto. 
-    \item AM solicita al vendedor que confirme que quiere eliminar el producto.
-    \item El vendedor presiona un botón para confirmar.
-    \item AM envía de manera segura la solicitud a S para que sean validados.
-    \item S valida la solicitud, realiza el cambio de estado en el producto y envía una confirmación.
-    \item AM informa al usuario que la operación se realizó exitosamente.
-\end{enumerate}
-
-\subsubsection{Flujos Alternativos: }
-
-%El  comando alternativo está definido en el documento principal. Es un paragraph con salto de línea
-\alternativo{A1:el sistema encuentra algún fallo para comunicarse con S}
-La secuencia A1 comienza en el punto 4 del escenario principal.
-\begin{enumerate}
-    %Comienza a partir del 5° item
-    \setcounter{enumi}{4}
-    \item AM informa al vendedor el problema de conexión a través de un mensaje por la pantalla.
-\end{enumerate}
-El escenario vuelve al punto 4.
-
-%}}
-\end{framed}
-
-%#############################################################################
-%#   
-%#   Caso de uso 9
-%#
-%#############################################################################
-
-\subsection{Caso de Uso UC9: Buscar Producto}
-
-\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
-    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
-    \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
-
-    } \\ \hline
-
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
-
-    } \\ \hline
-
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
-
-    } \\ \hline
-
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
-
-    } \\ \hline
-
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
-
-    } \\ \hline
-
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
+    \begin{enumerate}
+        \item El usuario selecciona la opción para editar su perfil.
+        \item APP solicita al usuario a través de un formulario los datos de su perfil que pueden ser modificados o mantenidos.
+        \item El usuario completa el formulario y presiona un botón para finalizar.
+        \item APP envía de manera segura los datos a S para que sean validados.
+        \item S valida los datos, realiza la actualización y enviá una confirmación.
+        \item APP informa al usuario que la operación se realizó exitosamente.
+    \end{enumerate}
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+    
+    \textbf{A1: El sistema encuentra algún fallo para comunicarse con S}
+    
+    La secuencia A1 comienza en el punto 4 del escenario principal.
+    \begin{enumerate}
+        \setcounter{enumi}{4}
+        \item APP informa al usuario el problema de conexión a través de un mensaje por la pantalla.
+    \end{enumerate}
+
+    El escenario vuelve al punto 2.
 
     } \\ \hline
 
 \end{longtable}
-
-
-
-\begin{framed}
-
-%\noindent\hline
-
-\subsubsection{Resumen:} Este caso de uso permite a un usuario realizar una búsqueda de productos.
-
-
-\subsubsection{Actores:} Usuario (primario). S (secundario)
-
-\subsubsection{Personal Involucrado y Metas:}
-
-\emph{Usuario:} quiere obtener los productos que coincidan con un determinado criterio de búsqueda
-
-\emph{Servidor:} quiere ofrecer al usuario los productos que mejor se ajustan a su búsqueda.
-
-\subsubsection{Poscondiciones:} 
-Se obtiene un listado de productos que cumplen con la condición de búsqueda.
-
-\subsubsection{Escenario Principal: }
-
-\begin{enumerate}
-    \item El usuario ingresa el texto que se buscará.  
-    \item El usuario presiona un botón para comenzar la búsqueda.
-    \item AM envía la solicitud de búsqueda a S
-    \item S verifica los productos que cumplen con el criterio buscado
-    \item S retorna el listado de productos
-    \item AM muestra el listado al usuario
-\end{enumerate}
-
-\subsubsection{Flujos Alternativos: }
-
-%El  comando alternativo está definido en el documento principal. Es un paragraph con salto de línea
-\alternativo{A1:el sistema encuentra algún fallo para comunicarse con S}
-La secuencia A1 comienza en el punto 3 del escenario principal.
-\begin{enumerate}
-    %Comienza a partir del 5° item
-    \setcounter{enumi}{4}
-    \item AM informa al usuario el problema de conexión a través de un mensaje por la pantalla.
-\end{enumerate}
-El escenario vuelve al punto 3.
-
-%}}
-\end{framed}
 
 %#############################################################################
 %#   
@@ -863,92 +627,63 @@ El escenario vuelve al punto 3.
 %#
 %#############################################################################
 
-\subsection{Caso de Uso UC10: Comprar Producto}
+\subsection{Caso de Uso 10: Un alumno registrado desea eliminar su cuenta.}
 
 \begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
-    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} CU10 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Eliminar Cuenta De Usuario} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
     \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } Este caso de uso permite al usuario eliminar su cuenta de usuario del servidor.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: } Usuario (Primario). Servidor (Secundario)
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+    
+    \emph{Usuario:} quiere eliminar su cuenta de usuario.
+
+    \emph{Servidor:} quiere mantener actualizados los datos del usuario.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } El usuario debe estar autenticado en APP.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: } Se registran los cambios de los datos del perfil de usuario en el servidor.
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
 
+    \begin{enumerate}
+        \item El usuario selecciona la opción para eliminar su perfil.
+        \item APP solicita al usuario a través de una alerta la confirmación para eliminar el perfil.
+        \item El usuario presiona el botón aceptar.
+        \item APP envía la solicitud a S.
+        \item S envía confirmación.
+        \item APP informa al usuario que la operación se realizó exitosamente.
+    \end{enumerate}
+
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+    
+    \textbf{A1: El sistema encuentra algún fallo para comunicarse con S}
+    
+    La secuencia A1 comienza en el punto 4 del escenario principal.
+    \begin{enumerate}
+        \setcounter{enumi}{4}
+        \item APP informa al usuario el problema de conexión a través de un mensaje por la pantalla.
+    \end{enumerate}
+
+    El escenario vuelve al punto 1.
 
     } \\ \hline
 
 \end{longtable}
-
-\begin{framed}
-
-%\noindent\hline
-
-\subsubsection{Resumen:} Este caso de uso permite a un comprador realizar la compra de un producto.
-
-
-\subsubsection{Actores:} Comprador (primario). Vendedor y S (secundarios)
-
-\subsubsection{Personal Involucrado y Metas:}
-
-\emph{Comprador:} quiere realizar la compra del producto en el que está interesado.
-
-\emph{Vendedor:} quiere que la venta se realice sin inconvenientes y de manera sencilla.
-
-\emph{Servidor:} quiere que la operación de compra se realice de manera segura y todos los datos relevantes sean almacenados correctamente.
-
-
-\subsubsection{Precondiciones:} 
-Los usuarios deben estar autenticados en AM.
-
-\subsubsection{Poscondiciones:} 
-Se registra la compra
-
-\subsubsection{Escenario Principal: }
-
-\begin{enumerate}
-    \item El comprador selecciona la opción para comprar el producto.  
-    \item El comprador selecciona la cantidad que desea comprar
-    \item El comprador presiona un botón para confirmar la compra
-    \item AM envía la solicitud de compra a S
-    \item S verifica la solicitud y registra la compra
-    \item AM informa al comprador que la compra se realizó correctamente
-    \item S envía una notificación al vendedor informándole la compra 
-    \item El vendedor contacta al comprador para que acuerden las condiciones de la compra y la entrega de los productos.
-\end{enumerate}
-
-\subsubsection{Flujos Alternativos: }
-
-%El  comando alternativo está definido en el documento principal. Es un paragraph con salto de línea
-\alternativo{A1:el sistema encuentra algún fallo para comunicarse con S}
-La secuencia A1 comienza en el punto 4 del escenario principal.
-\begin{enumerate}
-    %Comienza a partir del 5° item
-    \setcounter{enumi}{4}
-    \item AM informa al comprador el problema de conexión a través de un mensaje por la pantalla.
-\end{enumerate}
-El escenario vuelve al punto 4.
-
-%}}
-\end{framed}
 
 %#############################################################################
 %#   
@@ -956,87 +691,83 @@ El escenario vuelve al punto 4.
 %#
 %#############################################################################
 
-\subsection{Caso de Uso UC11: Listar compras realizadas}
+\subsection{Caso de Uso 11: Un administrador desea iniciar sesión.}
 
 \begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
-    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} CU11 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Iniciar Sesión} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
     \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } Este caso de uso permite a los administradores iniciar sesión con el nombre de usuario y contraseña de manera que el sistema le permita realizar tareas.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: } Administrador (Primario). Servidor (en adelante S. Secundario)
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
 
+    \emph{Administrador:} quiere que el sistema lo reconozca como tal, así pueda realizar las tareas de gestión con la aplicación de un modo seguro y personalizado.
+
+    \emph{Servidor:} requiere identificar confiablemente a sus administradores de manera de satisfacer sus intereses en cuando a seguridad, accesos a su cuenta personal y datos privados.
+
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } El administrador está registrado.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: } Se identifica y autentica al administrador. Se conocen sus datos personales y opciones de personalización.
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
 
+    \begin{enumerate}
+        \item El administrador ejecuta la APP desde su SmartPhone o un navegador web.
+        \item APP solicita al administrador su nombre de usuario y contraseña.
+        \item El administrador ingresa su nombre de usuario y contraseña.
+        \item APP solicita a S la validación del administrador
+        \item S valida al administrador y comunica sus datos personales.
+        \item APP da la bienvenida al administrador
+    \end{enumerate}
+
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
 
+    \textbf{A1: El sistema encuentra algún fallo para comunicarse con S}
+    
+    La secuencia A1 comienza en el punto 4 del escenario principal.
+    \begin{enumerate}
+        \setcounter{enumi}{4}
+        \item APP informa al administrador el problema de conexión a través de un mensaje por la pantalla.
+    \end{enumerate}
+
+    El escenario vuelve al punto 2.
+
+    \textbf{A2: Nombre de usuario inexistente}
+    
+    La secuencia A2 comienza en el punto 4 del escenario principal.
+    \begin{enumerate}
+        \setcounter{enumi}{4}
+        \item S comunica que el nombre de usuario es inexistente.
+    \end{enumerate}
+
+    El escenario vuelve al punto 2.
+
+    \textbf{A3: Nombre de usuario existente pero contraseña inválida}
+    
+    La secuencia A3 comienza en el punto 4 del escenario principal.
+    \begin{enumerate}
+        \setcounter{enumi}{3}
+        \item S comunica que la contraseña es inválida.
+    \end{enumerate}
+
+    El escenario vuelve al punto 2.
+
     } \\ \hline
 
 \end{longtable}
-
-\begin{framed}
-
-%\noindent\hline
-
-\subsubsection{Resumen:} Este caso de uso permite a un comprador listar la información de todas las compras que realizó.
-
-
-\subsubsection{Actores:} Comprador (primario). S (secundarios)
-
-\subsubsection{Personal Involucrado y Metas:}
-
-\emph{Comprador:} quiere visualizar de manera completa la información de las compras realizadas.
-
-\emph{Servidor:} quiere que el comprador pueda ver la información relacionada con sus operaciones de manera segura.
-
-
-\subsubsection{Precondiciones:} 
-El comprador debe estar autenticado en AM.
-
-\subsubsection{Poscondiciones:} 
-Se muestra un listado de compras realizadas
-
-\subsubsection{Escenario Principal: }
-
-\begin{enumerate}
-    \item El comprador selecciona la opción para listar las compras realizadas.  
-    \item AM envía la solicitud a S
-    \item S envía los datos necesarios para generar el listado a AM
-    \item AM muestra el listado al comprador
-    
-\end{enumerate}
-
-\subsubsection{Flujos Alternativos: }
-
-%El  comando alternativo está definido en el documento principal. Es un paragraph con salto de línea
-\alternativo{A1:el sistema encuentra algún fallo para comunicarse con S}
-La secuencia A1 comienza en el punto 2 del escenario principal.
-\begin{enumerate}
-    %Comienza a partir del 5° item
-    \setcounter{enumi}{2}
-    \item AM informa al usuario el problema de conexión a través de un mensaje por la pantalla.
-\end{enumerate}
-El escenario vuelve al punto 2.
-
-%}}
-\end{framed}
 
 %#############################################################################
 %#   
@@ -1044,87 +775,63 @@ El escenario vuelve al punto 2.
 %#
 %#############################################################################
 
-\subsection{Caso de Uso UC12: Listar ventas realizadas}
+\subsection{Caso de Uso 12: Un administrador desea borrar o dar de baja un alumno.}
 
 \begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
-    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} CU12 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Eliminar Cuenta De Usuario} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
     \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } Este caso de uso permite al administrador eliminar la cuenta de un usuario en particular.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: } Administrador (Primario). Servidor (Secundario)
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+    
+    \emph{Administrador:} quiere eliminar la cuenta de unº usuario.
+
+    \emph{Servidor:} quiere mantener actualizados los datos del usuario.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } El administrador debe estar autenticado en APP.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: } Se registran los cambios de los datos de la cuenta de usuario en el servidor.
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
 
+    \begin{enumerate}
+        \item El administrador selecciona la opción para eliminar un usuario.
+        \item APP solicita al administrador a través de una alerta la confirmación para eliminar el perfil.
+        \item El administrador presiona el botón aceptar.
+        \item APP envía la solicitud a S.
+        \item S envía confirmación.
+        \item APP informa al administrador que la operación se realizó exitosamente.
+    \end{enumerate}
+
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+    
+    \textbf{A1: El sistema encuentra algún fallo para comunicarse con S}
+    
+    La secuencia A1 comienza en el punto 4 del escenario principal.
+    \begin{enumerate}
+        \setcounter{enumi}{4}
+        \item APP informa al administrador el problema de conexión a través de un mensaje por la pantalla.
+    \end{enumerate}
+
+    El escenario vuelve al punto 1.
 
     } \\ \hline
 
 \end{longtable}
-
-\begin{framed}
-
-%\noindent\hline
-
-\subsubsection{Resumen:} Este caso de uso permite a un vendedor listar la información de todas las ventas que realizó.
-
-
-\subsubsection{Actores:} Vendedor (primario). S (secundarios)
-
-\subsubsection{Personal Involucrado y Metas:}
-
-\emph{Vendedor:} quiere visualizar de manera completa la información de las ventas realizadas.
-
-\emph{Servidor:} quiere que el vendedor pueda ver la información relacionada con sus operaciones de manera segura.
-
-
-\subsubsection{Precondiciones:} 
-El vendedor debe estar autenticado en AM.
-
-\subsubsection{Poscondiciones:} 
-Se muestra un listado de compras realizadas
-
-\subsubsection{Escenario Principal: }
-
-\begin{enumerate}
-    \item El vendedor selecciona la opción para listar las ventas realizadas  
-    \item AM envía la solicitud a S
-    \item S envía los datos necesarios para generar el listado a AM
-    \item AM muestra el listado al vendedor
-    
-\end{enumerate}
-
-\subsubsection{Flujos Alternativos: }
-
-%El  comando alternativo está definido en el documento principal. Es un paragraph con salto de línea
-\alternativo{A1:el sistema encuentra algún fallo para comunicarse con S}
-La secuencia A1 comienza en el punto 2 del escenario principal.
-\begin{enumerate}
-    %Comienza a partir del 5° item
-    \setcounter{enumi}{2}
-    \item AM informa al usuario el problema de conexión a través de un mensaje por la pantalla.
-\end{enumerate}
-El escenario vuelve al punto 2.
-
-%}}
-\end{framed}
 
 %#############################################################################
 %#   
@@ -1132,109 +839,118 @@ El escenario vuelve al punto 2.
 %#
 %#############################################################################
 
-
+\subsection{Caso de Uso 13: Un administrador desea listar los alumnos.}
 
 \begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
-    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} CU13 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Listar Usuarios} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
     \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } Este caso de uso permite a un administrador listar la información de todos usuarios registrados en el sistema.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: } Administrador (Primario). Servidor (Secundario).
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
 
+    \emph{Administrador:} quiere visualizar de manera completa la información de los usuarios registrados.
+
+    \emph{Servidor:} quiere que el administrador pueda ver la información relacionada con los perfiles de usuarios de manera segura.
+
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } El administrador debe estar autenticado en APP.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: } Se muestra un listado de usuarios registrados.
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
 
+    \begin{enumerate}
+        \item El administrador selecciona la opción para listar los usuarios registrados.
+        \item APP envía la solicitud a S.
+        \item S envía los datos necesarios para generar el listado de usuarios a APP.
+        \item APP muestra el listado de usuarios al administrador.
+    \end{enumerate}
+
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+    
+    \textbf{A1: El sistema encuentra algún fallo para comunicarse con S}
+    
+    La secuencia A1 comienza en el punto 2 del escenario principal.
+    \begin{enumerate}
+        \setcounter{enumi}{2}
+        \item APP informa al usuario el problema de conexión a través de un mensaje por la pantalla.
+    \end{enumerate}
+
+    El escenario vuelve al punto 2.
 
     } \\ \hline
 
 \end{longtable}
-
-
-\begin{framed}
-
-\subsubsection{Resumen:}Este caso de uso permite a un usuario ponerse en contacto con otro.
-
-
-\subsubsection{Actores:} Usuario remitente (primario). Usuario destinatario (secundario)
-
-\subsubsection{Personal Involucrado y Metas:}
-
-\emph{Usuario remitente:} quiere poder comunicarse con otro usuario de la aplicación.
-
-\emph{Usuario destinatario:} quiere poder recibir las consultas que otros usuarios puedan realizarle. 
-
-
-\subsubsection{Precondiciones:} 
-El usuario remitente cuenta con una aplicación de correo electrónico y una cuenta configurada en su teléfono celular.
-
-\subsubsection{Poscondiciones:} 
-Se envía el mensaje al usuario destinatario a través de e-mail.
-
-\subsubsection{Escenario Principal: }
-
-\begin{enumerate}
-    \item El Usuario remitente selecciona la opción para contactar con el Usuario destinatario.
-    \item AM redirige al usuario remitente a una aplicación de gestión de correo electrónico instalada en el dispositivo, y completa la dirección destino con el e-mail del Usuario destinatario.
-    \item El Usuario remitente completa el mensaje y realiza el envío
-        
-\end{enumerate}
-
-\end{framed}
 
 %#############################################################################
 %#   
 %#   Caso de uso 14
 %#
 %#############################################################################
-
-\subsection{Caso de Uso UC14: blabla}
+\subsection{Caso de Uso 14: Un administrador desea listar los registros.}
 
 \begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
-    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} CU14 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Listar Registros} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
     \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } Este caso de uso permite a un administrador listar la información de todos los registros realizados por la totalidad de los usuarios.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: } Administrador (Primario). Servidor (Secundario).
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
 
+    \emph{Administrador:} quiere visualizar de manera completa la información de los registros realizados.
+
+    \emph{Servidor:} quiere que el administrador pueda ver la información relacionada con los registros de manera segura.
+
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } El administrador debe estar autenticado en APP.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: } Se muestra un listado de registros realizados.
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
 
+    \begin{enumerate}
+        \item El administrador selecciona la opción para listar los registros realizados.
+        \item APP envía la solicitud a S.
+        \item S envía los datos necesarios para generar el listado de registros a APP.
+        \item APP muestra en pantalla el listado de registros al administrador.
+    \end{enumerate}
+
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+    
+    \textbf{A1: El sistema encuentra algún fallo para comunicarse con S}
+    
+    La secuencia A1 comienza en el punto 2 del escenario principal.
+    \begin{enumerate}
+        \setcounter{enumi}{2}
+        \item APP informa al administrador el problema de conexión a través de un mensaje por la pantalla.
+    \end{enumerate}
+
+    El escenario vuelve al punto 2.
 
     } \\ \hline
 
