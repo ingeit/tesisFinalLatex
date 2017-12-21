@@ -50,53 +50,50 @@
 \BOOKMARK [2][-]{section*.115}{Caso de Uso 12: Un administrador desea borrar o dar de baja un alumno.}{section*.104}% 50
 \BOOKMARK [2][-]{section*.116}{Caso de Uso 13: Un administrador desea listar los alumnos.}{section*.104}% 51
 \BOOKMARK [2][-]{section*.117}{Caso de Uso 14: Un administrador desea listar los registros.}{section*.104}% 52
-\BOOKMARK [2][-]{section*.118}{Caso de Uso UC15: blabla}{section*.104}% 53
-\BOOKMARK [2][-]{section*.119}{Caso de Uso UC16: blabla}{section*.104}% 54
-\BOOKMARK [2][-]{section*.120}{Caso de Uso UC17: blabla}{section*.104}% 55
-\BOOKMARK [2][-]{section*.121}{Caso de Uso UC18: blabla}{section*.104}% 56
-\BOOKMARK [2][-]{section*.122}{Caso de Uso UC19: blabla}{section*.104}% 57
-\BOOKMARK [2][-]{section*.123}{Caso de Uso UC20: blabla}{section*.104}% 58
-\BOOKMARK [2][-]{section*.124}{Caso de Uso UC21: blabla}{section*.104}% 59
-\BOOKMARK [1][-]{section*.125}{Diagrama de Clases de Dise\361o}{chapter*.103}% 60
-\BOOKMARK [1][-]{section*.126}{Diagramas de Secuencia}{chapter*.103}% 61
-\BOOKMARK [2][-]{section*.127}{Autenticar}{section*.126}% 62
-\BOOKMARK [2][-]{section*.128}{Registrar}{section*.126}% 63
-\BOOKMARK [2][-]{section*.129}{Crear Tienda}{section*.126}% 64
-\BOOKMARK [2][-]{section*.130}{Agregar Producto}{section*.126}% 65
-\BOOKMARK [2][-]{section*.131}{Comprar Producto}{section*.126}% 66
-\BOOKMARK [1][-]{section*.132}{Interfaz de Usuario}{chapter*.103}% 67
-\BOOKMARK [0][-]{chapter*.133}{Disciplina de Implementaci\363n}{}% 68
-\BOOKMARK [1][-]{section*.134}{Arquitectura de la aplicaci\363n}{chapter*.133}% 69
-\BOOKMARK [1][-]{section*.135}{Diagrama de Despliegue}{chapter*.133}% 70
-\BOOKMARK [1][-]{section*.136}{Elecci\363n del Lenguaje}{chapter*.133}% 71
-\BOOKMARK [1][-]{section*.137}{Arquitectura de Android}{chapter*.133}% 72
-\BOOKMARK [1][-]{section*.138}{PhoneGap}{chapter*.133}% 73
-\BOOKMARK [2][-]{section*.139}{Ventajas de PhoneGap}{section*.138}% 74
-\BOOKMARK [2][-]{section*.140}{Desventaja de phoneGap}{section*.138}% 75
-\BOOKMARK [1][-]{section*.141}{Web services}{chapter*.133}% 76
-\BOOKMARK [2][-]{section*.142}{Razones para crear servicios Web}{section*.141}% 77
-\BOOKMARK [2][-]{section*.143}{REST}{section*.141}% 78
-\BOOKMARK [1][-]{section*.145}{Caracter\355sticas de seguridad}{chapter*.133}% 79
-\BOOKMARK [2][-]{section*.146}{Canal de comunicaci\363n cifrado}{section*.145}% 80
-\BOOKMARK [2][-]{section*.147}{ACL para cada objeto}{section*.145}% 81
-\BOOKMARK [1][-]{section*.148}{Backbone.js}{chapter*.133}% 82
-\BOOKMARK [2][-]{section*.149}{Modelo Vista Presentador \(MVP\)}{section*.148}% 83
-\BOOKMARK [1][-]{section*.150}{jQuery}{chapter*.133}% 84
-\BOOKMARK [1][-]{section*.151}{jQuery Mobile}{chapter*.133}% 85
-\BOOKMARK [1][-]{section*.152}{Herramientas de desarrollo}{chapter*.133}% 86
-\BOOKMARK [0][-]{chapter*.153}{Disciplina de Pruebas}{}% 87
-\BOOKMARK [1][-]{section*.154}{Test de Unidades}{chapter*.153}% 88
+\BOOKMARK [2][-]{section*.118}{Caso de Uso 15: Un administrador desea ver un registro en particular.}{section*.104}% 53
+\BOOKMARK [2][-]{section*.119}{Caso de Uso UC16: Un administrador desea aprobar o rechazar registros.}{section*.104}% 54
+\BOOKMARK [2][-]{section*.120}{Caso de Uso UC17/18/19: Un administrador desea buscar registros por fecha de creaci\363n/Instituci\363n/Indice.}{section*.104}% 55
+\BOOKMARK [2][-]{section*.121}{Caso de Uso UC21: Un administrador desea exportar a Excel la informaci\363n.}{section*.104}% 56
+\BOOKMARK [1][-]{section*.122}{Diagrama de Clases de Dise\361o}{chapter*.103}% 57
+\BOOKMARK [1][-]{section*.123}{Diagramas de Secuencia}{chapter*.103}% 58
+\BOOKMARK [2][-]{section*.124}{Autenticar}{section*.123}% 59
+\BOOKMARK [2][-]{section*.125}{Registrar}{section*.123}% 60
+\BOOKMARK [2][-]{section*.126}{Crear Tienda}{section*.123}% 61
+\BOOKMARK [2][-]{section*.127}{Agregar Producto}{section*.123}% 62
+\BOOKMARK [2][-]{section*.128}{Comprar Producto}{section*.123}% 63
+\BOOKMARK [1][-]{section*.129}{Interfaz de Usuario}{chapter*.103}% 64
+\BOOKMARK [0][-]{chapter*.130}{Disciplina de Implementaci\363n}{}% 65
+\BOOKMARK [1][-]{section*.131}{Arquitectura de la aplicaci\363n}{chapter*.130}% 66
+\BOOKMARK [1][-]{section*.132}{Diagrama de Despliegue}{chapter*.130}% 67
+\BOOKMARK [1][-]{section*.133}{Elecci\363n del Lenguaje}{chapter*.130}% 68
+\BOOKMARK [1][-]{section*.134}{Arquitectura de Android}{chapter*.130}% 69
+\BOOKMARK [1][-]{section*.135}{PhoneGap}{chapter*.130}% 70
+\BOOKMARK [2][-]{section*.136}{Ventajas de PhoneGap}{section*.135}% 71
+\BOOKMARK [2][-]{section*.137}{Desventaja de phoneGap}{section*.135}% 72
+\BOOKMARK [1][-]{section*.138}{Web services}{chapter*.130}% 73
+\BOOKMARK [2][-]{section*.139}{Razones para crear servicios Web}{section*.138}% 74
+\BOOKMARK [2][-]{section*.140}{REST}{section*.138}% 75
+\BOOKMARK [1][-]{section*.142}{Caracter\355sticas de seguridad}{chapter*.130}% 76
+\BOOKMARK [2][-]{section*.143}{Canal de comunicaci\363n cifrado}{section*.142}% 77
+\BOOKMARK [2][-]{section*.144}{ACL para cada objeto}{section*.142}% 78
+\BOOKMARK [1][-]{section*.145}{Backbone.js}{chapter*.130}% 79
+\BOOKMARK [2][-]{section*.146}{Modelo Vista Presentador \(MVP\)}{section*.145}% 80
+\BOOKMARK [1][-]{section*.147}{jQuery}{chapter*.130}% 81
+\BOOKMARK [1][-]{section*.148}{jQuery Mobile}{chapter*.130}% 82
+\BOOKMARK [1][-]{section*.149}{Herramientas de desarrollo}{chapter*.130}% 83
+\BOOKMARK [0][-]{chapter*.150}{Disciplina de Pruebas}{}% 84
+\BOOKMARK [1][-]{section*.151}{Test de Unidades}{chapter*.150}% 85
+\BOOKMARK [2][-]{section*.152}{Introducci\363n}{section*.151}% 86
+\BOOKMARK [2][-]{section*.153}{Pruebas de Caja Blanca}{section*.151}% 87
+\BOOKMARK [1][-]{section*.154}{Test de M\363dulos}{chapter*.150}% 88
 \BOOKMARK [2][-]{section*.155}{Introducci\363n}{section*.154}% 89
-\BOOKMARK [2][-]{section*.156}{Pruebas de Caja Blanca}{section*.154}% 90
-\BOOKMARK [1][-]{section*.157}{Test de M\363dulos}{chapter*.153}% 91
-\BOOKMARK [2][-]{section*.158}{Introducci\363n}{section*.157}% 92
-\BOOKMARK [2][-]{section*.159}{Pruebas de Caja Negra}{section*.157}% 93
-\BOOKMARK [2][-]{section*.160}{Pruebas de Estr\351s}{section*.157}% 94
-\BOOKMARK [1][-]{section*.161}{Test de Integraci\363n}{chapter*.153}% 95
+\BOOKMARK [2][-]{section*.156}{Pruebas de Caja Negra}{section*.154}% 90
+\BOOKMARK [2][-]{section*.157}{Pruebas de Estr\351s}{section*.154}% 91
+\BOOKMARK [1][-]{section*.158}{Test de Integraci\363n}{chapter*.150}% 92
+\BOOKMARK [2][-]{section*.159}{Introducci\363n}{section*.158}% 93
+\BOOKMARK [2][-]{section*.160}{Pruebas de Integraci\363n}{section*.158}% 94
+\BOOKMARK [1][-]{section*.161}{Test de Aceptaci\363n}{chapter*.150}% 95
 \BOOKMARK [2][-]{section*.162}{Introducci\363n}{section*.161}% 96
-\BOOKMARK [2][-]{section*.163}{Pruebas de Integraci\363n}{section*.161}% 97
-\BOOKMARK [1][-]{section*.164}{Test de Aceptaci\363n}{chapter*.153}% 98
-\BOOKMARK [2][-]{section*.165}{Introducci\363n}{section*.164}% 99
-\BOOKMARK [2][-]{section*.166}{Prueba Alfa}{section*.164}% 100
-\BOOKMARK [2][-]{section*.167}{Prueba Beta}{section*.164}% 101
-\BOOKMARK [0][-]{chapter*.168}{Conclusiones}{}% 102
+\BOOKMARK [2][-]{section*.163}{Prueba Alfa}{section*.161}% 97
+\BOOKMARK [2][-]{section*.164}{Prueba Beta}{section*.161}% 98
+\BOOKMARK [0][-]{chapter*.165}{Conclusiones}{}% 99

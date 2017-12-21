@@ -1,167 +1,164 @@
 \select@language {spanish}
-\contentsline {chapter}{Introducci\IeC {\'o}n}{6}{chapter*.6}
-\contentsline {section}{Objetivos}{6}{section*.7}
-\contentsline {section}{Android}{7}{section*.8}
-\contentsline {section}{Desarrollo de Software}{7}{section*.9}
-\contentsline {section}{An\IeC {\'a}lisis y Dise\IeC {\~n}o Orientado a Objetos}{8}{section*.10}
-\contentsline {section}{Lenguaje de Modelado Unificado (UML)}{9}{section*.11}
-\contentsline {section}{Algunas definiciones}{10}{section*.12}
-\contentsline {section}{Ciclo de vida Iterativo Evolutivo}{11}{section*.13}
-\contentsline {subsection}{Beneficios}{12}{section*.14}
-\contentsline {section}{Proceso Unificado (UP)}{12}{section*.15}
-\contentsline {subsection}{Caracter\IeC {\'\i }sticas}{13}{section*.16}
-\contentsline {chapter}{Disciplina de Requisitos}{15}{chapter*.17}
-\contentsline {section}{Introducci\IeC {\'o}n}{15}{section*.18}
-\contentsline {section}{Identificaci\IeC {\'o}n de usuarios participantes}{15}{section*.19}
-\contentsline {section}{Educci\IeC {\'o}n y extracci\IeC {\'o}n de requisitos.}{16}{section*.20}
-\contentsline {subsection}{Planificaci\IeC {\'o}n y Realizaci\IeC {\'o}n de Entrevistas. Estudio de Documentaci\IeC {\'o}n}{16}{section*.21}
-\contentsline {subsection}{Entrevistas. Planificaci\IeC {\'o}n y Realizaci\IeC {\'o}n}{16}{section*.22}
-\contentsline {subsection}{Estudio de la Documentaci\IeC {\'o}n}{17}{section*.23}
-\contentsline {section}{Estimaci\IeC {\'o}n del proyecto}{17}{section*.24}
-\contentsline {subsection}{Puntos de Funci\IeC {\'o}n y COCOMO}{17}{section*.25}
-\contentsline {subsubsection}{Introducci\IeC {\'o}n}{17}{section*.26}
-\contentsline {subsubsection}{Aplicaci\IeC {\'o}n del M\IeC {\'e}todo}{17}{section*.27}
-\contentsline {subsubsection}{Descripci\IeC {\'o}n de la T\IeC {\'e}cnica}{18}{section*.28}
-\contentsline {subsubsection}{Definici\IeC {\'o}n de par\IeC {\'a}metros b\IeC {\'a}sicos externos del sistema}{18}{section*.29}
-\contentsline {subsubsection}{Ejecuci\IeC {\'o}n del m\IeC {\'e}todo en el proyecto actual}{19}{section*.30}
-\contentsline {subsubsection}{Resumen}{20}{section*.31}
-\contentsline {subsubsection}{Ajuste de los Puntos de Funci\IeC {\'o}n}{21}{section*.32}
-\contentsline {paragraph}{Puntos de funci\IeC {\'o}n ajustados:}{22}{section*.33}
-\contentsline {subsubsection}{Estimaci\IeC {\'o}n de las l\IeC {\'\i }neas de c\IeC {\'o}digo necesarias}{22}{section*.34}
-\contentsline {paragraph}{LOC=}{22}{section*.35}
-\contentsline {subsubsection}{Aplicaci\IeC {\'o}n del m\IeC {\'e}todo COCOMO}{22}{section*.36}
-\contentsline {section}{Especificaci\IeC {\'o}n de Requisitos de Software}{23}{section*.37}
-\contentsline {subsection}{\numberline {1}Introducci\IeC {\'o}n}{23}{subsection.0.0.1}
-\contentsline {subsubsection}{Objetivos y alcance del sistema}{24}{section*.38}
-\contentsline {subsubsection}{Definiciones, Acr\IeC {\'o}nimos y Abreviaturas}{25}{section*.39}
-\contentsline {subsubsection}{Definiciones:}{25}{section*.40}
-\contentsline {subsubsection}{Acr\IeC {\'o}nimos:}{26}{section*.41}
-\contentsline {subsubsection}{Abreviaturas:}{26}{section*.42}
-\contentsline {subsection}{\numberline {2}Descripci\IeC {\'o}n general}{27}{subsection.0.0.2}
-\contentsline {subsection}{\numberline {3}Requisitos espec\IeC {\'\i }ficos}{28}{subsection.0.0.3}
-\contentsline {subsubsection}{Requisitos Funcionales}{28}{section*.43}
-\contentsline {paragraph}{Introducci\IeC {\'o}n:}{28}{section*.44}
-\contentsline {paragraph}{Entrada:}{28}{section*.45}
-\contentsline {paragraph}{Proceso:}{28}{section*.46}
-\contentsline {paragraph}{Salida:}{28}{section*.47}
-\contentsline {paragraph}{Introducci\IeC {\'o}n:}{28}{section*.48}
-\contentsline {paragraph}{Entrada:}{28}{section*.49}
-\contentsline {paragraph}{Proceso:}{28}{section*.50}
-\contentsline {paragraph}{Salida:}{29}{section*.51}
-\contentsline {paragraph}{Introducci\IeC {\'o}n:}{29}{section*.52}
-\contentsline {paragraph}{Entrada:}{29}{section*.53}
-\contentsline {paragraph}{Proceso:}{29}{section*.54}
-\contentsline {paragraph}{Salida:}{29}{section*.55}
-\contentsline {paragraph}{Introducci\IeC {\'o}n:}{29}{section*.56}
-\contentsline {paragraph}{Entrada:}{29}{section*.57}
-\contentsline {paragraph}{Proceso:}{29}{section*.58}
-\contentsline {paragraph}{Salida:}{29}{section*.59}
-\contentsline {paragraph}{Introducci\IeC {\'o}n:}{29}{section*.60}
-\contentsline {paragraph}{Entrada:}{30}{section*.61}
-\contentsline {paragraph}{Proceso:}{30}{section*.62}
-\contentsline {paragraph}{Salida:}{30}{section*.63}
-\contentsline {paragraph}{Introducci\IeC {\'o}n:}{30}{section*.64}
-\contentsline {paragraph}{Entrada:}{30}{section*.65}
-\contentsline {paragraph}{Proceso:}{30}{section*.66}
-\contentsline {paragraph}{Salida:}{30}{section*.67}
-\contentsline {paragraph}{Introducci\IeC {\'o}n:}{30}{section*.68}
-\contentsline {paragraph}{Entrada:}{30}{section*.69}
-\contentsline {paragraph}{Proceso:}{30}{section*.70}
-\contentsline {paragraph}{Salida:}{30}{section*.71}
-\contentsline {subsubsection}{Suposiciones y Dependencias:}{31}{section*.72}
-\contentsline {paragraph}{Suposiciones:}{31}{section*.73}
-\contentsline {paragraph}{Dependencias:}{31}{section*.74}
-\contentsline {subsubsection}{Requisitos de Usuario y Tecnol\IeC {\'o}gicos:}{31}{section*.75}
-\contentsline {paragraph}{Requisitos de usuario:}{31}{section*.76}
-\contentsline {paragraph}{Requisitos tecnol\IeC {\'o}gicos:}{31}{section*.77}
-\contentsline {subsubsection}{Requisitos de Interfaces Externas}{31}{section*.78}
-\contentsline {paragraph}{Interfaces de usuario:}{31}{section*.79}
-\contentsline {paragraph}{Interfaces Hardware:}{32}{section*.80}
-\contentsline {paragraph}{Interfaces Software:}{32}{section*.81}
-\contentsline {subsubsection}{Requisitos de Rendimiento:}{33}{section*.82}
-\contentsline {subsubsection}{Requisitos de Desarrollo:}{33}{section*.83}
-\contentsline {subsubsection}{Restricciones de Dise\IeC {\~n}o:}{33}{section*.84}
-\contentsline {paragraph}{Ajuste a est\IeC {\'a}ndares:}{33}{section*.85}
-\contentsline {paragraph}{Seguridad:}{33}{section*.86}
-\contentsline {paragraph}{Pol\IeC {\'\i }tica de respaldo:}{34}{section*.87}
-\contentsline {paragraph}{Base de Datos:}{34}{section*.88}
-\contentsline {paragraph}{Pol\IeC {\'\i }tica de Borrado:}{34}{section*.89}
-\contentsline {chapter}{Disciplina de An\IeC {\'a}lisis}{35}{chapter*.90}
-\contentsline {section}{Vista de Casos de Uso}{35}{section*.91}
-\contentsline {subsection}{Casos de Uso Principales}{35}{section*.92}
-\contentsline {section}{Diagrama de Contexto}{36}{section*.93}
-\contentsline {section}{Diagramas de Casos de Uso}{36}{section*.94}
-\contentsline {subsection}{Diagrama de Casos de Uso general}{37}{section*.95}
-\contentsline {subsection}{Diagrama de Casos de Uso de Gesti\IeC {\'o}n de Usuarios}{37}{section*.96}
-\contentsline {subsection}{Diagrama de Casos de Uso de Gesti\IeC {\'o}n de Registros}{38}{section*.97}
-\contentsline {section}{Diagramas de Actividad}{39}{section*.98}
-\contentsline {subsection}{Inicio de Sesi\IeC {\'o}n}{39}{section*.99}
-\contentsline {subsection}{Registrar Usuario}{40}{section*.100}
-\contentsline {subsection}{Crear Registro }{41}{section*.101}
-\contentsline {subsection}{Ver Mapa Interactivo}{42}{section*.102}
-\contentsline {chapter}{Disciplina de Dise\IeC {\~n}o}{43}{chapter*.103}
-\contentsline {section}{Descripci\IeC {\'o}n Textual de Casos de Uso}{43}{section*.104}
-\contentsline {subsection}{Caso de Uso 01: Un alumno no registrado desea registrarse en el sistema.}{43}{section*.105}
-\contentsline {subsection}{Caso de Uso 02: Un alumno registrado desea iniciar sesi\IeC {\'o}n.}{46}{section*.106}
-\contentsline {subsection}{Caso de Uso 03: Un alumno registrado desea crear un registro}{48}{section*.107}
-\contentsline {subsection}{Caso de Uso 04: Un alumno registrado desea listar sus registros.}{49}{section*.108}
-\contentsline {subsection}{Caso de Uso 05: Un alumno registrado desea ver un registro en particular}{51}{section*.109}
-\contentsline {subsection}{Caso de Uso 06: Un alumno registrado desea ver el mapa general.}{52}{section*.110}
-\contentsline {subsection}{Caso de Uso 07: Un alumno registrado desea ver su perfil.}{53}{section*.111}
-\contentsline {subsection}{Caso de Uso 08: Un alumno registrado desea modificar su perfil.}{54}{section*.112}
-\contentsline {subsection}{Caso de Uso 10: Un alumno registrado desea eliminar su cuenta.}{56}{section*.113}
-\contentsline {subsection}{Caso de Uso 11: Un administrador desea iniciar sesi\IeC {\'o}n.}{57}{section*.114}
-\contentsline {subsection}{Caso de Uso 12: Un administrador desea borrar o dar de baja un alumno.}{59}{section*.115}
-\contentsline {subsection}{Caso de Uso 13: Un administrador desea listar los alumnos.}{61}{section*.116}
-\contentsline {subsection}{Caso de Uso 14: Un administrador desea listar los registros.}{62}{section*.117}
-\contentsline {subsection}{Caso de Uso UC15: blabla}{63}{section*.118}
-\contentsline {subsection}{Caso de Uso UC16: blabla}{64}{section*.119}
-\contentsline {subsection}{Caso de Uso UC17: blabla}{64}{section*.120}
-\contentsline {subsection}{Caso de Uso UC18: blabla}{65}{section*.121}
-\contentsline {subsection}{Caso de Uso UC19: blabla}{66}{section*.122}
-\contentsline {subsection}{Caso de Uso UC20: blabla}{66}{section*.123}
-\contentsline {subsection}{Caso de Uso UC21: blabla}{67}{section*.124}
-\contentsline {section}{Diagrama de Clases de Dise\IeC {\~n}o}{68}{section*.125}
-\contentsline {section}{Diagramas de Secuencia}{69}{section*.126}
-\contentsline {subsection}{Autenticar}{69}{section*.127}
-\contentsline {subsection}{Registrar}{69}{section*.128}
-\contentsline {subsection}{Crear Tienda}{70}{section*.129}
-\contentsline {subsection}{Agregar Producto}{70}{section*.130}
-\contentsline {subsection}{Comprar Producto}{71}{section*.131}
-\contentsline {section}{Interfaz de Usuario}{72}{section*.132}
-\contentsline {chapter}{Disciplina de Implementaci\IeC {\'o}n}{85}{chapter*.133}
-\contentsline {section}{Arquitectura de la aplicaci\IeC {\'o}n}{85}{section*.134}
-\contentsline {section}{Diagrama de Despliegue}{86}{section*.135}
-\contentsline {section}{Elecci\IeC {\'o}n del Lenguaje}{86}{section*.136}
-\contentsline {section}{Arquitectura de Android}{87}{section*.137}
-\contentsline {section}{PhoneGap}{88}{section*.138}
-\contentsline {subsection}{Ventajas de PhoneGap}{89}{section*.139}
-\contentsline {subsection}{Desventaja de phoneGap}{90}{section*.140}
-\contentsline {section}{Web services}{90}{section*.141}
-\contentsline {subsection}{Razones para crear servicios Web}{91}{section*.142}
-\contentsline {subsection}{REST}{91}{section*.143}
-\contentsline {subsubsection}{Recursos}{93}{section*.144}
-\contentsline {section}{Caracter\IeC {\'\i }sticas de seguridad}{93}{section*.145}
-\contentsline {subsection}{Canal de comunicaci\IeC {\'o}n cifrado}{93}{section*.146}
-\contentsline {subsection}{ACL para cada objeto}{94}{section*.147}
-\contentsline {section}{Backbone.js}{95}{section*.148}
-\contentsline {subsection}{Modelo Vista Presentador (MVP)}{97}{section*.149}
-\contentsline {section}{jQuery}{98}{section*.150}
-\contentsline {section}{jQuery Mobile}{98}{section*.151}
-\contentsline {section}{Herramientas de desarrollo}{99}{section*.152}
-\contentsline {chapter}{Disciplina de Pruebas}{101}{chapter*.153}
-\contentsline {section}{Test de Unidades}{101}{section*.154}
-\contentsline {subsection}{Introducci\IeC {\'o}n}{101}{section*.155}
-\contentsline {subsection}{Pruebas de Caja Blanca}{101}{section*.156}
-\contentsline {section}{Test de M\IeC {\'o}dulos}{101}{section*.157}
-\contentsline {subsection}{Introducci\IeC {\'o}n}{101}{section*.158}
-\contentsline {subsection}{Pruebas de Caja Negra}{102}{section*.159}
-\contentsline {subsection}{Pruebas de Estr\IeC {\'e}s}{102}{section*.160}
-\contentsline {section}{Test de Integraci\IeC {\'o}n}{102}{section*.161}
+\contentsline {chapter}{Introducci\IeC {\'o}n}{3}{chapter*.6}
+\contentsline {section}{Objetivos}{3}{section*.7}
+\contentsline {section}{Android}{4}{section*.8}
+\contentsline {section}{Desarrollo de Software}{4}{section*.9}
+\contentsline {section}{An\IeC {\'a}lisis y Dise\IeC {\~n}o Orientado a Objetos}{5}{section*.10}
+\contentsline {section}{Lenguaje de Modelado Unificado (UML)}{6}{section*.11}
+\contentsline {section}{Algunas definiciones}{7}{section*.12}
+\contentsline {section}{Ciclo de vida Iterativo Evolutivo}{8}{section*.13}
+\contentsline {subsection}{Beneficios}{9}{section*.14}
+\contentsline {section}{Proceso Unificado (UP)}{9}{section*.15}
+\contentsline {subsection}{Caracter\IeC {\'\i }sticas}{10}{section*.16}
+\contentsline {chapter}{Disciplina de Requisitos}{12}{chapter*.17}
+\contentsline {section}{Introducci\IeC {\'o}n}{12}{section*.18}
+\contentsline {section}{Identificaci\IeC {\'o}n de usuarios participantes}{12}{section*.19}
+\contentsline {section}{Educci\IeC {\'o}n y extracci\IeC {\'o}n de requisitos.}{13}{section*.20}
+\contentsline {subsection}{Planificaci\IeC {\'o}n y Realizaci\IeC {\'o}n de Entrevistas. Estudio de Documentaci\IeC {\'o}n}{13}{section*.21}
+\contentsline {subsection}{Entrevistas. Planificaci\IeC {\'o}n y Realizaci\IeC {\'o}n}{13}{section*.22}
+\contentsline {subsection}{Estudio de la Documentaci\IeC {\'o}n}{14}{section*.23}
+\contentsline {section}{Estimaci\IeC {\'o}n del proyecto}{14}{section*.24}
+\contentsline {subsection}{Puntos de Funci\IeC {\'o}n y COCOMO}{14}{section*.25}
+\contentsline {subsubsection}{Introducci\IeC {\'o}n}{14}{section*.26}
+\contentsline {subsubsection}{Aplicaci\IeC {\'o}n del M\IeC {\'e}todo}{14}{section*.27}
+\contentsline {subsubsection}{Descripci\IeC {\'o}n de la T\IeC {\'e}cnica}{15}{section*.28}
+\contentsline {subsubsection}{Definici\IeC {\'o}n de par\IeC {\'a}metros b\IeC {\'a}sicos externos del sistema}{15}{section*.29}
+\contentsline {subsubsection}{Ejecuci\IeC {\'o}n del m\IeC {\'e}todo en el proyecto actual}{16}{section*.30}
+\contentsline {subsubsection}{Resumen}{17}{section*.31}
+\contentsline {subsubsection}{Ajuste de los Puntos de Funci\IeC {\'o}n}{18}{section*.32}
+\contentsline {paragraph}{Puntos de funci\IeC {\'o}n ajustados:}{19}{section*.33}
+\contentsline {subsubsection}{Estimaci\IeC {\'o}n de las l\IeC {\'\i }neas de c\IeC {\'o}digo necesarias}{19}{section*.34}
+\contentsline {paragraph}{LOC=}{19}{section*.35}
+\contentsline {subsubsection}{Aplicaci\IeC {\'o}n del m\IeC {\'e}todo COCOMO}{19}{section*.36}
+\contentsline {section}{Especificaci\IeC {\'o}n de Requisitos de Software}{20}{section*.37}
+\contentsline {subsection}{\numberline {1}Introducci\IeC {\'o}n}{20}{subsection.0.0.1}
+\contentsline {subsubsection}{Objetivos y alcance del sistema}{21}{section*.38}
+\contentsline {subsubsection}{Definiciones, Acr\IeC {\'o}nimos y Abreviaturas}{22}{section*.39}
+\contentsline {subsubsection}{Definiciones:}{22}{section*.40}
+\contentsline {subsubsection}{Acr\IeC {\'o}nimos:}{23}{section*.41}
+\contentsline {subsubsection}{Abreviaturas:}{23}{section*.42}
+\contentsline {subsection}{\numberline {2}Descripci\IeC {\'o}n general}{24}{subsection.0.0.2}
+\contentsline {subsection}{\numberline {3}Requisitos espec\IeC {\'\i }ficos}{25}{subsection.0.0.3}
+\contentsline {subsubsection}{Requisitos Funcionales}{25}{section*.43}
+\contentsline {paragraph}{Introducci\IeC {\'o}n:}{25}{section*.44}
+\contentsline {paragraph}{Entrada:}{25}{section*.45}
+\contentsline {paragraph}{Proceso:}{25}{section*.46}
+\contentsline {paragraph}{Salida:}{25}{section*.47}
+\contentsline {paragraph}{Introducci\IeC {\'o}n:}{25}{section*.48}
+\contentsline {paragraph}{Entrada:}{25}{section*.49}
+\contentsline {paragraph}{Proceso:}{25}{section*.50}
+\contentsline {paragraph}{Salida:}{26}{section*.51}
+\contentsline {paragraph}{Introducci\IeC {\'o}n:}{26}{section*.52}
+\contentsline {paragraph}{Entrada:}{26}{section*.53}
+\contentsline {paragraph}{Proceso:}{26}{section*.54}
+\contentsline {paragraph}{Salida:}{26}{section*.55}
+\contentsline {paragraph}{Introducci\IeC {\'o}n:}{26}{section*.56}
+\contentsline {paragraph}{Entrada:}{26}{section*.57}
+\contentsline {paragraph}{Proceso:}{26}{section*.58}
+\contentsline {paragraph}{Salida:}{26}{section*.59}
+\contentsline {paragraph}{Introducci\IeC {\'o}n:}{26}{section*.60}
+\contentsline {paragraph}{Entrada:}{27}{section*.61}
+\contentsline {paragraph}{Proceso:}{27}{section*.62}
+\contentsline {paragraph}{Salida:}{27}{section*.63}
+\contentsline {paragraph}{Introducci\IeC {\'o}n:}{27}{section*.64}
+\contentsline {paragraph}{Entrada:}{27}{section*.65}
+\contentsline {paragraph}{Proceso:}{27}{section*.66}
+\contentsline {paragraph}{Salida:}{27}{section*.67}
+\contentsline {paragraph}{Introducci\IeC {\'o}n:}{27}{section*.68}
+\contentsline {paragraph}{Entrada:}{27}{section*.69}
+\contentsline {paragraph}{Proceso:}{27}{section*.70}
+\contentsline {paragraph}{Salida:}{27}{section*.71}
+\contentsline {subsubsection}{Suposiciones y Dependencias:}{28}{section*.72}
+\contentsline {paragraph}{Suposiciones:}{28}{section*.73}
+\contentsline {paragraph}{Dependencias:}{28}{section*.74}
+\contentsline {subsubsection}{Requisitos de Usuario y Tecnol\IeC {\'o}gicos:}{28}{section*.75}
+\contentsline {paragraph}{Requisitos de usuario:}{28}{section*.76}
+\contentsline {paragraph}{Requisitos tecnol\IeC {\'o}gicos:}{28}{section*.77}
+\contentsline {subsubsection}{Requisitos de Interfaces Externas}{28}{section*.78}
+\contentsline {paragraph}{Interfaces de usuario:}{28}{section*.79}
+\contentsline {paragraph}{Interfaces Hardware:}{29}{section*.80}
+\contentsline {paragraph}{Interfaces Software:}{29}{section*.81}
+\contentsline {subsubsection}{Requisitos de Rendimiento:}{30}{section*.82}
+\contentsline {subsubsection}{Requisitos de Desarrollo:}{30}{section*.83}
+\contentsline {subsubsection}{Restricciones de Dise\IeC {\~n}o:}{30}{section*.84}
+\contentsline {paragraph}{Ajuste a est\IeC {\'a}ndares:}{30}{section*.85}
+\contentsline {paragraph}{Seguridad:}{30}{section*.86}
+\contentsline {paragraph}{Pol\IeC {\'\i }tica de respaldo:}{31}{section*.87}
+\contentsline {paragraph}{Base de Datos:}{31}{section*.88}
+\contentsline {paragraph}{Pol\IeC {\'\i }tica de Borrado:}{31}{section*.89}
+\contentsline {chapter}{Disciplina de An\IeC {\'a}lisis}{32}{chapter*.90}
+\contentsline {section}{Vista de Casos de Uso}{32}{section*.91}
+\contentsline {subsection}{Casos de Uso Principales}{32}{section*.92}
+\contentsline {section}{Diagrama de Contexto}{33}{section*.93}
+\contentsline {section}{Diagramas de Casos de Uso}{33}{section*.94}
+\contentsline {subsection}{Diagrama de Casos de Uso general}{34}{section*.95}
+\contentsline {subsection}{Diagrama de Casos de Uso de Gesti\IeC {\'o}n de Usuarios}{34}{section*.96}
+\contentsline {subsection}{Diagrama de Casos de Uso de Gesti\IeC {\'o}n de Registros}{35}{section*.97}
+\contentsline {section}{Diagramas de Actividad}{36}{section*.98}
+\contentsline {subsection}{Inicio de Sesi\IeC {\'o}n}{36}{section*.99}
+\contentsline {subsection}{Registrar Usuario}{37}{section*.100}
+\contentsline {subsection}{Crear Registro }{38}{section*.101}
+\contentsline {subsection}{Ver Mapa Interactivo}{39}{section*.102}
+\contentsline {chapter}{Disciplina de Dise\IeC {\~n}o}{40}{chapter*.103}
+\contentsline {section}{Descripci\IeC {\'o}n Textual de Casos de Uso}{40}{section*.104}
+\contentsline {subsection}{Caso de Uso 01: Un alumno no registrado desea registrarse en el sistema.}{40}{section*.105}
+\contentsline {subsection}{Caso de Uso 02: Un alumno registrado desea iniciar sesi\IeC {\'o}n.}{43}{section*.106}
+\contentsline {subsection}{Caso de Uso 03: Un alumno registrado desea crear un registro}{45}{section*.107}
+\contentsline {subsection}{Caso de Uso 04: Un alumno registrado desea listar sus registros.}{46}{section*.108}
+\contentsline {subsection}{Caso de Uso 05: Un alumno registrado desea ver un registro en particular}{48}{section*.109}
+\contentsline {subsection}{Caso de Uso 06: Un alumno registrado desea ver el mapa general.}{49}{section*.110}
+\contentsline {subsection}{Caso de Uso 07: Un alumno registrado desea ver su perfil.}{50}{section*.111}
+\contentsline {subsection}{Caso de Uso 08: Un alumno registrado desea modificar su perfil.}{51}{section*.112}
+\contentsline {subsection}{Caso de Uso 10: Un alumno registrado desea eliminar su cuenta.}{53}{section*.113}
+\contentsline {subsection}{Caso de Uso 11: Un administrador desea iniciar sesi\IeC {\'o}n.}{54}{section*.114}
+\contentsline {subsection}{Caso de Uso 12: Un administrador desea borrar o dar de baja un alumno.}{56}{section*.115}
+\contentsline {subsection}{Caso de Uso 13: Un administrador desea listar los alumnos.}{58}{section*.116}
+\contentsline {subsection}{Caso de Uso 14: Un administrador desea listar los registros.}{59}{section*.117}
+\contentsline {subsection}{Caso de Uso 15: Un administrador desea ver un registro en particular.}{60}{section*.118}
+\contentsline {subsection}{Caso de Uso UC16: Un administrador desea aprobar o rechazar registros.}{62}{section*.119}
+\contentsline {subsection}{Caso de Uso UC17/18/19: Un administrador desea buscar registros por fecha de creaci\IeC {\'o}n/Instituci\IeC {\'o}n/Indice.}{63}{section*.120}
+\contentsline {subsection}{Caso de Uso UC21: Un administrador desea exportar a Excel la informaci\IeC {\'o}n.}{65}{section*.121}
+\contentsline {section}{Diagrama de Clases de Dise\IeC {\~n}o}{67}{section*.122}
+\contentsline {section}{Diagramas de Secuencia}{68}{section*.123}
+\contentsline {subsection}{Autenticar}{68}{section*.124}
+\contentsline {subsection}{Registrar}{68}{section*.125}
+\contentsline {subsection}{Crear Tienda}{69}{section*.126}
+\contentsline {subsection}{Agregar Producto}{69}{section*.127}
+\contentsline {subsection}{Comprar Producto}{70}{section*.128}
+\contentsline {section}{Interfaz de Usuario}{71}{section*.129}
+\contentsline {chapter}{Disciplina de Implementaci\IeC {\'o}n}{84}{chapter*.130}
+\contentsline {section}{Arquitectura de la aplicaci\IeC {\'o}n}{84}{section*.131}
+\contentsline {section}{Diagrama de Despliegue}{85}{section*.132}
+\contentsline {section}{Elecci\IeC {\'o}n del Lenguaje}{85}{section*.133}
+\contentsline {section}{Arquitectura de Android}{86}{section*.134}
+\contentsline {section}{PhoneGap}{87}{section*.135}
+\contentsline {subsection}{Ventajas de PhoneGap}{88}{section*.136}
+\contentsline {subsection}{Desventaja de phoneGap}{89}{section*.137}
+\contentsline {section}{Web services}{89}{section*.138}
+\contentsline {subsection}{Razones para crear servicios Web}{90}{section*.139}
+\contentsline {subsection}{REST}{90}{section*.140}
+\contentsline {subsubsection}{Recursos}{92}{section*.141}
+\contentsline {section}{Caracter\IeC {\'\i }sticas de seguridad}{92}{section*.142}
+\contentsline {subsection}{Canal de comunicaci\IeC {\'o}n cifrado}{92}{section*.143}
+\contentsline {subsection}{ACL para cada objeto}{93}{section*.144}
+\contentsline {section}{Backbone.js}{94}{section*.145}
+\contentsline {subsection}{Modelo Vista Presentador (MVP)}{96}{section*.146}
+\contentsline {section}{jQuery}{97}{section*.147}
+\contentsline {section}{jQuery Mobile}{97}{section*.148}
+\contentsline {section}{Herramientas de desarrollo}{98}{section*.149}
+\contentsline {chapter}{Disciplina de Pruebas}{100}{chapter*.150}
+\contentsline {section}{Test de Unidades}{100}{section*.151}
+\contentsline {subsection}{Introducci\IeC {\'o}n}{100}{section*.152}
+\contentsline {subsection}{Pruebas de Caja Blanca}{100}{section*.153}
+\contentsline {section}{Test de M\IeC {\'o}dulos}{100}{section*.154}
+\contentsline {subsection}{Introducci\IeC {\'o}n}{100}{section*.155}
+\contentsline {subsection}{Pruebas de Caja Negra}{101}{section*.156}
+\contentsline {subsection}{Pruebas de Estr\IeC {\'e}s}{101}{section*.157}
+\contentsline {section}{Test de Integraci\IeC {\'o}n}{101}{section*.158}
+\contentsline {subsection}{Introducci\IeC {\'o}n}{101}{section*.159}
+\contentsline {subsection}{Pruebas de Integraci\IeC {\'o}n}{101}{section*.160}
+\contentsline {section}{Test de Aceptaci\IeC {\'o}n}{102}{section*.161}
 \contentsline {subsection}{Introducci\IeC {\'o}n}{102}{section*.162}
-\contentsline {subsection}{Pruebas de Integraci\IeC {\'o}n}{102}{section*.163}
-\contentsline {section}{Test de Aceptaci\IeC {\'o}n}{103}{section*.164}
-\contentsline {subsection}{Introducci\IeC {\'o}n}{103}{section*.165}
-\contentsline {subsection}{Prueba Alfa}{103}{section*.166}
-\contentsline {subsection}{Prueba Beta}{103}{section*.167}
-\contentsline {chapter}{Conclusiones}{104}{chapter*.168}
+\contentsline {subsection}{Prueba Alfa}{102}{section*.163}
+\contentsline {subsection}{Prueba Beta}{102}{section*.164}
+\contentsline {chapter}{Conclusiones}{103}{chapter*.165}

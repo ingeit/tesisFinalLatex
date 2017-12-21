@@ -962,36 +962,58 @@ Por el Principio de Pareto\footnote{Cuando se habla de los costes de desarrollo 
 %#
 %#############################################################################
 
-\subsection{Caso de Uso UC15: blabla}
+\subsection{Caso de Uso 15: Un administrador desea ver un registro en particular.}
 
 \begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
-    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} CU15 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Ver Registro} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
     \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } Este caso de uso permite al administrador ver un registro en particular con toda su informacion.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: } Administrador (Primario). Servidor (Secundario)
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+    
+    \emph{Administrador:} quiere visualizar de manera completa la información de un registro.
+
+    \emph{Servidor:} quiere que el administrador pueda ver la información relacionada con un registro de forma segura.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } El administrador debe estar autenticado en APP.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: } Se muestra la informacion completa del registro de un usuario.
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
 
+    \begin{enumerate}
+        \item El administrador selecciona la opción de listar los registros.
+        \item El administrador, sobre un registro de la lista, selecciona la opción de ver registro.
+        \item APP envía la solicitud a S.
+        \item S envía los datos necesarios para generar la vista del registro a APP.
+        \item APP muestra el registro completo por pantalla.
+    \end{enumerate}
+
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+    
+    \textbf{A1: El sistema encuentra algún fallo para comunicarse con S}
+    
+    La secuencia A1 comienza en el punto 3 del escenario principal.
+    \begin{enumerate}
+        \setcounter{enumi}{3}
+        \item APP informa al usuario el problema de conexión a través de un mensaje por la pantalla.
+    \end{enumerate}
+
+    El escenario vuelve al punto 2.
 
     } \\ \hline
 
@@ -1003,36 +1025,60 @@ Por el Principio de Pareto\footnote{Cuando se habla de los costes de desarrollo 
 %#
 %#############################################################################
 
-\subsection{Caso de Uso UC16: blabla}
+\subsection{Caso de Uso UC16: Un administrador desea aprobar o rechazar registros.}
 
 \begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
-    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} CU16 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Aprobar o Rechazar Registro} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
     \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } Este caso de uso permite al administrador aprobar o rechazar un registro en particular.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: } Administrador (Primario). Servidor (Secundario)
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+    
+    \emph{Administrador:} quiere aprobar o rechazar un registro creado por un usuario.
+
+    \emph{Servidor:} quiere mantener actualizados los datos de los registros.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } El administrador debe estar autenticado en APP.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: } Se registran los cambios de los datos del registro en cuestión en el servidor.
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
 
+    \begin{enumerate}
+        \item El administrador ingresa a la opción para ver un registro en particular.
+        \item El administrador selecciona la opción de aprobar o rechazar registro.
+        \item APP solicita al administrador a través de una alerta la confirmación para aprobar o rechazar el registro.
+        \item El administrador presiona el botón aceptar.
+        \item APP envía la solicitud a S.
+        \item S envía confirmación.
+        \item APP informa al administrador que la operación se realizó exitosamente.
+    \end{enumerate}
+
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+    
+    \textbf{A1: El sistema encuentra algún fallo para comunicarse con S}
+    
+    La secuencia A1 comienza en el punto 5 del escenario principal.
+    \begin{enumerate}
+        \setcounter{enumi}{5}
+        \item APP informa al administrador el problema de conexión a través de un mensaje por la pantalla.
+    \end{enumerate}
+
+    El escenario vuelve al punto 2.
 
     } \\ \hline
 
@@ -1040,163 +1086,63 @@ Por el Principio de Pareto\footnote{Cuando se habla de los costes de desarrollo 
 
 %#############################################################################
 %#   
-%#   Caso de uso 17
+%#   Caso de uso 17/18/19
 %#
 %#############################################################################
 
-\subsection{Caso de Uso UC17: blabla}
+\subsection{Caso de Uso UC17/18/19: Un administrador desea buscar registros por fecha de creación/Institución/Indice.}
 
 \begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
-    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} CU17/18/19 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Buscar Registro} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
     \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } Este caso de uso permite al administrador realizar una busqueda de registros filtrados por un rango de fechas.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: } Administrador (Primario). Servidor (Secundario)
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+    
+    \emph{Administrador:} quiere obtener los registros que coincidan con un determinado criterio de busqueda.
+
+    \emph{Servidor:} quiere ofrecer al administrador los registros que mejor se ajustan a su búsqueda
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } El administrador debe estar autenticado en APP.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: } Se obtiene un listado de registros que cumplen con la condición de busqueda.
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
 
-    } \\ \hline
-
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
-
-    } \\ \hline
-
-\end{longtable}
-
-%#############################################################################
-%#   
-%#   Caso de uso 18
-%#
-%#############################################################################
-
-\subsection{Caso de Uso UC18: blabla}
-
-\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
-    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
-    \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
-
-    } \\ \hline
-
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
-
-    } \\ \hline
-
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
-
-    } \\ \hline
-
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
-
-    } \\ \hline
-
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
-
-    } \\ \hline
-
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
+    \begin{enumerate}
+        \item El administrador ingresa el texto que buscará (rango de fechas o institución o indice)
+        \item El administrador presiona un botón para comenzar la búsqueda.
+        \item APP envía la solicitud a S.
+        \item S verifica los registros que cumplen con el criterio buscado.
+        \item S retorna el listado de registros
+        \item APP muestra el listado al administrador.
+    \end{enumerate}
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+    
+    \textbf{A1: El sistema encuentra algún fallo para comunicarse con S}
+    
+    La secuencia A1 comienza en el punto 3 del escenario principal.
+    \begin{enumerate}
+        \setcounter{enumi}{3}
+        \item APP informa al administrador el problema de conexión a través de un mensaje por la pantalla.
+    \end{enumerate}
 
-    } \\ \hline
-
-\end{longtable}
-
-%#############################################################################
-%#   
-%#   Caso de uso 19
-%#
-%#############################################################################
-
-\subsection{Caso de Uso UC19: blabla}
-
-\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
-    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
-    \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
-
-    } \\ \hline
-
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
-
-    } \\ \hline
-
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
-
-    } \\ \hline
-
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
-
-    } \\ \hline
-
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
-
-    } \\ \hline
-
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
-
-    } \\ \hline
-
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
-
-    } \\ \hline
-
-\end{longtable}
-
-%#############################################################################
-%#   
-%#   Caso de uso 20
-%#
-%#############################################################################
-
-\subsection{Caso de Uso UC20: blabla}
-
-\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
-    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
-    \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
-
-    } \\ \hline
-
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
-
-    } \\ \hline
-
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
-
-    } \\ \hline
-
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
-
-    } \\ \hline
-
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
-
-    } \\ \hline
-
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
-
-    } \\ \hline
-
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+    El escenario vuelve al punto 2.
 
     } \\ \hline
 
@@ -1208,42 +1154,70 @@ Por el Principio de Pareto\footnote{Cuando se habla de los costes de desarrollo 
 %#
 %#############################################################################
 
-\subsection{Caso de Uso UC21: blabla}
+\subsection{Caso de Uso UC21: Un administrador desea exportar a Excel la información.}
 
 \begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
-    \cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+    \cellcolor{grisOscuro} CU21 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Exportar Excel} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
     \cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } En
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } Este caso de uso permite al administrador exportar un archivo formato excel con la informacion de los registros.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Actores: } Administrador (Primario). Servidor (Secundario)
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
+    
+    \emph{Administrador:} quiere exportar un archivo excel con la informacion de los registros.
+
+    \emph{Servidor:} quiere ofrecer al administrador el archivo excel con los registros.
+    } \\ \hline
+
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } 
+    
+    El administrador debe estar autenticado en APP.
 
     } \\ \hline
 
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: }
-
-    } \\ \hline
-
-    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: }
+    \multicolumn{6}{|p{15cm}|}{ \textbf{Poscondiciones: } Se facilita un archivo excel para la descarga.
 
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
 
+    \begin{enumerate}
+        \item El administrador selecciona la opción para ver exportar un archivo excel.
+        \item APP envía la solicitud a S.
+        \item S genera el archivo excel con los registros.
+        \item S envía el archivo a APP.
+        \item APP proporciona una ventana para la descarga del archivo excel.
+    \end{enumerate}
+
     } \\ \hline
 
     \multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
+    
+    \textbf{A1: El sistema encuentra algún fallo para comunicarse con S}
+    
+    La secuencia A1 comienza en el punto 2 del escenario principal.
+    \begin{enumerate}
+        \setcounter{enumi}{2}
+        \item APP informa al usuario el problema de conexión a través de un mensaje por la pantalla.
+    \end{enumerate}
+
+    El escenario vuelve al punto 2.
 
     } \\ \hline
 
 \end{longtable}
 
 
+%#############################################################################
+%#   
+%#   DIAGRAMAS DE CLASES DE DISEÑO 
+%#
+%#############################################################################
 
 \section{Diagrama de Clases de Diseño}
 
