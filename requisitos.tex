@@ -61,299 +61,20 @@ Se identificaron los siguientes usuarios:
  
  Es de destacar la necesidad de una participación activa de los usuarios del futuro sistema en las actividades de desarrollo del mismo, con objeto de conseguir la máxima adecuación del sistema a sus necesidades y facilitar el conocimiento paulatino de dicho sistema, permitiendo una rápida implantación.
 
-  \section{Educción y extracción de requisitos.}
+  \section{Educción de requisitos}
 
-  \subsection{Planificación y Realización de Entrevistas. Estudio de Documentación}
+  \subsection{Estudio de Documentación. Planificación y Realización de Entrevistas}
   
   Esta tarea tiene como finalidad capturar los requisitos de usuarios para el desarrollo del sistema.
-
-Para el análisis de requisitos se usaron distintas técnicas de educción de requisitos. Entre ellas el estudio de la documentación provista por parte del cliente; entrevistas abiertas y estructuradas, análisis del proceso actual.
   
-  \subsection{Entrevistas. Planificación y Realización}
-  
-  La entrevista consiste en una interacción sistemática con un usuario para educir los conocimientos de éste. Se hicieron entrevistas abiertas y estructuradas. 
-
-El proceso consiste en la  planificación de las entrevistas, en donde se incluye fecha, hora, lugar, duración estimada y guión de la entrevista; luego se llevan a cabo las entrevistas y se las documenta identificando los requisitos con sus prioridades.  
-
-A partir de las entrevistas realizadas con el cliente, se identifican los requisitos que debe cumplir el sistema y se establecerá una prioridad para los mismos, de acuerdo a las necesidades de los usuarios y a los objetivos a cubrir por el sistema completo.
-
-  \subsection{Estudio de la Documentación}
-  
-El estudio de la documentación consiste en la extracción de requisitos de los documentos e impresiones que forman parte del proceso actual.
-
-Una vez que se obtiene toda la documentación relevante al sistema que se va a desarrollar, se lee cuidadosamente la información contenida en esos documentos y luego con la técnica de análisis estructural de textos, se extraen conceptos fundamentales del dominio buscando estructuras preestablecidas.
-
-\section{Estimación del proyecto}
-
- \subsection{Puntos de Función y COCOMO}
- 
-      \subsubsection{Introducción}
-      
-      Como alternativa se propuso en este trabajo la utilización combinada de dos métodos
-(Puntos de Función y COCOMO) tendientes a proporcionar una estimación más precisa.
-Primero se utilizará el  método de Puntos de Función para determinar las líneas de código del proyecto software, la cual mantiene una distorsión.
-
-En segundo lugar se aplicará el método COCOMO partiendo de la información producida por el anterior (líneas de código) para llegar a una estimación precisa de las horas hombre a aplicar y fundamentalmente a la estimación de la duración total del proyecto, dado por sus características intrínsecas independientemente de los recursos a emplear.
-
-      \subsubsection{Aplicación del Método}
-      
-      Este método calcula los puntos de función de un sistema descomponiendo al mismo en cinco funciones principales (entradas, salidas, consultas, ficheros internos y externos), asignándoles valores de acuerdo a su complejidad y en función de la cantidad de cada uno de ellos se llega a determinar, mediante su sumatoria, los puntos de función.
-A continuación se detallan los parámetros a considerar en el cálculo del método:
-
- \begin{itemize}
- 
-\item \emph{Datos lógicos internos (ILF):} Corresponde al almacén de datos identificados por un nombre en un diagrama de flujo de datos. Un ejemplo de este parámetro serían los archivos maestros.
- 
-\item \emph{Datos de Interfase externos (EIF):} Similar a los ILF, pero estos almacenes de datos son mantenidos por otra aplicación. Por ejemplo un sitio Web  que muestra datos fuera de la empresa mantenido por otro sistema interno a la empresa.
- 
-\item \emph{Entrada externas (EI):} Son datos o información de control que se introducen en la aplicación desde fuera de sus límites. Estos datos mantienen los datos lógicos internos. Un ejemplo de este parámetro son las pantallas de entradas en las que aparecen botones como agregar, modificar y quitar.
- 
-\item \emph{Salidas externas (EO):} Son datos o información de control que salen de los límites de la aplicación. Esta salida debe ser considerada única si tiene un formato único o si el diseño requiere un proceso lógico distinto.  Un ejemplo de este parámetro son los informes, cada informe producido se cuenta como una salida.
- 
-\item \emph{Consultas externas (EQ):} Representan los requisitos de información a la aplicación, no actualiza ILF y no contienen datos derivados. Por ejemplo se tienen las búsquedas inmediatas de datos.
- \end{itemize}
-
-      \subsubsection{Descripción de la Técnica}
-      
-      Para el cálculo de la complejidad, se utilizaron los siguientes parámetros:
-     
-\begin{itemize}
- 
-    \item \emph{Data Element Type (DET):} Campo único identificable por el usuario. Hace referencia a las claves únicas de los almacenes de datos.
-
-\item \emph{Record Element Type (RET):} Subgrupo de datos identificables por el usuario.
-
-\item \emph{File Type Referenced (FTR):} ILF leído o mantenido.
-
-\end{itemize}
-      \subsubsection{Definición de parámetros básicos externos del sistema}
-
-Para el cálculo de la complejidad en un ILF se accede a una tabla de doble entrada de acuerdo a la cantidad de DET y RET que presenta.
-      
-      \subsubsection{Ejecución del método en el proyecto actual}
-
-\begin{itemize}
-    
-    \item Se identificaron 4 ILF.
-    
-    \begin{table}[H]
-        \centering
-        \begin{tabular}{|l|l|l|l|l|}
-            \hline
-            ILF         & RET & DET & Complejidad & Valor \\ \hline
-            Insectos    & 1   & 1   & Baja        & 7     \\ \hline
-            Registros   & 1   & 12  & Baja        & 7     \\ \hline
-            Ubicaciones & 1   & 3   & Baja        & 7     \\ \hline
-            Usuarios    & 1   & 12  & Baja        & 7     \\ 
-            \hline
-        \end{tabular}
-    \end{table}
-    
-    Baja: $4 * 7 = 28$ -
-    Media: 0 -
-    Alta: 0
-
-    Total = 28
-    
-    \item Se identificaron 3 ELF.
-    
-    \begin{table}[H]
-        \centering
-        \begin{tabular}{|l|l|l|l|l|}
-            \hline
-            ELF                             & RET & DET & Complejidad & Valor \\ \hline
-            Google Maps                     & 1   & 2   & Baja        & 5     \\ \hline
-            Google Geocodificación inversa  & 1   & 2   & Baja        & 5     \\ \hline
-            Google Statics Maps             & 1   & 2   & Baja        & 5     \\
-            \hline
-        \end{tabular}
-    \end{table}
-
-    Baja: $3 * 5 = 15$
-    Media: 0 -
-    Alta: 0
-    
-    Total = 15
-
-    \item Se identificaron  EI.
-    
-    \begin{table}[H]
-        \centering
-        \begin{tabular}{|l|l|l|l|l|}
-            \hline
-            EI                 & FTR & DET & Complejidad & Valor \\ \hline
-            Nuevo Registro     & 2   & 16  & Alta        & 6     \\ \hline
-            Eliminar Registro  & 1   & 1   & Baja        & 3     \\ \hline
-            Nuevo Usuario      & 1   & 9   & Baja        & 3     \\ \hline
-            Modificar Usuario  & 1   & 6   & Baja        & 3     \\ \hline
-            Eliminar Usuario   & 1   & 1   & Baja        & 3     \\ \hline
-        \end{tabular}
-    \end{table}
-    
-    Baja: $4 * 3 = 12$ -
-    Media: 0 -
-    Alta: $1 * 6 = 6$
-
-    Total = 18
-
-    \item Se identificaron x EO. // PROCESAMIENTO ADICIONAL
-    
-    \begin{table}[H]
-        \centering
-        \begin{tabular}{|l|l|l|l|l|}
-            \hline
-            EO                      & FTR & DET  & Complejidad & Valor \\ \hline
-            Inicio de sesión        & 1   & 4    & Baja        & 4     \\ \hline
-            Filtro de Usuarios      & 1   & 14   & Baja        & 4     \\ \hline
-            Filtro de Registros     & 1   & 16   & Baja        & 4     \\ \hline
-            Renderizado de Mapa     & 1   & 3    & Baja        & 4     \\
-            \hline
-        \end{tabular}
-    \end{table}
-    
-    Baja: $4 * 4 = 16$ -
-    Media: 0 -
-    Alta: 0 
-
-    Total = 16
-    
-    \item Se identificaron x EQ. SIN PROCESAMIENTO
-
-    \begin{table}[H]
-        \centering
-        \begin{tabular}{|l|l|l|l|l|}
-            \hline
-            EQ                      & FTR & DET & Complejidad & Valor \\ \hline
-            Listado de Usuarios     & 1   & 13  & Baja        & 3     \\ \hline
-            Listado de Registros    & 1   & 15  & Baja        & 3     \\
-            \hline
-        \end{tabular}
-    \end{table}
-    
-    Baja: $2 * 3 = 6$ -
-    Media: 0 -
-    Alta: 0 
-
-    Total = 6
-    
-\end{itemize}
-
-    \subsubsection{Resumen}
-    
-    \begin{table}[H]
-        \centering
-        \begin{tabular}{|l|l|l|l|l|}
-            \hline
-                    Parámetro & Complejidad & Cantidad & Peso & Total   \\ \hline
-                    ILF       & Baja        & 4        & 7    & 28      \\ \hline
-                    ELF       & Baja        & 3        & 5    & 15      \\ \hline
-    \multirow{3}{*}{EI}       & Baja        & 4        & 3    & 12      \\ \cline{2-5}
-                              & Alta        & 1        & 6    & 6       \\ \cline{2-5}
-                              &             &          & TOTAL    & 18  \\ \hline
-                    EO        & Baja        & 4        & 4    & 16      \\ \hline
-                    EQ        & Baja        & 2        & 3    & 6       \\ \hline
-    \end{tabular}
-\end{table}
-    
-    $PF = ILF + ELF + EI + EO + EQ$
-    
-    $PF = 28 + 15 + 18 + 16 + 6 = 83$
-    
-    $PF = 83$
-    
-    \subsubsection{Ajuste de los Puntos de Función}
-        
-   \begin{table}[H]
-   \centering
-    \begin{tabular}{|p{5cm}|p{10cm}|l|}
-        \hline
-        Característica & Descripción del grado de influencia & Valor \\ \hline
-        Comunicación de datos & Mas de una pc cliente y aplicación para dispositivos móviles, pero la aplicación soporta un solo tipo de protocolo de comunicaciones & 4 \\ \hline
-        Funciones distribuidas & El proceso es distribuido y la transferencia de datos son en ambas direcciones & 4 \\ \hline
-        Rendimiento & Herramientas y desarrollo especifico para los requisitos impuestos por el cliente & 5 \\ \hline
-        Configuración de explotación usada por otros sistemas & No se indican restricciones & 0 \\ \hline
-        Tasa de transacciones & No se prevén picos & 0 \\ \hline
-        Entrada de datos EN-LÍNEA & Más del 30\% de las transacciones son entradas de datos interactivas & 5 \\ \hline
-        Diseño para la eficiencia del usuario final & Más de 6 funciones que incrementan la eficiencia del usuario final, y se establecieron requisitos de eficiencia del usuario que obligan a diseñar tareas que tienen en cuenta factores humanos & 4 \\ \hline
-        Actualización on-line & Actualización de 4 o más ficheros. El volumen de actualización es bajo y la recuperación fácil & 2 \\ \hline
-        Lógica de proceso interno compleja & Se requiere cumplir con 3 de las 5 características & 3 \\ \hline
-        Reutilización del código & Se reutiliza código dentro de la misma aplicación & 1 \\ \hline
-        Facilidad de instalación & No se realizaron consideraciones ni se requirieron desarrollos especiales para la instalación por parte del usuario & 0 \\ \hline
-    \end{tabular}
-\end{table}
-\begin{table}[H]
-    \centering
-     \begin{tabular}{|p{5cm}|p{10cm}|l|}
-         \hline
-        Facilidad de operación & No se definieron por parte del usuario necesidades especiales de operación o respaldo distintas de las normales & 0 \\ \hline
-        Instalación en distintos lugares & Se necesita diseñar la aplicación para ser usada en múltiples lugares y funcionará  en múltiples entornos de  Hardware y Software & 3 \\ \hline
-        Facilidad de cambio & No existe ninguna especificación por parte de los usuarios en este sentido & 0 \\ \hline
-    \end{tabular}
-\end{table}
-
-Grado de Influencia: $TDI = 31$
-
-Factor de ajuste: VAF = $ (TDI*0.01) + 0.65 = 0.96$
-
-
-\paragraph{Puntos de función ajustados:} 
-
-PFA = $PF * VAF = 83 * 0.96 = 79.68$
-
-\subsubsection{Estimación de las líneas de código necesarias}
-
-QSM SLOC/FP Data JavaScript: 54 LOC por PF
-
-
-\paragraph{LOC=} $54*79.68 = 4302.72$
-        
-\subsubsection{Aplicación del método COCOMO}
-
-    La estimación del tiempo de desarrollo y la cantidad necesaria de personas partipantes se realizó utilizando el método intermedio del modelo orgánico.
-
-\begin{table}[H]
-\centering
-    \begin{tabular}{|l|l|}
-        \hline
-        RELY & 1    \\ \hline
-        DATA & 1.08 \\ \hline
-        CPLX & 0.7  \\ \hline
-        TIME & 1    \\ \hline
-        STOR & 1    \\ \hline
-        VIRT & 0.87 \\ \hline
-        TURN & 0.87 \\ \hline
-        ACAP & 1.19 \\ \hline
-        AEXP & 1.13 \\ \hline
-        PCAP & 1    \\ \hline
-        VEXP & 1.1  \\ \hline
-        LEXP & 1.07 \\ \hline
-        MODP & 1    \\ \hline
-        TOOL & 0.83 \\ \hline
-        SCED & 1.04 \\
-        \hline
-    \end{tabular}
-\end{table}
-    
-    
-Factor de Ajuste: A = $0.782$
-\\
-
-\begin{framed}
-\centering
-% KLOC son las lineas de codigo en MILES, osea es el LOC calculado dividido 1000
-MM = $A*3.2*(KLOC)^{1.05} = 11.58$ meses hombre
-
-TDEV = $2,5 (MM)^{0.38} = 6.34$ meses
-
-Número de personas = ${11.58}/{6.34} = 1.82 \approx 2$ personas
-\end{framed}
+  Para el análisis de requisitos se usaron distintas técnicas de educción de requisitos. Entre ellas el estudio de la documentación provista por parte del administrador; entrevistas abiertas y estructuradas, análisis del proceso actual.
 
 \section{Especificación de Requisitos de Software}
-\setcounter{secnumdepth}{2}
+
 \renewcommand{\thesubsection}{\arabic{subsection}}
  \subsection{Introducción}
  
- Este documento es una Especificación de Requisitos Software de la  Web App embebida en dispositivos móviles para la gestión de registros sobre la contaminación de afluentes y ríos. Esta documentación es fruto de las entrevistas, estudio de la documentación y del funcionamiento de la aplicación web actual, así como del análisis llevado a cabo por el equipo de desarrollo.
+ Este documento es una Especificación de Requisitos Software de la  Web App embebida en dispositivos móviles para la gestión de registros sobre la contaminación de afluentes y ríos. Esta documentación es fruto de las entrevistas, estudio de la documentación y del funcionamiento del proceso actual, así como del análisis llevado a cabo por el equipo de desarrollo.
 
 El objetivo de la especificación es definir en forma clara, precisa, completa y verificable todas las funcionalidades y restricciones del sistema que se desea construir.
 
@@ -361,44 +82,17 @@ Esta documentación está sujeta a revisiones por el grupo de administradores qu
 
 Esta especificación se ha realizado de acuerdo al estándar “IEEE Recomended Practice for software Requirements Specifications(IEEE/ANSI 830-1993)”.
 
- 
-    \subsubsection{Objetivos y alcance del sistema}
-% Esta subsección debería
-% a) Identificar el producto de software a ser producido por su nombre (ej: Report Generator, Host DBMS)
-% b) Explicar lo que el producto software hará y, si es necesario, lo que no hará.
-% c) Describir la aplicación del software que está siendo especificado, incluyendo beneficios relevantes, objetivos, y metas
-% En esta etapa se detallan los objetivos del sistema, describiendo brevemente QUÉ es lo que el sistema debe hacer. En el alcance del sistema %  se describe en lenguaje natural el ámbito del sistema, su dominio y sus límites.
 
-Los principales objetivos del sistema a desarrollar son permitir que los usuarios puedan hacer uso del mismo mediante un SmartPhone con cualquier Sistema Operativo (iOS, Android, Windows Phone), pudiendo asi, realizar los siguientes items:
-\begin{itemize}
-    \item En las salidas de campo, los alumnos podrán generar registros con la siguiente información:
-    \begin{itemize}
-        \item Dos imágenes capturadas con la cámara de fotos del SmartPhone:
-        \begin{itemize}
-            \item La primera imagen sera una foto de los insectos encontrados en un rio o afluente. El objetivo es encontrar 4 insectos diferentes para analizar la biodiversidad.
-            \item La segunda imagen sera una foto del paisaje que servirá como un futuro punto de referencia para próximas salidas de campo. 
-        \end{itemize}
-        \item Capturar coordenadas de manera automática con una precisión propia al GPS integrado del SmartPhone, las cuales se guardaran como \emph{latitud} y \emph{longitud}
-        \item El usuario deberá seleccionar, según su criterio personal, cuales de los 4 insectos fueron encontrados por él, mediante un formulario interactivo, el cual consta de imágenes reales de los mismos para una buena comparación y un campo de observaciones para realizar comentarios subjetivos sobre la muestra en cuestión.
-        \item Al completar toda la información mencionada anteriormente, se mostrara una ruleta animada virtual, la cual mostrará un valor (indice de contaminación), indicando el posible grado contaminación del agua en donde se realizo la muestra.
-    \end{itemize}
-    \item Lo anterior se realizará sin conexión a internet (2G, 3G, Wifi, etc), generando un registro de manera local, que luego, de manera automática, se subirá a los servidores al momento de adquirir alguna conexión a internet.
-    \item Los administradores podrán gestionar, mediante un navegador web (Google Chrome, Internet Explorer, Mozilla, etc) o desde la aplicacion en el SmartPhone, los registros previamente creados y guardados en el servidor. 
-    \item Analizando todos los registros, se creará un renderizado de un mapa  (Google Maps) en donde los administradores y usuarios podrán visualizar, con trazos de diferentes colores, el grado de contaminación del agua en el curso de los riós o afluentes analizados en las salidas de campo.
-\end{itemize}
- 
+    \subsection{Objetivos y alcance del sistema}
 
-El sistema debe ser seguro, escalable, de fácil mantenimiento y muy simple de usar utilizando sólo interfaces táctiles para los usuarios finales. El futuro sistema llevará el nombre \emph{Aguita}.
+    El presente proyecto tiene como objetivo principal ayudar al medio ambiente, utilizando un sistema de gestión que permite la creación y administración de registros, los cuales contienen datos de muestras del universo de estudio que, al ser procesadas, brinda el estado de contaminación de un río o afluente, mediante indicadores biológicos.
+    Estos registros cuentan con contenido multimedia y coordenadas geograficas
 
-El desarrollo lo llevarán a cabo los alumnos Ricardo Hugo Bruno y Kevin Shionen Gomez Veliz, con la opción a ser responsables del posterior mantenimiento del mismo.
+\section{Definiciones, Acrónimos y Abreviaturas}
 
-    \subsubsection{Definiciones, Acrónimos y Abreviaturas}
-%Esta subsección debería proveer las definiciones de todos los términos, acrónimos, y abreviaturas requeridas para interpretar apropiadamente la ERS. Esta información podría ser provista por referencia a uno o más apéndices en la ERS o por referencia a otros documentos
     \subsubsection{Definiciones:}
   
         \begin{itemize}
- 
-        \item \emph{Aplicación web:} Una aplicación web es un sitio web en donde el contenido de todas o algunas de sus páginas se determina en el momento mismo de la solicitud, gracias a la ejecución de un intérprete en el servidor que traduce el código fuente en información visible en un navegador Web, de manera dinámica y con acceso en línea a los datos.
  
         \item \emph{Salida de campo:} La principal aportación de la salida de campo es que permite al alumnado adquirir un aprendizaje significativo en el que el principal elemento del proceso de enseñanza- aprendizaje es la construcción de significados. La persona aprende un concepto, un fenómeno, un procedimiento, un comportamiento, etc.
 
@@ -410,21 +104,33 @@ El desarrollo lo llevarán a cabo los alumnos Ricardo Hugo Bruno y Kevin Shionen
                 \item Tricopteros.
             \end{itemize}
 
-        \item \emph{Indice de Contaminación}: Para el sistema, el indice de contaminación es el valor calculado, mediante la cantidad de insectos encontrados en el universo de estudio, de la siguiente manera:
+        \item \emph{Muestra}: Una muestra esta compuesta por los insectos encontrados en una salida de campo. 
+
+        \item \emph{Indice de Contaminación}: Para el sistema, el indice de contaminación es el valor calculado, mediante la cantidad de diferentes insectos encontrados en el universo de estudio, de la siguiente manera:
         \begin{table}[H]
             \centering
-            \begin{tabular}{|p{3.8cm}|l|}
+            \begin{tabular}{|p{3.8cm}|l|l|}
                 \hline
                 \centering
-                Cantidad de insectos encontrados  & Indice \\ \hline
-                            0                     & 0 \\ \hline
-                            1                     & 1 \\ \hline
-                            2                     & 2 \\ \hline
-                            3                     & 3 \\ \hline
-                            4                     & 4 \\ 
-                            \hline
+                Cantidad de insectos encontrados  & Indice & Interpretación \\ \hline 
+                            0                     & 0 & Muy contaminado \\ \hline
+                            1                     & 1 & Contaminado \\ \hline
+                            2                     & 2 & Con contaminacion media \\ \hline
+                            3                     & 3 & En buen estado \\ \hline
+                            4                     & 4 & En excelente estado \\ 
+                \hline
             \end{tabular}
         \end{table}
+
+        
+
+        \item \emph{Foto paisaje}: Foto obtenida del paisaje en donde se realizo la muestra de los insectos encontrados, con el fin de facilitar un punto de referencia visual para proximas salidas de campo.
+        
+        \item \emph{Foto insectos}: Foto obtenida de la muestra que sirve para que los administradores de la aplicacion validen, o no, el registro en cuestion.
+
+        \item \emph{Coordenadas geograficas}: Se usan para referenciar, mediante latitud y longitud, el lugar en donde se realizo el registro.
+
+        \item \emph{Mapa}: Mapa digital (Google Maps) en donde se muestran los registros realizados por los usuarios.
 
         \end{itemize}
 
@@ -451,9 +157,33 @@ El desarrollo lo llevarán a cabo los alumnos Ricardo Hugo Bruno y Kevin Shionen
          \end{itemize}
     
 
- \subsection{Descripción general}
+ \section{Descripción general}
 
     Esta sección nos presenta una descripción general del sistema con el fin de conocer las funciones que debe soportar, los datos asociados, las restricciones impuestas y cualquier otro factor que pueda influir en la construcción del mismo.
+
+    realizar los siguientes items:
+\begin{itemize}
+    \item En las salidas de campo, los alumnos podrán generar registros con la siguiente información:
+    \begin{itemize}
+        \item Dos imágenes capturadas con la cámara de fotos del Smartphone:
+        \begin{itemize}
+            \item La primera imagen sera una foto de los insectos encontrados en un rio o afluente. El objetivo es encontrar 4 insectos diferentes para analizar la biodiversidad.
+            \item La segunda imagen sera una foto del paisaje que servirá como un futuro punto de referencia para próximas salidas de campo. 
+        \end{itemize}
+        \item Capturar coordenadas de manera automática con una precisión propia al GPS integrado del Smartphone, las cuales se guardaran como \emph{latitud} y \emph{longitud}
+        \item El usuario deberá seleccionar, según su criterio personal, cuales de los 4 insectos fueron encontrados por él, mediante un formulario interactivo, el cual consta de imágenes reales de los mismos para una buena comparación y un campo de observaciones para realizar comentarios subjetivos sobre la muestra en cuestión.
+        \item Al completar toda la información mencionada anteriormente, se mostrara una ruleta animada virtual, la cual mostrará un valor (indice de contaminación), indicando el posible grado contaminación del agua en donde se realizo la muestra.
+    \end{itemize}
+    \item Lo anterior se realizará sin conexión a internet (2G, 3G, Wifi, etc), generando un registro de manera local, que luego, de manera automática, se subirá a los servidores al momento de adquirir alguna conexión a internet.
+    \item Los administradores podrán gestionar, mediante un navegador web (Google Chrome, Internet Explorer, Mozilla, etc) o desde la aplicacion en el Smartphone, los registros previamente creados y guardados en el servidor. 
+    \item Analizando todos los registros, se creará un renderizado de un mapa  (Google Maps) en donde los administradores y usuarios podrán visualizar, con trazos de diferentes colores, el grado de contaminación del agua en el curso de los riós o afluentes analizados en las salidas de campo.
+\end{itemize}
+ 
+
+El sistema debe ser seguro, escalable, de fácil mantenimiento y muy simple de usar utilizando sólo interfaces táctiles para los usuarios finales. El futuro sistema llevará el nombre \emph{Aguita}.
+
+El desarrollo lo llevarán a cabo los alumnos Ricardo Hugo Bruno y Kevin Shionen Gomez Veliz, con la opción a ser responsables del posterior mantenimiento del mismo.
+
 
 Las funciones que debe realizar el sistema se pueden agrupar de la siguiente manera:
 
@@ -461,7 +191,7 @@ Las funciones que debe realizar el sistema se pueden agrupar de la siguiente man
   
   \item \emph{Administración de usuarios:} Debe permitir gestionar los usuarios teniendo en cuenta de si tratan de un usuario propiamente dicho o administradores de la aplicación.
     
-    Para que un usuario pueda generar un registro, deberá estar previamente registrado e iniciar sesión por una única vez en su SmartPhone.
+    Para que un usuario pueda generar un registro, deberá estar previamente registrado e iniciar sesión por una única vez en su Smartphone.
     
     Los usuarios deben poder configurar/modificar las opciones de su perfil como ser: nombre, apellido, lugar de residencia, institución a la que pertenece y grado correspondiente.
 
@@ -481,7 +211,7 @@ Las funciones que debe realizar el sistema se pueden agrupar de la siguiente man
   
   \end{itemize}
 
- \subsection{Requisitos específicos}
+ \section{Requisitos específicos}
         \subsubsection{Requisitos Funcionales}
         
         \begin{enumerate}[A.]
@@ -574,11 +304,11 @@ Las funciones que debe realizar el sistema se pueden agrupar de la siguiente man
         
             \alternativo{Requisitos de usuario:} 
             
-            Los usuarios serán los que descarguen la aplicación desde Google Play, App Store o Tienda de aplicaciones de Windows mediante su SmartPhone.
+            Los usuarios serán los que descarguen la aplicación desde Google Play, App Store o Tienda de aplicaciones de Windows mediante su Smartphone.
             
             \alternativo{Requisitos tecnológicos:} 
             
-            En vista de que es necesario instalar la aplicacion en SmartPhones y ademas en una PC convencional (PC de escritorio, notebook o similares), se opto por un entorno económico y fácil de instalar. La aplicacion se ejecutara sobre un esquema cliente/servidor, con los procesos e interfaz de usuario ejecutándose en los SmartPhones y éstos solicitando requerimientos al servidor que cumple su proceso.
+            En vista de que es necesario instalar la aplicacion en Smartphones y ademas en una PC convencional (PC de escritorio, notebook o similares), se opto por un entorno económico y fácil de instalar. La aplicacion se ejecutara sobre un esquema cliente/servidor, con los procesos e interfaz de usuario ejecutándose en los Smartphones y éstos solicitando requerimientos al servidor que cumple su proceso.
             
         \subsubsection{Requisitos de Interfaces Externas}
         
@@ -589,9 +319,9 @@ Las funciones que debe realizar el sistema se pueden agrupar de la siguiente man
             \alternativo{Interfaces Hardware:} 
             
             \begin{itemize}
-                \item Requisitos para los SmartPhones:
+                \item Requisitos para los Smartphones:
                 \begin{itemize}
-                    \item Los SmartPhones de los usuarios que ejecutaran la aplicacion deberán tener las siguientes características independientemente de su S.O:
+                    \item Los Smartphones de los usuarios que ejecutaran la aplicacion deberán tener las siguientes características independientemente de su S.O:
                     \begin{itemize}
                         \item Cámara fotográfica de 1 Mega Pixeles.
                         \item GPS integrado.
@@ -619,7 +349,7 @@ Las funciones que debe realizar el sistema se pueden agrupar de la siguiente man
             
             S.O soportados por la aplicación:
             \begin{itemize}
-                \item SmartPhones 
+                \item Smartphones 
                 \begin{itemize}
                     \item Android 5.0 o posterior.
                     \item iOS 9.0 o posterior.
@@ -657,11 +387,10 @@ Las funciones que debe realizar el sistema se pueden agrupar de la siguiente man
         \alternativo{Base de Datos:}
         
         El Sistema Gestor de Base de Datos debe ser relacional en el servidor y se accederán a los mismos usando la tecnología innoDB.
-        En los SmartPhone el Sistema Gestor de Base de Datos es No Relacional dado el requisito de creacion de registros de manera local y posterior sincronizacion automática al detectar una conexion de internet. 
+        En los Smartphone el Sistema Gestor de Base de Datos es No Relacional dado el requisito de creacion de registros de manera local y posterior sincronizacion automática al detectar una conexion de internet. 
         
         \alternativo{Política de Borrado:}
         
         No se ha definido
-        
 
-\setcounter{secnumdepth}{-1}
+\section{Estimación del proyecto}

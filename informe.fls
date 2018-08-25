@@ -1,196 +1,183 @@
-PWD /Applications/XAMPP/xamppfiles/htdocs/tesisFinalLatex
-INPUT /usr/local/texlive/2017/texmf.cnf
-INPUT /usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf
-INPUT /usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Applications/XAMPP/xamppfiles/htdocs/tesisFinalLatex/informe.tex
+PWD d:/Proyecto Final/tesisFinalLatex
+INPUT C:/Users/ricar/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt
+INPUT d:/Proyecto Final/tesisFinalLatex/informe.tex
 OUTPUT informe.log
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/report.cls
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/report.cls
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/size12.clo
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/size12.clo
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/babel-spanish/spanish.ldf
-INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/babel-spanish/spanish.ldf
-INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.def
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/translator.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/translator.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/translator-language-mappings.tex
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/translator-language-mappings.tex
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/utf8.def
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/utf8.def
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.dfu
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.dfu
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/ot1enc.dfu
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/ot1enc.dfu
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/omsenc.dfu
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/omsenc.dfu
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/latexsym.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/latexsym.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
-INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/anysize/anysize.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/anysize/anysize.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/makeidx.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/makeidx.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/tocbibind/tocbibind.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/tocbibind/tocbibind.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.cfg
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.cfg
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/alltt.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/alltt.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/base/glossaries.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/base/glossaries.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/textcase/textcase.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/textcase/textcase.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/xfor/xfor.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/xfor/xfor.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/datatool/datatool-base.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/datatool/datatool-base.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/substr/substr.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/substr/substr.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/datatool/datatool-fp.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/datatool/datatool-fp.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fp/defpattern.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fp/defpattern.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-basic.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-basic.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-addons.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-addons.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-snap.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-snap.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-exp.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-exp.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-trigo.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-trigo.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-pas.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-pas.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-random.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-random.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-eqn.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-eqn.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-upn.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-upn.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-eval.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-eval.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/supertabular/supertabular.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-307.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-307.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/tracklang/tracklang.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/tracklang/tracklang.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/tracklang/tracklang.tex
-INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/tracklang/tracklang.tex
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/translator.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/glossaries-spanish/glossaries-spanish.ldf
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/glossaries-spanish/glossaries-spanish.ldf
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/glossaries-spanish/glossaries-spanish.ldf
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/glossaries-spanish/glossaries-spanish-utf8.ldf
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/glossaries-spanish/glossaries-spanish-utf8.ldf
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/tools/longtable.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/tools/longtable.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/supertabular/supertabular.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/supertabular/supertabular.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/tools/verbatim.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/tools/verbatim.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/tools/enumerate.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/tools/enumerate.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/colortbl/colortbl.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/colortbl/colortbl.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/framed/framed.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/framed/framed.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/report.cls
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/report.cls
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/size12.clo
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/size12.clo
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr12.tfm
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/babel/babel.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/babel/babel.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/babel/switch.def
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/arabi/bblopts.cfg
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/arabi/bblopts.cfg
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/babel-spanish/spanish.ldf
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/babel-spanish/spanish.ldf
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/babel/babel.def
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/babel/txtbabel.def
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/translator/translator.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/translator/translator.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/keyval.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/keyval.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/inputenc.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/inputenc.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/float/float.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/float/float.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/latexsym.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/latexsym.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphicx.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphicx.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphics.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphics.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/trig.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/trig.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-def/pdftex.def
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-def/pdftex.def
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/hyperref.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/hyperref.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/hobsub-generic.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/hobsub-generic.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/ifxetex/ifxetex.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/ifxetex/ifxetex.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/auxhook.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/auxhook.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/pd1enc.def
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/pd1enc.def
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/00miktex/hyperref.cfg
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/00miktex/hyperref.cfg
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/url/url.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/url/url.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/hpdftex.def
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/hpdftex.def
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/anysize/anysize.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/anysize/anysize.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/makeidx.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/makeidx.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tocbibind/tocbibind.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tocbibind/tocbibind.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/color.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/color.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/listings/listings.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/listings/listings.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/listings/lstmisc.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/listings/lstmisc.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/listings/listings.cfg
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/listings/listings.cfg
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/array.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/array.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/alltt.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/alltt.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fancyhdr/fancyhdr.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fancyhdr/fancyhdr.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/glossaries/base/glossaries.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/glossaries/base/glossaries.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ifthen.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ifthen.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/xkeyval/xkeyval.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/xkeyval/xkeyval.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/xkeyval/xkeyval.tex
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/xkeyval/xkvutils.tex
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/mfirstuc/mfirstuc.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/mfirstuc/mfirstuc.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/etoolbox/etoolbox.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/etoolbox/etoolbox.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/textcase/textcase.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/textcase/textcase.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xfor/xfor.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xfor/xfor.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/datatool/datatool-base.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/datatool/datatool-base.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsmath.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsmath.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amstext.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amstext.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsgen.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsgen.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsbsy.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsbsy.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsopn.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsopn.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/substr/substr.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/substr/substr.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/datatool/datatool-fp.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/datatool/datatool-fp.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fp/fp.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fp/fp.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fp/defpattern.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fp/defpattern.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fp/fp-basic.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fp/fp-basic.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fp/fp-addons.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fp/fp-addons.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fp/fp-snap.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fp/fp-snap.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fp/fp-exp.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fp/fp-exp.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fp/fp-trigo.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fp/fp-trigo.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fp/fp-pas.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fp/fp-pas.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fp/fp-random.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fp/fp-random.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fp/fp-eqn.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fp/fp-eqn.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fp/fp-upn.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fp/fp-upn.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fp/fp-eval.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fp/fp-eval.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/supertabular/supertabular.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/glossaries/base/glossaries-compatible-307.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/glossaries/base/glossaries-compatible-307.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tracklang/tracklang.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tracklang/tracklang.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/generic/tracklang/tracklang.tex
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/generic/tracklang/tracklang.tex
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/translator/translator.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/glossaries-spanish/glossaries-spanish.ldf
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/glossaries-spanish/glossaries-spanish.ldf
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/glossaries-spanish/glossaries-spanish.ldf
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/glossaries-spanish/glossaries-spanish-utf8.ldf
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/glossaries-spanish/glossaries-spanish-utf8.ldf
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/glossaries/styles/glossary-hypernav.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/glossaries/styles/glossary-hypernav.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/glossaries/styles/glossary-list.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/glossaries/styles/glossary-list.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/glossaries/styles/glossary-long.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/glossaries/styles/glossary-long.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/longtable.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/longtable.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/glossaries/styles/glossary-super.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/glossaries/styles/glossary-super.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/supertabular/supertabular.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/supertabular/supertabular.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/glossaries/styles/glossary-tree.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/glossaries/styles/glossary-tree.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/verbatim.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/verbatim.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/multirow/multirow.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/multirow/multirow.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/enumerate.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/enumerate.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xcolor/xcolor.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xcolor/xcolor.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/colortbl/colortbl.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/colortbl/colortbl.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/framed/framed.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/framed/framed.sty
 OUTPUT glosario.aux
 INPUT glosario.tex
 INPUT glosario.tex
@@ -217,18 +204,20 @@ INPUT conclusiones.aux
 INPUT bibliografia.aux
 INPUT bibliografia.aux
 OUTPUT informe.aux
-INPUT /usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-INPUT /usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/glossaries-english/glossaries-dictionary-English.dict
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/glossaries-english/glossaries-dictionary-English.dict
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/glossaries-spanish/glossaries-dictionary-Spanish.dict
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/latex/glossaries-spanish/glossaries-dictionary-Spanish.dict
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/context/base/supp-pdf.mkii
+INPUT C:/Users/ricar/AppData/Local/Programs/MiKTeX 2.9/tex/context/base/supp-pdf.mkii
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/nameref.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/nameref.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/gettitlestring.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/gettitlestring.sty
 INPUT informe.out
 INPUT informe.out
 INPUT informe.out
@@ -243,41 +232,43 @@ INPUT portada.tex
 INPUT imagenes/logo-unt.png
 INPUT ./imagenes/logo-unt.png
 INPUT ./imagenes/logo-unt.png
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./imagenes/logo-unt.png
+INPUT ./imagenes/logo-unt.png
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmcsc10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmcsc10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmcsc10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr17.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr17.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr12.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
+INPUT C:/Users/ricar/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
 OUTPUT agradecimientos.aux
 INPUT agradecimientos.tex
 INPUT agradecimientos.tex
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr17.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
 INPUT informe.toc
 INPUT informe.toc
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/ulasy.fd
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/ulasy.fd
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/latex-fonts/lasy8.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsl12.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr8.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr6.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmmi12.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmmi8.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmmi6.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmsy10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmsy8.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmsy6.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmex10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ulasy.fd
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ulasy.fd
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/latex-fonts/lasy10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/latex-fonts/lasy8.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/latex-fonts/lasy6.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmsl12.tfm
 OUTPUT informe.toc
 OUTPUT introduccion.aux
 INPUT introduccion.tex
@@ -285,99 +276,153 @@ INPUT introduccion.tex
 OUTPUT requisitos.aux
 INPUT requisitos.tex
 INPUT requisitos.tex
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmti12.tfm
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/omscmr.fd
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/omscmr.fd
 OUTPUT analisis.aux
 INPUT analisis.tex
 INPUT analisis.tex
 INPUT imagenes/analisis/diagrama-contexto.png
 INPUT ./imagenes/analisis/diagrama-contexto.png
 INPUT ./imagenes/analisis/diagrama-contexto.png
+INPUT ./imagenes/analisis/diagrama-contexto.png
+INPUT ./imagenes/analisis/diagrama-contexto.png
 INPUT imagenes/analisis/casos-uso-general.png
+INPUT ./imagenes/analisis/casos-uso-general.png
+INPUT ./imagenes/analisis/casos-uso-general.png
 INPUT ./imagenes/analisis/casos-uso-general.png
 INPUT ./imagenes/analisis/casos-uso-general.png
 INPUT imagenes/analisis/casos-uso-usuario.png
 INPUT ./imagenes/analisis/casos-uso-usuario.png
 INPUT ./imagenes/analisis/casos-uso-usuario.png
+INPUT ./imagenes/analisis/casos-uso-usuario.png
+INPUT ./imagenes/analisis/casos-uso-usuario.png
 INPUT imagenes/analisis/casos-uso-registros.png
+INPUT ./imagenes/analisis/casos-uso-registros.png
+INPUT ./imagenes/analisis/casos-uso-registros.png
 INPUT ./imagenes/analisis/casos-uso-registros.png
 INPUT ./imagenes/analisis/casos-uso-registros.png
 INPUT imagenes/analisis/diagrama-actividad-inicioSesion.png
 INPUT ./imagenes/analisis/diagrama-actividad-inicioSesion.png
 INPUT ./imagenes/analisis/diagrama-actividad-inicioSesion.png
+INPUT ./imagenes/analisis/diagrama-actividad-inicioSesion.png
+INPUT ./imagenes/analisis/diagrama-actividad-inicioSesion.png
 INPUT imagenes/analisis/diagrama-actividad-registrar.png
+INPUT ./imagenes/analisis/diagrama-actividad-registrar.png
+INPUT ./imagenes/analisis/diagrama-actividad-registrar.png
 INPUT ./imagenes/analisis/diagrama-actividad-registrar.png
 INPUT ./imagenes/analisis/diagrama-actividad-registrar.png
 INPUT imagenes/analisis/diagrama-actividad-crear-registro.png
 INPUT ./imagenes/analisis/diagrama-actividad-crear-registro.png
 INPUT ./imagenes/analisis/diagrama-actividad-crear-registro.png
+INPUT ./imagenes/analisis/diagrama-actividad-crear-registro.png
+INPUT ./imagenes/analisis/diagrama-actividad-crear-registro.png
 INPUT imagenes/analisis/diagrama-actividad-ver-mapa.png
+INPUT ./imagenes/analisis/diagrama-actividad-ver-mapa.png
+INPUT ./imagenes/analisis/diagrama-actividad-ver-mapa.png
 INPUT ./imagenes/analisis/diagrama-actividad-ver-mapa.png
 INPUT ./imagenes/analisis/diagrama-actividad-ver-mapa.png
 OUTPUT disenio.aux
 INPUT disenio.tex
 INPUT disenio.tex
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/latex-fonts/lasy7.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/latex-fonts/lasy5.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/latex-fonts/lasy10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/latex-fonts/lasy7.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/latex-fonts/lasy5.tfm
 INPUT imagenes/disenio/clases-disenio.png
+INPUT ./imagenes/disenio/clases-disenio.png
+INPUT ./imagenes/disenio/clases-disenio.png
 INPUT ./imagenes/disenio/clases-disenio.png
 INPUT ./imagenes/disenio/clases-disenio.png
 INPUT imagenes/disenio/secuencia-autenticar.png
 INPUT ./imagenes/disenio/secuencia-autenticar.png
 INPUT ./imagenes/disenio/secuencia-autenticar.png
+INPUT ./imagenes/disenio/secuencia-autenticar.png
+INPUT ./imagenes/disenio/secuencia-autenticar.png
 INPUT imagenes/disenio/secuencia-registrar.png
+INPUT ./imagenes/disenio/secuencia-registrar.png
+INPUT ./imagenes/disenio/secuencia-registrar.png
 INPUT ./imagenes/disenio/secuencia-registrar.png
 INPUT ./imagenes/disenio/secuencia-registrar.png
 INPUT imagenes/disenio/secuencia-crear-tienda.png
 INPUT ./imagenes/disenio/secuencia-crear-tienda.png
 INPUT ./imagenes/disenio/secuencia-crear-tienda.png
+INPUT ./imagenes/disenio/secuencia-crear-tienda.png
+INPUT ./imagenes/disenio/secuencia-crear-tienda.png
 INPUT imagenes/disenio/secuencia-agregar-producto.png
+INPUT ./imagenes/disenio/secuencia-agregar-producto.png
+INPUT ./imagenes/disenio/secuencia-agregar-producto.png
 INPUT ./imagenes/disenio/secuencia-agregar-producto.png
 INPUT ./imagenes/disenio/secuencia-agregar-producto.png
 INPUT imagenes/disenio/secuencia-comprar-producto.png
 INPUT ./imagenes/disenio/secuencia-comprar-producto.png
 INPUT ./imagenes/disenio/secuencia-comprar-producto.png
+INPUT ./imagenes/disenio/secuencia-comprar-producto.png
+INPUT ./imagenes/disenio/secuencia-comprar-producto.png
 INPUT imagenes/capturas/home.png
+INPUT ./imagenes/capturas/home.png
+INPUT ./imagenes/capturas/home.png
 INPUT ./imagenes/capturas/home.png
 INPUT ./imagenes/capturas/home.png
 INPUT imagenes/capturas/login.png
 INPUT ./imagenes/capturas/login.png
 INPUT ./imagenes/capturas/login.png
+INPUT ./imagenes/capturas/login.png
+INPUT ./imagenes/capturas/login.png
 INPUT imagenes/capturas/registro2.png
+INPUT ./imagenes/capturas/registro2.png
+INPUT ./imagenes/capturas/registro2.png
 INPUT ./imagenes/capturas/registro2.png
 INPUT ./imagenes/capturas/registro2.png
 INPUT imagenes/capturas/crear-tienda1.png
 INPUT ./imagenes/capturas/crear-tienda1.png
 INPUT ./imagenes/capturas/crear-tienda1.png
+INPUT ./imagenes/capturas/crear-tienda1.png
+INPUT ./imagenes/capturas/crear-tienda1.png
 INPUT imagenes/capturas/crear-tienda2.png
+INPUT ./imagenes/capturas/crear-tienda2.png
+INPUT ./imagenes/capturas/crear-tienda2.png
 INPUT ./imagenes/capturas/crear-tienda2.png
 INPUT ./imagenes/capturas/crear-tienda2.png
 INPUT imagenes/capturas/administracion-tienda.png
 INPUT ./imagenes/capturas/administracion-tienda.png
 INPUT ./imagenes/capturas/administracion-tienda.png
+INPUT ./imagenes/capturas/administracion-tienda.png
+INPUT ./imagenes/capturas/administracion-tienda.png
 INPUT imagenes/capturas/crear-producto1.png
+INPUT ./imagenes/capturas/crear-producto1.png
+INPUT ./imagenes/capturas/crear-producto1.png
 INPUT ./imagenes/capturas/crear-producto1.png
 INPUT ./imagenes/capturas/crear-producto1.png
 INPUT imagenes/capturas/crear-producto2.png
 INPUT ./imagenes/capturas/crear-producto2.png
 INPUT ./imagenes/capturas/crear-producto2.png
+INPUT ./imagenes/capturas/crear-producto2.png
+INPUT ./imagenes/capturas/crear-producto2.png
 INPUT imagenes/capturas/administracion-productos.png
+INPUT ./imagenes/capturas/administracion-productos.png
+INPUT ./imagenes/capturas/administracion-productos.png
 INPUT ./imagenes/capturas/administracion-productos.png
 INPUT ./imagenes/capturas/administracion-productos.png
 INPUT imagenes/capturas/vista-tienda.png
 INPUT ./imagenes/capturas/vista-tienda.png
 INPUT ./imagenes/capturas/vista-tienda.png
+INPUT ./imagenes/capturas/vista-tienda.png
+INPUT ./imagenes/capturas/vista-tienda.png
 INPUT imagenes/capturas/busqueda.png
+INPUT ./imagenes/capturas/busqueda.png
+INPUT ./imagenes/capturas/busqueda.png
 INPUT ./imagenes/capturas/busqueda.png
 INPUT ./imagenes/capturas/busqueda.png
 INPUT imagenes/capturas/pagina-producto.png
 INPUT ./imagenes/capturas/pagina-producto.png
 INPUT ./imagenes/capturas/pagina-producto.png
+INPUT ./imagenes/capturas/pagina-producto.png
+INPUT ./imagenes/capturas/pagina-producto.png
 INPUT imagenes/capturas/listado-ventas.png
+INPUT ./imagenes/capturas/listado-ventas.png
+INPUT ./imagenes/capturas/listado-ventas.png
 INPUT ./imagenes/capturas/listado-ventas.png
 INPUT ./imagenes/capturas/listado-ventas.png
 OUTPUT implementacion.aux
@@ -386,29 +431,45 @@ INPUT implementacion.tex
 INPUT imagenes/implementacion/arquitectura.jpg
 INPUT ./imagenes/implementacion/arquitectura.jpg
 INPUT ./imagenes/implementacion/arquitectura.jpg
+INPUT ./imagenes/implementacion/arquitectura.jpg
+INPUT ./imagenes/implementacion/arquitectura.jpg
 INPUT imagenes/implementacion/despliegue.png
+INPUT ./imagenes/implementacion/despliegue.png
+INPUT ./imagenes/implementacion/despliegue.png
 INPUT ./imagenes/implementacion/despliegue.png
 INPUT ./imagenes/implementacion/despliegue.png
 INPUT imagenes/arquitecturaAndroid.png
 INPUT ./imagenes/arquitecturaAndroid.png
 INPUT ./imagenes/arquitecturaAndroid.png
+INPUT ./imagenes/arquitecturaAndroid.png
+INPUT ./imagenes/arquitecturaAndroid.png
 INPUT imagenes/phonegap.png
+INPUT ./imagenes/phonegap.png
+INPUT ./imagenes/phonegap.png
 INPUT ./imagenes/phonegap.png
 INPUT ./imagenes/phonegap.png
 INPUT imagenes/REST.jpg
 INPUT ./imagenes/REST.jpg
 INPUT ./imagenes/REST.jpg
+INPUT ./imagenes/REST.jpg
+INPUT ./imagenes/REST.jpg
 INPUT imagenes/implementacion/https.png
 INPUT ./imagenes/implementacion/https.png
 INPUT ./imagenes/implementacion/https.png
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
+INPUT ./imagenes/implementacion/https.png
+INPUT ./imagenes/implementacion/https.png
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmtt12.tfm
 INPUT imagenes/implementacion/acl.png
+INPUT ./imagenes/implementacion/acl.png
+INPUT ./imagenes/implementacion/acl.png
 INPUT ./imagenes/implementacion/acl.png
 INPUT ./imagenes/implementacion/acl.png
 INPUT imagenes/MVP.png
 INPUT ./imagenes/MVP.png
 INPUT ./imagenes/MVP.png
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmti8.tfm
+INPUT ./imagenes/MVP.png
+INPUT ./imagenes/MVP.png
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmti8.tfm
 OUTPUT pruebas.aux
 INPUT pruebas.tex
 INPUT pruebas.tex
@@ -441,17 +502,27 @@ INPUT bibliografia.aux
 INPUT bibliografia.aux
 INPUT ./informe.out
 INPUT ./informe.out
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti8.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti8.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/lasy10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/lasy10.pfb
