@@ -88,7 +88,7 @@ Esta especificación se ha realizado de acuerdo al estándar “IEEE Recomended 
     El presente proyecto tiene como objetivo principal ayudar al medio ambiente, utilizando un sistema de gestión que permite la creación y administración de registros, los cuales contienen datos de muestras del universo de estudio que, al ser procesadas, brinda el estado de contaminación de un río o afluente, mediante indicadores biológicos.
     Estos registros cuentan con contenido multimedia y coordenadas geograficas
 
-\section{Definiciones, Acrónimos y Abreviaturas}
+\section{Definiciones, acrónimos y abreviaturas}
 
     \subsubsection{Definiciones:}
   
@@ -132,64 +132,61 @@ Esta especificación se ha realizado de acuerdo al estándar “IEEE Recomended 
 
         \item \emph{Mapa}: Mapa digital (Google Maps) en donde se muestran los registros realizados por los usuarios.
 
-        \end{itemize}
-
-        \subsubsection{Acrónimos:}
-
-        \begin{itemize}
-
-        \item \emph{HTML:} HyperText Markup Language.
+        \item \emph{HTML:} HyperText Markup Language. Lenguaje de marcado para la elaboracion de paginas web. En nuestro caso, genera la vista final del sistema.
         
-        \item \emph{HTTPS:} Hypertext Transfer Protocol Secure
+        \item \emph{HTTPS:} Hypertext Transfer Protocol Secure.
 
-        \end{itemize}
+        \item \emph{BD:} Base de datos.
  
-        \subsubsection{Abreviaturas:}
-
-        \begin{itemize}
-
-        \item \emph{IEEE:} Institute of Electrical and Electronics Engineers.
- 
-        \item \emph{UP:} Unified Process.
+        \item \emph{CRUD:} Es el acrónimo de "Crear, Leer, Actualizar y Borrar" (del original en ingles: Create, Read, Update and Delete),que se usa para referirse a las funciones básicas en bases de datos.
 
         \item \emph{MCVS:} Modelo de Ciclo de Vida del Sistema.
-
+        
          \end{itemize}
     
 
  \section{Descripción general}
 
     Esta sección nos presenta una descripción general del sistema con el fin de conocer las funciones que debe soportar, los datos asociados, las restricciones impuestas y cualquier otro factor que pueda influir en la construcción del mismo.
+    El sistema nace como necesidad de un grupo de docentes de la Facultad de Ciencias Naturales e Instituto Miguel Lillo, por llevar un control mas exhaustivo de su investigación.
+    Es prioritario el seguimiento de la contaminación de los afluentes y ríos ubicados en la provincia de Tucumán.
+    
+    \subsection{Proceso actual}
 
-    realizar los siguientes items:
-\begin{itemize}
-    \item En las salidas de campo, los alumnos podrán generar registros con la siguiente información:
+    Este seguimiento se realizaba mediante salidas de campos con alumnos de las escuelas rurales donde realizaban las siguientes actividades.
     \begin{itemize}
-        \item Dos imágenes capturadas con la cámara de fotos del Smartphone:
-        \begin{itemize}
-            \item La primera imagen sera una foto de los insectos encontrados en un rio o afluente. El objetivo es encontrar 4 insectos diferentes para analizar la biodiversidad.
-            \item La segunda imagen sera una foto del paisaje que servirá como un futuro punto de referencia para próximas salidas de campo. 
-        \end{itemize}
-        \item Capturar coordenadas de manera automática con una precisión propia al GPS integrado del Smartphone, las cuales se guardaran como \emph{latitud} y \emph{longitud}
-        \item El usuario deberá seleccionar, según su criterio personal, cuales de los 4 insectos fueron encontrados por él, mediante un formulario interactivo, el cual consta de imágenes reales de los mismos para una buena comparación y un campo de observaciones para realizar comentarios subjetivos sobre la muestra en cuestión.
-        \item Al completar toda la información mencionada anteriormente, se mostrara una ruleta animada virtual, la cual mostrará un valor (indice de contaminación), indicando el posible grado contaminación del agua en donde se realizo la muestra.
+        \item Los alumnos obtienen muestras del río o afluente intentando capturar algunos de los insectos del universo de estudio.
+        \item Los docentes a cargo verifican dichas muestras, e identifican las coincidencias, obteniendo de esta forma, un indice de contaminación.  
     \end{itemize}
-    \item Lo anterior se realizará sin conexión a internet (2G, 3G, Wifi, etc), generando un registro de manera local, que luego, de manera automática, se subirá a los servidores al momento de adquirir alguna conexión a internet.
-    \item Los administradores podrán gestionar, mediante un navegador web (Google Chrome, Internet Explorer, Mozilla, etc) o desde la aplicacion en el Smartphone, los registros previamente creados y guardados en el servidor. 
-    \item Analizando todos los registros, se creará un renderizado de un mapa  (Google Maps) en donde los administradores y usuarios podrán visualizar, con trazos de diferentes colores, el grado de contaminación del agua en el curso de los riós o afluentes analizados en las salidas de campo.
-\end{itemize}
+    Todo esto se realiza de manera manual, anotando en papel y luego es transcripto a una planilla Excel.
+    Todo el procedimiento antes descripto, dificulta la trazabilidad y administración de la información (introduciendo errores y demoras por manejo manual de la información), por lo que todo esto sería más efectivo y sencillo con la ayuda de la tecnología.
+
+    \subsection{Reingeniería de proceso}
+
+    El objetivo de este proyecto se basa en proporcionar facilidades al proceso actual de la siguiente forma: 
+
+    \begin{itemize}
+            \item Dos imágenes capturadas con la cámara de fotos del Smartphone:
+            \begin{itemize}
+                \item La primera imagen será una foto de los insectos encontrados en un río o afluente. El objetivo es encontrar 4 insectos diferentes para analizar la biodiversidad.
+                \item La segunda imagen sera una foto del paisaje que servirá como un futuro punto de referencia para próximas salidas de campo. 
+            \end{itemize}
+            \item Capturar coordenadas de manera automática con una precisión propia al GPS integrado del Smartphone, las cuales se guardaran como \emph{latitud} y \emph{longitud}
+            \item El usuario deberá seleccionar, según su criterio personal, cuales de los 4 insectos fueron encontrados por él, mediante un formulario interactivo, el cual consta de imágenes reales de los mismos para una buena comparación y un campo de observaciones para realizar comentarios subjetivos sobre la muestra en cuestión.
+            \item Al completar toda la información mencionada anteriormente, se mostrara una ruleta animada virtual, la cual mostrará un valor (indice de contaminación), indicando el posible grado contaminación del agua en donde se realizo la muestra.
+        \item Lo anterior se realizará sin conexión a internet (2G, 3G, Wifi, etc), generando un registro de manera local, que luego, de manera automática, se subirá a los servidores al momento de adquirir alguna conexión a internet.
+        \item Los administradores podrán gestionar, mediante un navegador web (Google Chrome, Internet Explorer, Mozilla, etc) o desde la aplicacion en el Smartphone, los registros previamente creados y guardados en el servidor. 
+        \item Analizando todos los registros, se creará un renderizado de un mapa  (Google Maps) en donde los administradores y usuarios podrán visualizar, con trazos de diferentes colores, el grado de contaminación del agua en el curso de los riós o afluentes analizados en las salidas de campo.
+    \end{itemize}
  
 
-El sistema debe ser seguro, escalable, de fácil mantenimiento y muy simple de usar utilizando sólo interfaces táctiles para los usuarios finales. El futuro sistema llevará el nombre \emph{Aguita}.
-
-El desarrollo lo llevarán a cabo los alumnos Ricardo Hugo Bruno y Kevin Shionen Gomez Veliz, con la opción a ser responsables del posterior mantenimiento del mismo.
-
+El sistema debe ser seguro, escalable, de fácil mantenimiento y muy simple de usar utilizando sólo interfaces táctiles para los usuarios finales. El futuro sistema llevará el nombre \emph{Agüita}.
 
 Las funciones que debe realizar el sistema se pueden agrupar de la siguiente manera:
 
   \begin{itemize}
   
-  \item \emph{Administración de usuarios:} Debe permitir gestionar los usuarios teniendo en cuenta de si tratan de un usuario propiamente dicho o administradores de la aplicación.
+  \item \emph{Administración de usuarios:} Debe permitir gestionar los usuarios (CRUD). Los mismos pueden ser usuarios o administradores del sistema.
     
     Para que un usuario pueda generar un registro, deberá estar previamente registrado e iniciar sesión por una única vez en su Smartphone.
     
@@ -197,7 +194,7 @@ Las funciones que debe realizar el sistema se pueden agrupar de la siguiente man
 
     Los usuarios no pueden consultar la información personal de otros usuarios
   
-  \item \emph{Administración de registros:} Los administradores pueden interactuar con los registros cambiando su estado (aceptado - rechazado) según la información brindada por los mismos (correcta o no).
+  \item \emph{Administración de registros:} Debe permitir gestionar los registros (CRUD). Los usuarios generar registros. Los administradores pueden interactuar con los mismo cambiando su estado (valido - invalido) según la información brindada por los mismos (correcta o no).
   
   \item \emph{Consultas de registros realizados:} Los usuarios podrán consultar un listado de sus registros creados con la información completa.
   

@@ -86,10 +86,9 @@ Esta especificación se ha realizado de acuerdo al estándar “IEEE Recomended 
     \subsection{Objetivos y alcance del sistema}
 
     El presente proyecto tiene como objetivo principal ayudar al medio ambiente, utilizando un sistema de gestión que permite la creación y administración de registros, los cuales contienen datos de muestras del universo de estudio que, al ser procesadas, brinda el estado de contaminación de un río o afluente, mediante indicadores biológicos.
-    Estos registros cuentan con contenido multimedia y datos cartograficos
+    Estos registros cuentan con contenido multimedia y coordenadas geograficas
 
-
-\section{Definiciones, Acrónimos y Abreviaturas}
+\section{Definiciones, acrónimos y abreviaturas}
 
     \subsubsection{Definiciones:}
   
@@ -110,15 +109,16 @@ Esta especificación se ha realizado de acuerdo al estándar “IEEE Recomended 
         \item \emph{Indice de Contaminación}: Para el sistema, el indice de contaminación es el valor calculado, mediante la cantidad de diferentes insectos encontrados en el universo de estudio, de la siguiente manera:
         \begin{table}[H]
             \centering
-            \begin{tabular}{|p{3.8cm}|l|}
+            \begin{tabular}{|p{3.8cm}|l|l|}
                 \hline
                 \centering
-                Cantidad de insectos encontrados  & Indice & Interpretación \\ \hline
+                Cantidad de insectos encontrados  & Indice & Interpretación \\ \hline 
                             0                     & 0 & Muy contaminado \\ \hline
                             1                     & 1 & Contaminado \\ \hline
                             2                     & 2 & Con contaminacion media \\ \hline
                             3                     & 3 & En buen estado \\ \hline
-                            4                     & 4 & En excelente estado \\ \hline
+                            4                     & 4 & En excelente estado \\ 
+                \hline
             \end{tabular}
         \end{table}
 
@@ -128,44 +128,38 @@ Esta especificación se ha realizado de acuerdo al estándar “IEEE Recomended 
         
         \item \emph{Foto insectos}: Foto obtenida de la muestra que sirve para que los administradores de la aplicacion validen, o no, el registro en cuestion.
 
+        \item \emph{Coordenadas geograficas}: Se usan para referenciar, mediante latitud y longitud, el lugar en donde se realizo el registro.
 
+        \item \emph{Mapa}: Mapa digital (Google Maps) en donde se muestran los registros realizados por los usuarios.
 
-
-        \item \emph{Indice de Contaminación}:
-
-        \item \emph{Indice de Contaminación}:
-
-
-        \end{itemize}
-
-        \subsubsection{Acrónimos:}
-
-        \begin{itemize}
-
-        \item \emph{HTML:} HyperText Markup Language.
+        \item \emph{HTML:} HyperText Markup Language. Lenguaje de marcado para la elaboracion de paginas web. En nuestro caso, genera la vista final del sistema.
         
-        \item \emph{HTTPS:} Hypertext Transfer Protocol Secure
+        \item \emph{HTTPS:} Hypertext Transfer Protocol Secure.
 
-        \end{itemize}
+        \item \emph{BD:} Base de datos.
  
-        \subsubsection{Abreviaturas:}
-
-        \begin{itemize}
-
-        \item \emph{IEEE:} Institute of Electrical and Electronics Engineers.
- 
-        \item \emph{UP:} Unified Process.
+        \item \emph{CRUD:} Es el acrónimo de "Crear, Leer, Actualizar y Borrar" (del original en ingles: Create, Read, Update and Delete),que se usa para referirse a las funciones básicas en bases de datos.
 
         \item \emph{MCVS:} Modelo de Ciclo de Vida del Sistema.
-
+        
          \end{itemize}
     
 
  \section{Descripción general}
 
     Esta sección nos presenta una descripción general del sistema con el fin de conocer las funciones que debe soportar, los datos asociados, las restricciones impuestas y cualquier otro factor que pueda influir en la construcción del mismo.
+    El sistema nace como necesidad de un grupo de docentes de la Facultad de Ciencias Naturales e Instituto Miguel Lillo, por llevar un control mas exhaustivo de su investigación.
+    Es prioritario el seguimiento de la contaminación de los afluentes y ríos ubicados en la provincia de Tucumán. Este seguimiento se realizaba mediante salidas de campos con alumnos de las escuelas rurales donde realizaban las siguientes actividades.
+    \begin{itemize}
+        \item Los alumnos obtienen muestras del río o afluente intentando capturar algunos de los insectos del universo de estudio.
+        \item Los docentes a cargo verifican dichas muestras, e identifican las coincidencias, obteniendo de esta forma, un indice de contaminación.  
+    \end{itemize}
+    Todo esto se realiza de manera manual, anotando en papel y luego es transcripto a una planilla Excel.
+Todo el procedimiento antes descripto, dificulta la trazabilidad y administración de la información (introduciendo errores y demoras por manejo manual de la información), por lo que todo esto sería más efectivo y sencillo con la ayuda de la tecnología.
+De ahí nació este proyecto, el cual se basa en realizar los registros mediante smartphones que trabajan en campo sin conexión a internet, con captura de coordenadas, fotos de los insectos, foto del paisaje para un fácil reconocimiento del lugar en futuras salidas de campo. La información obtenida se sincroniza en la nube automáticamente cuando el dispositivo móvil obtiene conexión a internet. Además, este sistema cuenta con un administrador (central), el cual puede consultar todos los registros realizados que se grafican automáticamente en un mapa digital. A partir de allí, el administrador obtiene fácilmenet la información sobre la contaminación del curso de un rio.
 
-    realizar los siguientes items:
+
+
 \begin{itemize}
     \item En las salidas de campo, los alumnos podrán generar registros con la siguiente información:
     \begin{itemize}
