@@ -186,7 +186,7 @@ Las funciones que debe realizar el sistema se pueden agrupar de la siguiente man
 
   \begin{itemize}
   
-  \item \emph{Administración de usuarios:} Debe permitir gestionar los usuarios (CRUD). Los mismos pueden ser usuarios o administradores del sistema.
+  \item \emph{Gestión de usuarios:} Debe permitir gestionar los usuarios (CRUD). Los mismos pueden ser usuarios o administradores del sistema.
     
     Para que un usuario pueda generar un registro, deberá estar previamente registrado e iniciar sesión por una única vez en su Smartphone.
     
@@ -194,7 +194,7 @@ Las funciones que debe realizar el sistema se pueden agrupar de la siguiente man
 
     Los usuarios no pueden consultar la información personal de otros usuarios
   
-  \item \emph{Administración de registros:} Debe permitir gestionar los registros (CRUD). Los usuarios generar registros. Los administradores pueden interactuar con los mismo cambiando su estado (valido - invalido) según la información brindada por los mismos (correcta o no).
+  \item \emph{Gestión de registros:} Debe permitir gestionar los registros (CRUD). Los usuarios generar registros. Los administradores pueden interactuar con los mismo cambiando su estado (valido - invalido) según la información brindada por los mismos (correcta o no).
   
   \item \emph{Consultas de registros realizados:} Los usuarios podrán consultar un listado de sus registros creados con la información completa.
   
@@ -209,83 +209,78 @@ Las funciones que debe realizar el sistema se pueden agrupar de la siguiente man
   \end{itemize}
 
  \section{Requisitos específicos}
-        \subsubsection{Requisitos Funcionales}
-        
-        \begin{enumerate}[A.]
+ 
+ \begin{enumerate}[A.]
+    \item \textbf{Gestión de Usuarios}
 
-        \item \textbf{Gestión de Usuarios}
+        \begin{itemize}  
+            \item \textbf{Alta de usuarios:}
+                \tab\textbf{Introducción:} El sistema permite introducir información sobre usuarios en la aplicación.
+                \tab\textbf{Entrada:} Email + Usuario + Contraseña + Nombre + Apellido + Institucion + Grado + Residencia + rol + fotoPerfil
+                \tab\textbf{Proceso:} El sistema comprueba la inexistencia previa de un usuario con el mismo nombre de usuario y email. Además genera un IdUsuario a partir del máximo existente hasta el momento. En caso de éxito, se devolvera un mensaje de exito y el IdUsuario. En caso de error se devolvera un mensaje con el motivo del mismo.
+                \tab\textbf{Salida:} @IdUsuario + mensaje
         
-        \paragraph{Introducción:} El sistema permite introducir información sobre usuarios (Nombre y apellido, email, residencia, institución), modificar los ya existentes o borrarlos.
-        
-        \paragraph{Entrada:} @NombreUsuario + Nombre + Apellido + Institución + Grado + Residencia + Email
-        
-        \paragraph{Proceso:} Comprobar si se trata de un usuario nuevo, dándolo de alta o actualizarlo si ya existe.
-        Se muestra en pantalla la ficha de datos del usuario. No pueden existir dos usuarios con el mismo nombre de usuario y/o Email. 
-        
-        \paragraph{Salida:} Datos de usuarios actualizados y mensajes de lo que está ocurriendo.
-        
-        \item \textbf{Gestión de Registros}
-        
-        \paragraph{Introducción:} El sistema debe permitir la  creación de registros (Indice, fecha, coordenadas, fotos capturadas, etc). 
-        
-        \paragraph{Entrada:} @idRegistro + Indice + FechaCreacion + Latitud + Longitud + FotoPaisaje + FotoInsectos + FotoMapa + Observaciones + Usuario + Ubicación 
-        
-        \paragraph{Proceso:} Cuando se crea un registro, se codifican todas las fotos, se recopila toda la información y se lo guarda de manera local hasta obtener una conexión a internet para la sincronización con el servidor online.
+            \item \textbf{Modificación de usuarios:}
+                \tab\textbf{Introducción:} El sistema permite modificar información sobre usuarios existentes en la aplicación.
+                \tab\textbf{Entrada:} @IdUsuario + Nombre + Apellido + Institucion + Grado + Residencia + fotoPerfil
+                \tab\textbf{Proceso:} El sistema comprueba la existencia previa de un usuario en base a @IdUsuario y actualiza la informacion del mismo. En caso de éxito, se devolvera un mensaje de exito y el IdUsuario. En caso de error se devolvera un mensaje con el motivo del mismo.
+                \tab\textbf{Salida:} @IdUsuario + mensaje
+    
+            \item \textbf{Eliminación de usuarios:}
+                \tab\textbf{Introducción:} El sistema permite eliminar usuarios existentes en la aplicación.
+                \tab\textbf{Entrada:} @IdUsuario
+                \tab\textbf{Proceso:} El sistema comprueba la existencia previa de un usuario en base a @IdUsuario dando de baja al mismo. Los registros asociados a este usuario no deben eliminarse ni modificarse. En caso de éxito, se devolvera un mensaje de exito. En caso de error se devolvera un mensaje con el motivo del mismo.
+                \tab\textbf{Salida:} Mensaje
 
-        No pueden existir 2 o mas registros con el mismo idRegistro
-        
-        \paragraph{Salida:} Datos de los registros actualizados y mensajes de lo que está ocurriendo.
-        
-        \item \textbf{Búsqueda de usuarios}
-        
-        \paragraph{Introducción:}El sistema debe permitir la búsqueda de usuarios por su nombre de usuario o nombre y apellido o institución. 
-        
-        \paragraph{Entrada:} Tipo de Búsqueda (nombre de usuario o nombre y apellido o institución) + CadenaBúsqueda
-        
-        \paragraph{Proceso:} Buscar las correspondencias de usuarios usando el tipo y la cadena de búsqueda. Mostrar los resultados, aunque no se haya encontrado nada.
-        
-        \paragraph{Salida:} Usuario \{Nombre de usuario + Nombre + Apellido + Institución + Grado + Residencia + Email + Cantidad de Registros realizados\}
-        
-         \item \textbf{Busqueda de registros}
-        
-        \paragraph{Introducción:} El sistema debe permitir la búsqueda de registros por su fecha de creación, indice o institución.
-        \paragraph{Entrada:} Tipo de Busqueda (fecha de creación o indice o institución) + CadenaBusqueda
-        
-        \paragraph{Proceso:} Buscar las correspondencias de registros usando el tipo y la cadena de búsqueda. Mostrar los resultados, aunque no se haya encontrado nada.
-        
-        \paragraph{Salida:} Registro \{idRegistro + Indice + FechaCreacion + Latitud + Longitud + FotoPaisaje + FotoInsectos + FotoMapa + Observaciones + Usuario + Ubicación \}
-        
-        \item \textbf{Listado de Usuarios}
-        
-        \paragraph{Introducción:} Permite listar todos los Usuarios registrados.
-        
-        \paragraph{Entrada:}
-        
-        \paragraph{Proceso:} Listar los usuarios registrados que estén dados de alta en el sistema
-        
-        \paragraph{Salida:} Usuarios \{Nombre de usuario + Nombre + Apellido + Institución + Grado + Residencia + Email + Registros realizados\}
+            \item \textbf{Ver detalles de usuario:}
+                \tab\textbf{Introducción:} El sistema permite ver detalles relacionados a los usuarios existentes en él. Se debe visualizar usuario, nombre, apellido, institucion, grado, residencia, foto de perfil y cantidad de registros generados
+                \tab\textbf{Entrada:} @IdUsuario
+                \tab\textbf{Proceso:} El sistema comprueba la existencia previa del usuario en base a @IdUsuario. En caso de éxito, se presenta la informacion del mismo. En caso de error se devolvera un mensaje con el motivo del mismo.
+                \tab\textbf{Salida:} Usuario + Nombre + Apellido + Institucion + Grado + Residencia + Email + FotoPerfil + CantidadRegistros
 
-        \item \textbf{Listado de Registros}
-        
-        \paragraph{Introducción:} Permite listar todos los registros credos por todos los usuarios.
-        
-        \paragraph{Entrada:} 
-        
-        \paragraph{Proceso:} Listar los registros realizados
-        
-        \paragraph{Salida:} Registros \{idRegistro + Indice + FechaCreacion + Latitud + Longitud + FotoPaisaje + FotoInsectos + FotoMapa + Observaciones + Usuario + Ubicación\}
+            \item \textbf{Cambiar contraseña de usuario:}
+                \tab\textbf{Introducción:} El sistema permite cambiar la contraseña a los usuarios existentes en él.
+                \tab\textbf{Entrada:} @IdUsuario + ContraseñaAnterior + ContraseñaNueva
+                \tab\textbf{Proceso:} El sistema comprueba la existencia previa del usuario en base a @IdUsuario, luego se impactara la nueva contraseña, dejando en desuso la anterior. En caso de éxito, se presenta la informacion del mismo. En caso de error se devolvera un mensaje con el motivo del mismo.
+                \tab\textbf{Salida:} @IdUsuario + Mensaje
 
-        \item \textbf{Listar Mapa}
+            \item \textbf{Búsqueda de usuarios:}
+                \tab\textbf{Introducción:} El sistema permite introducir parametros con los que se buscará usuarios que coincidan con los mismos.
+                \tab\textbf{Entrada:} Usuario o Nombre o Apellido o Email
+                \tab\textbf{Proceso:} El sistema lista al usuario que cumpla con los parametros de busqueda en caso de coincidencia. En caso de no encontrar algun usuario, se mostrara un mensaje vacio, indicando que la busqueda no arrojo resultados.
+                \tab\textbf{Salida:} Usuario + Nombre + Apellido + Institución + Grado + Residencia + Email + FotoPerfil + CantidadRegistros
         
-        \paragraph{Introducción:} Permite ver el mapa interactivo con la información de los registros creados por los usuarios.
-        
-        \paragraph{Entrada:} 
-        
-        \paragraph{Proceso:} Listar Mapa con puntos obtenidos mediante la latitud y longitud de los registros almacenados, indicando el indice de contaminación en dichos puntos
-        
-        \paragraph{Salida:} Mapa \{Latitud + Longitud + Indice\}
+        \end{itemize}
 
-        \end{enumerate}
+
+    \item \textbf{Gestión de Registros}
+        \begin{itemize}  
+            \item \textbf{Alta de registros:}
+                \tab\textbf{Introducción:} El sistema debe permitir la  creación de registros (Indice, fecha, coordenadas, fotos capturadas, etc). 
+                \tab\textbf{Entrada:} @idRegistro + Indice + FechaCreacion + Latitud + Longitud + FotoPaisaje + FotoInsectos + FotoMapa + Observaciones + Usuario + Ubicación 
+                \tab\textbf{Proceso:} Cuando se crea un registro, se codifican todas las fotos, se recopila toda la información y se lo guarda de manera local hasta obtener una conexión a internet para la sincronización con el servidor online.
+                No pueden existir 2 o mas registros con el mismo idRegistro
+                \tab\textbf{Salida:} Datos de los registros actualizados y mensajes de lo que está ocurriendo.
+
+            \item \textbf{Busqueda de registros}
+                \tab\textbf{Introducción:} El sistema debe permitir la búsqueda de registros por su fecha de creación, indice o institución.
+                \tab\textbf{Entrada:} Tipo de Busqueda (fecha de creación o indice o institución) + CadenaBusqueda
+                \tab\textbf{Proceso:} Buscar las correspondencias de registros usando el tipo y la cadena de búsqueda. Mostrar los resultados, aunque no se haya encontrado nada.
+                \tab\textbf{Salida:} Registro \{idRegistro + Indice + FechaCreacion + Latitud + Longitud + FotoPaisaje + FotoInsectos + FotoMapa + Observaciones + Usuario + Ubicación \}
+
+            \item \textbf{Listado de Registros}
+                \tab\textbf{Introducción:} Permite listar todos los registros credos por todos los usuarios.
+                \tab\textbf{Entrada:} 
+                \tab\textbf{Proceso:} Listar los registros realizados
+                \tab\textbf{Salida:} Registros \{idRegistro + Indice + FechaCreacion + Latitud + Longitud + FotoPaisaje + FotoInsectos + FotoMapa + Observaciones + Usuario + Ubicación\}
+
+            \item \textbf{Listar Mapa}
+                \tab\textbf{Introducción:} Permite ver el mapa interactivo con la información de los registros creados por los usuarios.
+                \tab\textbf{Entrada:} 
+                \tab\textbf{Proceso:} Listar Mapa con puntos obtenidos mediante la latitud y longitud de los registros almacenados, indicando el indice de contaminación en dichos puntos
+                \tab\textbf{Salida:} Mapa \{Latitud + Longitud + Indice\}
+        \end{itemize}
+\end{enumerate}
          
         \subsubsection{Suposiciones y Dependencias:}
         
