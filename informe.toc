@@ -26,79 +26,80 @@
 \contentsline {section}{Estimaci\IeC {\'o}n del proyecto}{24}{section*.30}
 \contentsline {subsection}{Planificacion de etapas}{24}{section*.31}
 \contentsline {subsection}{Duracion estimada de tareas}{25}{section*.32}
-\contentsline {chapter}{Disciplina de An\IeC {\'a}lisis}{26}{chapter*.33}
-\contentsline {section}{Vista de Casos de Uso}{26}{section*.34}
-\contentsline {subsection}{Casos de Uso Principales}{26}{section*.35}
-\contentsline {section}{Diagrama de Contexto}{27}{section*.36}
-\contentsline {section}{Diagramas de Casos de Uso}{27}{section*.37}
-\contentsline {subsection}{Diagrama de Casos de Uso general}{28}{section*.38}
-\contentsline {subsection}{Diagrama de Casos de Uso de Gesti\IeC {\'o}n de Usuarios}{28}{section*.39}
-\contentsline {subsection}{Diagrama de Casos de Uso de Gesti\IeC {\'o}n de Registros}{29}{section*.40}
-\contentsline {section}{Diagramas de Actividad}{30}{section*.41}
-\contentsline {subsection}{Inicio de Sesi\IeC {\'o}n}{30}{section*.42}
-\contentsline {subsection}{Registrar Usuario}{31}{section*.43}
-\contentsline {subsection}{Crear Registro }{32}{section*.44}
-\contentsline {subsection}{Ver Mapa Interactivo}{33}{section*.45}
-\contentsline {chapter}{Disciplina de Dise\IeC {\~n}o}{34}{chapter*.46}
-\contentsline {section}{Descripci\IeC {\'o}n Textual de Casos de Uso}{34}{section*.47}
-\contentsline {subsection}{Caso de Uso 01: Un alumno no registrado desea registrarse en el sistema.}{34}{section*.48}
-\contentsline {subsection}{Caso de Uso 02: Un alumno registrado desea iniciar sesi\IeC {\'o}n.}{37}{section*.49}
-\contentsline {subsection}{Caso de Uso 03: Un alumno registrado desea crear un registro}{39}{section*.50}
-\contentsline {subsection}{Caso de Uso 04: Un alumno registrado desea listar sus registros.}{40}{section*.51}
-\contentsline {subsection}{Caso de Uso 05: Un alumno registrado desea ver un registro en particular}{42}{section*.52}
-\contentsline {subsection}{Caso de Uso 06: Un alumno registrado desea ver el mapa general.}{43}{section*.53}
-\contentsline {subsection}{Caso de Uso 07: Un alumno registrado desea ver su perfil.}{44}{section*.54}
-\contentsline {subsection}{Caso de Uso 08: Un alumno registrado desea modificar su perfil.}{45}{section*.55}
-\contentsline {subsection}{Caso de Uso 10: Un alumno registrado desea eliminar su cuenta.}{47}{section*.56}
-\contentsline {subsection}{Caso de Uso 11: Un administrador desea iniciar sesi\IeC {\'o}n.}{48}{section*.57}
-\contentsline {subsection}{Caso de Uso 12: Un administrador desea borrar o dar de baja un alumno.}{50}{section*.58}
-\contentsline {subsection}{Caso de Uso 13: Un administrador desea listar los alumnos.}{52}{section*.59}
-\contentsline {subsection}{Caso de Uso 14: Un administrador desea listar los registros.}{53}{section*.60}
-\contentsline {subsection}{Caso de Uso 15: Un administrador desea ver un registro en particular.}{54}{section*.61}
-\contentsline {subsection}{Caso de Uso UC16: Un administrador desea aprobar o rechazar registros.}{56}{section*.62}
-\contentsline {subsection}{Caso de Uso UC17/18/19: Un administrador desea buscar registros por fecha de creaci\IeC {\'o}n/Instituci\IeC {\'o}n/Indice.}{57}{section*.63}
-\contentsline {subsection}{Caso de Uso UC21: Un administrador desea exportar a Excel la informaci\IeC {\'o}n.}{59}{section*.64}
-\contentsline {section}{Diagrama de Clases de Dise\IeC {\~n}o}{61}{section*.65}
-\contentsline {section}{Diagramas de Secuencia}{62}{section*.66}
-\contentsline {subsection}{Autenticar}{62}{section*.67}
-\contentsline {subsection}{Registrar}{62}{section*.68}
-\contentsline {subsection}{Crear Tienda}{63}{section*.69}
-\contentsline {subsection}{Agregar Producto}{63}{section*.70}
-\contentsline {subsection}{Comprar Producto}{64}{section*.71}
-\contentsline {section}{Interfaz de Usuario}{65}{section*.72}
-\contentsline {chapter}{Disciplina de Implementaci\IeC {\'o}n}{78}{chapter*.73}
-\contentsline {section}{Arquitectura de la aplicaci\IeC {\'o}n}{78}{section*.74}
-\contentsline {section}{Diagrama de Despliegue}{79}{section*.75}
-\contentsline {section}{Elecci\IeC {\'o}n del Lenguaje}{79}{section*.76}
-\contentsline {section}{Arquitectura de Android}{80}{section*.77}
-\contentsline {section}{PhoneGap}{81}{section*.78}
-\contentsline {subsection}{Ventajas de PhoneGap}{82}{section*.79}
-\contentsline {subsection}{Desventaja de phoneGap}{83}{section*.80}
-\contentsline {section}{Web services}{83}{section*.81}
-\contentsline {subsection}{Razones para crear servicios Web}{84}{section*.82}
-\contentsline {subsection}{REST}{84}{section*.83}
-\contentsline {subsubsection}{Recursos}{86}{section*.84}
-\contentsline {section}{Caracter\IeC {\'\i }sticas de seguridad}{86}{section*.85}
-\contentsline {subsection}{Canal de comunicaci\IeC {\'o}n cifrado}{86}{section*.86}
-\contentsline {subsection}{ACL para cada objeto}{87}{section*.87}
-\contentsline {section}{Backbone.js}{88}{section*.88}
-\contentsline {subsection}{Modelo Vista Presentador (MVP)}{90}{section*.89}
-\contentsline {section}{jQuery}{91}{section*.90}
-\contentsline {section}{jQuery Mobile}{91}{section*.91}
-\contentsline {section}{Herramientas de desarrollo}{92}{section*.92}
-\contentsline {chapter}{Disciplina de Pruebas}{94}{chapter*.93}
-\contentsline {section}{Test de Unidades}{94}{section*.94}
-\contentsline {subsection}{Introducci\IeC {\'o}n}{94}{section*.95}
-\contentsline {subsection}{Pruebas de Caja Blanca}{94}{section*.96}
-\contentsline {section}{Test de M\IeC {\'o}dulos}{94}{section*.97}
-\contentsline {subsection}{Introducci\IeC {\'o}n}{94}{section*.98}
-\contentsline {subsection}{Pruebas de Caja Negra}{95}{section*.99}
-\contentsline {subsection}{Pruebas de Estr\IeC {\'e}s}{95}{section*.100}
-\contentsline {section}{Test de Integraci\IeC {\'o}n}{95}{section*.101}
-\contentsline {subsection}{Introducci\IeC {\'o}n}{95}{section*.102}
-\contentsline {subsection}{Pruebas de Integraci\IeC {\'o}n}{95}{section*.103}
-\contentsline {section}{Test de Aceptaci\IeC {\'o}n}{96}{section*.104}
-\contentsline {subsection}{Introducci\IeC {\'o}n}{96}{section*.105}
-\contentsline {subsection}{Prueba Alfa}{96}{section*.106}
-\contentsline {subsection}{Prueba Beta}{96}{section*.107}
-\contentsline {chapter}{Conclusiones}{97}{chapter*.108}
+\contentsline {subsection}{Diagrama de Gantt}{25}{section*.33}
+\contentsline {chapter}{Disciplina de An\IeC {\'a}lisis}{26}{chapter*.34}
+\contentsline {section}{Vista de Casos de Uso}{26}{section*.35}
+\contentsline {subsection}{Casos de Uso Principales}{26}{section*.36}
+\contentsline {section}{Diagrama de Contexto}{27}{section*.37}
+\contentsline {section}{Diagramas de Casos de Uso}{27}{section*.38}
+\contentsline {subsection}{Diagrama de Casos de Uso general}{28}{section*.39}
+\contentsline {subsection}{Diagrama de Casos de Uso de Gesti\IeC {\'o}n de Usuarios}{28}{section*.40}
+\contentsline {subsection}{Diagrama de Casos de Uso de Gesti\IeC {\'o}n de Registros}{29}{section*.41}
+\contentsline {section}{Diagramas de Actividad}{30}{section*.42}
+\contentsline {subsection}{Inicio de Sesi\IeC {\'o}n}{30}{section*.43}
+\contentsline {subsection}{Registrar Usuario}{31}{section*.44}
+\contentsline {subsection}{Crear Registro }{32}{section*.45}
+\contentsline {subsection}{Ver Mapa Interactivo}{33}{section*.46}
+\contentsline {chapter}{Disciplina de Dise\IeC {\~n}o}{34}{chapter*.47}
+\contentsline {section}{Descripci\IeC {\'o}n Textual de Casos de Uso}{34}{section*.48}
+\contentsline {subsection}{Caso de Uso 01: Un alumno no registrado desea registrarse en el sistema.}{34}{section*.49}
+\contentsline {subsection}{Caso de Uso 02: Un alumno registrado desea iniciar sesi\IeC {\'o}n.}{37}{section*.50}
+\contentsline {subsection}{Caso de Uso 03: Un alumno registrado desea crear un registro}{39}{section*.51}
+\contentsline {subsection}{Caso de Uso 04: Un alumno registrado desea listar sus registros.}{40}{section*.52}
+\contentsline {subsection}{Caso de Uso 05: Un alumno registrado desea ver un registro en particular}{42}{section*.53}
+\contentsline {subsection}{Caso de Uso 06: Un alumno registrado desea ver el mapa general.}{43}{section*.54}
+\contentsline {subsection}{Caso de Uso 07: Un alumno registrado desea ver su perfil.}{44}{section*.55}
+\contentsline {subsection}{Caso de Uso 08: Un alumno registrado desea modificar su perfil.}{45}{section*.56}
+\contentsline {subsection}{Caso de Uso 10: Un alumno registrado desea eliminar su cuenta.}{47}{section*.57}
+\contentsline {subsection}{Caso de Uso 11: Un administrador desea iniciar sesi\IeC {\'o}n.}{48}{section*.58}
+\contentsline {subsection}{Caso de Uso 12: Un administrador desea borrar o dar de baja un alumno.}{50}{section*.59}
+\contentsline {subsection}{Caso de Uso 13: Un administrador desea listar los alumnos.}{52}{section*.60}
+\contentsline {subsection}{Caso de Uso 14: Un administrador desea listar los registros.}{53}{section*.61}
+\contentsline {subsection}{Caso de Uso 15: Un administrador desea ver un registro en particular.}{54}{section*.62}
+\contentsline {subsection}{Caso de Uso UC16: Un administrador desea aprobar o rechazar registros.}{56}{section*.63}
+\contentsline {subsection}{Caso de Uso UC17/18/19: Un administrador desea buscar registros por fecha de creaci\IeC {\'o}n/Instituci\IeC {\'o}n/Indice.}{57}{section*.64}
+\contentsline {subsection}{Caso de Uso UC21: Un administrador desea exportar a Excel la informaci\IeC {\'o}n.}{59}{section*.65}
+\contentsline {section}{Diagrama de Clases de Dise\IeC {\~n}o}{61}{section*.66}
+\contentsline {section}{Diagramas de Secuencia}{62}{section*.67}
+\contentsline {subsection}{Autenticar}{62}{section*.68}
+\contentsline {subsection}{Registrar}{62}{section*.69}
+\contentsline {subsection}{Crear Tienda}{63}{section*.70}
+\contentsline {subsection}{Agregar Producto}{63}{section*.71}
+\contentsline {subsection}{Comprar Producto}{64}{section*.72}
+\contentsline {section}{Interfaz de Usuario}{65}{section*.73}
+\contentsline {chapter}{Disciplina de Implementaci\IeC {\'o}n}{78}{chapter*.74}
+\contentsline {section}{Arquitectura de la aplicaci\IeC {\'o}n}{78}{section*.75}
+\contentsline {section}{Diagrama de Despliegue}{79}{section*.76}
+\contentsline {section}{Elecci\IeC {\'o}n del Lenguaje}{79}{section*.77}
+\contentsline {section}{Arquitectura de Android}{80}{section*.78}
+\contentsline {section}{PhoneGap}{81}{section*.79}
+\contentsline {subsection}{Ventajas de PhoneGap}{82}{section*.80}
+\contentsline {subsection}{Desventaja de phoneGap}{83}{section*.81}
+\contentsline {section}{Web services}{83}{section*.82}
+\contentsline {subsection}{Razones para crear servicios Web}{84}{section*.83}
+\contentsline {subsection}{REST}{84}{section*.84}
+\contentsline {subsubsection}{Recursos}{86}{section*.85}
+\contentsline {section}{Caracter\IeC {\'\i }sticas de seguridad}{86}{section*.86}
+\contentsline {subsection}{Canal de comunicaci\IeC {\'o}n cifrado}{86}{section*.87}
+\contentsline {subsection}{ACL para cada objeto}{87}{section*.88}
+\contentsline {section}{Backbone.js}{88}{section*.89}
+\contentsline {subsection}{Modelo Vista Presentador (MVP)}{90}{section*.90}
+\contentsline {section}{jQuery}{91}{section*.91}
+\contentsline {section}{jQuery Mobile}{91}{section*.92}
+\contentsline {section}{Herramientas de desarrollo}{92}{section*.93}
+\contentsline {chapter}{Disciplina de Pruebas}{94}{chapter*.94}
+\contentsline {section}{Test de Unidades}{94}{section*.95}
+\contentsline {subsection}{Introducci\IeC {\'o}n}{94}{section*.96}
+\contentsline {subsection}{Pruebas de Caja Blanca}{94}{section*.97}
+\contentsline {section}{Test de M\IeC {\'o}dulos}{94}{section*.98}
+\contentsline {subsection}{Introducci\IeC {\'o}n}{94}{section*.99}
+\contentsline {subsection}{Pruebas de Caja Negra}{95}{section*.100}
+\contentsline {subsection}{Pruebas de Estr\IeC {\'e}s}{95}{section*.101}
+\contentsline {section}{Test de Integraci\IeC {\'o}n}{95}{section*.102}
+\contentsline {subsection}{Introducci\IeC {\'o}n}{95}{section*.103}
+\contentsline {subsection}{Pruebas de Integraci\IeC {\'o}n}{95}{section*.104}
+\contentsline {section}{Test de Aceptaci\IeC {\'o}n}{96}{section*.105}
+\contentsline {subsection}{Introducci\IeC {\'o}n}{96}{section*.106}
+\contentsline {subsection}{Prueba Alfa}{96}{section*.107}
+\contentsline {subsection}{Prueba Beta}{96}{section*.108}
+\contentsline {chapter}{Conclusiones}{97}{chapter*.109}

@@ -277,6 +277,11 @@ OUTPUT requisitos.aux
 INPUT requisitos.tex
 INPUT requisitos.tex
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmti12.tfm
+INPUT imagenes/Grantt.jpg
+INPUT ./imagenes/Grantt.jpg
+INPUT ./imagenes/Grantt.jpg
+INPUT ./imagenes/Grantt.jpg
+INPUT ./imagenes/Grantt.jpg
 OUTPUT analisis.aux
 INPUT analisis.tex
 INPUT analisis.tex
