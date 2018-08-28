@@ -310,99 +310,89 @@
       \begin{itemize}
         \item \textbf{Requisitos de usuario:} Como se mencionó anteriormente, se identican dos tipos de usuarios: Administradores y Alumnos. Los usuarios tendrán sus cuentas asociadas con Nombre de Usuario y Contraseña. Los mismos podran iniciar sesion desde computadoras de escritorio o mediante la aplicacion para dispositivos mobiles Smartphones, siempre y cuando, dispongan de una cuenta valida. En caso contrario, deberan registrarse en el sistema mediante la aplicacion correspondiente.
 
-        \item \textbf{Requisitos tecnológicos:} 
-        Los administradores podrán iniciar sesion en el sistema mendiante computadoras de escritorio, facilitando la gestion y administracion del mismo. Ésta version WEB restringe el uso a aquellos usuarios del grupo "Alumnos", por otra parte, los alumnos podran hacer uso del sistema solo para generar registros, y ver el mapa interactivo mediante la aplicacion para Smartphones que deberán descargar la tienda Google Play.
+        \item \textbf{Requisitos tecnológicos:} Los administradores podrán iniciar sesion en el sistema mendiante computadoras de escritorio, facilitando la gestion y administracion del mismo. Ésta version WEB restringe el uso a aquellos usuarios del grupo "Alumnos", por otra parte, los alumnos podran hacer uso del sistema solo para generar registros, y ver el mapa interactivo mediante la aplicacion para Smartphones que deberán descargar la tienda Google Play.
         Se utilizará una plataforma de servicios en la nube o un servidor fisico local provisto por el cliente de este sistema, para administrar una máquina virtual que hará de servidor web y servidor de base de datos. El sistema operativo que correrá la máquina virtual será Ubuntu Server, éste es un sistema operativo gratuito y de código abierto, por otra parte, el sistema gestor de base de datos será del tipo MySQL. Ambos sistemas (operativo y gestor de base de datos), seran instalados en su ultima version estable al momento de la entrega del software.
-        El sistema se ejecutara sobre un esquema de peticiones Cliente/Servidor (API Rest).
-        La elección de la infraestructra se debe principalmente a 3 motivos: 
+        El sistema se ejecutara sobre un esquema de peticiones Cliente/Servidor (API Rest). La elección esta infraestructra se debe principalmente a 3 motivos: 
         \begin{itemize}
           \item Debido a que el sistema se puede usar mediante Smartphones y computadoras de escritorio de forma remota, la solucion fue dividir y separar, como ya se menciono, la aplicacion para los usuarios de el servidor de consultas y base de datos.
           \item Experiencia del equipo de desarrollo 
           \item Sistemas seleccionados de licencia gratuita.
         \end{itemize}
       \end{itemize}
-      
+
     \subsection{Requisitos de Interfaces Externas}
-
-      \alternativo{Interfaces de usuario:} 
-
-      Las interfaces de la aplicación deben ser intuitivas, fáciles de usar, amigables y de respuesta rápida. La interfaz de usuario debe ser orientada al uso táctil.
-
-      \alternativo{Interfaces Hardware:} 
-
       \begin{itemize}
-      \item Requisitos para los Smartphones:
-      \begin{itemize}
-      \item Los Smartphones de los usuarios que ejecutaran la aplicacion deberán tener las siguientes características independientemente de su S.O:
-      \begin{itemize}
-      \item Cámara fotográfica de 1 Mega Pixeles.
-      \item GPS integrado.
-      \item Conexión a internet
-      \item Pantalla táctil de 3.5" o superior.
-      \item Espacio disponible de 5 MB para la instalación de la aplicacion + Cantidad de MB variable ocupado por cada registro creado. 
-      \end{itemize}
-      \end{itemize}
-      \item Requisitos mínimos para el servidor:
-      \begin{itemize}
-      \item Procesador AMD Sempron 3000 o equivalente.  Procesador Intel Celeron o equivalente.
-      \item 1 GB de memoria RAM.
-      \item Conexión a internet.
-      \end{itemize}
-      \item Requisitos mínimos para las PC o notebook de los administradores
-      \begin{itemize}
-      \item Procesador AMD Sempron 3000 o equivalente. Procesador Intel Celeron o equivalente.
-      \item 1 GB de memoria RAM.
-      \item Periféricos de entrada/salida.
-      \item Conexión a internet
-      \end{itemize}
-      \end{itemize}
-
-      \alternativo{Interfaces Software:} 
-
-      S.O soportados por la aplicación:
-      \begin{itemize}
-      \item Smartphones 
-      \begin{itemize}
-      \item Android 5.0 o posterior.
-      \item iOS 9.0 o posterior.
-      \item Windows Mobile 5.0 o posterior. 
-      \end{itemize}
-      \item Servidor 
-      \begin{itemize}
-      \item  El sistema operativo sera Ubuntu Server 14.04 LTS. 
-      \end{itemize}
-      \item PC o notebook de los administradores 
-      \begin{itemize}
-      \item Sistema Operativo Ubuntu 14.04 LTS o Windows 7 en adelante. 
-      \end{itemize} 
+        \item \textbf{Interfaz de usuario:} Las interfaces de la aplicación deben ser intuitivas, fáciles de usar, amigables y de respuesta rápida. La interfaz de usuario debe ser orientada al uso táctil de los Smartphones.
+        \item \textbf{Interfaz Hardware:} 
+          \begin{itemize}
+            \item Requisitos para los Smartphones:
+              \begin{itemize}
+                \item Los Smartphones de los usuarios que ejecutaran la aplicacion deberán tener las siguientes características independientemente de su S.O:
+                  \begin{itemize}
+                    \item Cámara fotográfica de 1 Mega Pixeles o más.
+                    \item GPS integrado.
+                    \item Conexión a internet via WiFi o Red GSM
+                    \item Pantalla táctil de 3.5" o superior.
+                    \item Espacio disponible de 5 MB para la instalación de la aplicacion + Cantidad de MB variable ocupado por cada registro creado. 
+                  \end{itemize}
+              \end{itemize}
+            \item Requisitos mínimos para el servidor:
+            \begin{itemize}
+              \item Procesador AMD Sempron 3000 o equivalente o procesador Intel Celeron o equivalente. Capacidad de virtualizacion
+              \item 1 GB de memoria RAM.
+              \item Conexión a internet.
+            \end{itemize}
+            \item Requisitos mínimos para las PC o notebook de los administradores
+            \begin{itemize}
+              \item Procesador AMD Sempron 3000 o equivalente. Procesador Intel Celeron o equivalente.
+              \item 1 GB de memoria RAM.
+              \item Periféricos de entrada/salida.
+              \item Conexión a internet
+            \end{itemize}
+          \end{itemize}
+      
+        \item \textbf{Interfaz Software:} 
+          Sistemas operativos soportados por la aplicación:
+          \begin{itemize}
+            \item Smartphones 
+            \begin{itemize}
+              \item Android 4.0 o posterior.
+              \item iOS 9.0 o posterior.
+            \end{itemize}
+            \item Servidor 
+            \begin{itemize}
+              \item  El sistema operativo sera Ubuntu Server en su ultima version estable LTS. 
+            \end{itemize}
+            \item PC o notebook de los administradores 
+            \begin{itemize}
+              \item Cualquier sistema operativo con navegador web 
+            \end{itemize} 
+          \end{itemize}
       \end{itemize}
 
     \subsection{Requisitos de Rendimiento:}
 
       El Tiempo de respuesta de la aplicación de cada función solicitada por el usuario no debe ser superior a los 3 segundos en una velocidad efectiva de conexión con el servidor a través de 3G.
+      No obstante, los registros al generarse de manera offline (sin conexion a internet), se guardarán de manera local, por lo que si se generaron varios registros, al momento de que el Smartphone detecte conexion a internet, el tiempo de respuesta se ve incrementando directamente proporcional a la cantidad de registros que se esten subiendo al servidor en la nube en ese momento.
 
-    \subsection{Requisitos de Desarrollo:}
+    \subsection{Requisitos de Desarrollo y Restricciones de Diseño:}
 
       El ciclo de vida será Prototipado Evolutivo, debiendo orientarse hacia el desarrollo de un sistema flexible que permita incorporar de manera sencilla cambios y nuevas funcionalidades.
 
-    \subsection{Restricciones de Diseño:}
+    \subsection{Ajuste a estándares:} Interfaz de usuario basada Material Desing (Google)
 
-      \alternativo{Ajuste a estándares:} Interfaz de usuario basada Material Desing (Google)
-
-      \alternativo{Seguridad:} La seguridad de los datos y de sesion será establecida por la utilización de JSON Web Tokens incorporado al uso de API RESTful ademas de la seguridad brindada por el Sistema Gestor de Base de Datos Relacional y No Relacional.
-
-      \alternativo{Política de respaldo:} 
-
-      El administrador llevará a cabo un respaldo de datos en discos externos o en la nube por el tiempo que el considere necesario. El motor de Base de datos estará configurado para realizar backups una vez al mes. Conservar los
-      respectivos archivos de respaldo de los últimos 6 backups.
-
-      \alternativo{Base de Datos:}
-
-      El Sistema Gestor de Base de Datos debe ser relacional en el servidor y se accederán a los mismos usando la tecnología innoDB.
-      En los Smartphone el Sistema Gestor de Base de Datos es No Relacional dado el requisito de creacion de registros de manera local y posterior sincronizacion automática al detectar una conexion de internet. 
-
-      \alternativo{Política de Borrado:}
-
-      No se ha definido
-
+    \subsection{Seguridad:} 
+      \begin{itemize}
+        
+        \item \textbf{En desarrollo:} Los desarrolladores acceden a la gestión del sistema operativo y/o sus aplicaciones a través de Secure Shell o SSH, el estandar de facto para la administración remota de servidores de manera segura. Tanto para la administración propia del servidor, como en las aplicaciones que se utilizan para administrar la base de datos (MySQL Workbench) y la gestión de archivos (SFTP), se realizan con clientes que establecen conexiones seguras con el servidor. La técnica empleada para dichas conexiones es el intercambio de claves públicas y validación con la clave privada de las aplicaciones cliente.
+        \item \textbf{En producción:} Los usuarios del sistema acceden al mismo mediante la aplicacion movil o cualquier explorador web. Para operar con la aplicación, deben proveer un usuario y una contraseña. Esta información es procesada en el servidor en un proceso de validación de credenciales y devuelve al cliente el mensaje de inicio de sesion correcto. La comunicacion entre cliente servidor viajara encriptada mediante el protocolo HTTPS.
+        \item \textbf{Roles y permisos:} Para reforzar la seguridad de la aplicación, cada usuario posee un rol ("Administrador" o "Alumno"), el cual tiene asociados diferentes permisos. Esto permite restringir el acceso a usuarios del grupo "Alumno" a la aplicacion WEB de gestion y administracion de registros. El rol "Administrador" tiene todos los permisos y privilegios, puediendo asi, gestionar el sistema e incluso generar registros como lo harian los Alumnos.
+        \item \textbf{Red:} En la capa de red se crearon reglas de acceso al servidor mediante el uso del firewall provisto por el Sistema Operativo Ubuntu. A través de estas reglas se establece que servicios podra ofrecer el servidor a los clientes de la aplicación.
+        \item \textbf{Sistema Operativo:} En el sistema operativo se definen los usuarios y los permisos que poseen para realizar lecturas, escrituras y/o ejecuciones de archivos alojados en la memoria del servidor. De esta forma se previene que usuarios no autorizados puedan modificar, eliminar y ejecutar archivos en el servidor, incluso en la base de datos.
+        \item \textbf{Servidor web:} A nivel servidor web, se prevé la implementacion del protocolo de aplicacion HTTPS que permite encriptar el tráfico de información desde el servidor web hacia los navegadores o aplicaciones que realicen solicitudes, estableciendo un eslabón más en la seguridad del sistema.
+        \item \textbf{Política de respaldo:} El administrador llevará a cabo un respaldo de datos en discos externos o en la nube por el tiempo que el considere necesario. Ademas, se exportaran los registros en un archivo excel manteniendo la informacion necesaria para la recuperación de los registros a futuro.
+        Por otro lado, el motor de Base de datos estará configurado para realizar backups cada cierto intervalo de tiempo definido por el administrador. Conservar los respectivos archivos de respaldo de los últimos 6 backups.
+        \item \textbf{Política de Borrado:} No se ha definido
+      \end{itemize}
+      
   \section{Estimación del proyecto}
