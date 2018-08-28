@@ -33,362 +33,385 @@
 \chapter{Disciplina de Requisitos}
 \label{chap:requisito}
 
-\section{Introducción}
+  \section{Introducción}
 
-Esta especificación tiene como objetivo analizar y documentar las necesidades funcionales que deberán ser soportadas por el sistema a desarrollar. Para ello, se identificarán los requisitos que ha de satisfacer el nuevo sistema mediante entrevistas, el estudio de los problemas de las unidades afectadas y sus necesidades actuales. Además de identificar los requisitos se deberán establecer las prioridades, los cual proporciona un punto de referencia para validar el sistema final que compruebe que se ajusta a las necesidades del usuario.
+    Esta especificación tiene como objetivo analizar y documentar las necesidades funcionales que deberán ser soportadas por el sistema a desarrollar. Para ello, se identificarán los requisitos que ha de satisfacer el nuevo sistema mediante entrevistas, el estudio de los problemas de las unidades afectadas y sus necesidades actuales. Además de identificar los requisitos se deberán establecer las prioridades, los cual proporciona un punto de referencia para validar el sistema final que compruebe que se ajusta a las necesidades del usuario.
 
-\section{Identificación de usuarios participantes}
+  \section{Identificación de usuarios participantes}
 
-Los objetivos de esta tarea son identificar a los responsables de cada una de las unidades y a los principales usuarios implicados. Para ello se consideran los siguientes aspectos:
+    Los objetivos de esta tarea son identificar a los responsables de cada una de las unidades y a los principales usuarios implicados. Para ello se consideran los siguientes aspectos:
 
-\begin{itemize}
-    \item Incorporación de usuarios al equipo de proyecto.
-    \item Conocimiento de los usuarios de las funciones a automatizar.
-    \item Repercusión del nuevo sistema sobre las actividades actuales de los usuarios.
-    \item Implicaciones legales del nuevo sistema.
- 
-\end{itemize}
+    \begin{itemize}
+      \item Incorporación de usuarios al equipo de proyecto.
+      \item Conocimiento de los usuarios de las funciones a automatizar.
+      \item Repercusión del nuevo sistema sobre las actividades actuales de los usuarios.
+      \item Implicaciones legales del nuevo sistema.
+    \end{itemize}
 
-Se identificaron los siguientes usuarios:
+      Se identificaron los siguientes usuarios:
 
- \begin{itemize}
- 
-\item \emph{Grupo de Administradores:} Formado por los solicitantes del software en cuestión.
- 
-\item \emph{Grupo de Alumnos:} Formado principalmente por alumnos de escuelas/colegios que realizan muestras, las cuales generan registros en el sistema.
+    \begin{itemize}
+      \item \emph{Grupo de Administradores:} Formado por los solicitantes del software en cuestión.
+      
+      \item \emph{Grupo de Alumnos:} Formado principalmente por alumnos de escuelas/colegios que realizan muestras, las cuales generan registros en el sistema.
+    \end{itemize}
 
- \end{itemize}
- 
- Es de destacar la necesidad de una participación activa de los usuarios del futuro sistema en las actividades de desarrollo del mismo, con objeto de conseguir la máxima adecuación del sistema a sus necesidades y facilitar el conocimiento paulatino de dicho sistema, permitiendo una rápida implantación.
+    Es de destacar la necesidad de una participación activa de los usuarios del futuro sistema en las actividades de desarrollo del mismo, con objeto de conseguir la máxima adecuación del sistema a sus necesidades y facilitar el conocimiento paulatino de dicho sistema, permitiendo una rápida implantación.
 
   \section{Educción de requisitos}
 
-  \subsection{Estudio de Documentación. Planificación y Realización de Entrevistas}
-  
-  Esta tarea tiene como finalidad capturar los requisitos de usuarios para el desarrollo del sistema.
-  
-  Para el análisis de requisitos se usaron distintas técnicas de educción de requisitos. Entre ellas el estudio de la documentación provista por parte del administrador; entrevistas abiertas y estructuradas, análisis del proceso actual.
+    \subsection{Estudio de Documentación. Planificación y Realización de Entrevistas}
 
-\section{Especificación de Requisitos de Software}
+      Esta tarea tiene como finalidad capturar los requisitos de usuarios para el desarrollo del sistema.
 
-\renewcommand{\thesubsection}{\arabic{subsection}}
- \subsection{Introducción}
- 
- Este documento es una Especificación de Requisitos Software de la  Web App embebida en dispositivos móviles para la gestión de registros sobre la contaminación de afluentes y ríos. Esta documentación es fruto de las entrevistas, estudio de la documentación y del funcionamiento del proceso actual, así como del análisis llevado a cabo por el equipo de desarrollo.
+      Para el análisis de requisitos se usaron distintas técnicas de educción de requisitos. Entre ellas el estudio de la documentación provista por parte del administrador; entrevistas abiertas y estructuradas, análisis del proceso actual.
 
-El objetivo de la especificación es definir en forma clara, precisa, completa y verificable todas las funcionalidades y restricciones del sistema que se desea construir.
+  \section{Especificación de Requisitos de Software}
 
-Esta documentación está sujeta a revisiones por el grupo de administradores que se recogerán por medio de sucesivas versiones del documento, hasta alcanzar la aprobación por parte de los mismos. Una vez aprobado, servirá de base al equipo de desarrollo para la construcción del sistema en cuestión.
+    \renewcommand{\thesubsection}{\arabic{subsection}}
+    \subsection{Introducción}
 
-Esta especificación se ha realizado de acuerdo al estándar “IEEE Recomended Practice for software Requirements Specifications(IEEE/ANSI 830-1993)”.
+      Este documento es una Especificación de Requisitos Software de la  Web App embebida en dispositivos móviles para la gestión de registros sobre la contaminación de afluentes y ríos. Esta documentación es fruto de las entrevistas, estudio de la documentación y del funcionamiento del proceso actual, así como del análisis llevado a cabo por el equipo de desarrollo.
+
+      El objetivo de la especificación es definir en forma clara, precisa, completa y verificable todas las funcionalidades y restricciones del sistema que se desea construir.
+
+      Esta documentación está sujeta a revisiones por el grupo de administradores que se recogerán por medio de sucesivas versiones del documento, hasta alcanzar la aprobación por parte de los mismos. Una vez aprobado, servirá de base al equipo de desarrollo para la construcción del sistema en cuestión.
+
+      Esta especificación se ha realizado de acuerdo al estándar “IEEE Recomended Practice for software Requirements Specifications(IEEE/ANSI 830-1993)”.
 
 
     \subsection{Objetivos y alcance del sistema}
 
-    El presente proyecto tiene como objetivo principal ayudar al medio ambiente, utilizando un sistema de gestión que permite la creación y administración de registros, los cuales contienen datos de muestras del universo de estudio que, al ser procesadas, brinda el estado de contaminación de un río o afluente, mediante indicadores biológicos.
-    Estos registros cuentan con contenido multimedia y coordenadas geograficas
+      El presente proyecto tiene como objetivo principal ayudar al medio ambiente, utilizando un sistema de gestión que permite la creación y administración de registros, los cuales contienen datos de muestras del universo de estudio que, al ser procesadas, brinda el estado de contaminación de un río o afluente, mediante indicadores biológicos.
+      Estos registros cuentan con contenido multimedia y coordenadas geograficas
 
-\section{Definiciones, acrónimos y abreviaturas}
+  \section{Definiciones, acrónimos y abreviaturas}
 
-    \subsubsection{Definiciones:}
-  
-        \begin{itemize}
- 
-        \item \emph{Salida de campo:} La principal aportación de la salida de campo es que permite al alumnado adquirir un aprendizaje significativo en el que el principal elemento del proceso de enseñanza- aprendizaje es la construcción de significados. La persona aprende un concepto, un fenómeno, un procedimiento, un comportamiento, etc.
-
-        \item \emph{Insectos:} Nuestro universo de estudio obliga solo a tener en cuenta 4 insectos, los cuales sirven para indicar el posible grado de contaminación del agua. Estos insectos son los siguientes:
-            \begin{itemize}
-                \item Elimidos.
-                \item Patudos.
-                \item Plecopteros.
-                \item Tricopteros.
-            \end{itemize}
-
-        \item \emph{Muestra}: Una muestra esta compuesta por los insectos encontrados en una salida de campo. 
-
-        \item \emph{Indice de Contaminación}: Para el sistema, el indice de contaminación es el valor calculado, mediante la cantidad de diferentes insectos encontrados en el universo de estudio, de la siguiente manera:
-        \begin{table}[H]
-            \centering
-            \begin{tabular}{|p{3.8cm}|l|l|}
-                \hline
-                \centering
-                Cantidad de insectos encontrados  & Indice & Interpretación \\ \hline 
-                            0                     & 0 & Muy contaminado \\ \hline
-                            1                     & 1 & Contaminado \\ \hline
-                            2                     & 2 & Con contaminacion media \\ \hline
-                            3                     & 3 & En buen estado \\ \hline
-                            4                     & 4 & En excelente estado \\ 
-                \hline
-            \end{tabular}
-        \end{table}
-
+    \subsection{Definiciones:}
+      \begin{itemize}
         
-
+        \item \emph{Salida de campo:} La principal aportación de la salida de campo es que permite al alumnado adquirir un aprendizaje significativo en el que el principal elemento del proceso de enseñanza- aprendizaje es la construcción de significados. La persona aprende un concepto, un fenómeno, un procedimiento, un comportamiento, etc.
+        
+        \item \emph{Insectos:} Nuestro universo de estudio obliga solo a tener en cuenta 4 insectos, los cuales sirven para indicar el posible grado de contaminación del agua. Estos insectos son los siguientes:
+        
+        \begin{itemize}
+          \item Elimidos.
+          \item Patudos.
+          \item Plecopteros.
+          \item Tricopteros.
+        \end{itemize}
+        
+        \item \emph{Muestra}: Una muestra esta compuesta por los insectos encontrados en una salida de campo. 
+        
+        \item \emph{Indice de Contaminación}: Para el sistema, el indice de contaminación es el valor calculado, mediante la cantidad de diferentes insectos encontrados en el universo de estudio, de la siguiente manera:
+        
+        \begin{table}[H]
+          \centering
+          \begin{tabular}{|p{3.8cm}|l|l|}
+            \hline
+            \centering
+            Cantidad de insectos encontrados  & Indice & Interpretación \\ \hline 
+            0                     & 0 & Muy contaminado \\ \hline
+            1                     & 1 & Contaminado \\ \hline
+            2                     & 2 & Con contaminacion media \\ \hline
+            3                     & 3 & En buen estado \\ \hline
+            4                     & 4 & En excelente estado \\ 
+            \hline
+          \end{tabular}
+        \end{table}
+        
         \item \emph{Foto paisaje}: Foto obtenida del paisaje en donde se realizo la muestra de los insectos encontrados, con el fin de facilitar un punto de referencia visual para proximas salidas de campo.
         
         \item \emph{Foto insectos}: Foto obtenida de la muestra que sirve para que los administradores de la aplicacion validen, o no, el registro en cuestion.
-
+        
         \item \emph{Coordenadas geograficas}: Se usan para referenciar, mediante latitud y longitud, el lugar en donde se realizo el registro.
-
+        
         \item \emph{Mapa}: Mapa digital (Google Maps) en donde se muestran los registros realizados por los usuarios.
-
+        
         \item \emph{HTML:} HyperText Markup Language. Lenguaje de marcado para la elaboracion de paginas web. En nuestro caso, genera la vista final del sistema.
         
         \item \emph{HTTPS:} Hypertext Transfer Protocol Secure.
-
-        \item \emph{BD:} Base de datos.
- 
-        \item \emph{CRUD:} Es el acrónimo de "Crear, Leer, Actualizar y Borrar" (del original en ingles: Create, Read, Update and Delete),que se usa para referirse a las funciones básicas en bases de datos.
-
-        \item \emph{MCVS:} Modelo de Ciclo de Vida del Sistema.
         
-         \end{itemize}
-    
+        \item \emph{BD:} Base de datos.
+        
+        \item \emph{CRUD:} Es el acrónimo de "Crear, Leer, Actualizar y Borrar" (del original en ingles: Create, Read, Update and Delete),que se usa para referirse a las funciones básicas en bases de datos.
+        
+        \item \emph{MCVS:} Modelo de Ciclo de Vida del Sistema.
+      \end{itemize}
 
- \section{Descripción general}
+  \section{Descripción general}
 
     Esta sección nos presenta una descripción general del sistema con el fin de conocer las funciones que debe soportar, los datos asociados, las restricciones impuestas y cualquier otro factor que pueda influir en la construcción del mismo.
     El sistema nace como necesidad de un grupo de docentes de la Facultad de Ciencias Naturales e Instituto Miguel Lillo, por llevar un control mas exhaustivo de su investigación.
-    Es prioritario el seguimiento de la contaminación de los afluentes y ríos ubicados en la provincia de Tucumán. Este seguimiento se realizaba mediante salidas de campos con alumnos de las escuelas rurales donde realizaban las siguientes actividades.
-    \begin{itemize}
+    Es prioritario el seguimiento de la contaminación de los afluentes y ríos ubicados en la provincia de Tucumán.
+
+    \subsection{Proceso actual}
+
+      Este seguimiento se realizaba mediante salidas de campos con alumnos de las escuelas rurales donde realizaban las siguientes actividades.
+      
+      \begin{itemize}
         \item Los alumnos obtienen muestras del río o afluente intentando capturar algunos de los insectos del universo de estudio.
+        
         \item Los docentes a cargo verifican dichas muestras, e identifican las coincidencias, obteniendo de esta forma, un indice de contaminación.  
-    \end{itemize}
-    Todo esto se realiza de manera manual, anotando en papel y luego es transcripto a una planilla Excel.
-Todo el procedimiento antes descripto, dificulta la trazabilidad y administración de la información (introduciendo errores y demoras por manejo manual de la información), por lo que todo esto sería más efectivo y sencillo con la ayuda de la tecnología.
-De ahí nació este proyecto, el cual se basa en realizar los registros mediante smartphones que trabajan en campo sin conexión a internet, con captura de coordenadas, fotos de los insectos, foto del paisaje para un fácil reconocimiento del lugar en futuras salidas de campo. La información obtenida se sincroniza en la nube automáticamente cuando el dispositivo móvil obtiene conexión a internet. Además, este sistema cuenta con un administrador (central), el cual puede consultar todos los registros realizados que se grafican automáticamente en un mapa digital. A partir de allí, el administrador obtiene fácilmenet la información sobre la contaminación del curso de un rio.
+      \end{itemize}
+      
+      Todo esto se realiza de manera manual, anotando en papel y luego es transcripto a una planilla Excel.
+      Todo el procedimiento antes descripto, dificulta la trazabilidad y administración de la información (introduciendo errores y demoras por manejo manual de la información), por lo que todo esto sería más efectivo y sencillo con la ayuda de la tecnología.
 
+    \subsection{Reingeniería de proceso}
 
+      El objetivo de este proyecto se basa en proporcionar facilidades al proceso actual de la siguiente forma: 
 
-\begin{itemize}
-    \item En las salidas de campo, los alumnos podrán generar registros con la siguiente información:
-    \begin{itemize}
+      \begin{itemize}
         \item Dos imágenes capturadas con la cámara de fotos del Smartphone:
+        
         \begin{itemize}
-            \item La primera imagen sera una foto de los insectos encontrados en un rio o afluente. El objetivo es encontrar 4 insectos diferentes para analizar la biodiversidad.
-            \item La segunda imagen sera una foto del paisaje que servirá como un futuro punto de referencia para próximas salidas de campo. 
-        \end{itemize}
-        \item Capturar coordenadas de manera automática con una precisión propia al GPS integrado del Smartphone, las cuales se guardaran como \emph{latitud} y \emph{longitud}
-        \item El usuario deberá seleccionar, según su criterio personal, cuales de los 4 insectos fueron encontrados por él, mediante un formulario interactivo, el cual consta de imágenes reales de los mismos para una buena comparación y un campo de observaciones para realizar comentarios subjetivos sobre la muestra en cuestión.
-        \item Al completar toda la información mencionada anteriormente, se mostrara una ruleta animada virtual, la cual mostrará un valor (indice de contaminación), indicando el posible grado contaminación del agua en donde se realizo la muestra.
-    \end{itemize}
-    \item Lo anterior se realizará sin conexión a internet (2G, 3G, Wifi, etc), generando un registro de manera local, que luego, de manera automática, se subirá a los servidores al momento de adquirir alguna conexión a internet.
-    \item Los administradores podrán gestionar, mediante un navegador web (Google Chrome, Internet Explorer, Mozilla, etc) o desde la aplicacion en el Smartphone, los registros previamente creados y guardados en el servidor. 
-    \item Analizando todos los registros, se creará un renderizado de un mapa  (Google Maps) en donde los administradores y usuarios podrán visualizar, con trazos de diferentes colores, el grado de contaminación del agua en el curso de los riós o afluentes analizados en las salidas de campo.
-\end{itemize}
- 
-
-El sistema debe ser seguro, escalable, de fácil mantenimiento y muy simple de usar utilizando sólo interfaces táctiles para los usuarios finales. El futuro sistema llevará el nombre \emph{Aguita}.
-
-El desarrollo lo llevarán a cabo los alumnos Ricardo Hugo Bruno y Kevin Shionen Gomez Veliz, con la opción a ser responsables del posterior mantenimiento del mismo.
-
-
-Las funciones que debe realizar el sistema se pueden agrupar de la siguiente manera:
-
-  \begin{itemize}
-  
-  \item \emph{Administración de usuarios:} Debe permitir gestionar los usuarios teniendo en cuenta de si tratan de un usuario propiamente dicho o administradores de la aplicación.
-    
-    Para que un usuario pueda generar un registro, deberá estar previamente registrado e iniciar sesión por una única vez en su Smartphone.
-    
-    Los usuarios deben poder configurar/modificar las opciones de su perfil como ser: nombre, apellido, lugar de residencia, institución a la que pertenece y grado correspondiente.
-
-    Los usuarios no pueden consultar la información personal de otros usuarios
-  
-  \item \emph{Administración de registros:} Los administradores pueden interactuar con los registros cambiando su estado (aceptado - rechazado) según la información brindada por los mismos (correcta o no).
-  
-  \item \emph{Consultas de registros realizados:} Los usuarios podrán consultar un listado de sus registros creados con la información completa.
-  
-  Los usuarios no podrán consultar los registros de otros usuarios.
-
-  Los administradores podrán ver los registros creados por los todos los usuarios de la aplicación con toda su información correspondiente.
-
-  \item \emph{Consulta de mapa:} Los usuarios y administradores pueden ver el mapa final con toda la información recopilada de todos los registros creados por los mismos.
-
-  Todos los registros que estén en un estado \emph{rechazado} no se eliminaran de la base de datos, no obstante, los mismos no se tomaran en cuenta para el renderizado del mapa final. 
-  
-  \end{itemize}
-
- \section{Requisitos específicos}
-        \subsubsection{Requisitos Funcionales}
-        
-        \begin{enumerate}[A.]
-
-        \item \textbf{Gestión de Usuarios}
-        
-        \paragraph{Introducción:} El sistema permite introducir información sobre usuarios (Nombre y apellido, email, residencia, institución), modificar los ya existentes o borrarlos.
-        
-        \paragraph{Entrada:} @NombreUsuario + Nombre + Apellido + Institución + Grado + Residencia + Email
-        
-        \paragraph{Proceso:} Comprobar si se trata de un usuario nuevo, dándolo de alta o actualizarlo si ya existe.
-        Se muestra en pantalla la ficha de datos del usuario. No pueden existir dos usuarios con el mismo nombre de usuario y/o Email. 
-        
-        \paragraph{Salida:} Datos de usuarios actualizados y mensajes de lo que está ocurriendo.
-        
-        \item \textbf{Gestión de Registros}
-        
-        \paragraph{Introducción:} El sistema debe permitir la  creación de registros (Indice, fecha, coordenadas, fotos capturadas, etc). 
-        
-        \paragraph{Entrada:} @idRegistro + Indice + FechaCreacion + Latitud + Longitud + FotoPaisaje + FotoInsectos + FotoMapa + Observaciones + Usuario + Ubicación 
-        
-        \paragraph{Proceso:} Cuando se crea un registro, se codifican todas las fotos, se recopila toda la información y se lo guarda de manera local hasta obtener una conexión a internet para la sincronización con el servidor online.
-
-        No pueden existir 2 o mas registros con el mismo idRegistro
-        
-        \paragraph{Salida:} Datos de los registros actualizados y mensajes de lo que está ocurriendo.
-        
-        \item \textbf{Búsqueda de usuarios}
-        
-        \paragraph{Introducción:}El sistema debe permitir la búsqueda de usuarios por su nombre de usuario o nombre y apellido o institución. 
-        
-        \paragraph{Entrada:} Tipo de Búsqueda (nombre de usuario o nombre y apellido o institución) + CadenaBúsqueda
-        
-        \paragraph{Proceso:} Buscar las correspondencias de usuarios usando el tipo y la cadena de búsqueda. Mostrar los resultados, aunque no se haya encontrado nada.
-        
-        \paragraph{Salida:} Usuario \{Nombre de usuario + Nombre + Apellido + Institución + Grado + Residencia + Email + Cantidad de Registros realizados\}
-        
-         \item \textbf{Busqueda de registros}
-        
-        \paragraph{Introducción:} El sistema debe permitir la búsqueda de registros por su fecha de creación, indice o institución.
-        \paragraph{Entrada:} Tipo de Busqueda (fecha de creación o indice o institución) + CadenaBusqueda
-        
-        \paragraph{Proceso:} Buscar las correspondencias de registros usando el tipo y la cadena de búsqueda. Mostrar los resultados, aunque no se haya encontrado nada.
-        
-        \paragraph{Salida:} Registro \{idRegistro + Indice + FechaCreacion + Latitud + Longitud + FotoPaisaje + FotoInsectos + FotoMapa + Observaciones + Usuario + Ubicación \}
-        
-        \item \textbf{Listado de Usuarios}
-        
-        \paragraph{Introducción:} Permite listar todos los Usuarios registrados.
-        
-        \paragraph{Entrada:}
-        
-        \paragraph{Proceso:} Listar los usuarios registrados que estén dados de alta en el sistema
-        
-        \paragraph{Salida:} Usuarios \{Nombre de usuario + Nombre + Apellido + Institución + Grado + Residencia + Email + Registros realizados\}
-
-        \item \textbf{Listado de Registros}
-        
-        \paragraph{Introducción:} Permite listar todos los registros credos por todos los usuarios.
-        
-        \paragraph{Entrada:} 
-        
-        \paragraph{Proceso:} Listar los registros realizados
-        
-        \paragraph{Salida:} Registros \{idRegistro + Indice + FechaCreacion + Latitud + Longitud + FotoPaisaje + FotoInsectos + FotoMapa + Observaciones + Usuario + Ubicación\}
-
-        \item \textbf{Listar Mapa}
-        
-        \paragraph{Introducción:} Permite ver el mapa interactivo con la información de los registros creados por los usuarios.
-        
-        \paragraph{Entrada:} 
-        
-        \paragraph{Proceso:} Listar Mapa con puntos obtenidos mediante la latitud y longitud de los registros almacenados, indicando el indice de contaminación en dichos puntos
-        
-        \paragraph{Salida:} Mapa \{Latitud + Longitud + Indice\}
-
-        \end{enumerate}
+          \item La primera imagen será una foto de los insectos encontrados en un río o afluente. El objetivo es encontrar 4 insectos diferentes para analizar la biodiversidad.
          
-        \subsubsection{Suposiciones y Dependencias:}
+          \item La segunda imagen sera una foto del paisaje que servirá como un futuro punto de referencia para próximas salidas de campo. 
+        \end{itemize}
         
-            \alternativo{Suposiciones:} 
-            
-            Se asume que los requisitos en este documento son estables una vez que sean aprobados por los responsables de la aplicación. Cualquier petición de cambios en la especificación debe ser aprobada por todas las partes intervinientes y será gestionada por el equipo de desarrollo.
-            
-            \alternativo{Dependencias:} 
-            
-            No existen dependencias.
-            
-          \subsubsection{Requisitos de Usuario y Tecnológicos:}
+        \item Capturar coordenadas de manera automática con una precisión propia al GPS integrado del Smartphone, las cuales se guardaran como \emph{latitud} y \emph{longitud}
         
-            \alternativo{Requisitos de usuario:} 
-            
-            Los usuarios serán los que descarguen la aplicación desde Google Play, App Store o Tienda de aplicaciones de Windows mediante su Smartphone.
-            
-            \alternativo{Requisitos tecnológicos:} 
-            
-            En vista de que es necesario instalar la aplicacion en Smartphones y ademas en una PC convencional (PC de escritorio, notebook o similares), se opto por un entorno económico y fácil de instalar. La aplicacion se ejecutara sobre un esquema cliente/servidor, con los procesos e interfaz de usuario ejecutándose en los Smartphones y éstos solicitando requerimientos al servidor que cumple su proceso.
-            
-        \subsubsection{Requisitos de Interfaces Externas}
+        \item El usuario deberá seleccionar, según su criterio personal, cuales de los 4 insectos fueron encontrados por él, mediante un formulario interactivo, el cual consta de imágenes reales de los mismos para una buena comparación y un campo de observaciones para realizar comentarios subjetivos sobre la muestra en cuestión.
         
-            \alternativo{Interfaces de usuario:} 
-            
-            Las interfaces de la aplicación deben ser intuitivas, fáciles de usar, amigables y de respuesta rápida. La interfaz de usuario debe ser orientada al uso táctil.
-            
-            \alternativo{Interfaces Hardware:} 
-            
-            \begin{itemize}
-                \item Requisitos para los Smartphones:
-                \begin{itemize}
-                    \item Los Smartphones de los usuarios que ejecutaran la aplicacion deberán tener las siguientes características independientemente de su S.O:
-                    \begin{itemize}
-                        \item Cámara fotográfica de 1 Mega Pixeles.
-                        \item GPS integrado.
-                        \item Conexión a internet
-                        \item Pantalla táctil de 3.5" o superior.
-                        \item Espacio disponible de 5 MB para la instalación de la aplicacion + Cantidad de MB variable ocupado por cada registro creado. 
-                    \end{itemize}
-                \end{itemize}
-                \item Requisitos mínimos para el servidor:
-                \begin{itemize}
-                    \item Procesador AMD Sempron 3000 o equivalente.  Procesador Intel Celeron o equivalente.
-                    \item 1 GB de memoria RAM.
-                    \item Conexión a internet.
-                \end{itemize}
-                \item Requisitos mínimos para las PC o notebook de los administradores
-                \begin{itemize}
-                    \item Procesador AMD Sempron 3000 o equivalente. Procesador Intel Celeron o equivalente.
-                    \item 1 GB de memoria RAM.
-                    \item Periféricos de entrada/salida.
-                    \item Conexión a internet
-                \end{itemize}
-            \end{itemize}
-            
-            \alternativo{Interfaces Software:} 
-            
-            S.O soportados por la aplicación:
-            \begin{itemize}
-                \item Smartphones 
-                \begin{itemize}
-                    \item Android 5.0 o posterior.
-                    \item iOS 9.0 o posterior.
-                    \item Windows Mobile 5.0 o posterior. 
-                \end{itemize}
-                \item Servidor 
-                \begin{itemize}
-                    \item  El sistema operativo sera Ubuntu Server 14.04 LTS. 
-                \end{itemize}
-                \item PC o notebook de los administradores 
-                \begin{itemize}
-                    \item Sistema Operativo Ubuntu 14.04 LTS o Windows 7 en adelante. 
-                \end{itemize} 
-            \end{itemize}
-            
-        \subsubsection{Requisitos de Rendimiento:}
-        
-        El Tiempo de respuesta de la aplicación de cada función solicitada por el usuario no debe ser superior a los 3 segundos en una velocidad efectiva de conexión con el servidor a través de 3G.
-        
-        \subsubsection{Requisitos de Desarrollo:}
-        
-        El ciclo de vida será Prototipado Evolutivo, debiendo orientarse hacia el desarrollo de un sistema flexible que permita incorporar de manera sencilla cambios y nuevas funcionalidades.
-        
-       \subsubsection{Restricciones de Diseño:}
-       
-        \alternativo{Ajuste a estándares:} Interfaz de usuario basada Material Desing (Google)
-        
-        \alternativo{Seguridad:} La seguridad de los datos y de sesion será establecida por la utilización de JSON Web Tokens incorporado al uso de API RESTful ademas de la seguridad brindada por el Sistema Gestor de Base de Datos Relacional y No Relacional.
+        \item Al completar toda la información mencionada anteriormente, se mostrara una ruleta animada virtual, la cual mostrará un valor (indice de contaminación), indicando el posible grado contaminación del agua en donde se realizo la muestra.
 
-        \alternativo{Política de respaldo:} 
-        
-        El administrador llevará a cabo un respaldo de datos en discos externos o en la nube por el tiempo que el considere necesario. El motor de Base de datos estará configurado para realizar backups una vez al mes. Conservar los
-        respectivos archivos de respaldo de los últimos 6 backups.
-        
-        \alternativo{Base de Datos:}
-        
-        El Sistema Gestor de Base de Datos debe ser relacional en el servidor y se accederán a los mismos usando la tecnología innoDB.
-        En los Smartphone el Sistema Gestor de Base de Datos es No Relacional dado el requisito de creacion de registros de manera local y posterior sincronizacion automática al detectar una conexion de internet. 
-        
-        \alternativo{Política de Borrado:}
-        
-        No se ha definido
+        \item Lo anterior se realizará sin conexión a internet (2G, 3G, Wifi, etc), generando un registro de manera local, que luego, de manera automática, se subirá a los servidores al momento de adquirir alguna conexión a internet.
 
-\section{Estimación del proyecto}
+        \item Los administradores podrán gestionar, mediante un navegador web (Google Chrome, Internet Explorer, Mozilla, etc) o desde la aplicacion en el Smartphone, los registros previamente creados y guardados en el servidor.
+
+        \item Analizando todos los registros, se creará un renderizado de un mapa  (Google Maps) en donde los administradores y usuarios podrán visualizar, con trazos de diferentes colores, el grado de contaminación del agua en el curso de los riós o afluentes analizados en las salidas de campo.
+      \end{itemize}
+
+      El sistema debe ser seguro, escalable, de fácil mantenimiento y muy simple de usar utilizando sólo interfaces táctiles para los usuarios finales. El futuro sistema llevará el nombre \emph{Agüita}.
+
+      Las funciones que debe realizar el sistema se pueden agrupar de la siguiente manera:
+
+      \begin{itemize}
+
+        \item \emph{Gestión de usuarios:} Debe permitir gestionar los usuarios (CRUD). Los mismos pueden ser usuarios o administradores del sistema.
+        Para que un usuario pueda generar un registro, deberá estar previamente registrado e iniciar sesión por una única vez en su Smartphone.
+        Los usuarios deben poder configurar/modificar las opciones de su perfil como ser: nombre, apellido, lugar de residencia, institución a la que pertenece y grado correspondiente.
+        Los usuarios no pueden consultar la información personal de otros usuarios.
+
+        \item \emph{Gestión de registros:} Debe permitir gestionar los registros (CRUD). Los usuarios generar registros. Los administradores pueden interactuar con los mismo cambiando su estado (pendiente - valido - invalido) según la información brindada por los mismos (no verificada por los administradores - correcta - incorrecta) respectivamente.
+
+        \item \emph{Consultas de registros realizados:} Los usuarios podrán consultar un listado de sus registros creados con la información completa.
+        Los usuarios no podrán consultar los registros de otros usuarios.
+        Los administradores podrán ver los registros creados por los todos los usuarios de la aplicación con toda su información correspondiente.
+
+        \item \emph{Consulta de mapa:} Los usuarios y administradores pueden ver el mapa final con toda la información recopilada de todos los registros creados por los mismos.
+        Todos los registros que estén en un estado \emph{rechazado} no se eliminaran de la base de datos, no obstante, los mismos no se tomaran en cuenta para el renderizado del mapa final. 
+
+      \end{itemize}
+
+  \section{Requisitos específicos}
+
+    \begin{enumerate}[A.]
+      \item \textbf{Gestión de Usuarios}
+        \begin{itemize}  
+          \item \textbf{Alta de usuarios:}
+            \\ \textbf{Introducción:} El sistema permite introducir información sobre usuarios en la aplicación.
+            \\ \textbf{Entrada:} Email + Usuario + Contraseña + Nombre + Apellido + Institucion + Grado + Residencia + Rol + fotoPerfil
+            \\ \textbf{Proceso:} El sistema comprueba la inexistencia previa de un usuario, buscando coincidencias en el nombre de usuario y mail. Además genera un IdUsuario a partir del máximo existente hasta el momento. En caso de éxito, se devolvera un mensaje de exito y el IdUsuario. En caso de error se devolvera un mensaje con el motivo del mismo.
+            \\ \textbf{Salida:} @IdUsuario + mensaje
+            \\
+          \item \textbf{Modificación de usuarios:}
+            \\ \textbf{Introducción:} El sistema permite modificar información sobre usuarios existentes en la aplicación.
+            \\ \textbf{Entrada:} @IdUsuario + Nombre + Apellido + Institucion + Grado + Residencia + fotoPerfil
+            \\ \textbf{Proceso:} El sistema comprueba la existencia previa de un usuario en base a @IdUsuario y actualiza la informacion del mismo. En caso de éxito, se devolvera un mensaje de exito y el IdUsuario. En caso de error se devolvera un mensaje con el motivo del mismo.
+            \\ \textbf{Salida:} @IdUsuario + mensaje
+            \\
+          \item \textbf{Eliminación de usuarios:}
+            \\ \textbf{Introducción:} El sistema permite eliminar usuarios existentes en la aplicación.
+            \\ \textbf{Entrada:} @IdUsuario
+            \\ \textbf{Proceso:} El sistema comprueba la existencia previa de un usuario en base a @IdUsuario dando de baja al mismo. Los registros asociados a este usuario no deben eliminarse ni modificarse. En caso de éxito, se devolvera un mensaje de exito. En caso de error se devolvera un mensaje con el motivo del mismo.
+            \\ \textbf{Salida:} Mensaje
+            \\
+          \item \textbf{Ver detalles de usuario:}
+            \\ \textbf{Introducción:} El sistema permite ver detalles relacionados a los usuarios existentes en él. Se debe visualizar usuario, nombre, apellido, institucion, grado, residencia, foto de perfil y cantidad de registros generados
+            \\ \textbf{Entrada:} @IdUsuario
+            \\ \textbf{Proceso:} El sistema comprueba la existencia previa del usuario en base a @IdUsuario. En caso de éxito, se presenta la informacion del mismo. En caso de error se devolvera un mensaje con el motivo del mismo.
+            \\ \textbf{Salida:} Usuario + Nombre + Apellido + Institucion + Grado + Residencia + Email + FotoPerfil + CantidadRegistros
+            \\
+          \item \textbf{Cambiar contraseña de usuario:}
+            \\ \textbf{Introducción:} El sistema permite cambiar la contraseña a los usuarios existentes en él.
+            \\ \textbf{Entrada:} @IdUsuario + ContraseñaAnterior + ContraseñaNueva
+            \\ \textbf{Proceso:} El sistema comprueba la existencia previa del usuario en base a @IdUsuario, luego se impactara la nueva contraseña, dejando en desuso la anterior. En caso de éxito, se presenta la informacion del mismo. En caso de error se devolvera un mensaje con el motivo del mismo.
+            \\ \textbf{Salida:} @IdUsuario + Mensaje
+            \\
+          \item \textbf{Cambiar rol de usuario:}
+            \\ \textbf{Introducción:} El sistema permite cambiar el Rol a los usuarios existentes en él. Esta acción solo la pueden realizar los usuarios del grupo "Administradores"
+            \\ \textbf{Entrada:} @IdUsuario + Rol
+            \\ \textbf{Proceso:} El sistema comprueba la existencia previa del usuario en base a @IdUsuario, luego modificara el Rol del mismo. En caso de éxito, se presenta la informacion del mismo. En caso de error se devolvera un mensaje con el motivo del mismo.
+            \\ \textbf{Salida:} @IdUsuario + Mensaje
+            \\
+          \item \textbf{Búsqueda de usuarios:}
+            \\ \textbf{Introducción:} El sistema permite introducir parametros con los que se buscará usuarios que coincidan con los mismos.
+            \\ \textbf{Entrada:} Usuario o Nombre o Apellido o Email
+            \\ \textbf{Proceso:} El sistema lista al usuario que cumpla con los parametros de busqueda en caso de coincidencia. En caso de no encontrar algun usuario, se mostrara un mensaje vacio, indicando que la busqueda no arrojo resultados.
+            \\ \textbf{Salida:} Usuario + Nombre + Apellido + Institución + Grado + Residencia + Email + FotoPerfil + CantidadRegistros
+            \\
+        \end{itemize}
+
+      \item \textbf{Gestión de Registros}
+        \begin{itemize}
+          \item \textbf{Alta de registros:}
+            \\ \textbf{Introducción:} El sistema permite dar de alta un nuevo registro ingresando indice, insectos encontrados, fecha, latitud, longitud, foto del paisaje, foto de la muestra, foto del mapa (vista aerea con un PIN indicando la ubicacion terrestre), observaciones del usuario, IdUsuario (creador del registro), IdUbicacion (pais, localidad, provincia).
+            \\ \textbf{Entrada:} Indice + InsectosEncontrados + FechaCreacion + Latitud + Longitud + FotoPaisaje + FotoMuestra + FotoMapa + ObservacionesUsuario + IdUsuario + IdUbicación
+            \\ \textbf{Proceso:} El sistema crea un registro con un valor de estado de validacion inicial igual a "Pendiente" y conobservaciones del administrador sin contenido, además, codifica todas las fotos y genera un IdRegistro a partir del máximo existente hasta el momento. En caso de éxito, se devolvera un mensaje de exito y el IdRegistro.
+            \\ \textbf{Salida:} IdRegistro + Mensaje
+            \\
+          \item \textbf{Cambiar estado de registros:}
+            \\ \textbf{Introducción:} El sistema permite cambiar el estado de un registro. Solo los administradores del sistema tendran los permismos para realizar esta acción. Se podra cambiar el estado del registro a "Valido" o "Invalido". Incialmente, el registro se crea con un estado "Pendiente", el cual, una vez modificado, no se podrá volver a asignar.
+            \\ \textbf{Entrada:} @IdRegistro + EstadoValidacion
+            \\ \textbf{Proceso:} El sistema modifica el registro con el valor de estado validacion correspondiente. En caso de éxito, se devolvera un mensaje de exito y el IdRegistro.
+            \\ \textbf{Salida:} IdRegistro + Mensaje
+            \\
+          \item \textbf{Asignar observaciones de administrador a registros:}
+            \\ \textbf{Introducción:} El sistema permite agregar observaciones de administrador al registro. Solo los administradores del sistema tendran los permismos para realizar esta acción.
+            \\ \textbf{Entrada:} @IdRegistro + ObservacionesAdministrador
+            \\ \textbf{Proceso:} El sistema modifica el registro agregando una observacion de administrador. En caso de éxito, se devolvera un mensaje de exito y el IdRegistro.
+            \\ \textbf{Salida:} IdRegistro + Mensaje
+            \\
+          \item \textbf{Ver detalles de registro:}
+            \\ \textbf{Introducción:} El sistema permite ver detalles relacionados a los registros existentes en él. Se debe visualizar indice, insectos encontrados, fecha, latitud, longitud, foto del paisaje, foto de la muestra, foto del mapa, observaciones del usuario, estado de validación, usuario que lo creó, pais, provincia, localidad.
+            \\ \textbf{Entrada:} @IdRegistro
+            \\ \textbf{Proceso:} El sistema comprueba la existencia previa del registro en base a @IdRegistro. En caso de éxito, se presenta la informacion del mismo. En caso de error se devolverá un mensaje con el motivo del mismo.
+            \\ \textbf{Salida:} Indice + InsectosEncontrados + FechaCreacion + Latitud + Longitud + FotoPaisaje + FotoMuestra + FotoMapa + ObservacionesUsuario + ObservacionesAdministrador + EstadoValidacion + IdUsuario + IdUbicación
+            \\
+          \item \textbf{Busqueda de registros}
+            \\ \textbf{Introducción:} El sistema permite buscar registros filtrando por los registros creados desde un intervalo de fechas, por estado de validación, por indice.
+            \\ \textbf{Entrada:} Fecha Inicio Fecha Fin + EstadoValidación + Indice
+            \\ \textbf{Proceso:} El sistema lista los registros que cumplan con los parametros de busqueda en caso de coincidencia. En caso de no encontrar algun registro, se mostrara un mensaje vacio, indicando que la busqueda no arrojo resultados. Si la busqueda no contiene parametros, se listan todos los registros existentes en el sistema
+            \\ \textbf{Salida:} Indice + InsectosEncontrados + FechaCreacion + Latitud + Longitud + ObservacionesUsuario + ObservacionesAdministrador + EstadoValidacion + IdUsuario + IdUbicación
+        \end{itemize}
+
+      \item \textbf{Gestión de Mapas}
+        \begin{itemize}
+          \item \textbf{Ver mapa}
+          \\ \textbf{Introducción:} El sistema permite ver el mapa interactivo con la información de los registros almacenados que cumplan con la condicion de estado de validacion igual a "Valido".
+          \\ \textbf{Entrada:} Arreglo de Registros 
+          \\ \textbf{Proceso:} Mostrar un mapa con puntos obtenidos mediante la latitud y longitud de cada registros del arreglo.
+          Los puntos indican, ademas de la posicion geografica del registro, el usuario que lo creó y el indice de contaminación numericamente y ademas con un color de entre 4 diferentes para una rapida identificacion visual.
+          \\ \textbf{Salida:} Mapa + PuntosGeograficos
+        \end{itemize}
+
+    \end{enumerate}
+
+    \subsection{Suposiciones y Dependencias:}
+      \begin{itemize}
+        \item \textbf{Suposiciones:} Se asume que los requisitos en este documento son estables una vez que sean aprobados por los responsables de la aplicación. Cualquier petición de cambios en la especificación debe ser aprobada por todas las partes intervinientes y será gestionada por el equipo de desarrollo.
+        \item \textbf{Dependencias:} El sistema trabaja en conjunto con Google Maps y el sistema de posicionamiento global mediante satelites, algun cambio que se realicen en estos, el sistema podria presentar inconsistencias, errores, y hasta dejar de funcionar.
+      \end{itemize}
+
+    \subsection{Requisitos de Usuario y Tecnológicos:}
+      \begin{itemize}
+        \item \textbf{Requisitos de usuario:} Como se mencionó anteriormente, se identican dos tipos de usuarios: Administradores y Alumnos. Los usuarios tendrán sus cuentas asociadas con Nombre de Usuario y Contraseña. Los mismos podran iniciar sesion desde computadoras de escritorio o mediante la aplicacion para dispositivos mobiles Smartphones, siempre y cuando, dispongan de una cuenta valida. En caso contrario, deberan registrarse en el sistema mediante la aplicacion correspondiente.
+
+        \item \textbf{Requisitos tecnológicos:} Los administradores podrán iniciar sesion en el sistema mendiante computadoras de escritorio, facilitando la gestion y administracion del mismo. Ésta version WEB restringe el uso a aquellos usuarios del grupo "Alumnos", por otra parte, los alumnos podran hacer uso del sistema solo para generar registros, y ver el mapa interactivo mediante la aplicacion para Smartphones que deberán descargar la tienda Google Play.
+        Se utilizará una plataforma de servicios en la nube o un servidor fisico local provisto por el cliente de este sistema, para administrar una máquina virtual que hará de servidor web y servidor de base de datos. El sistema operativo que correrá la máquina virtual será Ubuntu Server, éste es un sistema operativo gratuito y de código abierto, por otra parte, el sistema gestor de base de datos será del tipo MySQL. Ambos sistemas (operativo y gestor de base de datos), seran instalados en su ultima version estable al momento de la entrega del software.
+        El sistema se ejecutara sobre un esquema de peticiones Cliente/Servidor (API Rest). La elección esta infraestructra se debe principalmente a 3 motivos: 
+        \begin{itemize}
+          \item Debido a que el sistema se puede usar mediante Smartphones y computadoras de escritorio de forma remota, la solucion fue dividir y separar, como ya se menciono, la aplicacion para los usuarios de el servidor de consultas y base de datos.
+          \item Experiencia del equipo de desarrollo 
+          \item Sistemas seleccionados de licencia gratuita.
+        \end{itemize}
+      \end{itemize}
+
+    \subsection{Requisitos de Interfaces Externas}
+      \begin{itemize}
+        \item \textbf{Interfaz de usuario:} Las interfaces de la aplicación deben ser intuitivas, fáciles de usar, amigables y de respuesta rápida. La interfaz de usuario debe ser orientada al uso táctil de los Smartphones.
+        \item \textbf{Interfaz Hardware:} 
+          \begin{itemize}
+            \item Requisitos para los Smartphones:
+              \begin{itemize}
+                \item Los Smartphones de los usuarios que ejecutaran la aplicacion deberán tener las siguientes características independientemente de su S.O:
+                  \begin{itemize}
+                    \item Cámara fotográfica de 1 Mega Pixeles o más.
+                    \item GPS integrado.
+                    \item Conexión a internet via WiFi o Red GSM
+                    \item Pantalla táctil de 3.5" o superior.
+                    \item Espacio disponible de 5 MB para la instalación de la aplicacion + Cantidad de MB variable ocupado por cada registro creado. 
+                  \end{itemize}
+              \end{itemize}
+            \item Requisitos mínimos para el servidor:
+            \begin{itemize}
+              \item Procesador AMD Sempron 3000 o equivalente o procesador Intel Celeron o equivalente. Capacidad de virtualizacion
+              \item 1 GB de memoria RAM.
+              \item Conexión a internet.
+            \end{itemize}
+            \item Requisitos mínimos para las PC o notebook de los administradores
+            \begin{itemize}
+              \item Procesador AMD Sempron 3000 o equivalente. Procesador Intel Celeron o equivalente.
+              \item 1 GB de memoria RAM.
+              \item Periféricos de entrada/salida.
+              \item Conexión a internet
+            \end{itemize}
+          \end{itemize}
+      
+        \item \textbf{Interfaz Software:} 
+          Sistemas operativos soportados por la aplicación:
+          \begin{itemize}
+            \item Smartphones 
+            \begin{itemize}
+              \item Android 4.0 o posterior.
+              \item iOS 9.0 o posterior.
+            \end{itemize}
+            \item Servidor 
+            \begin{itemize}
+              \item  El sistema operativo sera Ubuntu Server en su ultima version estable LTS. 
+            \end{itemize}
+            \item PC o notebook de los administradores 
+            \begin{itemize}
+              \item Cualquier sistema operativo con navegador web 
+            \end{itemize} 
+          \end{itemize}
+      \end{itemize}
+
+    \subsection{Requisitos de Rendimiento:}
+
+      El Tiempo de respuesta de la aplicación de cada función solicitada por el usuario no debe ser superior a los 3 segundos en una velocidad efectiva de conexión con el servidor a través de 3G.
+      No obstante, los registros al generarse de manera offline (sin conexion a internet), se guardarán de manera local, por lo que si se generaron varios registros, al momento de que el Smartphone detecte conexion a internet, el tiempo de respuesta se ve incrementando directamente proporcional a la cantidad de registros que se esten subiendo al servidor en la nube en ese momento.
+
+    \subsection{Requisitos de Desarrollo y Restricciones de Diseño:}
+
+      El ciclo de vida será Prototipado Evolutivo, debiendo orientarse hacia el desarrollo de un sistema flexible que permita incorporar de manera sencilla cambios y nuevas funcionalidades.
+
+    \subsection{Ajuste a estándares:} Interfaz de usuario basada Material Desing (Google)
+
+    \subsection{Seguridad:} 
+      \begin{itemize}
+        
+        \item \textbf{En desarrollo:} Los desarrolladores acceden a la gestión del sistema operativo y/o sus aplicaciones a través de Secure Shell o SSH, el estandar de facto para la administración remota de servidores de manera segura. Tanto para la administración propia del servidor, como en las aplicaciones que se utilizan para administrar la base de datos (MySQL Workbench) y la gestión de archivos (SFTP), se realizan con clientes que establecen conexiones seguras con el servidor. La técnica empleada para dichas conexiones es el intercambio de claves públicas y validación con la clave privada de las aplicaciones cliente.
+        \item \textbf{En producción:} Los usuarios del sistema acceden al mismo mediante la aplicacion movil o cualquier explorador web. Para operar con la aplicación, deben proveer un usuario y una contraseña. Esta información es procesada en el servidor en un proceso de validación de credenciales y devuelve al cliente el mensaje de inicio de sesion correcto. La comunicacion entre cliente servidor viajara encriptada mediante el protocolo HTTPS.
+        \item \textbf{Roles y permisos:} Para reforzar la seguridad de la aplicación, cada usuario posee un rol ("Administrador" o "Alumno"), el cual tiene asociados diferentes permisos. Esto permite restringir el acceso a usuarios del grupo "Alumno" a la aplicacion WEB de gestion y administracion de registros. El rol "Administrador" tiene todos los permisos y privilegios, puediendo asi, gestionar el sistema e incluso generar registros como lo harian los Alumnos.
+        \item \textbf{Red:} En la capa de red se crearon reglas de acceso al servidor mediante el uso del firewall provisto por el Sistema Operativo Ubuntu. A través de estas reglas se establece que servicios podra ofrecer el servidor a los clientes de la aplicación.
+        \item \textbf{Sistema Operativo:} En el sistema operativo se definen los usuarios y los permisos que poseen para realizar lecturas, escrituras y/o ejecuciones de archivos alojados en la memoria del servidor. De esta forma se previene que usuarios no autorizados puedan modificar, eliminar y ejecutar archivos en el servidor, incluso en la base de datos.
+        \item \textbf{Servidor web:} A nivel servidor web, se preve la implementacion del protocolo de aplicacion HTTPS que permite encriptar el trafico de informacion desde el servidor web hacia los navegadores o aplicaciones que realicen solicitudes, estableciendo un eslabon mas en la seguridad del sistema.
+        \item \textbf{Política de respaldo:} El administrador llevará a cabo un respaldo de datos en discos externos o en la nube por el tiempo que el considere necesario. Ademas, se exportaran los registros en un archivo excel manteniendo la informacion necesaria para la recuperación de los registros a futuro.
+        Por otro lado, el motor de Base de datos estará configurado para realizar backups cada cierto intervalo de tiempo definido por el administrador. Conservar los respectivos archivos de respaldo de los últimos 6 backups.
+        \item \textbf{Política de Borrado:} No se ha definido
+      \end{itemize}
+      
+  \section{Estimación del proyecto}
+    \subsection{Planificacion de etapas} 
+      \begin{table}[H]
+        \begin{tabular}{|l|l|l|l|}
+          \hline
+          \centering
+          Codigo  & Descripcion  & Fecha Inicio & Fecha Fin \\ \hline
+          A       & Estudio de factibilidad y acciones preliminares & 15/01/2017 & 25/01/2017 \\ \hline
+          B       & Educcion de requisitos & 01/02/2017 & 01/03/2017 \\ \hline
+          C       & Diseño del prototipo & 02/03/2017 & 01/04/2017 \\ \hline
+          C       & Corroborar diseño con requisitos & 01/04/2017 & 05/04/2017 \\ \hline
+          D       & Desarrollo del prototipo & 10/04/2017 & 15/09/2017\\ \hline
+          E       & Pruebas del prototipo & 15/09/2017 & 15/10/2017 \\ \hline
+          F       & Refinamiento del prototipo & 15/11/2017 & 01/02/2018 \\ \hline
+          G       & Análisis y evaluación el prototipo por parte del cliente & 15/02/2018 & 16/02/2018 \\ \hline
+          H       & Refinamiento del prototipo & 01/03/2018 & 01/06/2018 \\ \hline
+          I       & Entrega para producción & 15/09/2018 & 20/09/2018 \\ \hline
+        \end{tabular}
+        \caption{Cuadro 1}: Fechas tentativas por etapa.
+      \end{table}
