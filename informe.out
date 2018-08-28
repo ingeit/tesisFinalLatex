@@ -47,4 +47,54 @@
 \BOOKMARK [2][-]{section*.52}{Caso de Uso 07: Un alumno registrado desea ver su perfil.}{section*.45}% 47
 \BOOKMARK [2][-]{section*.53}{Caso de Uso 08: Un alumno registrado desea modificar su perfil.}{section*.45}% 48
 \BOOKMARK [2][-]{section*.54}{Caso de Uso 10: Un alumno registrado desea eliminar su cuenta.}{section*.45}% 49
-\BOOKMARK [2][-]{se
+\BOOKMARK [2][-]{section*.55}{Caso de Uso 11: Un administrador desea iniciar sesi\363n.}{section*.45}% 50
+\BOOKMARK [2][-]{section*.56}{Caso de Uso 12: Un administrador desea borrar o dar de baja un alumno.}{section*.45}% 51
+\BOOKMARK [2][-]{section*.57}{Caso de Uso 13: Un administrador desea listar los alumnos.}{section*.45}% 52
+\BOOKMARK [2][-]{section*.58}{Caso de Uso 14: Un administrador desea listar los registros.}{section*.45}% 53
+\BOOKMARK [2][-]{section*.59}{Caso de Uso 15: Un administrador desea ver un registro en particular.}{section*.45}% 54
+\BOOKMARK [2][-]{section*.60}{Caso de Uso UC16: Un administrador desea aprobar o rechazar registros.}{section*.45}% 55
+\BOOKMARK [2][-]{section*.61}{Caso de Uso UC17/18/19: Un administrador desea buscar registros por fecha de creaci\363n/Instituci\363n/Indice.}{section*.45}% 56
+\BOOKMARK [2][-]{section*.62}{Caso de Uso UC21: Un administrador desea exportar a Excel la informaci\363n.}{section*.45}% 57
+\BOOKMARK [1][-]{section*.63}{Diagrama de Clases de Dise\361o}{chapter*.44}% 58
+\BOOKMARK [1][-]{section*.64}{Diagramas de Secuencia}{chapter*.44}% 59
+\BOOKMARK [2][-]{section*.65}{Autenticar}{section*.64}% 60
+\BOOKMARK [2][-]{section*.66}{Registrar}{section*.64}% 61
+\BOOKMARK [2][-]{section*.67}{Crear Tienda}{section*.64}% 62
+\BOOKMARK [2][-]{section*.68}{Agregar Producto}{section*.64}% 63
+\BOOKMARK [2][-]{section*.69}{Comprar Producto}{section*.64}% 64
+\BOOKMARK [1][-]{section*.70}{Interfaz de Usuario}{chapter*.44}% 65
+\BOOKMARK [0][-]{chapter*.71}{Disciplina de Implementaci\363n}{}% 66
+\BOOKMARK [1][-]{section*.72}{Arquitectura de la aplicaci\363n}{chapter*.71}% 67
+\BOOKMARK [1][-]{section*.73}{Diagrama de Despliegue}{chapter*.71}% 68
+\BOOKMARK [1][-]{section*.74}{Elecci\363n del Lenguaje}{chapter*.71}% 69
+\BOOKMARK [1][-]{section*.75}{Arquitectura de Android}{chapter*.71}% 70
+\BOOKMARK [1][-]{section*.76}{PhoneGap}{chapter*.71}% 71
+\BOOKMARK [2][-]{section*.77}{Ventajas de PhoneGap}{section*.76}% 72
+\BOOKMARK [2][-]{section*.78}{Desventaja de phoneGap}{section*.76}% 73
+\BOOKMARK [1][-]{section*.79}{Web services}{chapter*.71}% 74
+\BOOKMARK [2][-]{section*.80}{Razones para crear servicios Web}{section*.79}% 75
+\BOOKMARK [2][-]{section*.81}{REST}{section*.79}% 76
+\BOOKMARK [1][-]{section*.83}{Caracter\355sticas de seguridad}{chapter*.71}% 77
+\BOOKMARK [2][-]{section*.84}{Canal de comunicaci\363n cifrado}{section*.83}% 78
+\BOOKMARK [2][-]{section*.85}{ACL para cada objeto}{section*.83}% 79
+\BOOKMARK [1][-]{section*.86}{Backbone.js}{chapter*.71}% 80
+\BOOKMARK [2][-]{section*.87}{Modelo Vista Presentador \(MVP\)}{section*.86}% 81
+\BOOKMARK [1][-]{section*.88}{jQuery}{chapter*.71}% 82
+\BOOKMARK [1][-]{section*.89}{jQuery Mobile}{chapter*.71}% 83
+\BOOKMARK [1][-]{section*.90}{Herramientas de desarrollo}{chapter*.71}% 84
+\BOOKMARK [0][-]{chapter*.91}{Disciplina de Pruebas}{}% 85
+\BOOKMARK [1][-]{section*.92}{Test de Unidades}{chapter*.91}% 86
+\BOOKMARK [2][-]{section*.93}{Introducci\363n}{section*.92}% 87
+\BOOKMARK [2][-]{section*.94}{Pruebas de Caja Blanca}{section*.92}% 88
+\BOOKMARK [1][-]{section*.95}{Test de M\363dulos}{chapter*.91}% 89
+\BOOKMARK [2][-]{section*.96}{Introducci\363n}{section*.95}% 90
+\BOOKMARK [2][-]{section*.97}{Pruebas de Caja Negra}{section*.95}% 91
+\BOOKMARK [2][-]{section*.98}{Pruebas de Estr\351s}{section*.95}% 92
+\BOOKMARK [1][-]{section*.99}{Test de Integraci\363n}{chapter*.91}% 93
+\BOOKMARK [2][-]{section*.100}{Introducci\363n}{section*.99}% 94
+\BOOKMARK [2][-]{section*.101}{Pruebas de Integraci\363n}{section*.99}% 95
+\BOOKMARK [1][-]{section*.102}{Test de Aceptaci\363n}{chapter*.91}% 96
+\BOOKMARK [2][-]{section*.103}{Introducci\363n}{section*.102}% 97
+\BOOKMARK [2][-]{section*.104}{Prueba Alfa}{section*.102}% 98
+\BOOKMARK [2][-]{section*.105}{Prueba Beta}{section*.102}% 99
+\BOOKMARK [0][-]{chapter*.106}{Conclusiones}{}% 100

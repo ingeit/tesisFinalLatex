@@ -216,43 +216,43 @@
             \\ \textbf{Entrada:} Email + Usuario + Contraseña + Nombre + Apellido + Institucion + Grado + Residencia + Rol + fotoPerfil
             \\ \textbf{Proceso:} El sistema comprueba la inexistencia previa de un usuario, buscando coincidencias en el nombre de usuario y mail. Además genera un IdUsuario a partir del máximo existente hasta el momento. En caso de éxito, se devolvera un mensaje de exito y el IdUsuario. En caso de error se devolvera un mensaje con el motivo del mismo.
             \\ \textbf{Salida:} @IdUsuario + mensaje
-
+            \\
           \item \textbf{Modificación de usuarios:}
             \\ \textbf{Introducción:} El sistema permite modificar información sobre usuarios existentes en la aplicación.
             \\ \textbf{Entrada:} @IdUsuario + Nombre + Apellido + Institucion + Grado + Residencia + fotoPerfil
             \\ \textbf{Proceso:} El sistema comprueba la existencia previa de un usuario en base a @IdUsuario y actualiza la informacion del mismo. En caso de éxito, se devolvera un mensaje de exito y el IdUsuario. En caso de error se devolvera un mensaje con el motivo del mismo.
             \\ \textbf{Salida:} @IdUsuario + mensaje
-
+            \\
           \item \textbf{Eliminación de usuarios:}
             \\ \textbf{Introducción:} El sistema permite eliminar usuarios existentes en la aplicación.
             \\ \textbf{Entrada:} @IdUsuario
             \\ \textbf{Proceso:} El sistema comprueba la existencia previa de un usuario en base a @IdUsuario dando de baja al mismo. Los registros asociados a este usuario no deben eliminarse ni modificarse. En caso de éxito, se devolvera un mensaje de exito. En caso de error se devolvera un mensaje con el motivo del mismo.
             \\ \textbf{Salida:} Mensaje
-
+            \\
           \item \textbf{Ver detalles de usuario:}
             \\ \textbf{Introducción:} El sistema permite ver detalles relacionados a los usuarios existentes en él. Se debe visualizar usuario, nombre, apellido, institucion, grado, residencia, foto de perfil y cantidad de registros generados
             \\ \textbf{Entrada:} @IdUsuario
             \\ \textbf{Proceso:} El sistema comprueba la existencia previa del usuario en base a @IdUsuario. En caso de éxito, se presenta la informacion del mismo. En caso de error se devolvera un mensaje con el motivo del mismo.
             \\ \textbf{Salida:} Usuario + Nombre + Apellido + Institucion + Grado + Residencia + Email + FotoPerfil + CantidadRegistros
-
+            \\
           \item \textbf{Cambiar contraseña de usuario:}
             \\ \textbf{Introducción:} El sistema permite cambiar la contraseña a los usuarios existentes en él.
             \\ \textbf{Entrada:} @IdUsuario + ContraseñaAnterior + ContraseñaNueva
             \\ \textbf{Proceso:} El sistema comprueba la existencia previa del usuario en base a @IdUsuario, luego se impactara la nueva contraseña, dejando en desuso la anterior. En caso de éxito, se presenta la informacion del mismo. En caso de error se devolvera un mensaje con el motivo del mismo.
             \\ \textbf{Salida:} @IdUsuario + Mensaje
-
+            \\
           \item \textbf{Cambiar rol de usuario:}
             \\ \textbf{Introducción:} El sistema permite cambiar el Rol a los usuarios existentes en él. Esta acción solo la pueden realizar los usuarios del grupo "Administradores"
             \\ \textbf{Entrada:} @IdUsuario + Rol
             \\ \textbf{Proceso:} El sistema comprueba la existencia previa del usuario en base a @IdUsuario, luego modificara el Rol del mismo. En caso de éxito, se presenta la informacion del mismo. En caso de error se devolvera un mensaje con el motivo del mismo.
             \\ \textbf{Salida:} @IdUsuario + Mensaje
-
+            \\
           \item \textbf{Búsqueda de usuarios:}
             \\ \textbf{Introducción:} El sistema permite introducir parametros con los que se buscará usuarios que coincidan con los mismos.
             \\ \textbf{Entrada:} Usuario o Nombre o Apellido o Email
             \\ \textbf{Proceso:} El sistema lista al usuario que cumpla con los parametros de busqueda en caso de coincidencia. En caso de no encontrar algun usuario, se mostrara un mensaje vacio, indicando que la busqueda no arrojo resultados.
             \\ \textbf{Salida:} Usuario + Nombre + Apellido + Institución + Grado + Residencia + Email + FotoPerfil + CantidadRegistros
-
+            \\
         \end{itemize}
 
       \item \textbf{Gestión de Registros}
@@ -262,25 +262,25 @@
             \\ \textbf{Entrada:} Indice + InsectosEncontrados + FechaCreacion + Latitud + Longitud + FotoPaisaje + FotoMuestra + FotoMapa + ObservacionesUsuario + IdUsuario + IdUbicación
             \\ \textbf{Proceso:} El sistema crea un registro con un valor de estado de validacion inicial igual a "Pendiente" y conobservaciones del administrador sin contenido, además, codifica todas las fotos y genera un IdRegistro a partir del máximo existente hasta el momento. En caso de éxito, se devolvera un mensaje de exito y el IdRegistro.
             \\ \textbf{Salida:} IdRegistro + Mensaje
-
+            \\
           \item \textbf{Cambiar estado de registros:}
             \\ \textbf{Introducción:} El sistema permite cambiar el estado de un registro. Solo los administradores del sistema tendran los permismos para realizar esta acción. Se podra cambiar el estado del registro a "Valido" o "Invalido". Incialmente, el registro se crea con un estado "Pendiente", el cual, una vez modificado, no se podrá volver a asignar.
             \\ \textbf{Entrada:} @IdRegistro + EstadoValidacion
             \\ \textbf{Proceso:} El sistema modifica el registro con el valor de estado validacion correspondiente. En caso de éxito, se devolvera un mensaje de exito y el IdRegistro.
             \\ \textbf{Salida:} IdRegistro + Mensaje
-
+            \\
           \item \textbf{Asignar observaciones de administrador a registros:}
             \\ \textbf{Introducción:} El sistema permite agregar observaciones de administrador al registro. Solo los administradores del sistema tendran los permismos para realizar esta acción.
             \\ \textbf{Entrada:} @IdRegistro + ObservacionesAdministrador
             \\ \textbf{Proceso:} El sistema modifica el registro agregando una observacion de administrador. En caso de éxito, se devolvera un mensaje de exito y el IdRegistro.
             \\ \textbf{Salida:} IdRegistro + Mensaje
-
+            \\
           \item \textbf{Ver detalles de registro:}
             \\ \textbf{Introducción:} El sistema permite ver detalles relacionados a los registros existentes en él. Se debe visualizar indice, insectos encontrados, fecha, latitud, longitud, foto del paisaje, foto de la muestra, foto del mapa, observaciones del usuario, estado de validación, usuario que lo creó, pais, provincia, localidad.
             \\ \textbf{Entrada:} @IdRegistro
             \\ \textbf{Proceso:} El sistema comprueba la existencia previa del registro en base a @IdRegistro. En caso de éxito, se presenta la informacion del mismo. En caso de error se devolverá un mensaje con el motivo del mismo.
             \\ \textbf{Salida:} Indice + InsectosEncontrados + FechaCreacion + Latitud + Longitud + FotoPaisaje + FotoMuestra + FotoMapa + ObservacionesUsuario + ObservacionesAdministrador + EstadoValidacion + IdUsuario + IdUbicación
-
+            \\
           \item \textbf{Busqueda de registros}
             \\ \textbf{Introducción:} El sistema permite buscar registros filtrando por los registros creados desde un intervalo de fechas, por estado de validación, por indice.
             \\ \textbf{Entrada:} Fecha Inicio Fecha Fin + EstadoValidación + Indice
