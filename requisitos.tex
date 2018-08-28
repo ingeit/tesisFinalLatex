@@ -212,90 +212,90 @@
       \item \textbf{Gestión de Usuarios}
         \begin{itemize}  
           \item \textbf{Alta de usuarios:}
-            \tab \textbf{Introducción:} El sistema permite introducir información sobre usuarios en la aplicación.
-            \tab \textbf{Entrada:} Email + Usuario + Contraseña + Nombre + Apellido + Institucion + Grado + Residencia + Rol + fotoPerfil
-            \tab \textbf{Proceso:} El sistema comprueba la inexistencia previa de un usuario, buscando coincidencias en el nombre de usuario y mail. Además genera un IdUsuario a partir del máximo existente hasta el momento. En caso de éxito, se devolvera un mensaje de exito y el IdUsuario. En caso de error se devolvera un mensaje con el motivo del mismo.
-            \tab \textbf{Salida:} @IdUsuario + mensaje
+            \\ \textbf{Introducción:} El sistema permite introducir información sobre usuarios en la aplicación.
+            \\ \textbf{Entrada:} Email + Usuario + Contraseña + Nombre + Apellido + Institucion + Grado + Residencia + Rol + fotoPerfil
+            \\ \textbf{Proceso:} El sistema comprueba la inexistencia previa de un usuario, buscando coincidencias en el nombre de usuario y mail. Además genera un IdUsuario a partir del máximo existente hasta el momento. En caso de éxito, se devolvera un mensaje de exito y el IdUsuario. En caso de error se devolvera un mensaje con el motivo del mismo.
+            \\ \textbf{Salida:} @IdUsuario + mensaje
 
           \item \textbf{Modificación de usuarios:}
-            \tab \textbf{Introducción:} El sistema permite modificar información sobre usuarios existentes en la aplicación.
-            \tab \textbf{Entrada:} @IdUsuario + Nombre + Apellido + Institucion + Grado + Residencia + fotoPerfil
-            \tab \textbf{Proceso:} El sistema comprueba la existencia previa de un usuario en base a @IdUsuario y actualiza la informacion del mismo. En caso de éxito, se devolvera un mensaje de exito y el IdUsuario. En caso de error se devolvera un mensaje con el motivo del mismo.
-            \tab \textbf{Salida:} @IdUsuario + mensaje
+            \\ \textbf{Introducción:} El sistema permite modificar información sobre usuarios existentes en la aplicación.
+            \\ \textbf{Entrada:} @IdUsuario + Nombre + Apellido + Institucion + Grado + Residencia + fotoPerfil
+            \\ \textbf{Proceso:} El sistema comprueba la existencia previa de un usuario en base a @IdUsuario y actualiza la informacion del mismo. En caso de éxito, se devolvera un mensaje de exito y el IdUsuario. En caso de error se devolvera un mensaje con el motivo del mismo.
+            \\ \textbf{Salida:} @IdUsuario + mensaje
 
           \item \textbf{Eliminación de usuarios:}
-            \tab \textbf{Introducción:} El sistema permite eliminar usuarios existentes en la aplicación.
-            \tab \textbf{Entrada:} @IdUsuario
-            \tab \textbf{Proceso:} El sistema comprueba la existencia previa de un usuario en base a @IdUsuario dando de baja al mismo. Los registros asociados a este usuario no deben eliminarse ni modificarse. En caso de éxito, se devolvera un mensaje de exito. En caso de error se devolvera un mensaje con el motivo del mismo.
-            \tab \textbf{Salida:} Mensaje
+            \\ \textbf{Introducción:} El sistema permite eliminar usuarios existentes en la aplicación.
+            \\ \textbf{Entrada:} @IdUsuario
+            \\ \textbf{Proceso:} El sistema comprueba la existencia previa de un usuario en base a @IdUsuario dando de baja al mismo. Los registros asociados a este usuario no deben eliminarse ni modificarse. En caso de éxito, se devolvera un mensaje de exito. En caso de error se devolvera un mensaje con el motivo del mismo.
+            \\ \textbf{Salida:} Mensaje
 
           \item \textbf{Ver detalles de usuario:}
-            \tab \textbf{Introducción:} El sistema permite ver detalles relacionados a los usuarios existentes en él. Se debe visualizar usuario, nombre, apellido, institucion, grado, residencia, foto de perfil y cantidad de registros generados
-            \tab \textbf{Entrada:} @IdUsuario
-            \tab \textbf{Proceso:} El sistema comprueba la existencia previa del usuario en base a @IdUsuario. En caso de éxito, se presenta la informacion del mismo. En caso de error se devolvera un mensaje con el motivo del mismo.
-            \tab \textbf{Salida:} Usuario + Nombre + Apellido + Institucion + Grado + Residencia + Email + FotoPerfil + CantidadRegistros
+            \\ \textbf{Introducción:} El sistema permite ver detalles relacionados a los usuarios existentes en él. Se debe visualizar usuario, nombre, apellido, institucion, grado, residencia, foto de perfil y cantidad de registros generados
+            \\ \textbf{Entrada:} @IdUsuario
+            \\ \textbf{Proceso:} El sistema comprueba la existencia previa del usuario en base a @IdUsuario. En caso de éxito, se presenta la informacion del mismo. En caso de error se devolvera un mensaje con el motivo del mismo.
+            \\ \textbf{Salida:} Usuario + Nombre + Apellido + Institucion + Grado + Residencia + Email + FotoPerfil + CantidadRegistros
 
           \item \textbf{Cambiar contraseña de usuario:}
-            \tab \textbf{Introducción:} El sistema permite cambiar la contraseña a los usuarios existentes en él.
-            \tab \textbf{Entrada:} @IdUsuario + ContraseñaAnterior + ContraseñaNueva
-            \tab \textbf{Proceso:} El sistema comprueba la existencia previa del usuario en base a @IdUsuario, luego se impactara la nueva contraseña, dejando en desuso la anterior. En caso de éxito, se presenta la informacion del mismo. En caso de error se devolvera un mensaje con el motivo del mismo.
-            \tab \textbf{Salida:} @IdUsuario + Mensaje
+            \\ \textbf{Introducción:} El sistema permite cambiar la contraseña a los usuarios existentes en él.
+            \\ \textbf{Entrada:} @IdUsuario + ContraseñaAnterior + ContraseñaNueva
+            \\ \textbf{Proceso:} El sistema comprueba la existencia previa del usuario en base a @IdUsuario, luego se impactara la nueva contraseña, dejando en desuso la anterior. En caso de éxito, se presenta la informacion del mismo. En caso de error se devolvera un mensaje con el motivo del mismo.
+            \\ \textbf{Salida:} @IdUsuario + Mensaje
 
           \item \textbf{Cambiar rol de usuario:}
-            \tab \textbf{Introducción:} El sistema permite cambiar el Rol a los usuarios existentes en él. Esta acción solo la pueden realizar los usuarios del grupo "Administradores"
-            \tab \textbf{Entrada:} @IdUsuario + Rol
-            \tab \textbf{Proceso:} El sistema comprueba la existencia previa del usuario en base a @IdUsuario, luego modificara el Rol del mismo. En caso de éxito, se presenta la informacion del mismo. En caso de error se devolvera un mensaje con el motivo del mismo.
-            \tab \textbf{Salida:} @IdUsuario + Mensaje
+            \\ \textbf{Introducción:} El sistema permite cambiar el Rol a los usuarios existentes en él. Esta acción solo la pueden realizar los usuarios del grupo "Administradores"
+            \\ \textbf{Entrada:} @IdUsuario + Rol
+            \\ \textbf{Proceso:} El sistema comprueba la existencia previa del usuario en base a @IdUsuario, luego modificara el Rol del mismo. En caso de éxito, se presenta la informacion del mismo. En caso de error se devolvera un mensaje con el motivo del mismo.
+            \\ \textbf{Salida:} @IdUsuario + Mensaje
 
           \item \textbf{Búsqueda de usuarios:}
-            \tab \textbf{Introducción:} El sistema permite introducir parametros con los que se buscará usuarios que coincidan con los mismos.
-            \tab \textbf{Entrada:} Usuario o Nombre o Apellido o Email
-            \tab \textbf{Proceso:} El sistema lista al usuario que cumpla con los parametros de busqueda en caso de coincidencia. En caso de no encontrar algun usuario, se mostrara un mensaje vacio, indicando que la busqueda no arrojo resultados.
-            \tab \textbf{Salida:} Usuario + Nombre + Apellido + Institución + Grado + Residencia + Email + FotoPerfil + CantidadRegistros
+            \\ \textbf{Introducción:} El sistema permite introducir parametros con los que se buscará usuarios que coincidan con los mismos.
+            \\ \textbf{Entrada:} Usuario o Nombre o Apellido o Email
+            \\ \textbf{Proceso:} El sistema lista al usuario que cumpla con los parametros de busqueda en caso de coincidencia. En caso de no encontrar algun usuario, se mostrara un mensaje vacio, indicando que la busqueda no arrojo resultados.
+            \\ \textbf{Salida:} Usuario + Nombre + Apellido + Institución + Grado + Residencia + Email + FotoPerfil + CantidadRegistros
 
         \end{itemize}
 
       \item \textbf{Gestión de Registros}
         \begin{itemize}
           \item \textbf{Alta de registros:}
-            \tab \textbf{Introducción:} El sistema permite dar de alta un nuevo registro ingresando indice, insectos encontrados, fecha, latitud, longitud, foto del paisaje, foto de la muestra, foto del mapa (vista aerea con un PIN indicando la ubicacion terrestre), observaciones del usuario, IdUsuario (creador del registro), IdUbicacion (pais, localidad, provincia).
-            \tab \textbf{Entrada:} Indice + InsectosEncontrados + FechaCreacion + Latitud + Longitud + FotoPaisaje + FotoMuestra + FotoMapa + ObservacionesUsuario + IdUsuario + IdUbicación
-            \tab \textbf{Proceso:} El sistema crea un registro con un valor de estado de validacion inicial igual a "Pendiente" y conobservaciones del administrador sin contenido, además, codifica todas las fotos y genera un IdRegistro a partir del máximo existente hasta el momento. En caso de éxito, se devolvera un mensaje de exito y el IdRegistro.
-            \tab \textbf{Salida:} IdRegistro + Mensaje
+            \\ \textbf{Introducción:} El sistema permite dar de alta un nuevo registro ingresando indice, insectos encontrados, fecha, latitud, longitud, foto del paisaje, foto de la muestra, foto del mapa (vista aerea con un PIN indicando la ubicacion terrestre), observaciones del usuario, IdUsuario (creador del registro), IdUbicacion (pais, localidad, provincia).
+            \\ \textbf{Entrada:} Indice + InsectosEncontrados + FechaCreacion + Latitud + Longitud + FotoPaisaje + FotoMuestra + FotoMapa + ObservacionesUsuario + IdUsuario + IdUbicación
+            \\ \textbf{Proceso:} El sistema crea un registro con un valor de estado de validacion inicial igual a "Pendiente" y conobservaciones del administrador sin contenido, además, codifica todas las fotos y genera un IdRegistro a partir del máximo existente hasta el momento. En caso de éxito, se devolvera un mensaje de exito y el IdRegistro.
+            \\ \textbf{Salida:} IdRegistro + Mensaje
 
           \item \textbf{Cambiar estado de registros:}
-            \tab \textbf{Introducción:} El sistema permite cambiar el estado de un registro. Solo los administradores del sistema tendran los permismos para realizar esta acción. Se podra cambiar el estado del registro a "Valido" o "Invalido". Incialmente, el registro se crea con un estado "Pendiente", el cual, una vez modificado, no se podrá volver a asignar.
-            \tab \textbf{Entrada:} @IdRegistro + EstadoValidacion
-            \tab \textbf{Proceso:} El sistema modifica el registro con el valor de estado validacion correspondiente. En caso de éxito, se devolvera un mensaje de exito y el IdRegistro.
-            \tab \textbf{Salida:} IdRegistro + Mensaje
+            \\ \textbf{Introducción:} El sistema permite cambiar el estado de un registro. Solo los administradores del sistema tendran los permismos para realizar esta acción. Se podra cambiar el estado del registro a "Valido" o "Invalido". Incialmente, el registro se crea con un estado "Pendiente", el cual, una vez modificado, no se podrá volver a asignar.
+            \\ \textbf{Entrada:} @IdRegistro + EstadoValidacion
+            \\ \textbf{Proceso:} El sistema modifica el registro con el valor de estado validacion correspondiente. En caso de éxito, se devolvera un mensaje de exito y el IdRegistro.
+            \\ \textbf{Salida:} IdRegistro + Mensaje
 
           \item \textbf{Asignar observaciones de administrador a registros:}
-            \tab \textbf{Introducción:} El sistema permite agregar observaciones de administrador al registro. Solo los administradores del sistema tendran los permismos para realizar esta acción.
-            \tab \textbf{Entrada:} @IdRegistro + ObservacionesAdministrador
-            \tab \textbf{Proceso:} El sistema modifica el registro agregando una observacion de administrador. En caso de éxito, se devolvera un mensaje de exito y el IdRegistro.
-            \tab \textbf{Salida:} IdRegistro + Mensaje
+            \\ \textbf{Introducción:} El sistema permite agregar observaciones de administrador al registro. Solo los administradores del sistema tendran los permismos para realizar esta acción.
+            \\ \textbf{Entrada:} @IdRegistro + ObservacionesAdministrador
+            \\ \textbf{Proceso:} El sistema modifica el registro agregando una observacion de administrador. En caso de éxito, se devolvera un mensaje de exito y el IdRegistro.
+            \\ \textbf{Salida:} IdRegistro + Mensaje
 
           \item \textbf{Ver detalles de registro:}
-            \tab \textbf{Introducción:} El sistema permite ver detalles relacionados a los registros existentes en él. Se debe visualizar indice, insectos encontrados, fecha, latitud, longitud, foto del paisaje, foto de la muestra, foto del mapa, observaciones del usuario, estado de validación, usuario que lo creó, pais, provincia, localidad.
-            \tab \textbf{Entrada:} @IdRegistro
-            \tab \textbf{Proceso:} El sistema comprueba la existencia previa del registro en base a @IdRegistro. En caso de éxito, se presenta la informacion del mismo. En caso de error se devolverá un mensaje con el motivo del mismo.
-            \tab \textbf{Salida:} Indice + InsectosEncontrados + FechaCreacion + Latitud + Longitud + FotoPaisaje + FotoMuestra + FotoMapa + ObservacionesUsuario + ObservacionesAdministrador + EstadoValidacion + IdUsuario + IdUbicación
+            \\ \textbf{Introducción:} El sistema permite ver detalles relacionados a los registros existentes en él. Se debe visualizar indice, insectos encontrados, fecha, latitud, longitud, foto del paisaje, foto de la muestra, foto del mapa, observaciones del usuario, estado de validación, usuario que lo creó, pais, provincia, localidad.
+            \\ \textbf{Entrada:} @IdRegistro
+            \\ \textbf{Proceso:} El sistema comprueba la existencia previa del registro en base a @IdRegistro. En caso de éxito, se presenta la informacion del mismo. En caso de error se devolverá un mensaje con el motivo del mismo.
+            \\ \textbf{Salida:} Indice + InsectosEncontrados + FechaCreacion + Latitud + Longitud + FotoPaisaje + FotoMuestra + FotoMapa + ObservacionesUsuario + ObservacionesAdministrador + EstadoValidacion + IdUsuario + IdUbicación
 
           \item \textbf{Busqueda de registros}
-            \tab \textbf{Introducción:} El sistema permite buscar registros filtrando por los registros creados desde un intervalo de fechas, por estado de validación, por indice.
-            \tab \textbf{Entrada:} Fecha Inicio Fecha Fin + EstadoValidación + Indice
-            \tab \textbf{Proceso:} El sistema lista los registros que cumplan con los parametros de busqueda en caso de coincidencia. En caso de no encontrar algun registro, se mostrara un mensaje vacio, indicando que la busqueda no arrojo resultados. Si la busqueda no contiene parametros, se listan todos los registros existentes en el sistema
-            \tab \textbf{Salida:} Indice + InsectosEncontrados + FechaCreacion + Latitud + Longitud + ObservacionesUsuario + ObservacionesAdministrador + EstadoValidacion + IdUsuario + IdUbicación
+            \\ \textbf{Introducción:} El sistema permite buscar registros filtrando por los registros creados desde un intervalo de fechas, por estado de validación, por indice.
+            \\ \textbf{Entrada:} Fecha Inicio Fecha Fin + EstadoValidación + Indice
+            \\ \textbf{Proceso:} El sistema lista los registros que cumplan con los parametros de busqueda en caso de coincidencia. En caso de no encontrar algun registro, se mostrara un mensaje vacio, indicando que la busqueda no arrojo resultados. Si la busqueda no contiene parametros, se listan todos los registros existentes en el sistema
+            \\ \textbf{Salida:} Indice + InsectosEncontrados + FechaCreacion + Latitud + Longitud + ObservacionesUsuario + ObservacionesAdministrador + EstadoValidacion + IdUsuario + IdUbicación
         \end{itemize}
 
       \item \textbf{Gestión de Mapas}
         \begin{itemize}
           \item \textbf{Ver mapa}
-          \tab \textbf{Introducción:} El sistema permite ver el mapa interactivo con la información de los registros almacenados que cumplan con la condicion de estado de validacion igual a "Valido".
-          \tab \textbf{Entrada:} Arreglo de Registros 
-          \tab \textbf{Proceso:} Mostrar un mapa con puntos obtenidos mediante la latitud y longitud de cada registros del arreglo.
+          \\ \textbf{Introducción:} El sistema permite ver el mapa interactivo con la información de los registros almacenados que cumplan con la condicion de estado de validacion igual a "Valido".
+          \\ \textbf{Entrada:} Arreglo de Registros 
+          \\ \textbf{Proceso:} Mostrar un mapa con puntos obtenidos mediante la latitud y longitud de cada registros del arreglo.
           Los puntos indican, ademas de la posicion geografica del registro, el usuario que lo creó y el indice de contaminación numericamente y ademas con un color de entre 4 diferentes para una rapida identificacion visual.
-          \tab \textbf{Salida:} Mapa + PuntosGeograficos
+          \\ \textbf{Salida:} Mapa + PuntosGeograficos
         \end{itemize}
 
     \end{enumerate}
@@ -389,7 +389,7 @@
         \item \textbf{Roles y permisos:} Para reforzar la seguridad de la aplicación, cada usuario posee un rol ("Administrador" o "Alumno"), el cual tiene asociados diferentes permisos. Esto permite restringir el acceso a usuarios del grupo "Alumno" a la aplicacion WEB de gestion y administracion de registros. El rol "Administrador" tiene todos los permisos y privilegios, puediendo asi, gestionar el sistema e incluso generar registros como lo harian los Alumnos.
         \item \textbf{Red:} En la capa de red se crearon reglas de acceso al servidor mediante el uso del firewall provisto por el Sistema Operativo Ubuntu. A través de estas reglas se establece que servicios podra ofrecer el servidor a los clientes de la aplicación.
         \item \textbf{Sistema Operativo:} En el sistema operativo se definen los usuarios y los permisos que poseen para realizar lecturas, escrituras y/o ejecuciones de archivos alojados en la memoria del servidor. De esta forma se previene que usuarios no autorizados puedan modificar, eliminar y ejecutar archivos en el servidor, incluso en la base de datos.
-        \item \textbf{Servidor web:} A nivel servidor web, se prevé la implementacion del protocolo de aplicacion HTTPS que permite encriptar el tráfico de información desde el servidor web hacia los navegadores o aplicaciones que realicen solicitudes, estableciendo un eslabón más en la seguridad del sistema.
+        \item \textbf{Servidor web:} A nivel servidor web, se preve la implementacion del protocolo de aplicacion HTTPS que permite encriptar el trafico de informacion desde el servidor web hacia los navegadores o aplicaciones que realicen solicitudes, estableciendo un eslabon mas en la seguridad del sistema.
         \item \textbf{Política de respaldo:} El administrador llevará a cabo un respaldo de datos en discos externos o en la nube por el tiempo que el considere necesario. Ademas, se exportaran los registros en un archivo excel manteniendo la informacion necesaria para la recuperación de los registros a futuro.
         Por otro lado, el motor de Base de datos estará configurado para realizar backups cada cierto intervalo de tiempo definido por el administrador. Conservar los respectivos archivos de respaldo de los últimos 6 backups.
         \item \textbf{Política de Borrado:} No se ha definido
