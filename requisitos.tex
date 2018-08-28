@@ -213,7 +213,7 @@
         \begin{itemize}  
           \item \textbf{Alta de usuarios:}
             \tab \textbf{Introducción:} El sistema permite introducir información sobre usuarios en la aplicación.
-            \tab \textbf{Entrada:} Email + Usuario + Contraseña + Nombre + Apellido + Institucion + Grado + Residencia + rol + fotoPerfil
+            \tab \textbf{Entrada:} Email + Usuario + Contraseña + Nombre + Apellido + Institucion + Grado + Residencia + Rol + fotoPerfil
             \tab \textbf{Proceso:} El sistema comprueba la inexistencia previa de un usuario, buscando coincidencias en el nombre de usuario y mail. Además genera un IdUsuario a partir del máximo existente hasta el momento. En caso de éxito, se devolvera un mensaje de exito y el IdUsuario. En caso de error se devolvera un mensaje con el motivo del mismo.
             \tab \textbf{Salida:} @IdUsuario + mensaje
 
@@ -239,6 +239,12 @@
             \tab \textbf{Introducción:} El sistema permite cambiar la contraseña a los usuarios existentes en él.
             \tab \textbf{Entrada:} @IdUsuario + ContraseñaAnterior + ContraseñaNueva
             \tab \textbf{Proceso:} El sistema comprueba la existencia previa del usuario en base a @IdUsuario, luego se impactara la nueva contraseña, dejando en desuso la anterior. En caso de éxito, se presenta la informacion del mismo. En caso de error se devolvera un mensaje con el motivo del mismo.
+            \tab \textbf{Salida:} @IdUsuario + Mensaje
+
+          \item \textbf{Cambiar rol de usuario:}
+            \tab \textbf{Introducción:} El sistema permite cambiar el Rol a los usuarios existentes en él. Esta acción solo la pueden realizar los usuarios del grupo "Administradores"
+            \tab \textbf{Entrada:} @IdUsuario + Rol
+            \tab \textbf{Proceso:} El sistema comprueba la existencia previa del usuario en base a @IdUsuario, luego modificara el Rol del mismo. En caso de éxito, se presenta la informacion del mismo. En caso de error se devolvera un mensaje con el motivo del mismo.
             \tab \textbf{Salida:} @IdUsuario + Mensaje
 
           \item \textbf{Búsqueda de usuarios:}
@@ -301,96 +307,102 @@
       \end{itemize}
 
     \subsection{Requisitos de Usuario y Tecnológicos:}
+      \begin{itemize}
+        \item \textbf{Requisitos de usuario:} Como se mencionó anteriormente, se identican dos tipos de usuarios: Administradores y Alumnos. Los usuarios tendrán sus cuentas asociadas con Nombre de Usuario y Contraseña. Los mismos podran iniciar sesion desde computadoras de escritorio o mediante la aplicacion para dispositivos mobiles Smartphones, siempre y cuando, dispongan de una cuenta valida. En caso contrario, deberan registrarse en el sistema mediante la aplicacion correspondiente.
 
-    \alternativo{Requisitos de usuario:} 
-
-    Los usuarios serán los que descarguen la aplicación desde Google Play, App Store o Tienda de aplicaciones de Windows mediante su Smartphone.
-
-    \alternativo{Requisitos tecnológicos:} 
-
-    En vista de que es necesario instalar la aplicacion en Smartphones y ademas en una PC convencional (PC de escritorio, notebook o similares), se opto por un entorno económico y fácil de instalar. La aplicacion se ejecutara sobre un esquema cliente/servidor, con los procesos e interfaz de usuario ejecutándose en los Smartphones y éstos solicitando requerimientos al servidor que cumple su proceso.
-
+        \item \textbf{Requisitos tecnológicos:} 
+        Los administradores podrán iniciar sesion en el sistema mendiante computadoras de escritorio, facilitando la gestion y administracion del mismo. Ésta version WEB restringe el uso a aquellos usuarios del grupo "Alumnos", por otra parte, los alumnos podran hacer uso del sistema solo para generar registros, y ver el mapa interactivo mediante la aplicacion para Smartphones que deberán descargar la tienda Google Play.
+        Se utilizará una plataforma de servicios en la nube o un servidor fisico local provisto por el cliente de este sistema, para administrar una máquina virtual que hará de servidor web y servidor de base de datos. El sistema operativo que correrá la máquina virtual será Ubuntu Server, éste es un sistema operativo gratuito y de código abierto, por otra parte, el sistema gestor de base de datos será del tipo MySQL. Ambos sistemas (operativo y gestor de base de datos), seran instalados en su ultima version estable al momento de la entrega del software.
+        El sistema se ejecutara sobre un esquema de peticiones Cliente/Servidor (API Rest).
+        La elección de la infraestructra se debe principalmente a 3 motivos: 
+        \begin{itemize}
+          \item Debido a que el sistema se puede usar mediante Smartphones y computadoras de escritorio de forma remota, la solucion fue dividir y separar, como ya se menciono, la aplicacion para los usuarios de el servidor de consultas y base de datos.
+          \item Experiencia del equipo de desarrollo 
+          \item Sistemas seleccionados de licencia gratuita.
+        \end{itemize}
+      \end{itemize}
+      
     \subsection{Requisitos de Interfaces Externas}
 
-    \alternativo{Interfaces de usuario:} 
+      \alternativo{Interfaces de usuario:} 
 
-    Las interfaces de la aplicación deben ser intuitivas, fáciles de usar, amigables y de respuesta rápida. La interfaz de usuario debe ser orientada al uso táctil.
+      Las interfaces de la aplicación deben ser intuitivas, fáciles de usar, amigables y de respuesta rápida. La interfaz de usuario debe ser orientada al uso táctil.
 
-    \alternativo{Interfaces Hardware:} 
+      \alternativo{Interfaces Hardware:} 
 
-    \begin{itemize}
-    \item Requisitos para los Smartphones:
-    \begin{itemize}
-    \item Los Smartphones de los usuarios que ejecutaran la aplicacion deberán tener las siguientes características independientemente de su S.O:
-    \begin{itemize}
-    \item Cámara fotográfica de 1 Mega Pixeles.
-    \item GPS integrado.
-    \item Conexión a internet
-    \item Pantalla táctil de 3.5" o superior.
-    \item Espacio disponible de 5 MB para la instalación de la aplicacion + Cantidad de MB variable ocupado por cada registro creado. 
-    \end{itemize}
-    \end{itemize}
-    \item Requisitos mínimos para el servidor:
-    \begin{itemize}
-    \item Procesador AMD Sempron 3000 o equivalente.  Procesador Intel Celeron o equivalente.
-    \item 1 GB de memoria RAM.
-    \item Conexión a internet.
-    \end{itemize}
-    \item Requisitos mínimos para las PC o notebook de los administradores
-    \begin{itemize}
-    \item Procesador AMD Sempron 3000 o equivalente. Procesador Intel Celeron o equivalente.
-    \item 1 GB de memoria RAM.
-    \item Periféricos de entrada/salida.
-    \item Conexión a internet
-    \end{itemize}
-    \end{itemize}
+      \begin{itemize}
+      \item Requisitos para los Smartphones:
+      \begin{itemize}
+      \item Los Smartphones de los usuarios que ejecutaran la aplicacion deberán tener las siguientes características independientemente de su S.O:
+      \begin{itemize}
+      \item Cámara fotográfica de 1 Mega Pixeles.
+      \item GPS integrado.
+      \item Conexión a internet
+      \item Pantalla táctil de 3.5" o superior.
+      \item Espacio disponible de 5 MB para la instalación de la aplicacion + Cantidad de MB variable ocupado por cada registro creado. 
+      \end{itemize}
+      \end{itemize}
+      \item Requisitos mínimos para el servidor:
+      \begin{itemize}
+      \item Procesador AMD Sempron 3000 o equivalente.  Procesador Intel Celeron o equivalente.
+      \item 1 GB de memoria RAM.
+      \item Conexión a internet.
+      \end{itemize}
+      \item Requisitos mínimos para las PC o notebook de los administradores
+      \begin{itemize}
+      \item Procesador AMD Sempron 3000 o equivalente. Procesador Intel Celeron o equivalente.
+      \item 1 GB de memoria RAM.
+      \item Periféricos de entrada/salida.
+      \item Conexión a internet
+      \end{itemize}
+      \end{itemize}
 
-    \alternativo{Interfaces Software:} 
+      \alternativo{Interfaces Software:} 
 
-    S.O soportados por la aplicación:
-    \begin{itemize}
-    \item Smartphones 
-    \begin{itemize}
-    \item Android 5.0 o posterior.
-    \item iOS 9.0 o posterior.
-    \item Windows Mobile 5.0 o posterior. 
-    \end{itemize}
-    \item Servidor 
-    \begin{itemize}
-    \item  El sistema operativo sera Ubuntu Server 14.04 LTS. 
-    \end{itemize}
-    \item PC o notebook de los administradores 
-    \begin{itemize}
-    \item Sistema Operativo Ubuntu 14.04 LTS o Windows 7 en adelante. 
-    \end{itemize} 
-    \end{itemize}
+      S.O soportados por la aplicación:
+      \begin{itemize}
+      \item Smartphones 
+      \begin{itemize}
+      \item Android 5.0 o posterior.
+      \item iOS 9.0 o posterior.
+      \item Windows Mobile 5.0 o posterior. 
+      \end{itemize}
+      \item Servidor 
+      \begin{itemize}
+      \item  El sistema operativo sera Ubuntu Server 14.04 LTS. 
+      \end{itemize}
+      \item PC o notebook de los administradores 
+      \begin{itemize}
+      \item Sistema Operativo Ubuntu 14.04 LTS o Windows 7 en adelante. 
+      \end{itemize} 
+      \end{itemize}
 
     \subsection{Requisitos de Rendimiento:}
 
-    El Tiempo de respuesta de la aplicación de cada función solicitada por el usuario no debe ser superior a los 3 segundos en una velocidad efectiva de conexión con el servidor a través de 3G.
+      El Tiempo de respuesta de la aplicación de cada función solicitada por el usuario no debe ser superior a los 3 segundos en una velocidad efectiva de conexión con el servidor a través de 3G.
 
     \subsection{Requisitos de Desarrollo:}
 
-    El ciclo de vida será Prototipado Evolutivo, debiendo orientarse hacia el desarrollo de un sistema flexible que permita incorporar de manera sencilla cambios y nuevas funcionalidades.
+      El ciclo de vida será Prototipado Evolutivo, debiendo orientarse hacia el desarrollo de un sistema flexible que permita incorporar de manera sencilla cambios y nuevas funcionalidades.
 
     \subsection{Restricciones de Diseño:}
 
-    \alternativo{Ajuste a estándares:} Interfaz de usuario basada Material Desing (Google)
+      \alternativo{Ajuste a estándares:} Interfaz de usuario basada Material Desing (Google)
 
-    \alternativo{Seguridad:} La seguridad de los datos y de sesion será establecida por la utilización de JSON Web Tokens incorporado al uso de API RESTful ademas de la seguridad brindada por el Sistema Gestor de Base de Datos Relacional y No Relacional.
+      \alternativo{Seguridad:} La seguridad de los datos y de sesion será establecida por la utilización de JSON Web Tokens incorporado al uso de API RESTful ademas de la seguridad brindada por el Sistema Gestor de Base de Datos Relacional y No Relacional.
 
-    \alternativo{Política de respaldo:} 
+      \alternativo{Política de respaldo:} 
 
-    El administrador llevará a cabo un respaldo de datos en discos externos o en la nube por el tiempo que el considere necesario. El motor de Base de datos estará configurado para realizar backups una vez al mes. Conservar los
-    respectivos archivos de respaldo de los últimos 6 backups.
+      El administrador llevará a cabo un respaldo de datos en discos externos o en la nube por el tiempo que el considere necesario. El motor de Base de datos estará configurado para realizar backups una vez al mes. Conservar los
+      respectivos archivos de respaldo de los últimos 6 backups.
 
-    \alternativo{Base de Datos:}
+      \alternativo{Base de Datos:}
 
-    El Sistema Gestor de Base de Datos debe ser relacional en el servidor y se accederán a los mismos usando la tecnología innoDB.
-    En los Smartphone el Sistema Gestor de Base de Datos es No Relacional dado el requisito de creacion de registros de manera local y posterior sincronizacion automática al detectar una conexion de internet. 
+      El Sistema Gestor de Base de Datos debe ser relacional en el servidor y se accederán a los mismos usando la tecnología innoDB.
+      En los Smartphone el Sistema Gestor de Base de Datos es No Relacional dado el requisito de creacion de registros de manera local y posterior sincronizacion automática al detectar una conexion de internet. 
 
-    \alternativo{Política de Borrado:}
+      \alternativo{Política de Borrado:}
 
-    No se ha definido
+      No se ha definido
 
   \section{Estimación del proyecto}
