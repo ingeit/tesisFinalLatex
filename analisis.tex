@@ -37,83 +37,76 @@
 		Las piezas de funcionalidad interactiva son llamadas ``casos de uso''. Un caso de uso describe una interacción entre actores como una secuencia de mensajes entre el sistema y uno o más actores. El término \emph{actor} incluye a personas, como también otros sistemas de computadora o procesos.
 
 	\section{Diagrama de Contexto}
-
-	\begin{figure}[H]
-	\centering
-		
-		\includegraphics[width=1\textwidth]{imagenes/analisis/diagrama-contexto.png}
-			%%Me parece que queda mejor sin el hfill
-			%\hfill
-		%\caption{epígrafe}
-		\label{fig:casos-de-uso}
-	\end{figure}
+		\begin{figure}[H]
+		\centering
+			
+			\includegraphics[width=1\textwidth]{imagenes/analisis/diagrama-contexto.png}
+				%%Me parece que queda mejor sin el hfill
+				%\hfill
+			%\caption{epígrafe}
+			\label{fig:casos-de-uso}
+		\end{figure}
 
 	\section{Diagramas de Casos de Uso}
+		Primeramente se muestra un diagrama de caso de uso general donde se agruparon los casos de uso por las acciones en común, luego se va a explorar cada caso de uso de manera mas descriptiva.
+		Por ejemplo, en ``Gestión de Registros'' van a estar todos los casos de uso referidos a los mismos (alta, baja, listar, buscar, etc)
 
-	Primeramente se muestra un diagrama de caso de uso general donde se agruparon los casos de uso por las acciones en común, luego se va a explorar cada caso de uso de manera mas descriptiva.
+		\subsection{Diagrama de Casos de Uso general}
+			\begin{figure}[H]
+			\centering
+				\includegraphics[width=0.7\textwidth]{imagenes/analisis/casos-uso-general.png}
+					%%Me parece que queda mejor sin el hfill
+					%\hfill
+				%\caption{epígrafe}
+				\label{fig:casos-de-uso}
+			\end{figure}
 
-	Por ejemplo, en ``Gestión de Registros'' van a estar todos los casos de uso referidos a los mismos (alta, baja, listar, buscar, etc)
+		\subsection{Diagrama de Casos de Uso de Gestión de Usuarios}
+			\begin{figure}[H]
+			\centering
+				\includegraphics[width=0.7\textwidth]{imagenes/analisis/casos-uso-usuario.png}
+					%%Me parece que queda mejor sin el hfill
+					%\hfill
+				%\caption{epígrafe}
+				\label{fig:casos-de-uso-usuario}
+			\end{figure}
 
-	\subsection{Diagrama de Casos de Uso general}
+		\subsection{Diagrama de Casos de Uso de Gestión de Registros}
+			\begin{figure}[H]
+			\centering
+				\includegraphics[width=0.7\textwidth]{imagenes/analisis/casos-uso-registros.png}
+					%%Me parece que queda mejor sin el hfill
+					%\hfill
+				%\caption{epígrafe}
+				\label{fig:casos-de-uso-tienda}
+			\end{figure}
 
-	\begin{figure}[H]
-	\centering
-		\includegraphics[width=0.7\textwidth]{imagenes/analisis/casos-uso-general.png}
-			%%Me parece que queda mejor sin el hfill
-			%\hfill
-		%\caption{epígrafe}
-		\label{fig:casos-de-uso}
-	\end{figure}
-
-	\subsection{Diagrama de Casos de Uso de Gestión de Usuarios}
-
-	\begin{figure}[H]
-	\centering
-		\includegraphics[width=0.7\textwidth]{imagenes/analisis/casos-uso-usuario.png}
-			%%Me parece que queda mejor sin el hfill
-			%\hfill
-		%\caption{epígrafe}
-		\label{fig:casos-de-uso-usuario}
-	\end{figure}
-
-	\subsection{Diagrama de Casos de Uso de Gestión de Registros}
-
-	\begin{figure}[H]
-	\centering
-		\includegraphics[width=0.7\textwidth]{imagenes/analisis/casos-uso-registros.png}
-			%%Me parece que queda mejor sin el hfill
-			%\hfill
-		%\caption{epígrafe}
-		\label{fig:casos-de-uso-tienda}
-	\end{figure}
-
-	\subsection{Casos de Uso Principales}
-
-	\begin{enumerate}[CU1: ]
-		\itemsep-1em
-		\item Un alumno no registrado desea registrarse en el sistema.
-		\item Un alumno registrado desea iniciar sesión.
-		\item Un alumno registrado desea crear un registro.
-		\item Un alumno registrado desea listar sus registros.
-		\item Un alumno registrado desea ver un registro en particular.
-		\item Un alumno registrado desea ver el mapa general.
-		\item Un alumno registrado desea ver su perfil.
-		\item Un alumno registrado desea modificar su perfil.
-		\item Un alumno registrado desea cerrar sesión.
-		\item Un alumno registrado desea eliminar su cuenta.
-		\item Un administrador desea iniciar sesión.
-		\item Un administrador desea borrar o dar de baja un alumno.
-		\item Un administrador desea listar los alumnos.
-		\item Un administrador desea listar los registros.
-		\item Un administrador desea ver un registro en particular.
-		\item Un administrador desea aprobar o rechazar registros.
-		\item Un administrador desea buscar registros por fecha de creación.
-		\item Un administrador desea buscar registros por institución.
-		\item Un administrador desea buscar registros por indice.
-		\item Un administrador desea ver el mapa general.
-		\item Un administrador desea exportar a Excel la información.
-		\item Un administrador desea cerrar sesión.
-	\end{enumerate}
+		\subsection{Casos de Uso Principales}
+			\begin{enumerate}[CU1: ]
+				\itemsep-1em
+				\item Un alumno no registrado desea registrarse en el sistema.
+				\item Un alumno registrado desea iniciar sesión.
+				\item Un alumno registrado desea crear un registro.
+				\item Un alumno registrado desea listar sus registros.
+				\item Un alumno registrado desea ver un registro en particular.
+				\item Un alumno registrado desea ver el mapa general.
+				\item Un alumno registrado desea ver su perfil.
+				\item Un alumno registrado desea modificar su perfil.
+				\item Un alumno registrado desea cerrar sesión.
+				\item Un alumno registrado desea eliminar su cuenta.
+				\item Un administrador desea iniciar sesión.
+				\item Un administrador desea borrar o dar de baja un alumno.
+				\item Un administrador desea listar los alumnos.
+				\item Un administrador desea listar los registros.
+				\item Un administrador desea ver un registro en particular.
+				\item Un administrador desea aprobar o rechazar registros.
+				\item Un administrador desea buscar registros por fecha de creación.
+				\item Un administrador desea buscar registros por institución.
+				\item Un administrador desea buscar registros por indice.
+				\item Un administrador desea ver el mapa general.
+				\item Un administrador desea exportar a Excel la información.
+				\item Un administrador desea cerrar sesión.
+			\end{enumerate}
 
 
 	
