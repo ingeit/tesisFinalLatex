@@ -122,7 +122,7 @@
         
         \item \emph{Foto paisaje}: Foto obtenida del paisaje en donde se realizo la muestra de los insectos encontrados, con el fin de facilitar un punto de referencia visual para proximas salidas de campo.
         
-        \item \emph{Foto insectos}: Foto obtenida de la muestra que sirve para que los administradores de la aplicacion validen, o no, el registro en cuestion.
+        \item \emph{Foto insectos}: Foto obtenida de la muestra que sirve para que los administradores de la aplicación validen, o no, el registro en cuestion.
         
         \item \emph{Coordenadas geograficas}: Se usan para referenciar, mediante latitud y longitud, el lugar en donde se realizo el registro.
         
@@ -179,7 +179,7 @@
 
         \item Lo anterior se realizará sin conexión a internet (2G, 3G, Wifi, etc), generando un registro de manera local, que luego, de manera automática, se subirá a los servidores al momento de adquirir alguna conexión a internet.
 
-        \item Los administradores podrán gestionar, mediante un navegador web (Google Chrome, Internet Explorer, Mozilla, etc) o desde la aplicacion en el Smartphone, los registros previamente creados y guardados en el servidor.
+        \item Los administradores podrán gestionar, mediante un navegador web (Google Chrome, Internet Explorer, Mozilla, etc) o desde la aplicación en el Smartphone, los registros previamente creados y guardados en el servidor.
 
         \item Analizando todos los registros, se creará un renderizado de un mapa  (Google Maps) en donde los administradores y usuarios podrán visualizar, con trazos de diferentes colores, el grado de contaminación del agua en el curso de los riós o afluentes analizados en las salidas de campo.
       \end{itemize}
@@ -213,89 +213,89 @@
         \begin{itemize}  
           \item \textbf{Alta de usuarios:}
             \\ \textbf{Introducción:} El sistema permite introducir información sobre usuarios en la aplicación.
-            \\ \textbf{Entrada:} Email + Usuario + Contraseña + Nombre + Apellido + Institucion + Grado + Residencia + Rol + fotoPerfil
-            \\ \textbf{Proceso:} El sistema comprueba la inexistencia previa de un usuario, buscando coincidencias en el nombre de usuario y mail. Además genera un IdUsuario a partir del máximo existente hasta el momento. En caso de éxito, se devolvera un mensaje de exito y el IdUsuario. En caso de error se devolvera un mensaje con el motivo del mismo.
+            \\ \textbf{Entrada:} Email + Usuario + Contraseña + Nombre + Apellido + Institución + Grado + Residencia + Rol + Foto Perfil + Estado 
+            \\ \textbf{Proceso:} El sistema comprueba la inexistencia previa de un usuario, buscando coincidencias en el nombre de usuario y mail. Además genera un IdUsuario a partir del máximo existente hasta el momento. En caso de éxito, se devolverá un mensaje de éxito y el IdUsuario. En caso de error se devolverá un mensaje con el motivo del mismo.
             \\ \textbf{Salida:} @IdUsuario + mensaje
             \\
           \item \textbf{Modificación de usuarios:}
             \\ \textbf{Introducción:} El sistema permite modificar información sobre usuarios existentes en la aplicación.
-            \\ \textbf{Entrada:} @IdUsuario + Nombre + Apellido + Institucion + Grado + Residencia + fotoPerfil
-            \\ \textbf{Proceso:} El sistema comprueba la existencia previa de un usuario en base a @IdUsuario y actualiza la informacion del mismo. En caso de éxito, se devolvera un mensaje de exito y el IdUsuario. En caso de error se devolvera un mensaje con el motivo del mismo.
+            \\ \textbf{Entrada:} @IdUsuario + Nombre + Apellido + Institución + Grado + Residencia + Foto Perfil
+            \\ \textbf{Proceso:} El sistema comprueba la existencia previa de un usuario en base a @IdUsuario y actualiza la información del mismo. En caso de éxito, se devolverá un mensaje de éxito y el IdUsuario. En caso de error se devolverá un mensaje con el motivo del mismo.
             \\ \textbf{Salida:} @IdUsuario + mensaje
             \\
-          \item \textbf{Eliminación de usuarios:}
-            \\ \textbf{Introducción:} El sistema permite eliminar usuarios existentes en la aplicación.
-            \\ \textbf{Entrada:} @IdUsuario
-            \\ \textbf{Proceso:} El sistema comprueba la existencia previa de un usuario en base a @IdUsuario dando de baja al mismo. Los registros asociados a este usuario no deben eliminarse ni modificarse. En caso de éxito, se devolvera un mensaje de exito. En caso de error se devolvera un mensaje con el motivo del mismo.
-            \\ \textbf{Salida:} Mensaje
+          \item \textbf{Cambiar estado de usuarios:}
+            \\ \textbf{Introducción:} El sistema permite habilitar/inhabilitar  usuarios existentes en la aplicación.
+            \\ \textbf{Entrada:} @IdUsuario + Estado
+            \\ \textbf{Proceso:} El sistema comprueba la existencia previa de un usuario en base a @IdUsuario cambiando el estado del mismo. Los registros asociados a este usuario no deben eliminarse ni modificarse. En caso de error se devolverá un mensaje con el motivo del mismo.
+            \\ \textbf{Salida:} @IdUsuario + Mensaje
             \\
           \item \textbf{Ver detalles de usuario:}
-            \\ \textbf{Introducción:} El sistema permite ver detalles relacionados a los usuarios existentes en él. Se debe visualizar usuario, nombre, apellido, institucion, grado, residencia, foto de perfil y cantidad de registros generados
+            \\ \textbf{Introducción:} El sistema permite ver detalles relacionados a los usuarios existentes en él. Se debe visualizar usuario, nombre, apellido, institución, grado, residencia, foto de perfil y cantidad de registros generados
             \\ \textbf{Entrada:} @IdUsuario
-            \\ \textbf{Proceso:} El sistema comprueba la existencia previa del usuario en base a @IdUsuario. En caso de éxito, se presenta la informacion del mismo. En caso de error se devolvera un mensaje con el motivo del mismo.
-            \\ \textbf{Salida:} Usuario + Nombre + Apellido + Institucion + Grado + Residencia + Email + FotoPerfil + CantidadRegistros
+            \\ \textbf{Proceso:} El sistema comprueba la existencia previa del usuario en base a @IdUsuario. En caso de éxito, se presenta la información del mismo. En caso de error se devolverá un mensaje con el motivo del mismo.
+            \\ \textbf{Salida:} Usuario + Nombre + Apellido + Institución + Grado + Residencia + Email + Foto Perfil + CantidadRegistros
             \\
           \item \textbf{Cambiar contraseña de usuario:}
             \\ \textbf{Introducción:} El sistema permite cambiar la contraseña a los usuarios existentes en él.
             \\ \textbf{Entrada:} @IdUsuario + ContraseñaAnterior + ContraseñaNueva
-            \\ \textbf{Proceso:} El sistema comprueba la existencia previa del usuario en base a @IdUsuario, luego se impactara la nueva contraseña, dejando en desuso la anterior. En caso de éxito, se presenta la informacion del mismo. En caso de error se devolvera un mensaje con el motivo del mismo.
+            \\ \textbf{Proceso:} El sistema comprueba la existencia previa del usuario en base a @IdUsuario, luego se impactara la nueva contraseña, dejando en desuso la anterior. En caso de éxito, se presenta la información del mismo. En caso de error se devolverá un mensaje con el motivo del mismo.
             \\ \textbf{Salida:} @IdUsuario + Mensaje
             \\
           \item \textbf{Cambiar rol de usuario:}
-            \\ \textbf{Introducción:} El sistema permite cambiar el Rol a los usuarios existentes en él. Esta acción solo la pueden realizar los usuarios del grupo "Administradores"
+            \\ \textbf{Introducción:} El sistema permite cambiar el Rol a los usuarios existentes en él. Esta acción solo la pueden realizar los usuarios del grupo ``Administradores"
             \\ \textbf{Entrada:} @IdUsuario + Rol
-            \\ \textbf{Proceso:} El sistema comprueba la existencia previa del usuario en base a @IdUsuario, luego modificara el Rol del mismo. En caso de éxito, se presenta la informacion del mismo. En caso de error se devolvera un mensaje con el motivo del mismo.
+            \\ \textbf{Proceso:} El sistema comprueba la existencia previa del usuario en base a @IdUsuario, luego modificara el Rol del mismo. En caso de éxito, se presenta la información del mismo. En caso de error se devolverá un mensaje con el motivo del mismo.
             \\ \textbf{Salida:} @IdUsuario + Mensaje
             \\
           \item \textbf{Búsqueda de usuarios:}
-            \\ \textbf{Introducción:} El sistema permite introducir parametros con los que se buscará usuarios que coincidan con los mismos.
+            \\ \textbf{Introducción:} El sistema permite introducir parámetros con los que se buscará usuarios que coincidan con los mismos.
             \\ \textbf{Entrada:} Usuario o Nombre o Apellido o Email
-            \\ \textbf{Proceso:} El sistema lista al usuario que cumpla con los parametros de busqueda en caso de coincidencia. En caso de no encontrar algun usuario, se mostrara un mensaje vacio, indicando que la busqueda no arrojo resultados.
-            \\ \textbf{Salida:} Usuario + Nombre + Apellido + Institución + Grado + Residencia + Email + FotoPerfil + CantidadRegistros
+            \\ \textbf{Proceso:} El sistema lista al usuario que cumpla con los parámetros de búsqueda en caso de coincidencia. En caso de no encontrar algún usuario, se mostrara un mensaje vacío, indicando que la búsqueda no arrojo resultados.
+            \\ \textbf{Salida:} Usuario + Nombre + Apellido + Institución + Grado + Residencia + Email + Foto Perfil + CantidadRegistros
             \\
         \end{itemize}
 
       \item \textbf{Gestión de Registros}
         \begin{itemize}
           \item \textbf{Alta de registros:}
-            \\ \textbf{Introducción:} El sistema permite dar de alta un nuevo registro ingresando indice, insectos encontrados, fecha, latitud, longitud, foto del paisaje, foto de la muestra, foto del mapa (vista aerea con un PIN indicando la ubicacion terrestre), observaciones del usuario, IdUsuario (creador del registro), IdUbicacion (pais, localidad, provincia).
-            \\ \textbf{Entrada:} Indice + InsectosEncontrados + FechaCreacion + Latitud + Longitud + FotoPaisaje + FotoMuestra + FotoMapa + ObservacionesUsuario + IdUsuario + IdUbicación
-            \\ \textbf{Proceso:} El sistema crea un registro con un valor de estado de validacion inicial igual a "Pendiente" y conobservaciones del administrador sin contenido, además, codifica todas las fotos y genera un IdRegistro a partir del máximo existente hasta el momento. En caso de éxito, se devolvera un mensaje de exito y el IdRegistro.
+            \\ \textbf{Introducción:} El sistema permite dar de alta un nuevo registro ingresando indice, insectos encontrados, fecha, latitud, longitud, foto del paisaje, foto de la muestra, foto del mapa (vista aérea con un PIN indicando la ubicación terrestre), observaciones del usuario, IdUsuario (creador del registro), IdUbicacion (país, localidad, provincia).
+            \\ \textbf{Entrada:} Indice + InsectosEncontrados + Fecha Creación + Latitud + Longitud + FotoPaisaje + FotoMuestra + FotoMapa + ObservacionesUsuario + IdUsuario + IdUbicación
+            \\ \textbf{Proceso:} El sistema crea un registro con un valor de estado de validación inicial igual a "Pendiente" y con observaciones del administrador sin contenido, además, codifica todas las fotos y genera un IdRegistro a partir del máximo existente hasta el momento. En caso de éxito, se devolverá un mensaje de éxito y el IdRegistro.
             \\ \textbf{Salida:} IdRegistro + Mensaje
             \\
           \item \textbf{Cambiar estado de registros:}
-            \\ \textbf{Introducción:} El sistema permite cambiar el estado de un registro. Solo los administradores del sistema tendran los permismos para realizar esta acción. Se podra cambiar el estado del registro a "Valido" o "Invalido". Incialmente, el registro se crea con un estado "Pendiente", el cual, una vez modificado, no se podrá volver a asignar.
-            \\ \textbf{Entrada:} @IdRegistro + EstadoValidacion
-            \\ \textbf{Proceso:} El sistema modifica el registro con el valor de estado validacion correspondiente. En caso de éxito, se devolvera un mensaje de exito y el IdRegistro.
+            \\ \textbf{Introducción:} El sistema permite cambiar el estado de un registro. Solo los administradores del sistema tendrán los permisos para realizar esta acción. Se podrá cambiar el estado del registro ``Valido'' / ``Invalido'' y viceversa. Inicialmente, el registro se crea con un estado ``Pendiente", el cual, una vez modificado, no se podrá volver a asignar.
+            \\ \textbf{Entrada:} @IdRegistro + Estado Validación
+            \\ \textbf{Proceso:} El sistema modifica el registro con el valor de estado validación correspondiente. En caso de éxito, se devolverá un mensaje de éxito y el IdRegistro.
             \\ \textbf{Salida:} IdRegistro + Mensaje
             \\
           \item \textbf{Asignar observaciones de administrador a registros:}
-            \\ \textbf{Introducción:} El sistema permite agregar observaciones de administrador al registro. Solo los administradores del sistema tendran los permismos para realizar esta acción.
+            \\ \textbf{Introducción:} El sistema permite agregar observaciones de administrador al registro. Solo los administradores del sistema tendrán los permisos para realizar esta acción.
             \\ \textbf{Entrada:} @IdRegistro + ObservacionesAdministrador
-            \\ \textbf{Proceso:} El sistema modifica el registro agregando una observacion de administrador. En caso de éxito, se devolvera un mensaje de exito y el IdRegistro.
+            \\ \textbf{Proceso:} El sistema modifica el registro agregando una observación de administrador. En caso de éxito, se devolverá un mensaje de éxito y el IdRegistro.
             \\ \textbf{Salida:} IdRegistro + Mensaje
             \\
           \item \textbf{Ver detalles de registro:}
-            \\ \textbf{Introducción:} El sistema permite ver detalles relacionados a los registros existentes en él. Se debe visualizar indice, insectos encontrados, fecha, latitud, longitud, foto del paisaje, foto de la muestra, foto del mapa, observaciones del usuario, estado de validación, usuario que lo creó, pais, provincia, localidad.
+            \\ \textbf{Introducción:} El sistema permite ver detalles relacionados a los registros existentes en él. Se debe visualizar indice, insectos encontrados, fecha, latitud, longitud, foto del paisaje, foto de la muestra, foto del mapa, observaciones del usuario, estado de validación, usuario que lo creó, país, provincia, localidad.
             \\ \textbf{Entrada:} @IdRegistro
-            \\ \textbf{Proceso:} El sistema comprueba la existencia previa del registro en base a @IdRegistro. En caso de éxito, se presenta la informacion del mismo. En caso de error se devolverá un mensaje con el motivo del mismo.
-            \\ \textbf{Salida:} Indice + InsectosEncontrados + FechaCreacion + Latitud + Longitud + FotoPaisaje + FotoMuestra + FotoMapa + ObservacionesUsuario + ObservacionesAdministrador + EstadoValidacion + IdUsuario + IdUbicación
+            \\ \textbf{Proceso:} El sistema comprueba la existencia previa del registro en base a @IdRegistro. En caso de éxito, se presenta la información del mismo. En caso de error se devolverá un mensaje con el motivo del mismo.
+            \\ \textbf{Salida:} Indice + InsectosEncontrados + Fecha Creación + Latitud + Longitud + FotoPaisaje + FotoMuestra + FotoMapa + ObservacionesUsuario + ObservacionesAdministrador + Estado Validación + IdUsuario + IdUbicación
             \\
-          \item \textbf{Busqueda de registros}
+          \item \textbf{Búsqueda de registros}
             \\ \textbf{Introducción:} El sistema permite buscar registros filtrando por los registros creados desde un intervalo de fechas, por estado de validación, por indice.
             \\ \textbf{Entrada:} Fecha Inicio Fecha Fin + EstadoValidación + Indice
-            \\ \textbf{Proceso:} El sistema lista los registros que cumplan con los parametros de busqueda en caso de coincidencia. En caso de no encontrar algun registro, se mostrara un mensaje vacio, indicando que la busqueda no arrojo resultados. Si la busqueda no contiene parametros, se listan todos los registros existentes en el sistema
-            \\ \textbf{Salida:} Indice + InsectosEncontrados + FechaCreacion + Latitud + Longitud + ObservacionesUsuario + ObservacionesAdministrador + EstadoValidacion + IdUsuario + IdUbicación
+            \\ \textbf{Proceso:} El sistema lista los registros que cumplan con los parámetros de búsqueda en caso de coincidencia. En caso de no encontrar algún registro, se mostrara un mensaje vacío, indicando que la búsqueda no arrojo resultados. Si la búsqueda no contiene parámetros, se listan todos los registros existentes en el sistema
+            \\ \textbf{Salida:} Indice + InsectosEncontrados + Fecha Creación + Latitud + Longitud + ObservacionesUsuario + ObservacionesAdministrador + Estado Validación + IdUsuario + IdUbicación
         \end{itemize}
 
       \item \textbf{Gestión de Mapas}
         \begin{itemize}
           \item \textbf{Ver mapa}
-          \\ \textbf{Introducción:} El sistema permite ver el mapa interactivo con la información de los registros almacenados que cumplan con la condicion de estado de validacion igual a "Valido".
+          \\ \textbf{Introducción:} El sistema permite ver el mapa interactivo con la información de los registros almacenados que cumplan con la condición de estado de validación igual a "Valido".
           \\ \textbf{Entrada:} Arreglo de Registros 
           \\ \textbf{Proceso:} Mostrar un mapa con puntos obtenidos mediante la latitud y longitud de cada registros del arreglo.
-          Los puntos indican, ademas de la posicion geografica del registro, el usuario que lo creó y el indice de contaminación numericamente y ademas con un color de entre 4 diferentes para una rapida identificacion visual.
-          \\ \textbf{Salida:} Mapa + PuntosGeograficos
+          Los puntos indican, ademas de la posición geográfica del registro, el usuario que lo creó y el indice de contaminación numéricamente y ademas con un color de entre 4 diferentes para una rápida identificación visual.
+          \\ \textbf{Salida:} Mapa + Puntos Geográficos
         \end{itemize}
 
     \end{enumerate}
@@ -303,18 +303,18 @@
     \subsection{Suposiciones y Dependencias:}
       \begin{itemize}
         \item \textbf{Suposiciones:} Se asume que los requisitos en este documento son estables una vez que sean aprobados por los responsables de la aplicación. Cualquier petición de cambios en la especificación debe ser aprobada por todas las partes intervinientes y será gestionada por el equipo de desarrollo.
-        \item \textbf{Dependencias:} El sistema trabaja en conjunto con Google Maps y el sistema de posicionamiento global mediante satelites, algun cambio que se realicen en estos, el sistema podria presentar inconsistencias, errores, y hasta dejar de funcionar.
+        \item \textbf{Dependencias:} El sistema trabaja en conjunto con Google Maps y el sistema de posicionamiento global mediante satélites, algún cambio que se realicen en estos, el sistema podría presentar inconsistencias, errores, y hasta dejar de funcionar.
       \end{itemize}
 
     \subsection{Requisitos de Usuario y Tecnológicos:}
       \begin{itemize}
-        \item \textbf{Requisitos de usuario:} Como se mencionó anteriormente, se identican dos tipos de usuarios: Administradores y Alumnos. Los usuarios tendrán sus cuentas asociadas con Nombre de Usuario y Contraseña. Los mismos podran iniciar sesion desde computadoras de escritorio o mediante la aplicacion para dispositivos mobiles Smartphones, siempre y cuando, dispongan de una cuenta valida. En caso contrario, deberan registrarse en el sistema mediante la aplicacion correspondiente.
+        \item \textbf{Requisitos de usuario:} Como se mencionó anteriormente, se identifican dos tipos de usuarios: Administradores y Alumnos. Los usuarios tendrán sus cuentas asociadas con Nombre de Usuario y Contraseña. Los mismos podrán iniciar sesión desde computadoras de escritorio o mediante la aplicación para dispositivos móviles Smartphones, siempre y cuando, dispongan de una cuenta valida. En caso contrario, deberán registrarse en el sistema mediante la aplicación correspondiente.
 
-        \item \textbf{Requisitos tecnológicos:} Los administradores podrán iniciar sesion en el sistema mendiante computadoras de escritorio, facilitando la gestion y administracion del mismo. Ésta version WEB restringe el uso a aquellos usuarios del grupo "Alumnos", por otra parte, los alumnos podran hacer uso del sistema solo para generar registros, y ver el mapa interactivo mediante la aplicacion para Smartphones que deberán descargar la tienda Google Play.
-        Se utilizará una plataforma de servicios en la nube o un servidor fisico local provisto por el cliente de este sistema, para administrar una máquina virtual que hará de servidor web y servidor de base de datos. El sistema operativo que correrá la máquina virtual será Ubuntu Server, éste es un sistema operativo gratuito y de código abierto, por otra parte, el sistema gestor de base de datos será del tipo MySQL. Ambos sistemas (operativo y gestor de base de datos), seran instalados en su ultima version estable al momento de la entrega del software.
-        El sistema se ejecutara sobre un esquema de peticiones Cliente/Servidor (API Rest). La elección esta infraestructra se debe principalmente a 3 motivos: 
+        \item \textbf{Requisitos tecnológicos:} Los administradores podrán iniciar sesión en el sistema mediante computadoras de escritorio, facilitando la gestión y administración del mismo. Ésta versión WEB restringe el uso a aquellos usuarios del grupo ``Alumnos", por otra parte, los alumnos podrán hacer uso del sistema solo para generar registros, y ver el mapa interactivo mediante la aplicación para Smartphones que deberán descargar la tienda.
+        Se utilizará una plataforma de servicios en la nube o un servidor físico local provisto por el cliente de este sistema, para administrar una máquina virtual que hará de servidor web y servidor de base de datos. El sistema operativo que correrá la máquina virtual será Ubuntu Server, éste es un sistema operativo gratuito y de código abierto, por otra parte, el sistema gestor de base de datos será del tipo MySQL. Ambos sistemas (operativo y gestor de base de datos), serán instalados en su ultima versión estable al momento de la entrega del software.
+        El sistema se ejecutara sobre un esquema de peticiones Cliente/Servidor (API Rest). La elección esta infraestructura se debe principalmente a 3 motivos: 
         \begin{itemize}
-          \item Debido a que el sistema se puede usar mediante Smartphones y computadoras de escritorio de forma remota, la solucion fue dividir y separar, como ya se menciono, la aplicacion para los usuarios de el servidor de consultas y base de datos.
+          \item Debido a que el sistema se puede usar mediante Smartphones y computadoras de escritorio de forma remota, la solución fue dividir y separar, como ya se menciono, la aplicación para los usuarios de el servidor de consultas y base de datos.
           \item Experiencia del equipo de desarrollo 
           \item Sistemas seleccionados de licencia gratuita.
         \end{itemize}
@@ -327,18 +327,18 @@
           \begin{itemize}
             \item Requisitos para los Smartphones:
               \begin{itemize}
-                \item Los Smartphones de los usuarios que ejecutaran la aplicacion deberán tener las siguientes características independientemente de su S.O:
+                \item Los Smartphones de los usuarios que ejecutaran la aplicación deberán tener las siguientes características independientemente de su S.O:
                   \begin{itemize}
                     \item Cámara fotográfica de 1 Mega Pixeles o más.
                     \item GPS integrado.
-                    \item Conexión a internet via WiFi o Red GSM
-                    \item Pantalla táctil de 3.5" o superior.
-                    \item Espacio disponible de 5 MB para la instalación de la aplicacion + Cantidad de MB variable ocupado por cada registro creado. 
+                    \item Conexión a internet vía WiFi o Red GSM
+                    \item Pantalla táctil de 3.5'' o superior.
+                    \item Espacio disponible de 10 MB para la instalación de la aplicación + Cantidad de MB variable ocupado por cada registro creado. 
                   \end{itemize}
               \end{itemize}
             \item Requisitos mínimos para el servidor:
             \begin{itemize}
-              \item Procesador AMD Sempron 3000 o equivalente o procesador Intel Celeron o equivalente. Capacidad de virtualizacion
+              \item Procesador AMD Sempron 3000 o equivalente o procesador Intel Celeron o equivalente. Capacidad de virtualización
               \item 1 GB de memoria RAM.
               \item Conexión a internet.
             \end{itemize}
@@ -361,7 +361,7 @@
             \end{itemize}
             \item Servidor 
             \begin{itemize}
-              \item  El sistema operativo sera Ubuntu Server en su ultima version estable LTS. 
+              \item  El sistema operativo será Ubuntu Server en su ultima versión estable LTS. 
             \end{itemize}
             \item PC o notebook de los administradores 
             \begin{itemize}
@@ -373,7 +373,7 @@
     \subsection{Requisitos de Rendimiento:}
 
       El Tiempo de respuesta de la aplicación de cada función solicitada por el usuario no debe ser superior a los 3 segundos en una velocidad efectiva de conexión con el servidor a través de 3G.
-      No obstante, los registros al generarse de manera offline (sin conexion a internet), se guardarán de manera local, por lo que si se generaron varios registros, al momento de que el Smartphone detecte conexion a internet, el tiempo de respuesta se ve incrementando directamente proporcional a la cantidad de registros que se esten subiendo al servidor en la nube en ese momento.
+      No obstante, los registros al generarse de manera offline (sin conexión a internet), se guardarán de manera local, por lo que si se generaron varios registros, al momento de que el Smartphone detecte conexión a internet, el tiempo de respuesta se ve incrementando directamente proporcional a la cantidad de registros que se estén subiendo al servidor en la nube en ese momento.
 
     \subsection{Requisitos de Desarrollo y Restricciones de Diseño:}
 
@@ -384,28 +384,28 @@
     \subsection{Seguridad:} 
       \begin{itemize}
         
-        \item \textbf{En desarrollo:} Los desarrolladores acceden a la gestión del sistema operativo y/o sus aplicaciones a través de Secure Shell o SSH, el estandar de facto para la administración remota de servidores de manera segura. Tanto para la administración propia del servidor, como en las aplicaciones que se utilizan para administrar la base de datos (MySQL Workbench) y la gestión de archivos (SFTP), se realizan con clientes que establecen conexiones seguras con el servidor. La técnica empleada para dichas conexiones es el intercambio de claves públicas y validación con la clave privada de las aplicaciones cliente.
-        \item \textbf{En producción:} Los usuarios del sistema acceden al mismo mediante la aplicacion movil o cualquier explorador web. Para operar con la aplicación, deben proveer un usuario y una contraseña. Esta información es procesada en el servidor en un proceso de validación de credenciales y devuelve al cliente el mensaje de inicio de sesion correcto. La comunicacion entre cliente servidor viajara encriptada mediante el protocolo HTTPS.
-        \item \textbf{Roles y permisos:} Para reforzar la seguridad de la aplicación, cada usuario posee un rol ("Administrador" o "Alumno"), el cual tiene asociados diferentes permisos. Esto permite restringir el acceso a usuarios del grupo "Alumno" a la aplicacion WEB de gestion y administracion de registros. El rol "Administrador" tiene todos los permisos y privilegios, puediendo asi, gestionar el sistema e incluso generar registros como lo harian los Alumnos.
-        \item \textbf{Red:} En la capa de red se crearon reglas de acceso al servidor mediante el uso del firewall provisto por el Sistema Operativo Ubuntu. A través de estas reglas se establece que servicios podra ofrecer el servidor a los clientes de la aplicación.
+        \item \textbf{En desarrollo:} Los desarrolladores acceden a la gestión del sistema operativo y/o sus aplicaciónes a través de Secure Shell o SSH, el estándar de facto para la administración remota de servidores de manera segura. Tanto para la administración propia del servidor, como en las aplicaciónes que se utilizan para administrar la base de datos (MySQL Workbench) y la gestión de archivos (SFTP), se realizan con clientes que establecen conexiones seguras con el servidor. La técnica empleada para dichas conexiones es el intercambio de claves públicas y validación con la clave privada de las aplicaciónes cliente.
+        \item \textbf{En producción:} Los usuarios del sistema acceden al mismo mediante la aplicación móvil o cualquier explorador web. Para operar con la aplicación, deben proveer un usuario y una contraseña. Esta información es procesada en el servidor en un proceso de validación de credenciales y devuelve al cliente el mensaje de inicio de sesión correcto. La comunicación entre cliente servidor viajara encriptada mediante el protocolo HTTPS.
+        \item \textbf{Roles y permisos:} Para reforzar la seguridad de la aplicación, cada usuario posee un rol (``Administrador'' o ``Alumno''), el cual tiene asociados diferentes permisos. Esto permite restringir el acceso a usuarios del grupo ``Alumno'' a la aplicación WEB de gestión y administración de registros. El rol ``Administrador'' tiene todos los permisos y privilegios, pudiendo así, gestionar el sistema e incluso generar registros como lo harían los Alumnos.
+        \item \textbf{Red:} En la capa de red se crearon reglas de acceso al servidor mediante el uso del firewall provisto por el Sistema Operativo Ubuntu. A través de estas reglas se establece que servicios podrá ofrecer el servidor a los clientes de la aplicación.
         \item \textbf{Sistema Operativo:} En el sistema operativo se definen los usuarios y los permisos que poseen para realizar lecturas, escrituras y/o ejecuciones de archivos alojados en la memoria del servidor. De esta forma se previene que usuarios no autorizados puedan modificar, eliminar y ejecutar archivos en el servidor, incluso en la base de datos.
-        \item \textbf{Servidor web:} A nivel servidor web, se preve la implementacion del protocolo de aplicacion HTTPS que permite encriptar el trafico de informacion desde el servidor web hacia los navegadores o aplicaciones que realicen solicitudes, estableciendo un eslabon mas en la seguridad del sistema.
-        \item \textbf{Política de respaldo:} El administrador llevará a cabo un respaldo de datos en discos externos o en la nube por el tiempo que el considere necesario. Ademas, se exportaran los registros en un archivo excel manteniendo la informacion necesaria para la recuperación de los registros a futuro.
+        \item \textbf{Servidor web:} A nivel servidor web, se preve la implementación del protocolo de aplicación HTTPS que permite encriptar el trafico de información desde el servidor web hacia los navegadores o aplicaciónes que realicen solicitudes, estableciendo un eslabón mas en la seguridad del sistema.
+        \item \textbf{Política de respaldo:} El administrador llevará a cabo un respaldo de datos en discos externos o en la nube por el tiempo que el considere necesario. Ademas, se exportaran los registros en un archivo excel manteniendo la información necesaria para la recuperación de los registros a futuro.
         Por otro lado, el motor de Base de datos estará configurado para realizar backups cada cierto intervalo de tiempo definido por el administrador. Conservar los respectivos archivos de respaldo de los últimos 6 backups.
         \item \textbf{Política de Borrado:} No se ha definido
       \end{itemize}
       
   \section{Estimación del proyecto}
 
-    \subsection{Planificacion de etapas} 
+    \subsection{Planificación de etapas} 
       \begin{table}[H]
         \centering
         \begin{tabular}{|l|l|l|l|}
           \hline
           \centering
-          Codigo  & Descripcion  & Fecha Inicio & Fecha Fin \\ \hline
+          Código  & Descripción  & Fecha Inicio & Fecha Fin \\ \hline
           A       & Estudio de factibilidad y acciones preliminares & 15/01/2017 & 25/01/2017 \\ \hline
-          B       & Educcion de requisitos & 01/02/2017 & 01/03/2017 \\ \hline
+          B       & Educción de requisitos & 01/02/2017 & 01/03/2017 \\ \hline
           C       & Diseño del prototipo & 02/03/2017 & 01/04/2017 \\ \hline
           D       & Corroborar diseño con requisitos & 01/04/2017 & 05/04/2017 \\ \hline
           E       & Desarrollo del prototipo & 10/04/2017 & 15/09/2017\\ \hline
@@ -419,7 +419,7 @@
         \caption {Fechas tentativas por etapa.}
       \end{table}
 
-    \subsection{Duracion estimada de tareas} 
+    \subsection{Duración estimada de tareas} 
       \begin{table}[H]
         \centering
         \begin{tabular}{|l|l|l|}
