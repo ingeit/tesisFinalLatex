@@ -28,76 +28,75 @@
 \BOOKMARK [2][-]{section*.33}{Diagrama de Gantt}{section*.30}% 28
 \BOOKMARK [0][-]{chapter*.34}{Disciplina de An\341lisis}{}% 29
 \BOOKMARK [1][-]{section*.35}{Vista de Casos de Uso}{chapter*.34}% 30
-\BOOKMARK [1][-]{section*.36}{Diagrama de Contexto}{chapter*.34}% 31
-\BOOKMARK [1][-]{section*.37}{Diagramas de Casos de Uso}{chapter*.34}% 32
-\BOOKMARK [2][-]{section*.38}{Diagrama de Casos de Uso general}{section*.37}% 33
-\BOOKMARK [2][-]{section*.39}{Diagrama de Casos de Uso de Gesti\363n de Usuarios}{section*.37}% 34
-\BOOKMARK [2][-]{section*.40}{Diagrama de Casos de Uso de Gesti\363n de Registros}{section*.37}% 35
-\BOOKMARK [2][-]{section*.41}{Casos de Uso Principales}{section*.37}% 36
-\BOOKMARK [0][-]{chapter*.42}{Disciplina de Dise\361o}{}% 37
-\BOOKMARK [1][-]{section*.43}{Descripci\363n Textual de Casos de Uso}{chapter*.42}% 38
-\BOOKMARK [2][-]{section*.44}{Caso de Uso 01: Un alumno no registrado desea registrarse en el sistema.}{section*.43}% 39
-\BOOKMARK [2][-]{section*.45}{Caso de Uso 02: Un alumno registrado desea iniciar sesi\363n.}{section*.43}% 40
-\BOOKMARK [2][-]{section*.46}{Caso de Uso 03: Un alumno registrado desea crear un registro}{section*.43}% 41
-\BOOKMARK [2][-]{section*.47}{Caso de Uso 04: Un alumno registrado desea listar sus registros.}{section*.43}% 42
-\BOOKMARK [2][-]{section*.48}{Caso de Uso 05: Un alumno registrado desea ver un registro en particular}{section*.43}% 43
-\BOOKMARK [2][-]{section*.49}{Caso de Uso 06: Un alumno registrado desea ver el mapa general.}{section*.43}% 44
-\BOOKMARK [2][-]{section*.50}{Caso de Uso 07: Un alumno registrado desea ver su perfil.}{section*.43}% 45
-\BOOKMARK [2][-]{section*.51}{Caso de Uso 08: Un alumno registrado desea modificar su perfil.}{section*.43}% 46
-\BOOKMARK [2][-]{section*.52}{Caso de Uso 10: Un alumno registrado desea eliminar su cuenta.}{section*.43}% 47
-\BOOKMARK [2][-]{section*.53}{Caso de Uso 11: Un administrador desea iniciar sesi\363n.}{section*.43}% 48
-\BOOKMARK [2][-]{section*.54}{Caso de Uso 12: Un administrador desea borrar o dar de baja un alumno.}{section*.43}% 49
-\BOOKMARK [2][-]{section*.55}{Caso de Uso 13: Un administrador desea listar los alumnos.}{section*.43}% 50
-\BOOKMARK [2][-]{section*.56}{Caso de Uso 14: Un administrador desea listar los registros.}{section*.43}% 51
-\BOOKMARK [2][-]{section*.57}{Caso de Uso 15: Un administrador desea ver un registro en particular.}{section*.43}% 52
-\BOOKMARK [2][-]{section*.58}{Caso de Uso UC16: Un administrador desea aprobar o rechazar registros.}{section*.43}% 53
-\BOOKMARK [2][-]{section*.59}{Caso de Uso UC17/18/19: Un administrador desea buscar registros por fecha de creaci\363n/Instituci\363n/Indice.}{section*.43}% 54
-\BOOKMARK [2][-]{section*.60}{Caso de Uso UC21: Un administrador desea exportar a Excel la informaci\363n.}{section*.43}% 55
-\BOOKMARK [1][-]{section*.61}{Diagrama de Clases de Dise\361o}{chapter*.42}% 56
-\BOOKMARK [1][-]{section*.62}{Diagramas de Actividad}{chapter*.42}% 57
-\BOOKMARK [2][-]{section*.63}{Inicio de Sesi\363n}{section*.62}% 58
-\BOOKMARK [2][-]{section*.64}{Registrar Usuario}{section*.62}% 59
-\BOOKMARK [2][-]{section*.65}{Crear Registro }{section*.62}% 60
-\BOOKMARK [2][-]{section*.66}{Ver Mapa Interactivo}{section*.62}% 61
-\BOOKMARK [1][-]{section*.67}{Diagramas de Secuencia}{chapter*.42}% 62
-\BOOKMARK [2][-]{section*.68}{Autenticar}{section*.67}% 63
-\BOOKMARK [2][-]{section*.69}{Registrar}{section*.67}% 64
-\BOOKMARK [2][-]{section*.70}{Crear Tienda}{section*.67}% 65
-\BOOKMARK [2][-]{section*.71}{Agregar Producto}{section*.67}% 66
-\BOOKMARK [2][-]{section*.72}{Comprar Producto}{section*.67}% 67
-\BOOKMARK [1][-]{section*.73}{Interfaz de Usuario}{chapter*.42}% 68
-\BOOKMARK [0][-]{chapter*.74}{Disciplina de Implementaci\363n}{}% 69
-\BOOKMARK [1][-]{section*.75}{Arquitectura de la aplicaci\363n}{chapter*.74}% 70
-\BOOKMARK [1][-]{section*.76}{Diagrama de Despliegue}{chapter*.74}% 71
-\BOOKMARK [1][-]{section*.77}{Elecci\363n del Lenguaje}{chapter*.74}% 72
-\BOOKMARK [1][-]{section*.78}{Arquitectura de Android}{chapter*.74}% 73
-\BOOKMARK [1][-]{section*.79}{PhoneGap}{chapter*.74}% 74
-\BOOKMARK [2][-]{section*.80}{Ventajas de PhoneGap}{section*.79}% 75
-\BOOKMARK [2][-]{section*.81}{Desventaja de phoneGap}{section*.79}% 76
-\BOOKMARK [1][-]{section*.82}{Web services}{chapter*.74}% 77
-\BOOKMARK [2][-]{section*.83}{Razones para crear servicios Web}{section*.82}% 78
-\BOOKMARK [2][-]{section*.84}{REST}{section*.82}% 79
-\BOOKMARK [1][-]{section*.86}{Caracter\355sticas de seguridad}{chapter*.74}% 80
-\BOOKMARK [2][-]{section*.87}{Canal de comunicaci\363n cifrado}{section*.86}% 81
-\BOOKMARK [2][-]{section*.88}{ACL para cada objeto}{section*.86}% 82
-\BOOKMARK [1][-]{section*.89}{Backbone.js}{chapter*.74}% 83
-\BOOKMARK [2][-]{section*.90}{Modelo Vista Presentador \(MVP\)}{section*.89}% 84
-\BOOKMARK [1][-]{section*.91}{jQuery}{chapter*.74}% 85
-\BOOKMARK [1][-]{section*.92}{jQuery Mobile}{chapter*.74}% 86
-\BOOKMARK [1][-]{section*.93}{Herramientas de desarrollo}{chapter*.74}% 87
-\BOOKMARK [0][-]{chapter*.94}{Disciplina de Pruebas}{}% 88
-\BOOKMARK [1][-]{section*.95}{Test de Unidades}{chapter*.94}% 89
-\BOOKMARK [2][-]{section*.96}{Introducci\363n}{section*.95}% 90
-\BOOKMARK [2][-]{section*.97}{Pruebas de Caja Blanca}{section*.95}% 91
-\BOOKMARK [1][-]{section*.98}{Test de M\363dulos}{chapter*.94}% 92
-\BOOKMARK [2][-]{section*.99}{Introducci\363n}{section*.98}% 93
-\BOOKMARK [2][-]{section*.100}{Pruebas de Caja Negra}{section*.98}% 94
-\BOOKMARK [2][-]{section*.101}{Pruebas de Estr\351s}{section*.98}% 95
-\BOOKMARK [1][-]{section*.102}{Test de Integraci\363n}{chapter*.94}% 96
-\BOOKMARK [2][-]{section*.103}{Introducci\363n}{section*.102}% 97
-\BOOKMARK [2][-]{section*.104}{Pruebas de Integraci\363n}{section*.102}% 98
-\BOOKMARK [1][-]{section*.105}{Test de Aceptaci\363n}{chapter*.94}% 99
-\BOOKMARK [2][-]{section*.106}{Introducci\363n}{section*.105}% 100
-\BOOKMARK [2][-]{section*.107}{Prueba Alfa}{section*.105}% 101
-\BOOKMARK [2][-]{section*.108}{Prueba Beta}{section*.105}% 102
-\BOOKMARK [0][-]{chapter*.109}{Conclusiones}{}% 103
+\BOOKMARK [1][-]{section*.36}{Diagramas de Casos de Uso}{chapter*.34}% 31
+\BOOKMARK [2][-]{section*.37}{Diagrama General de Casos de Uso}{section*.36}% 32
+\BOOKMARK [2][-]{section*.38}{Gesti\363n de Usuarios}{section*.36}% 33
+\BOOKMARK [2][-]{section*.39}{Gesti\363n de Registros}{section*.36}% 34
+\BOOKMARK [2][-]{section*.40}{Casos de Uso Principales}{section*.36}% 35
+\BOOKMARK [0][-]{chapter*.41}{Disciplina de Dise\361o}{}% 36
+\BOOKMARK [1][-]{section*.42}{Descripci\363n Textual de Casos de Uso}{chapter*.41}% 37
+\BOOKMARK [2][-]{section*.43}{Caso de Uso 01: Un alumno no registrado desea registrarse en el sistema.}{section*.42}% 38
+\BOOKMARK [2][-]{section*.44}{Caso de Uso 02: Un alumno registrado desea iniciar sesi\363n.}{section*.42}% 39
+\BOOKMARK [2][-]{section*.45}{Caso de Uso 03: Un alumno registrado desea crear un registro}{section*.42}% 40
+\BOOKMARK [2][-]{section*.46}{Caso de Uso 04: Un alumno registrado desea listar sus registros.}{section*.42}% 41
+\BOOKMARK [2][-]{section*.47}{Caso de Uso 05: Un alumno registrado desea ver un registro en particular}{section*.42}% 42
+\BOOKMARK [2][-]{section*.48}{Caso de Uso 06: Un alumno registrado desea ver el mapa general.}{section*.42}% 43
+\BOOKMARK [2][-]{section*.49}{Caso de Uso 07: Un alumno registrado desea ver su perfil.}{section*.42}% 44
+\BOOKMARK [2][-]{section*.50}{Caso de Uso 08: Un alumno registrado desea modificar su perfil.}{section*.42}% 45
+\BOOKMARK [2][-]{section*.51}{Caso de Uso 10: Un alumno registrado desea eliminar su cuenta.}{section*.42}% 46
+\BOOKMARK [2][-]{section*.52}{Caso de Uso 11: Un administrador desea iniciar sesi\363n.}{section*.42}% 47
+\BOOKMARK [2][-]{section*.53}{Caso de Uso 12: Un administrador desea borrar o dar de baja un alumno.}{section*.42}% 48
+\BOOKMARK [2][-]{section*.54}{Caso de Uso 13: Un administrador desea listar los alumnos.}{section*.42}% 49
+\BOOKMARK [2][-]{section*.55}{Caso de Uso 14: Un administrador desea listar los registros.}{section*.42}% 50
+\BOOKMARK [2][-]{section*.56}{Caso de Uso 15: Un administrador desea ver un registro en particular.}{section*.42}% 51
+\BOOKMARK [2][-]{section*.57}{Caso de Uso UC16: Un administrador desea aprobar o rechazar registros.}{section*.42}% 52
+\BOOKMARK [2][-]{section*.58}{Caso de Uso UC17/18/19: Un administrador desea buscar registros por fecha de creaci\363n/Instituci\363n/Indice.}{section*.42}% 53
+\BOOKMARK [2][-]{section*.59}{Caso de Uso UC21: Un administrador desea exportar a Excel la informaci\363n.}{section*.42}% 54
+\BOOKMARK [1][-]{section*.60}{Diagrama de Clases de Dise\361o}{chapter*.41}% 55
+\BOOKMARK [1][-]{section*.61}{Diagramas de Actividad}{chapter*.41}% 56
+\BOOKMARK [2][-]{section*.62}{Inicio de Sesi\363n}{section*.61}% 57
+\BOOKMARK [2][-]{section*.63}{Registrar Usuario}{section*.61}% 58
+\BOOKMARK [2][-]{section*.64}{Crear Registro }{section*.61}% 59
+\BOOKMARK [2][-]{section*.65}{Ver Mapa Interactivo}{section*.61}% 60
+\BOOKMARK [1][-]{section*.66}{Diagramas de Secuencia}{chapter*.41}% 61
+\BOOKMARK [2][-]{section*.67}{Autenticar}{section*.66}% 62
+\BOOKMARK [2][-]{section*.68}{Registrar}{section*.66}% 63
+\BOOKMARK [2][-]{section*.69}{Crear Tienda}{section*.66}% 64
+\BOOKMARK [2][-]{section*.70}{Agregar Producto}{section*.66}% 65
+\BOOKMARK [2][-]{section*.71}{Comprar Producto}{section*.66}% 66
+\BOOKMARK [1][-]{section*.72}{Interfaz de Usuario}{chapter*.41}% 67
+\BOOKMARK [0][-]{chapter*.73}{Disciplina de Implementaci\363n}{}% 68
+\BOOKMARK [1][-]{section*.74}{Arquitectura de la aplicaci\363n}{chapter*.73}% 69
+\BOOKMARK [1][-]{section*.75}{Diagrama de Despliegue}{chapter*.73}% 70
+\BOOKMARK [1][-]{section*.76}{Elecci\363n del Lenguaje}{chapter*.73}% 71
+\BOOKMARK [1][-]{section*.77}{Arquitectura de Android}{chapter*.73}% 72
+\BOOKMARK [1][-]{section*.78}{PhoneGap}{chapter*.73}% 73
+\BOOKMARK [2][-]{section*.79}{Ventajas de PhoneGap}{section*.78}% 74
+\BOOKMARK [2][-]{section*.80}{Desventaja de phoneGap}{section*.78}% 75
+\BOOKMARK [1][-]{section*.81}{Web services}{chapter*.73}% 76
+\BOOKMARK [2][-]{section*.82}{Razones para crear servicios Web}{section*.81}% 77
+\BOOKMARK [2][-]{section*.83}{REST}{section*.81}% 78
+\BOOKMARK [1][-]{section*.85}{Caracter\355sticas de seguridad}{chapter*.73}% 79
+\BOOKMARK [2][-]{section*.86}{Canal de comunicaci\363n cifrado}{section*.85}% 80
+\BOOKMARK [2][-]{section*.87}{ACL para cada objeto}{section*.85}% 81
+\BOOKMARK [1][-]{section*.88}{Backbone.js}{chapter*.73}% 82
+\BOOKMARK [2][-]{section*.89}{Modelo Vista Presentador \(MVP\)}{section*.88}% 83
+\BOOKMARK [1][-]{section*.90}{jQuery}{chapter*.73}% 84
+\BOOKMARK [1][-]{section*.91}{jQuery Mobile}{chapter*.73}% 85
+\BOOKMARK [1][-]{section*.92}{Herramientas de desarrollo}{chapter*.73}% 86
+\BOOKMARK [0][-]{chapter*.93}{Disciplina de Pruebas}{}% 87
+\BOOKMARK [1][-]{section*.94}{Test de Unidades}{chapter*.93}% 88
+\BOOKMARK [2][-]{section*.95}{Introducci\363n}{section*.94}% 89
+\BOOKMARK [2][-]{section*.96}{Pruebas de Caja Blanca}{section*.94}% 90
+\BOOKMARK [1][-]{section*.97}{Test de M\363dulos}{chapter*.93}% 91
+\BOOKMARK [2][-]{section*.98}{Introducci\363n}{section*.97}% 92
+\BOOKMARK [2][-]{section*.99}{Pruebas de Caja Negra}{section*.97}% 93
+\BOOKMARK [2][-]{section*.100}{Pruebas de Estr\351s}{section*.97}% 94
+\BOOKMARK [1][-]{section*.101}{Test de Integraci\363n}{chapter*.93}% 95
+\BOOKMARK [2][-]{section*.102}{Introducci\363n}{section*.101}% 96
+\BOOKMARK [2][-]{section*.103}{Pruebas de Integraci\363n}{section*.101}% 97
+\BOOKMARK [1][-]{section*.104}{Test de Aceptaci\363n}{chapter*.93}% 98
+\BOOKMARK [2][-]{section*.105}{Introducci\363n}{section*.104}% 99
+\BOOKMARK [2][-]{section*.106}{Prueba Alfa}{section*.104}% 100
+\BOOKMARK [2][-]{section*.107}{Prueba Beta}{section*.104}% 101
+\BOOKMARK [0][-]{chapter*.108}{Conclusiones}{}% 102

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.20)  29 AUG 2018 20:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.20)  4 SEP 2018 19:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -916,11 +916,7 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
  (./agradecimientos.aux)
-(./introduccion.aux) (./requisitos.aux) (./analisis.aux
-
-LaTeX Warning: Label `fig:casos-de-uso' multiply defined.
-
-) (./disenio.aux
+(./introduccion.aux) (./requisitos.aux) (./analisis.aux) (./disenio.aux
 
 LaTeX Warning: Label `fig:login' multiply defined.
 
@@ -998,7 +994,7 @@ LaTeX Info: Redefining \nameref on input line 189.
 \openout2 = `portada.aux'.
 
  (./portada.tex
-<imagenes/logo-unt.png, id=418, 106.4778pt x 133.9404pt>
+<imagenes/logo-unt.png, id=414, 106.4778pt x 133.9404pt>
 File: imagenes/logo-unt.png Graphic file (type png)
 
 <use imagenes/logo-unt.png>
@@ -1808,7 +1804,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 445.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 445.
- <imagenes/Grantt.jpg, id=646, 1346.02875pt x 369.63094pt>
+ <imagenes/Grantt.jpg, id=641, 1346.02875pt x 369.63094pt>
 File: imagenes/Grantt.jpg Graphic file (type jpg)
 
 <use imagenes/Grantt.jpg>
@@ -1869,26 +1865,25 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 39.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 39.
-
-<imagenes/analisis/diagrama-contexto.png, id=652, 564.363pt x 243.09pt>
-File: imagenes/analisis/diagrama-contexto.png Graphic file (type png)
-
-<use imagenes/analisis/diagrama-contexto.png>
-Package pdftex.def Info: imagenes/analisis/diagrama-contexto.png used on input 
-line 43.
-(pdftex.def)             Requested size: 455.24411pt x 196.09319pt.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 50.
+(babel)             in language  on input line 43.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 50.
+(babel)             in language  on input line 43.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 50.
+(babel)             in language  on input line 43.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 50.
+(babel)             in language  on input line 43.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 50.
+(babel)             in language  on input line 43.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 50.
+(babel)             in language  on input line 43.
+
+<imagenes/DiagramasUML/CasoGeneralDeUso.png, id=647, 894.34125pt x 663.47874pt>
+File: imagenes/DiagramasUML/CasoGeneralDeUso.png Graphic file (type png)
+<use imagenes/DiagramasUML/CasoGeneralDeUso.png>
+Package pdftex.def Info: imagenes/DiagramasUML/CasoGeneralDeUso.png used on inp
+ut line 47.
+(pdftex.def)             Requested size: 455.24411pt x 337.73187pt.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 53.
 Package babel Info: Redefining spanish shorthand >>
@@ -1905,7 +1900,7 @@ Package babel Info: Redefining spanish shorthand "?
 
 
 
- <./imagenes/analisis/diagrama-contexto.png>]
+]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 54.
 Package babel Info: Redefining spanish shorthand >>
@@ -1919,13 +1914,27 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 54.
 
-<imagenes/analisis/casos-uso-general.png, id=658, 522.315pt x 442.161pt>
-File: imagenes/analisis/casos-uso-general.png Graphic file (type png)
-
-<use imagenes/analisis/casos-uso-general.png>
-Package pdftex.def Info: imagenes/analisis/casos-uso-general.png used on input 
-line 57.
-(pdftex.def)             Requested size: 318.66948pt x 269.76503pt.
+<imagenes/DiagramasUML/gestionDeUsuarios.png, id=652, 636.3775pt x 470.75874pt>
+File: imagenes/DiagramasUML/gestionDeUsuarios.png Graphic file (type png)
+<use imagenes/DiagramasUML/gestionDeUsuarios.png>
+Package pdftex.def Info: imagenes/DiagramasUML/gestionDeUsuarios.png used on in
+put line 57.
+(pdftex.def)             Requested size: 318.66948pt x 235.73077pt.
+LaTeX Info: Redefining \. on input line 63.
+LaTeX Info: Redefining \% on input line 63.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 63.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 63.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 63.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 63.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 63.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 63.
+ [27 <./imagenes/DiagramasUML/CasoGeneralDeUso.png>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 64.
 Package babel Info: Redefining spanish shorthand >>
@@ -1939,28 +1948,13 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 64.
 
-<imagenes/analisis/casos-uso-usuario.png, id=659, 455.301pt x 262.143pt>
-File: imagenes/analisis/casos-uso-usuario.png Graphic file (type png)
-
-<use imagenes/analisis/casos-uso-usuario.png>
-Package pdftex.def Info: imagenes/analisis/casos-uso-usuario.png used on input 
-line 67.
-(pdftex.def)             Requested size: 318.66948pt x 183.48283pt.
-LaTeX Info: Redefining \. on input line 73.
-LaTeX Info: Redefining \% on input line 73.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 73.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 73.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 73.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 73.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 73.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 73.
- [27 <./imagenes/analisis/casos-uso-general.png>]
+<imagenes/DiagramasUML/gestionDeRegistros.png, id=658, 636.3775pt x 470.75874pt
+>
+File: imagenes/DiagramasUML/gestionDeRegistros.png Graphic file (type png)
+ <use imagenes/DiagramasUML/gestionDeRegistros.png>
+Package pdftex.def Info: imagenes/DiagramasUML/gestionDeRegistros.png used on i
+nput line 67.
+(pdftex.def)             Requested size: 318.66948pt x 235.73077pt.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 74.
 Package babel Info: Redefining spanish shorthand >>
@@ -1973,42 +1967,22 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 74.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 74.
-
-<imagenes/analisis/casos-uso-registros.png, id=665, 467.784pt x 270.027pt>
-File: imagenes/analisis/casos-uso-registros.png Graphic file (type png)
-
-<use imagenes/analisis/casos-uso-registros.png>
-Package pdftex.def Info: imagenes/analisis/casos-uso-registros.png used on inpu
-t line 77.
-(pdftex.def)             Requested size: 318.66948pt x 183.94966pt.
+LaTeX Info: Redefining \. on input line 81.
+LaTeX Info: Redefining \% on input line 81.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 84.
+(babel)             in language  on input line 81.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 84.
+(babel)             in language  on input line 81.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 84.
+(babel)             in language  on input line 81.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 84.
+(babel)             in language  on input line 81.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 84.
+(babel)             in language  on input line 81.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 84.
-LaTeX Info: Redefining \. on input line 98.
-LaTeX Info: Redefining \% on input line 98.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 98.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 98.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 98.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 98.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 98.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 98.
- [28 <./imagenes/analisis/casos-uso-usuario.png> <./imagenes/analisis/casos-uso
--registros.png>])
+(babel)             in language  on input line 81.
+ [28 <./imagenes/DiagramasUML/gestionDeUsuarios.png> <./imagenes/DiagramasUML/g
+estionDeRegistros.png>])
 LaTeX Info: Redefining \. on input line 207.
 LaTeX Info: Redefining \% on input line 207.
 Package babel Info: Redefining spanish shorthand <<
@@ -2023,11 +1997,11 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 207.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 207.
- [29]
+
+[29]
 \openout2 = `disenio.aux'.
 
-
-(./disenio.tex
+ (./disenio.tex
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 33.
 Package babel Info: Redefining spanish shorthand >>
@@ -2729,7 +2703,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 1181.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1181.
- <imagenes/disenio/clases-disenio.png, id=940, 514.92375pt x 488.57532pt>
+ <imagenes/disenio/clases-disenio.png, id=933, 514.92375pt x 488.57532pt>
 File: imagenes/disenio/clases-disenio.png Graphic file (type png)
 
 <use imagenes/disenio/clases-disenio.png>
@@ -2776,7 +2750,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1195.
 
-<imagenes/analisis/diagrama-actividad-inicioSesion.png, id=952, 557.793pt x 451
+<imagenes/analisis/diagrama-actividad-inicioSesion.png, id=944, 557.793pt x 451
 .359pt>
 File: imagenes/analisis/diagrama-actividad-inicioSesion.png Graphic file (type 
 png)
@@ -2812,7 +2786,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1204.
 
-<imagenes/analisis/diagrama-actividad-registrar.png, id=957, 496.035pt x 379.08
+<imagenes/analisis/diagrama-actividad-registrar.png, id=950, 496.035pt x 379.08
 9pt>
 File: imagenes/analisis/diagrama-actividad-registrar.png Graphic file (type png
 )
@@ -2848,7 +2822,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1213.
 
-<imagenes/analisis/diagrama-actividad-crear-registro.png, id=963, 422.451pt x 5
+<imagenes/analisis/diagrama-actividad-crear-registro.png, id=956, 422.451pt x 5
 16.402pt>
 File: imagenes/analisis/diagrama-actividad-crear-registro.png Graphic file (typ
 e png)
@@ -2885,7 +2859,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1222.
 
-<imagenes/analisis/diagrama-actividad-ver-mapa.png, id=969, 557.793pt x 447.417
+<imagenes/analisis/diagrama-actividad-ver-mapa.png, id=962, 557.793pt x 447.417
 pt>
 File: imagenes/analisis/diagrama-actividad-ver-mapa.png Graphic file (type png)
 
@@ -2933,7 +2907,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1238.
 
-<imagenes/disenio/secuencia-autenticar.png, id=976, 344.78813pt x 170.88844pt>
+<imagenes/disenio/secuencia-autenticar.png, id=969, 344.78813pt x 170.88844pt>
 File: imagenes/disenio/secuencia-autenticar.png Graphic file (type png)
 
 <use imagenes/disenio/secuencia-autenticar.png>
@@ -2968,7 +2942,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1247.
 
-<imagenes/disenio/secuencia-registrar.png, id=982, 456.20438pt x 203.25937pt>
+<imagenes/disenio/secuencia-registrar.png, id=975, 456.20438pt x 203.25937pt>
 File: imagenes/disenio/secuencia-registrar.png Graphic file (type png)
 
 <use imagenes/disenio/secuencia-registrar.png>
@@ -2993,7 +2967,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1256.
 
-<imagenes/disenio/secuencia-crear-tienda.png, id=983, 481.04718pt x 237.13594pt
+<imagenes/disenio/secuencia-crear-tienda.png, id=976, 481.04718pt x 237.13594pt
 >
 File: imagenes/disenio/secuencia-crear-tienda.png Graphic file (type png)
  <use imagenes/disenio/secuencia-crear-tienda.png>
@@ -3034,7 +3008,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1265.
 
-<imagenes/disenio/secuencia-agregar-producto.png, id=988, 520.94624pt x 225.843
+<imagenes/disenio/secuencia-agregar-producto.png, id=981, 520.94624pt x 225.843
 75pt>
 File: imagenes/disenio/secuencia-agregar-producto.png Graphic file (type png)
  <use imagenes/disenio/secuencia-agregar-producto.png>
@@ -3054,7 +3028,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1274.
 
-<imagenes/disenio/secuencia-comprar-producto.png, id=989, 589.4522pt x 281.5518
+<imagenes/disenio/secuencia-comprar-producto.png, id=982, 589.4522pt x 281.5518
 8pt>
 File: imagenes/disenio/secuencia-comprar-producto.png Graphic file (type png)
  <use imagenes/disenio/secuencia-comprar-producto.png>
@@ -3089,7 +3063,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 1289.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1289.
- <imagenes/capturas/home.png, id=994, 481.8pt x 803.0pt>
+ <imagenes/capturas/home.png, id=987, 481.8pt x 803.0pt>
 File: imagenes/capturas/home.png Graphic file (type png)
 
 <use imagenes/capturas/home.png>
@@ -3110,14 +3084,14 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1298.
  [64 <./imagenes/disenio/secuencia-comprar-producto.png>] <imagenes/capturas/lo
-gin.png, id=999, 481.8pt x 803.0pt>
+gin.png, id=992, 481.8pt x 803.0pt>
 File: imagenes/capturas/login.png Graphic file (type png)
 
 <use imagenes/capturas/login.png>
 Package pdftex.def Info: imagenes/capturas/login.png used on input line 1301.
 (pdftex.def)             Requested size: 273.14923pt x 455.2642pt.
 
-<imagenes/capturas/registro2.png, id=1000, 481.8pt x 803.0pt>
+<imagenes/capturas/registro2.png, id=993, 481.8pt x 803.0pt>
 File: imagenes/capturas/registro2.png Graphic file (type png)
 
 <use imagenes/capturas/registro2.png>
@@ -3125,7 +3099,7 @@ Package pdftex.def Info: imagenes/capturas/registro2.png used on input line 131
 0.
 (pdftex.def)             Requested size: 273.14923pt x 455.2642pt.
 
-<imagenes/capturas/crear-tienda1.png, id=1001, 481.8pt x 803.0pt>
+<imagenes/capturas/crear-tienda1.png, id=994, 481.8pt x 803.0pt>
 File: imagenes/capturas/crear-tienda1.png Graphic file (type png)
 
 <use imagenes/capturas/crear-tienda1.png>
@@ -3133,7 +3107,7 @@ Package pdftex.def Info: imagenes/capturas/crear-tienda1.png used on input line
  1319.
 (pdftex.def)             Requested size: 273.14923pt x 455.2642pt.
 
-<imagenes/capturas/crear-tienda2.png, id=1002, 481.8pt x 803.0pt>
+<imagenes/capturas/crear-tienda2.png, id=995, 481.8pt x 803.0pt>
 File: imagenes/capturas/crear-tienda2.png Graphic file (type png)
 
 <use imagenes/capturas/crear-tienda2.png>
@@ -3141,7 +3115,7 @@ Package pdftex.def Info: imagenes/capturas/crear-tienda2.png used on input line
  1328.
 (pdftex.def)             Requested size: 273.14923pt x 455.2642pt.
 
-<imagenes/capturas/administracion-tienda.png, id=1003, 481.8pt x 803.0pt>
+<imagenes/capturas/administracion-tienda.png, id=996, 481.8pt x 803.0pt>
 File: imagenes/capturas/administracion-tienda.png Graphic file (type png)
 
 <use imagenes/capturas/administracion-tienda.png>
@@ -3149,7 +3123,7 @@ Package pdftex.def Info: imagenes/capturas/administracion-tienda.png used on in
 put line 1337.
 (pdftex.def)             Requested size: 273.14923pt x 455.2642pt.
 
-<imagenes/capturas/crear-producto1.png, id=1004, 481.8pt x 803.0pt>
+<imagenes/capturas/crear-producto1.png, id=997, 481.8pt x 803.0pt>
 File: imagenes/capturas/crear-producto1.png Graphic file (type png)
 
 <use imagenes/capturas/crear-producto1.png>
@@ -3157,7 +3131,7 @@ Package pdftex.def Info: imagenes/capturas/crear-producto1.png used on input li
 ne 1347.
 (pdftex.def)             Requested size: 273.14923pt x 455.2642pt.
 
-<imagenes/capturas/crear-producto2.png, id=1005, 481.8pt x 803.0pt>
+<imagenes/capturas/crear-producto2.png, id=998, 481.8pt x 803.0pt>
 File: imagenes/capturas/crear-producto2.png Graphic file (type png)
 
 <use imagenes/capturas/crear-producto2.png>
@@ -3165,7 +3139,7 @@ Package pdftex.def Info: imagenes/capturas/crear-producto2.png used on input li
 ne 1356.
 (pdftex.def)             Requested size: 273.14923pt x 455.2642pt.
 
-<imagenes/capturas/administracion-productos.png, id=1006, 481.8pt x 803.0pt>
+<imagenes/capturas/administracion-productos.png, id=999, 481.8pt x 803.0pt>
 File: imagenes/capturas/administracion-productos.png Graphic file (type png)
 
 <use imagenes/capturas/administracion-productos.png>
@@ -3173,7 +3147,7 @@ Package pdftex.def Info: imagenes/capturas/administracion-productos.png used on
  input line 1365.
 (pdftex.def)             Requested size: 273.14923pt x 455.2642pt.
 
-<imagenes/capturas/vista-tienda.png, id=1007, 481.8pt x 803.0pt>
+<imagenes/capturas/vista-tienda.png, id=1000, 481.8pt x 803.0pt>
 File: imagenes/capturas/vista-tienda.png Graphic file (type png)
 
 <use imagenes/capturas/vista-tienda.png>
@@ -3181,7 +3155,7 @@ Package pdftex.def Info: imagenes/capturas/vista-tienda.png used on input line
 1373.
 (pdftex.def)             Requested size: 273.14923pt x 455.2642pt.
 
-<imagenes/capturas/busqueda.png, id=1008, 481.8pt x 803.0pt>
+<imagenes/capturas/busqueda.png, id=1001, 481.8pt x 803.0pt>
 File: imagenes/capturas/busqueda.png Graphic file (type png)
 
 <use imagenes/capturas/busqueda.png>
@@ -3189,7 +3163,7 @@ Package pdftex.def Info: imagenes/capturas/busqueda.png used on input line 1382
 .
 (pdftex.def)             Requested size: 273.14923pt x 455.2642pt.
 
-<imagenes/capturas/pagina-producto.png, id=1009, 481.8pt x 803.0pt>
+<imagenes/capturas/pagina-producto.png, id=1002, 481.8pt x 803.0pt>
 File: imagenes/capturas/pagina-producto.png Graphic file (type png)
 
 <use imagenes/capturas/pagina-producto.png>
@@ -3197,7 +3171,7 @@ Package pdftex.def Info: imagenes/capturas/pagina-producto.png used on input li
 ne 1391.
 (pdftex.def)             Requested size: 273.14923pt x 455.2642pt.
 
-<imagenes/capturas/listado-ventas.png, id=1010, 481.8pt x 803.0pt>
+<imagenes/capturas/listado-ventas.png, id=1003, 481.8pt x 803.0pt>
 File: imagenes/capturas/listado-ventas.png Graphic file (type png)
 
 <use imagenes/capturas/listado-ventas.png>
@@ -3430,7 +3404,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 29.
 
-<imagenes/implementacion/arquitectura.jpg, id=1078, 1505.625pt x 1230.5975pt>
+<imagenes/implementacion/arquitectura.jpg, id=1071, 1505.625pt x 1230.5975pt>
 File: imagenes/implementacion/arquitectura.jpg Graphic file (type jpg)
 
 <use imagenes/implementacion/arquitectura.jpg>
@@ -3450,7 +3424,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 40.
 
-<imagenes/implementacion/despliegue.png, id=1079, 593.96906pt x 143.78719pt>
+<imagenes/implementacion/despliegue.png, id=1072, 593.96906pt x 143.78719pt>
 File: imagenes/implementacion/despliegue.png Graphic file (type png)
 
 <use imagenes/implementacion/despliegue.png>
@@ -3528,7 +3502,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 71.
  [80]
-<imagenes/arquitecturaAndroid.png, id=1115, 741.77126pt x 602.25pt>
+<imagenes/arquitecturaAndroid.png, id=1108, 741.77126pt x 602.25pt>
 File: imagenes/arquitecturaAndroid.png Graphic file (type png)
 
 <use imagenes/arquitecturaAndroid.png>
@@ -3548,7 +3522,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 83.
 
-<imagenes/phonegap.png, id=1116, 390.70969pt x 355.3275pt>
+<imagenes/phonegap.png, id=1109, 390.70969pt x 355.3275pt>
 File: imagenes/phonegap.png Graphic file (type png)
 
 <use imagenes/phonegap.png>
@@ -3660,7 +3634,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 153.
 
-<imagenes/REST.jpg, id=1140, 435.87843pt x 300.3722pt>
+<imagenes/REST.jpg, id=1133, 435.87843pt x 300.3722pt>
 File: imagenes/REST.jpg Graphic file (type jpg)
  <use imagenes/REST.jpg>
 Package pdftex.def Info: imagenes/REST.jpg used on input line 165.
@@ -3735,7 +3709,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 200.
  [86]
-<imagenes/implementacion/https.png, id=1174, 679.03688pt x 340.27126pt>
+<imagenes/implementacion/https.png, id=1167, 679.03688pt x 340.27126pt>
 File: imagenes/implementacion/https.png Graphic file (type png)
 
 <use imagenes/implementacion/https.png>
@@ -3769,7 +3743,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 213.
  [87 <./imagenes/implementacion/https.png>] <imagenes/implementacion/acl.png, i
-d=1184, 563.10374pt x 428.35031pt>
+d=1177, 563.10374pt x 428.35031pt>
 File: imagenes/implementacion/acl.png Graphic file (type png)
 
 <use imagenes/implementacion/acl.png>
@@ -3830,7 +3804,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 251.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 251.
- <imagenes/MVP.png, id=1199, 304.13625pt x 188.95593pt>
+ <imagenes/MVP.png, id=1192, 304.13625pt x 188.95593pt>
 File: imagenes/MVP.png Graphic file (type png)
 
 <use imagenes/MVP.png>
@@ -4305,7 +4279,7 @@ LaTeX Info: Redefining \% on input line 27.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 229.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 229.
 Package rerunfilecheck Info: File `informe.out' has not changed.
-(rerunfilecheck)             Checksum: C5144FDB17692AEABD24B15FABE4FD56;8169.
+(rerunfilecheck)             Checksum: CA545FC4D8BA895455D13F6B3A6A1EAC;8042.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -4313,10 +4287,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 229.
  ) 
 Here is how much of TeX's memory you used:
- 16738 strings out of 492995
- 266731 string characters out of 6132703
- 440218 words of memory out of 5000000
- 19472 multiletter control sequences out of 15000+600000
+ 16732 strings out of 492995
+ 266569 string characters out of 6132703
+ 440162 words of memory out of 5000000
+ 19467 multiletter control sequences out of 15000+600000
  12993 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,11n,73p,1995b,708s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -4332,10 +4306,10 @@ l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/tex
 live/2017/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy10.pfb>
-Output written on informe.pdf (104 pages, 2220622 bytes).
+Output written on informe.pdf (104 pages, 2208486 bytes).
 PDF statistics:
- 1464 PDF objects out of 1728 (max. 8388607)
- 1285 compressed objects within 13 object streams
- 429 named destinations out of 1000 (max. 500000)
- 1010 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1457 PDF objects out of 1728 (max. 8388607)
+ 1280 compressed objects within 13 object streams
+ 428 named destinations out of 1000 (max. 500000)
+ 997 words of extra memory for PDF output out of 10000 (max. 10000000)
 
