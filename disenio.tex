@@ -40,7 +40,7 @@
 		%#   Caso de uso 1
 		%#
 		%#############################################################################
-		\subsection{Caso de Uso 01: Un alumno no registrado desea registrarse en el sistema.}
+		\subsection{Caso de Uso 01: Un usuario no registrado desea registrarse en el sistema.}
 			\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
 					\cellcolor{grisOscuro} CU01 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Registrar} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
 					\cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
@@ -69,7 +69,7 @@
 
 					\multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
 							\begin{enumerate}
-									\item El usuario ejecuta la aplicación móvil (en adelante APP) en su SmartPhone y decide registrarse.
+									\item El usuario ejecuta la aplicación móvil (en adelante APP) en su Smartphone y decide registrarse.
 									\item APP muestra un formulario de carga donde ingresa sus datos personales y su nombre de usuario y contraseña.
 									\item APP verifica los datos ingresados.
 									\item APP solicita a S el registro del usuario.
@@ -135,7 +135,7 @@
 
 					\multicolumn{6}{|p{15cm}|}{ \textbf{Requisitos de Interfaz de Usuario para todos los casos de uso: }
 
-					SmartPhone con SO Android o iOS o Windows Mobile, con pantalla táctil, cámara y GPS integrado.
+					Smartphone con SO Android o iOS o Windows Mobile, con pantalla táctil, cámara y GPS integrado.
 					
 					} \\ \hline
 
@@ -156,7 +156,7 @@
 		%#   Caso de uso 2
 		%#
 		%#############################################################################
-		\subsection{Caso de Uso 02: Un alumno registrado desea iniciar sesión.}
+		\subsection{Caso de Uso 02: Un usuario registrado desea iniciar sesión en la aplicación movil.}
 			\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
 				\cellcolor{grisOscuro} CU02 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Iniciar Sesión} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
 				\cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
@@ -172,7 +172,7 @@
 
 				\emph{Usuario:} quiere que el sistema lo reconozca como tal, así pueda realizar las tareas con la aplicación de un modo seguro y personalizado.
 
-				\emph{Servidor:} requiere identificar confiablemente a sus usuarios de manera de satisfacer sus intereses en cuando a seguridad, accesos a su cuenta personal y datos privados.
+				\emph{App:} requiere identificar, de manera local, confiablemente a sus usuarios de manera de satisfacer sus intereses en cuando a seguridad, accesos a su cuenta personal y datos privados.
 
 				} \\ \hline
 
@@ -187,11 +187,12 @@
 				\multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
 
 				\begin{enumerate}
-					\item El usuario ejecuta la aplicación móvil (en adelante APP) en su SmartPhone.
+					\item El usuario ejecuta la aplicación móvil (en adelante APP) en su Smartphone.
+					\item APP descarga la informacion de inicio de sesión del servidor.
 					\item APP solicita al usuario su nombre de usuario y contraseña.
 					\item El usuario ingresa su nombre de usuario y contraseña.
-					\item APP solicita a S la validación del usuario
-					\item S valida al usuario y comunica sus datos personales.
+					\item APP realiza el proceso de validación del usuario
+					\item APP valida al usuario y comunica sus datos personales.
 					\item APP da la bienvenida al usuario
 				\end{enumerate}
 
@@ -199,19 +200,9 @@
 
 				\multicolumn{6}{|p{15cm}|}{ \textbf{Flujos Alternativos: }
 
-				\textbf{A1: El sistema encuentra algún fallo para comunicarse con S}
+				\textbf{A1: Nombre de usuario inexistente}
 				
 				La secuencia A1 comienza en el punto 4 del escenario principal.
-				\begin{enumerate}
-						\setcounter{enumi}{4}
-						\item APP informa al usuario el problema de conexión a través de un mensaje por la pantalla.
-				\end{enumerate}
-
-				El escenario vuelve al punto 2.
-
-				\textbf{A2: Nombre de usuario inexistente}
-				
-				La secuencia A2 comienza en el punto 4 del escenario principal.
 				\begin{enumerate}
 						\setcounter{enumi}{4}
 						\item S comunica que el nombre de usuario es inexistente.
@@ -219,9 +210,9 @@
 
 				El escenario vuelve al punto 2.
 
-				\textbf{A3: Nombre de usuario existente pero contraseña inválida}
+				\textbf{A2: Nombre de usuario existente pero contraseña inválida}
 				
-				La secuencia A3 comienza en el punto 4 del escenario principal.
+				La secuencia A2 comienza en el punto 4 del escenario principal.
 				\begin{enumerate}
 						\setcounter{enumi}{3}
 						\item S comunica que la contraseña es inválida.
@@ -237,7 +228,7 @@
 		%#   Caso de uso 3
 		%#
 		%#############################################################################
-		\subsection{Caso de Uso 03: Un alumno registrado desea crear un registro}
+		\subsection{Caso de Uso 03: Un usuario registrado desea crear un registro}
 			\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
 				\cellcolor{grisOscuro} CU03 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Crear Registro} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
 				\cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
@@ -272,7 +263,7 @@
 					\item APP solicita al usuario a través de un formulario los datos requeridos para la creacion del registro.
 					\item El usuario completa el formulario y presiona un botón para finalizar.
 					\item APP verifica que los tipos de datos ingresados en el formulario sean correctos y almacena el registro de forma local.
-					\item APP envía de manera segura los datos a S para que sean validados.
+					\item APP detecta conexion a internet y envía de manera segura los datos a S para que sean validados.
 					\item S valida los datos, realiza la creacion del registro y envía una confirmación.
 					\item APP informa al usuario que la operación se realizó exitosamente.
 				\end{enumerate}
@@ -300,7 +291,7 @@
 		%#   Caso de uso 4
 		%#
 		%#############################################################################
-		\subsection{Caso de Uso 04: Un alumno registrado desea listar sus registros.}
+		\subsection{Caso de Uso 04: Un usuario registrado desea listar sus registros.}
 			\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
 				\cellcolor{grisOscuro} CU04 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Listar Registros} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
 				\cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
@@ -360,7 +351,7 @@
 		%#   Caso de uso 5
 		%#
 		%#############################################################################
-		\subsection{Caso de Uso 05: Un alumno registrado desea ver un registro en particular}
+		\subsection{Caso de Uso 05: Un usuario registrado desea ver un registro en particular}
 			\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
 				\cellcolor{grisOscuro} CU05 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Ver Registro} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
 				\cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
@@ -419,7 +410,7 @@
 		%#   Caso de uso 6
 		%#
 		%#############################################################################
-		\subsection{Caso de Uso 06: Un alumno registrado desea ver el mapa general.}
+		\subsection{Caso de Uso 06: Un usuario registrado desea ver el mapa general.}
 			\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
 				\cellcolor{grisOscuro} CU06 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Ver Mapa} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
 				\cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
@@ -483,7 +474,7 @@
 		%#   Caso de uso 7
 		%#
 		%#############################################################################
-		\subsection{Caso de Uso 07: Un alumno registrado desea ver su perfil.}
+		\subsection{Caso de Uso 07: Un usuario registrado desea ver su perfil.}
 			\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
 				\cellcolor{grisOscuro} CU07 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Ver Perfil de Usuario} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
 				\cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
@@ -543,7 +534,7 @@
 		%#   Caso de uso 8
 		%#
 		%#############################################################################
-		\subsection{Caso de Uso 08: Un alumno registrado desea modificar su perfil.}
+		\subsection{Caso de Uso 08: Un usuario registrado desea modificar su perfil.}
 			\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
 				\cellcolor{grisOscuro} CU08 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Modificar Perfil de Usuario} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
 				\cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
@@ -604,7 +595,7 @@
 		%#   Caso de uso 10
 		%#
 		%#############################################################################
-		\subsection{Caso de Uso 10: Un alumno registrado desea eliminar su cuenta.}
+		\subsection{Caso de Uso 10: Un usuario registrado desea eliminar su cuenta.}
 			\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
 					\cellcolor{grisOscuro} CU10 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Eliminar Cuenta De Usuario} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
 					\cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
@@ -696,12 +687,12 @@
 					\multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
 
 					\begin{enumerate}
-							\item El administrador ejecuta la APP desde su SmartPhone o un navegador web.
-							\item APP solicita al administrador su nombre de usuario y contraseña.
+							\item El administrador ejecuta el sistema de gestion de registros mediante (en adelante SGR) una URL en un navegador web.
+							\item SGR solicita al administrador su nombre de usuario y contraseña.
 							\item El administrador ingresa su nombre de usuario y contraseña.
-							\item APP solicita a S la validación del administrador
+							\item SGR solicita a S la validación del administrador
 							\item S valida al administrador y comunica sus datos personales.
-							\item APP da la bienvenida al administrador
+							\item SGR da la bienvenida al administrador
 					\end{enumerate}
 
 					} \\ \hline
@@ -713,7 +704,7 @@
 					La secuencia A1 comienza en el punto 4 del escenario principal.
 					\begin{enumerate}
 							\setcounter{enumi}{4}
-							\item APP informa al administrador el problema de conexión a través de un mensaje por la pantalla.
+							\item SGR informa al administrador el problema de conexión a través de un mensaje por la pantalla.
 					\end{enumerate}
 
 					El escenario vuelve al punto 2.
@@ -748,10 +739,16 @@
 		%#
 		%#############################################################################
 		\subsection{Caso de Uso 12: Un administrador desea borrar o dar de baja un alumno.}
+		%#############################################################################
+		%#   
+		%#   Caso de uso 13
+		%#
+		%#############################################################################
+		\subsection{Caso de Uso 13: Un administrador desea cambiar el rol a un usuario.}
 			\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
-					\cellcolor{grisOscuro} CU12 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Eliminar Cuenta De Usuario} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+					\cellcolor{grisOscuro} CU13 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Cambiar el rol a un usuario} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
 					\cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
-					\multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } Este caso de uso permite al administrador eliminar la cuenta de un usuario en particular.
+					\multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } Este caso de uso permite al administrador cambiar el rol a un usuario en particular.
 
 					} \\ \hline
 
@@ -761,13 +758,13 @@
 
 					\multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
 					
-					\emph{Administrador:} quiere eliminar la cuenta de unº usuario.
+					\emph{Administrador:} quiere cambiar el rol a un usuario.
 
 					\emph{Servidor:} quiere mantener actualizados los datos del usuario.
 
 					} \\ \hline
 
-					\multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } El administrador debe estar autenticado en APP.
+					\multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } El administrador debe estar autenticado en SGR.
 
 					} \\ \hline
 
@@ -778,12 +775,12 @@
 					\multicolumn{6}{|p{15cm}|}{ \textbf{Escenario Principal: }
 
 					\begin{enumerate}
-							\item El administrador selecciona la opción para eliminar un usuario.
-							\item APP solicita al administrador a través de una alerta la confirmación para eliminar el perfil.
+							\item El administrador selecciona la opción para cambiar el rol a un usuario.
+							\item SGR solicita al administrador a través de una alerta la confirmación para dicha accion.
 							\item El administrador presiona el botón aceptar.
-							\item APP envía la solicitud a S.
+							\item SGR envía la solicitud a S.
 							\item S envía confirmación.
-							\item APP informa al administrador que la operación se realizó exitosamente.
+							\item SGR informa al administrador que la operación se realizó exitosamente.
 					\end{enumerate}
 
 					} \\ \hline
@@ -795,7 +792,7 @@
 					La secuencia A1 comienza en el punto 4 del escenario principal.
 					\begin{enumerate}
 							\setcounter{enumi}{4}
-							\item APP informa al administrador el problema de conexión a través de un mensaje por la pantalla.
+							\item SGR informa al administrador el problema de conexión a través de un mensaje por la pantalla.
 					\end{enumerate}
 
 					El escenario vuelve al punto 1.
@@ -806,12 +803,12 @@
 
 		%#############################################################################
 		%#   
-		%#   Caso de uso 13
+		%#   Caso de uso 14
 		%#
 		%#############################################################################
-		\subsection{Caso de Uso 13: Un administrador desea listar los alumnos.}
+		\subsection{Caso de Uso 14: Un administrador desea listar los alumnos.}
 			\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
-					\cellcolor{grisOscuro} CU13 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Listar Usuarios} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+					\cellcolor{grisOscuro} CU14 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Listar Usuarios} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
 					\cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
 					\multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } Este caso de uso permite a un administrador listar la información de todos usuarios registrados en el sistema.
 
@@ -829,7 +826,7 @@
 
 					} \\ \hline
 
-					\multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } El administrador debe estar autenticado en APP.
+					\multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } El administrador debe estar autenticado en SGR.
 
 					} \\ \hline
 
@@ -841,9 +838,9 @@
 
 					\begin{enumerate}
 							\item El administrador selecciona la opción para listar los usuarios registrados.
-							\item APP envía la solicitud a S.
-							\item S envía los datos necesarios para generar el listado de usuarios a APP.
-							\item APP muestra el listado de usuarios al administrador.
+							\item SGR envía la solicitud a S.
+							\item S envía los datos necesarios para generar el listado de usuarios a SGR.
+							\item SGR muestra el listado de usuarios al administrador.
 					\end{enumerate}
 
 					} \\ \hline
@@ -855,7 +852,7 @@
 					La secuencia A1 comienza en el punto 2 del escenario principal.
 					\begin{enumerate}
 							\setcounter{enumi}{2}
-							\item APP informa al usuario el problema de conexión a través de un mensaje por la pantalla.
+							\item SGR informa al usuario el problema de conexión a través de un mensaje por la pantalla.
 					\end{enumerate}
 
 					El escenario vuelve al punto 2.
@@ -866,12 +863,12 @@
 
 		%#############################################################################
 		%#   
-		%#   Caso de uso 14
+		%#   Caso de uso 15
 		%#
 		%#############################################################################
-		\subsection{Caso de Uso 14: Un administrador desea listar los registros.}
+		\subsection{Caso de Uso 15: Un administrador desea listar los registros.}
 			\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
-					\cellcolor{grisOscuro} CU14 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Listar Registros} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+					\cellcolor{grisOscuro} CU15 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Listar Registros} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
 					\cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
 					\multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } Este caso de uso permite a un administrador listar la información de todos los registros realizados por la totalidad de los usuarios.
 
@@ -889,7 +886,7 @@
 
 					} \\ \hline
 
-					\multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } El administrador debe estar autenticado en APP.
+					\multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } El administrador debe estar autenticado en SGR.
 
 					} \\ \hline
 
@@ -901,9 +898,9 @@
 
 					\begin{enumerate}
 							\item El administrador selecciona la opción para listar los registros realizados.
-							\item APP envía la solicitud a S.
-							\item S envía los datos necesarios para generar el listado de registros a APP.
-							\item APP muestra en pantalla el listado de registros al administrador.
+							\item SGR envía la solicitud a S.
+							\item S envía los datos necesarios para generar el listado de registros a SGR.
+							\item SGR muestra en pantalla el listado de registros al administrador.
 					\end{enumerate}
 
 					} \\ \hline
@@ -915,7 +912,7 @@
 					La secuencia A1 comienza en el punto 2 del escenario principal.
 					\begin{enumerate}
 							\setcounter{enumi}{2}
-							\item APP informa al administrador el problema de conexión a través de un mensaje por la pantalla.
+							\item SGR informa al administrador el problema de conexión a través de un mensaje por la pantalla.
 					\end{enumerate}
 
 					El escenario vuelve al punto 2.
@@ -926,12 +923,12 @@
 
 		%#############################################################################
 		%#   
-		%#   Caso de uso 15
+		%#   Caso de uso 16
 		%#
 		%#############################################################################
-		\subsection{Caso de Uso 15: Un administrador desea ver un registro en particular.}
+		\subsection{Caso de Uso 16: Un administrador desea ver un registro en particular.}
 			\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
-					\cellcolor{grisOscuro} CU15 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Ver Registro} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+					\cellcolor{grisOscuro} CU16 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Ver Registro} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
 					\cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
 					\multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } Este caso de uso permite al administrador ver un registro en particular con toda su informacion.
 
@@ -949,7 +946,7 @@
 
 					} \\ \hline
 
-					\multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } El administrador debe estar autenticado en APP.
+					\multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } El administrador debe estar autenticado en SGR.
 
 					} \\ \hline
 
@@ -962,9 +959,9 @@
 					\begin{enumerate}
 							\item El administrador selecciona la opción de listar los registros.
 							\item El administrador, sobre un registro de la lista, selecciona la opción de ver registro.
-							\item APP envía la solicitud a S.
-							\item S envía los datos necesarios para generar la vista del registro a APP.
-							\item APP muestra el registro completo por pantalla.
+							\item SGR envía la solicitud a S.
+							\item S envía los datos necesarios para generar la vista del registro a SGR.
+							\item SGR muestra el registro completo por pantalla.
 					\end{enumerate}
 
 					} \\ \hline
@@ -976,7 +973,7 @@
 					La secuencia A1 comienza en el punto 3 del escenario principal.
 					\begin{enumerate}
 							\setcounter{enumi}{3}
-							\item APP informa al usuario el problema de conexión a través de un mensaje por la pantalla.
+							\item SGR informa al usuario el problema de conexión a través de un mensaje por la pantalla.
 					\end{enumerate}
 
 					El escenario vuelve al punto 2.
@@ -987,14 +984,14 @@
 
 		%#############################################################################
 		%#   
-		%#   Caso de uso 16
+		%#   Caso de uso 17
 		%#
 		%#############################################################################
-		\subsection{Caso de Uso UC16: Un administrador desea aprobar o rechazar registros.}
+		\subsection{Caso de Uso UC17: Un administrador desea validar o invalidar registros.}
 			\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
-					\cellcolor{grisOscuro} CU16 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Aprobar o Rechazar Registro} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+					\cellcolor{grisOscuro} CU17 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Validar o Invalidar Registro} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
 					\cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
-					\multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } Este caso de uso permite al administrador aprobar o rechazar un registro en particular.
+					\multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } Este caso de uso permite al administrador validar o invalidar un registro en particular.
 
 					} \\ \hline
 
@@ -1004,13 +1001,13 @@
 
 					\multicolumn{6}{|p{15cm}|}{ \textbf{Personal Involucrado y Metas: }
 					
-					\emph{Administrador:} quiere aprobar o rechazar un registro creado por un usuario.
+					\emph{Administrador:} quiere validar o invalidar un registro creado por un usuario.
 
 					\emph{Servidor:} quiere mantener actualizados los datos de los registros.
 
 					} \\ \hline
 
-					\multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } El administrador debe estar autenticado en APP.
+					\multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } El administrador debe estar autenticado en SGR.
 
 					} \\ \hline
 
@@ -1022,12 +1019,12 @@
 
 					\begin{enumerate}
 							\item El administrador ingresa a la opción para ver un registro en particular.
-							\item El administrador selecciona la opción de aprobar o rechazar registro.
-							\item APP solicita al administrador a través de una alerta la confirmación para aprobar o rechazar el registro.
+							\item El administrador selecciona la opción de validar o invalidar registro.
+							\item SGR solicita al administrador a través de una alerta la confirmación para validar o invalidar el registro.
 							\item El administrador presiona el botón aceptar.
-							\item APP envía la solicitud a S.
+							\item SGR envía la solicitud a S.
 							\item S envía confirmación.
-							\item APP informa al administrador que la operación se realizó exitosamente.
+							\item SGR informa al administrador que la operación se realizó exitosamente.
 					\end{enumerate}
 
 					} \\ \hline
@@ -1039,7 +1036,7 @@
 					La secuencia A1 comienza en el punto 5 del escenario principal.
 					\begin{enumerate}
 							\setcounter{enumi}{5}
-							\item APP informa al administrador el problema de conexión a través de un mensaje por la pantalla.
+							\item SGR informa al administrador el problema de conexión a través de un mensaje por la pantalla.
 					\end{enumerate}
 
 					El escenario vuelve al punto 2.
@@ -1050,12 +1047,12 @@
 
 		%#############################################################################
 		%#   
-		%#   Caso de uso 17/18/19
+		%#   Caso de uso 18/19/20
 		%#
 		%#############################################################################
-		\subsection{Caso de Uso UC17/18/19: Un administrador desea buscar registros por fecha de creación/Institución/Indice.}
+		\subsection{Caso de Uso UC18/19/20: Un administrador desea buscar registros por fecha de creación/Institución/Indice.}
 			\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
-					\cellcolor{grisOscuro} CU17/18/19 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Buscar Registro} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+					\cellcolor{grisOscuro} CU18/19/20 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Buscar Registro} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
 					\cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
 					\multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } Este caso de uso permite al administrador realizar una busqueda de registros filtrados por un rango de fechas.
 
@@ -1073,7 +1070,7 @@
 
 					} \\ \hline
 
-					\multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } El administrador debe estar autenticado en APP.
+					\multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } El administrador debe estar autenticado en SGR.
 
 					} \\ \hline
 
@@ -1086,10 +1083,10 @@
 					\begin{enumerate}
 							\item El administrador ingresa el texto que buscará (rango de fechas o institución o indice)
 							\item El administrador presiona un botón para comenzar la búsqueda.
-							\item APP envía la solicitud a S.
+							\item SGR envía la solicitud a S.
 							\item S verifica los registros que cumplen con el criterio buscado.
 							\item S retorna el listado de registros
-							\item APP muestra el listado al administrador.
+							\item SGR muestra el listado al administrador.
 					\end{enumerate}
 
 					} \\ \hline
@@ -1101,7 +1098,7 @@
 					La secuencia A1 comienza en el punto 3 del escenario principal.
 					\begin{enumerate}
 							\setcounter{enumi}{3}
-							\item APP informa al administrador el problema de conexión a través de un mensaje por la pantalla.
+							\item SGR informa al administrador el problema de conexión a través de un mensaje por la pantalla.
 					\end{enumerate}
 
 					El escenario vuelve al punto 2.
@@ -1112,12 +1109,12 @@
 
 		%#############################################################################
 		%#   
-		%#   Caso de uso 21
+		%#   Caso de uso 22
 		%#
 		%#############################################################################
-		\subsection{Caso de Uso UC21: Un administrador desea exportar a Excel la información.}
+		\subsection{Caso de Uso UC22: Un administrador desea exportar a Excel la información.}
 			\begin{longtable}{|l|p{5.5cm}|l|p{2cm}|l|p{1.9cm}|} \hline
-					\cellcolor{grisOscuro} CU21 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Exportar Excel} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
+					\cellcolor{grisOscuro} CU22 & \multicolumn{4}{|l|}{  \cellcolor{grisOscuro} Exportar Excel} &  \cellcolor{grisClaro}\multirow{2}{1cm}{} \\ \cline{1-5}
 					\cellcolor{grisOscuro} Revisa: &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Fecha &  \cellcolor{grisClaro} &  \cellcolor{grisOscuro} Firma: & \cellcolor{grisClaro} \\ \hline
 					\multicolumn{6}{|p{15cm}|}{ \textbf{Resumen: } Este caso de uso permite al administrador exportar un archivo formato excel con la informacion de los registros.
 
@@ -1136,7 +1133,7 @@
 
 					\multicolumn{6}{|p{15cm}|}{ \textbf{Precondiciones: } 
 					
-					El administrador debe estar autenticado en APP.
+					El administrador debe estar autenticado en SGR.
 
 					} \\ \hline
 
@@ -1148,10 +1145,10 @@
 
 					\begin{enumerate}
 							\item El administrador selecciona la opción para ver exportar un archivo excel.
-							\item APP envía la solicitud a S.
+							\item SGR envía la solicitud a S.
 							\item S genera el archivo excel con los registros.
-							\item S envía el archivo a APP.
-							\item APP proporciona una ventana para la descarga del archivo excel.
+							\item S envía el archivo a SGR.
+							\item SGR proporciona una ventana para la descarga del archivo excel.
 					\end{enumerate}
 
 					} \\ \hline
@@ -1163,7 +1160,7 @@
 					La secuencia A1 comienza en el punto 2 del escenario principal.
 					\begin{enumerate}
 							\setcounter{enumi}{2}
-							\item APP informa al usuario el problema de conexión a través de un mensaje por la pantalla.
+							\item SGR informa al usuario el problema de conexión a través de un mensaje por la pantalla.
 					\end{enumerate}
 
 					El escenario vuelve al punto 2.
