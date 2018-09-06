@@ -1,430 +1,113 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.20)  5 SEP 2018 18:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.6)  6 SEP 2018 17:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Applications/XAMPP/xamppfiles/htdocs/tesisFinalLatex/informe.tex
-(/Applications/XAMPP/xamppfiles/htdocs/tesisFinalLatex/informe.tex
-LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/report.cls
+**/Users/rbruno/Proyectos/tesisFinalLatex/informe.tex
+(/Users/rbruno/Proyectos/tesisFinalLatex/informe.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size12.clo
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count79
-\c@chapter=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2017/05/19 3.10 The Babel package
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/02/14 3.18 The Babel package
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2017/05/19 3.10 Babel common definitions
-\babel@savecnt=\count88
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/02/14 3.18 Babel common definitions
+\babel@savecnt=\count89
 \U@D=\dimen103
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count90
 )
 \es@quottoks=\toks14
-\es@quotdepth=\count89
+\es@quotdepth=\count91
 Package babel Info: Making " an active character on input line 561.
 Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
 Package babel Info: Making ' an active character on input line 725.
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/translator.sty
-Package: translator 2010/06/12 ver 1.10
+(/usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/translator-lang
-uage-mappings.tex))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2015/03/17 v1.2c Input encoding file
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-Now handling font encoding OML ...
-... no UTF-8 mapping file for font encoding OML
-Now handling font encoding T1 ...
-... processing UTF-8 mapping file for font encoding T1
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AB (decimal 171)
-   defining Unicode char U+00AD (decimal 173)
-   defining Unicode char U+00BB (decimal 187)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C0 (decimal 192)
-   defining Unicode char U+00C1 (decimal 193)
-   defining Unicode char U+00C2 (decimal 194)
-   defining Unicode char U+00C3 (decimal 195)
-   defining Unicode char U+00C4 (decimal 196)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00C7 (decimal 199)
-   defining Unicode char U+00C8 (decimal 200)
-   defining Unicode char U+00C9 (decimal 201)
-   defining Unicode char U+00CA (decimal 202)
-   defining Unicode char U+00CB (decimal 203)
-   defining Unicode char U+00CC (decimal 204)
-   defining Unicode char U+00CD (decimal 205)
-   defining Unicode char U+00CE (decimal 206)
-   defining Unicode char U+00CF (decimal 207)
-   defining Unicode char U+00D0 (decimal 208)
-   defining Unicode char U+00D1 (decimal 209)
-   defining Unicode char U+00D2 (decimal 210)
-   defining Unicode char U+00D3 (decimal 211)
-   defining Unicode char U+00D4 (decimal 212)
-   defining Unicode char U+00D5 (decimal 213)
-   defining Unicode char U+00D6 (decimal 214)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00D9 (decimal 217)
-   defining Unicode char U+00DA (decimal 218)
-   defining Unicode char U+00DB (decimal 219)
-   defining Unicode char U+00DC (decimal 220)
-   defining Unicode char U+00DD (decimal 221)
-   defining Unicode char U+00DE (decimal 222)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E0 (decimal 224)
-   defining Unicode char U+00E1 (decimal 225)
-   defining Unicode char U+00E2 (decimal 226)
-   defining Unicode char U+00E3 (decimal 227)
-   defining Unicode char U+00E4 (decimal 228)
-   defining Unicode char U+00E5 (decimal 229)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00E7 (decimal 231)
-   defining Unicode char U+00E8 (decimal 232)
-   defining Unicode char U+00E9 (decimal 233)
-   defining Unicode char U+00EA (decimal 234)
-   defining Unicode char U+00EB (decimal 235)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F0 (decimal 240)
-   defining Unicode char U+00F1 (decimal 241)
-   defining Unicode char U+00F2 (decimal 242)
-   defining Unicode char U+00F3 (decimal 243)
-   defining Unicode char U+00F4 (decimal 244)
-   defining Unicode char U+00F5 (decimal 245)
-   defining Unicode char U+00F6 (decimal 246)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+00F9 (decimal 249)
-   defining Unicode char U+00FA (decimal 250)
-   defining Unicode char U+00FB (decimal 251)
-   defining Unicode char U+00FC (decimal 252)
-   defining Unicode char U+00FD (decimal 253)
-   defining Unicode char U+00FE (decimal 254)
-   defining Unicode char U+00FF (decimal 255)
-   defining Unicode char U+0100 (decimal 256)
-   defining Unicode char U+0101 (decimal 257)
-   defining Unicode char U+0102 (decimal 258)
-   defining Unicode char U+0103 (decimal 259)
-   defining Unicode char U+0104 (decimal 260)
-   defining Unicode char U+0105 (decimal 261)
-   defining Unicode char U+0106 (decimal 262)
-   defining Unicode char U+0107 (decimal 263)
-   defining Unicode char U+0108 (decimal 264)
-   defining Unicode char U+0109 (decimal 265)
-   defining Unicode char U+010A (decimal 266)
-   defining Unicode char U+010B (decimal 267)
-   defining Unicode char U+010C (decimal 268)
-   defining Unicode char U+010D (decimal 269)
-   defining Unicode char U+010E (decimal 270)
-   defining Unicode char U+010F (decimal 271)
-   defining Unicode char U+0110 (decimal 272)
-   defining Unicode char U+0111 (decimal 273)
-   defining Unicode char U+0112 (decimal 274)
-   defining Unicode char U+0113 (decimal 275)
-   defining Unicode char U+0114 (decimal 276)
-   defining Unicode char U+0115 (decimal 277)
-   defining Unicode char U+0116 (decimal 278)
-   defining Unicode char U+0117 (decimal 279)
-   defining Unicode char U+0118 (decimal 280)
-   defining Unicode char U+0119 (decimal 281)
-   defining Unicode char U+011A (decimal 282)
-   defining Unicode char U+011B (decimal 283)
-   defining Unicode char U+011C (decimal 284)
-   defining Unicode char U+011D (decimal 285)
-   defining Unicode char U+011E (decimal 286)
-   defining Unicode char U+011F (decimal 287)
-   defining Unicode char U+0120 (decimal 288)
-   defining Unicode char U+0121 (decimal 289)
-   defining Unicode char U+0122 (decimal 290)
-   defining Unicode char U+0123 (decimal 291)
-   defining Unicode char U+0124 (decimal 292)
-   defining Unicode char U+0125 (decimal 293)
-   defining Unicode char U+0128 (decimal 296)
-   defining Unicode char U+0129 (decimal 297)
-   defining Unicode char U+012A (decimal 298)
-   defining Unicode char U+012B (decimal 299)
-   defining Unicode char U+012C (decimal 300)
-   defining Unicode char U+012D (decimal 301)
-   defining Unicode char U+012E (decimal 302)
-   defining Unicode char U+012F (decimal 303)
-   defining Unicode char U+0130 (decimal 304)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0132 (decimal 306)
-   defining Unicode char U+0133 (decimal 307)
-   defining Unicode char U+0134 (decimal 308)
-   defining Unicode char U+0135 (decimal 309)
-   defining Unicode char U+0136 (decimal 310)
-   defining Unicode char U+0137 (decimal 311)
-   defining Unicode char U+0139 (decimal 313)
-   defining Unicode char U+013A (decimal 314)
-   defining Unicode char U+013B (decimal 315)
-   defining Unicode char U+013C (decimal 316)
-   defining Unicode char U+013D (decimal 317)
-   defining Unicode char U+013E (decimal 318)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0143 (decimal 323)
-   defining Unicode char U+0144 (decimal 324)
-   defining Unicode char U+0145 (decimal 325)
-   defining Unicode char U+0146 (decimal 326)
-   defining Unicode char U+0147 (decimal 327)
-   defining Unicode char U+0148 (decimal 328)
-   defining Unicode char U+014A (decimal 330)
-   defining Unicode char U+014B (decimal 331)
-   defining Unicode char U+014C (decimal 332)
-   defining Unicode char U+014D (decimal 333)
-   defining Unicode char U+014E (decimal 334)
-   defining Unicode char U+014F (decimal 335)
-   defining Unicode char U+0150 (decimal 336)
-   defining Unicode char U+0151 (decimal 337)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0154 (decimal 340)
-   defining Unicode char U+0155 (decimal 341)
-   defining Unicode char U+0156 (decimal 342)
-   defining Unicode char U+0157 (decimal 343)
-   defining Unicode char U+0158 (decimal 344)
-   defining Unicode char U+0159 (decimal 345)
-   defining Unicode char U+015A (decimal 346)
-   defining Unicode char U+015B (decimal 347)
-   defining Unicode char U+015C (decimal 348)
-   defining Unicode char U+015D (decimal 349)
-   defining Unicode char U+015E (decimal 350)
-   defining Unicode char U+015F (decimal 351)
-   defining Unicode char U+0160 (decimal 352)
-   defining Unicode char U+0161 (decimal 353)
-   defining Unicode char U+0162 (decimal 354)
-   defining Unicode char U+0163 (decimal 355)
-   defining Unicode char U+0164 (decimal 356)
-   defining Unicode char U+0165 (decimal 357)
-   defining Unicode char U+0168 (decimal 360)
-   defining Unicode char U+0169 (decimal 361)
-   defining Unicode char U+016A (decimal 362)
-   defining Unicode char U+016B (decimal 363)
-   defining Unicode char U+016C (decimal 364)
-   defining Unicode char U+016D (decimal 365)
-   defining Unicode char U+016E (decimal 366)
-   defining Unicode char U+016F (decimal 367)
-   defining Unicode char U+0170 (decimal 368)
-   defining Unicode char U+0171 (decimal 369)
-   defining Unicode char U+0172 (decimal 370)
-   defining Unicode char U+0173 (decimal 371)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0178 (decimal 376)
-   defining Unicode char U+0179 (decimal 377)
-   defining Unicode char U+017A (decimal 378)
-   defining Unicode char U+017B (decimal 379)
-   defining Unicode char U+017C (decimal 380)
-   defining Unicode char U+017D (decimal 381)
-   defining Unicode char U+017E (decimal 382)
-   defining Unicode char U+01CD (decimal 461)
-   defining Unicode char U+01CE (decimal 462)
-   defining Unicode char U+01CF (decimal 463)
-   defining Unicode char U+01D0 (decimal 464)
-   defining Unicode char U+01D1 (decimal 465)
-   defining Unicode char U+01D2 (decimal 466)
-   defining Unicode char U+01D3 (decimal 467)
-   defining Unicode char U+01D4 (decimal 468)
-   defining Unicode char U+01E2 (decimal 482)
-   defining Unicode char U+01E3 (decimal 483)
-   defining Unicode char U+01E6 (decimal 486)
-   defining Unicode char U+01E7 (decimal 487)
-   defining Unicode char U+01E8 (decimal 488)
-   defining Unicode char U+01E9 (decimal 489)
-   defining Unicode char U+01EA (decimal 490)
-   defining Unicode char U+01EB (decimal 491)
-   defining Unicode char U+01F0 (decimal 496)
-   defining Unicode char U+01F4 (decimal 500)
-   defining Unicode char U+01F5 (decimal 501)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+0232 (decimal 562)
-   defining Unicode char U+0233 (decimal 563)
-   defining Unicode char U+1E02 (decimal 7682)
-   defining Unicode char U+1E03 (decimal 7683)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2010 (decimal 8208)
-   defining Unicode char U+2011 (decimal 8209)
-   defining Unicode char U+2012 (decimal 8210)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2015 (decimal 8213)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201A (decimal 8218)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-   defining Unicode char U+201E (decimal 8222)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+2039 (decimal 8249)
-   defining Unicode char U+203A (decimal 8250)
-   defining Unicode char U+2423 (decimal 9251)
-   defining Unicode char U+1E20 (decimal 7712)
-   defining Unicode char U+1E21 (decimal 7713)
 )
-Now handling font encoding OT1 ...
-... processing UTF-8 mapping file for font encoding OT1
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AD (decimal 173)
-   defining Unicode char U+00B8 (decimal 184)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-)
-Now handling font encoding OMS ...
-... processing UTF-8 mapping file for font encoding OMS
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-)
-Now handling font encoding OMX ...
-... no UTF-8 mapping file for font encoding OMX
-Now handling font encoding U ...
-... no UTF-8 mapping file for font encoding U
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+02C6 (decimal 710)
-   defining Unicode char U+02DC (decimal 732)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2026 (decimal 8230)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2423 (decimal 9251)
-))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count90
+\c@float@type=\count92
 \float@exts=\toks18
 \float@box=\box26
 \@float@everytoks=\toks19
 \@floatcapt=\box27
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/latexsym.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count91
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
@@ -438,7 +121,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -460,81 +143,80 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen106
-\Hy@linkcounter=\count92
-\Hy@pagecounter=\count93
+\Hy@linkcounter=\count93
+\Hy@pagecounter=\count94
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count94
+\Hy@SavedSpaceFactor=\count95
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 
 Package hyperref Warning: Unexpected value for option `pdftex'
-(hyperref)                is ignored on input line 4374.
+(hyperref)                is ignored on input line 4383.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 4374.
-Package hyperref Info: Option `plainpages' set `true' on input line 4374.
-Package hyperref Info: Hyper figures OFF on input line 4498.
-Package hyperref Info: Link nesting OFF on input line 4503.
-Package hyperref Info: Hyper index ON on input line 4506.
-Package hyperref Info: Plain pages ON on input line 4511.
-Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4383.
+Package hyperref Info: Option `plainpages' set `true' on input line 4383.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages ON on input line 4522.
+Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count95
-(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count96
+(/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5104.
+LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen107
-\Fld@menulength=\count96
+\Fld@menulength=\count97
 \Field@Width=\dimen108
 \Fld@charsize=\dimen109
-Package hyperref Info: Hyper figures OFF on input line 6358.
-Package hyperref Info: Link nesting OFF on input line 6363.
-Package hyperref Info: Hyper index ON on input line 6366.
-Package hyperref Info: backreferencing OFF on input line 6373.
-Package hyperref Info: Link coloring ON on input line 6376.
-Package hyperref Info: Link coloring with OCG OFF on input line 6383.
-Package hyperref Info: PDF/A mode OFF on input line 6388.
-LaTeX Info: Redefining \ref on input line 6428.
-LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count97
-\c@Item=\count98
-\c@Hfootnote=\count99
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring ON on input line 6387.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count98
+\c@Item=\count99
+\c@Hfootnote=\count100
 )
+Package hyperref Info: Driver: hpdftex.
 
-Package hyperref Message: Driver: hpdftex.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count101
+\c@bookmark@seq@number=\count102
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
-\Fld@listcount=\count100
-\c@bookmark@seq@number=\count101
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip43
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/anysize/anysize.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/anysize/anysize.sty
 Package: anysize 1994/08/13 setting margin sizes
 
 document style option `anysize' loaded
@@ -544,152 +226,155 @@ Version 1.0, Aug 13, 1994
 \@Rightmargin=\dimen111
 \@Topmargin=\dimen112
 \@Bottommargin=\dimen113
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/makeidx.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
 
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count102
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count103
 \lst@gtempboxa=\box28
 \lst@token=\toks20
-\lst@length=\count103
+\lst@length=\count104
 \lst@currlwidth=\dimen114
-\lst@column=\count104
-\lst@pos=\count105
+\lst@column=\count105
+\lst@pos=\count106
 \lst@lostspace=\dimen115
 \lst@width=\dimen116
-\lst@newlines=\count106
-\lst@lineno=\count107
+\lst@newlines=\count107
+\lst@lineno=\count108
 \lst@maxwidth=\dimen117
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count108
-\lst@skipnumbers=\count109
+\c@lstnumber=\count109
+\lst@skipnumbers=\count110
 \lst@framebox=\box29
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.cfg
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
-Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
 \col@sep=\dimen118
+\ar@mcellbox=\box30
 \extrarowheight=\dimen119
 \NC@list=\toks21
 \extratabsurround=\skip44
 \backup@length=\skip45
+\ar@cellbox=\box31
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/alltt.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/alltt.sty
 Package: alltt 1997/06/16 v2.0g defines alltt environment
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
-\fancy@headwidth=\skip46
-\f@ncyO@elh=\skip47
-\f@ncyO@erh=\skip48
-\f@ncyO@olh=\skip49
-\f@ncyO@orh=\skip50
-\f@ncyO@elf=\skip51
-\f@ncyO@erf=\skip52
-\f@ncyO@olf=\skip53
-\f@ncyO@orf=\skip54
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip46
+\f@nch@O@elh=\skip47
+\f@nch@O@erh=\skip48
+\f@nch@O@olh=\skip49
+\f@nch@O@orh=\skip50
+\f@nch@O@elf=\skip51
+\f@nch@O@erf=\skip52
+\f@nch@O@olf=\skip53
+\f@nch@O@orf=\skip54
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/base/glossaries.sty
-Package: glossaries 2017/01/19 v4.29 (NLCT)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2018/04/07 v4.37 (NLCT)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks22
 \XKV@tempa@toks=\toks23
 )
-\XKV@depth=\count110
+\XKV@depth=\count111
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
-Package: mfirstuc 2016/07/31 v2.04 (NLCT)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+Package: mfirstuc 2017/11/14 v2.06 (NLCT)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count111
+(/usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count112
 )
 \@glsmfirst=\toks24
 \@glsmrest=\toks25
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/textcase/textcase.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/xfor/xfor.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/xfor/xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/datatool/datatool-base.sty
-Package: datatool-base 2016/07/28 v2.27 (NLCT)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2017/11/12 v2.29 (NLCT)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/11/05 v2.16a AMS math features
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip55
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks26
 \ex@=\dimen120
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen121
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count112
+\inf@bad=\count113
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count113
-\leftroot@=\count114
+\uproot@=\count114
+\leftroot@=\count115
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count115
-\DOTSCASE@=\count116
+\classnum@=\count116
+\DOTSCASE@=\count117
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box30
-\strutbox@=\box31
+\Mathstrutbox@=\box32
+\strutbox@=\box33
 \big@size=\dimen122
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count117
-\c@MaxMatrixCols=\count118
+\macc@depth=\count118
+\c@MaxMatrixCols=\count119
 \dotsspace@=\muskip11
-\c@parentequation=\count119
-\dspbrk@lvl=\count120
+\c@parentequation=\count120
+\dspbrk@lvl=\count121
 \tag@help=\toks27
-\row@=\count121
-\column@=\count122
-\maxfields@=\count123
+\row@=\count122
+\column@=\count123
+\maxfields@=\count124
 \andhelp@=\toks28
 \eqnshift@=\dimen123
 \alignsep@=\dimen124
@@ -704,86 +389,86 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/substr/substr.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count124
+\c@su@anzahl=\count125
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/datatool/datatool-fp.sty
-Package: datatool-fp 2016/07/28 v2.27 (NLCT)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2017/11/12 v2.29 (NLCT)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fp/fp.sty
 Package: fp 1995/04/02
 
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/defpattern.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count125
+\actioncount=\count126
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-basic.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count126
-\FP@xia=\count127
-\FP@xib=\count128
-\FP@xfa=\count129
-\FP@xfb=\count130
-\FP@rega=\count131
-\FP@regb=\count132
-\FP@regs=\count133
-\FP@times=\count134
+\FP@xs=\count127
+\FP@xia=\count128
+\FP@xib=\count129
+\FP@xfa=\count130
+\FP@xfb=\count131
+\FP@rega=\count132
+\FP@regb=\count133
+\FP@regs=\count134
+\FP@times=\count135
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-addons.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-snap.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fp/fp-snap.sty
 Package: fp-snap 1995/04/05
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-exp.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fp/fp-exp.sty
 Package: fp-exp 1995/04/03
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-trigo.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fp/fp-trigo.sty
 Package: fp-trigo 1995/04/14
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-pas.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fp/fp-pas.sty
 Package: fp-pas 1994/08/29
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-random.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count135
+\FPseed=\count136
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-eqn.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-upn.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fp/fp-upn.sty
 Package: fp-upn 1996/10/21
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-eval.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
 \@dtl@toks=\toks31
-\@dtl@tmpcount=\count136
+\@dtl@tmpcount=\count137
 \dtl@tmplength=\skip58
-\dtl@sortresult=\count137
-\@dtl@numgrpsepcount=\count138
-\@dtl@datatype=\count139
-\dtl@codeA=\count140
-\dtl@codeB=\count141
-\@dtl@foreach@level=\count142
+\dtl@sortresult=\count138
+\@dtl@numgrpsepcount=\count139
+\@dtl@datatype=\count140
+\dtl@codeA=\count141
+\dtl@codeB=\count142
+\@dtl@foreach@level=\count143
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/base/glossaries-compat
+(/usr/local/texlive/2018/texmf-dist/tex/latex/glossaries/base/glossaries-compat
 ible-307.sty
-Package: glossaries-compatible-307 2017/01/19 v4.29 (NLCT)
+Package: glossaries-compatible-307 2018/04/07 v4.37 (NLCT)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tracklang/tracklang.sty
-Package: tracklang 2017/03/25 v1.3.4 (NLCT) Track Languages
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tracklang/tracklang.sty
+Package: tracklang 2018/02/21 v1.3.5 (NLCT) Track Languages
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/tracklang/tracklang.tex))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries-spanish/glossaries-spa
+(/usr/local/texlive/2018/texmf-dist/tex/generic/tracklang/tracklang.tex))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/glossaries-spanish/glossaries-spa
 nish.ldf
 File: glossaries-spanish.ldf 2014/11/23 v1.0
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries-spanish/glossaries-spa
+(/usr/local/texlive/2018/texmf-dist/tex/latex/glossaries-spanish/glossaries-spa
 nish-utf8.ldf))
-\gls@level=\count143
+\gls@level=\count144
 \@gls@tmpb=\toks32
 \gls@tmplen=\skip59
 \glskeylisttok=\toks33
@@ -791,45 +476,45 @@ nish-utf8.ldf))
 \glsshorttok=\toks35
 \glslongtok=\toks36
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
+(/usr/local/texlive/2018/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
 av.sty
-Package: glossary-hypernav 2017/01/19 v4.29 (NLCT)
+Package: glossary-hypernav 2018/04/07 v4.37 (NLCT)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-list.s
+(/usr/local/texlive/2018/texmf-dist/tex/latex/glossaries/styles/glossary-list.s
 ty
-Package: glossary-list 2017/01/19 v4.29 (NLCT)
+Package: glossary-list 2018/04/07 v4.37 (NLCT)
 \glslistdottedwidth=\skip60
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-long.s
+(/usr/local/texlive/2018/texmf-dist/tex/latex/glossaries/styles/glossary-long.s
 ty
-Package: glossary-long 2017/01/19 v4.29 (NLCT)
- (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/longtable.sty
+Package: glossary-long 2018/04/07 v4.37 (NLCT)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip61
 \LTright=\skip62
 \LTpre=\skip63
 \LTpost=\skip64
-\LTchunksize=\count144
+\LTchunksize=\count145
 \LTcapwidth=\dimen129
-\LT@head=\box32
-\LT@firsthead=\box33
-\LT@foot=\box34
-\LT@lastfoot=\box35
-\LT@cols=\count145
-\LT@rows=\count146
-\c@LT@tables=\count147
-\c@LT@chunks=\count148
+\LT@head=\box34
+\LT@firsthead=\box35
+\LT@foot=\box36
+\LT@lastfoot=\box37
+\LT@cols=\count146
+\LT@rows=\count147
+\c@LT@tables=\count148
+\c@LT@chunks=\count149
 \LT@p@ftn=\toks37
 )
 \glsdescwidth=\skip65
 \glspagelistwidth=\skip66
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-super.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/glossaries/styles/glossary-super.
 sty
-Package: glossary-super 2017/01/19 v4.29 (NLCT)
- (/usr/local/texlive/2017/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: glossary-super 2018/04/07 v4.37 (NLCT)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count149
+\c@tracingst=\count150
 \ST@wd=\dimen130
 \ST@rightskip=\skip67
 \ST@leftskip=\skip68
@@ -844,44 +529,44 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \ST@prevht=\dimen138
 \ST@toadd=\dimen139
 \ST@dimen=\dimen140
-\ST@pbox=\box36
+\ST@pbox=\box38
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
+(/usr/local/texlive/2018/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
 ty
-Package: glossary-tree 2017/01/19 v4.29 (NLCT)
+Package: glossary-tree 2018/04/07 v4.37 (NLCT)
 \glstreeindent=\skip70
-)) (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/verbatim.sty
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks38
 \verbatim@line=\toks39
 \verbatim@in@stream=\read1
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip71
-\multirow@cntb=\count150
+\multirow@cntb=\count151
 \multirow@dima=\skip72
 \bigstrutjot=\dimen141
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/enumerate.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks40
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/colortbl/colortbl.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 \everycr=\toks41
 \minrowclearance=\skip73
 )
 LaTeX Info: Redefining \color on input line 709.
-\rownum=\count151
+\rownum=\count152
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -892,7 +577,7 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/framed/framed.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip74
 \fb@frw=\dimen142
@@ -901,13 +586,13 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \FrameSep=\dimen145
 )
 \@float@every@codigo=\toks42
-\c@codigo=\count152
+\c@codigo=\count153
 \@float@every@configuracion=\toks43
-\c@configuracion=\count153
+\c@configuracion=\count154
 \@float@every@configuracion_small=\toks44
-\c@configuracion_small=\count154
+\c@configuracion_small=\count155
 \@float@every@logs=\toks45
-\c@logs=\count155
+\c@logs=\count156
 
 \@input{glosario.aux}
 \openout2 = `glosario.aux'.
@@ -919,6 +604,15 @@ LaTeX Info: Redefining \% on input line 27.
 (./introduccion.aux) (./requisitos.aux) (./analisis.aux) (./disenio.aux
 
 LaTeX Warning: Label `fig:login' multiply defined.
+
+
+LaTeX Warning: Label `fig:verRegistro' multiply defined.
+
+
+LaTeX Warning: Label `fig:busqueda' multiply defined.
+
+
+LaTeX Warning: Label `fig:verRegistro' multiply defined.
 
 ) (./implementacion.aux) (./pruebas.aux) (./conclusiones.aux)
 (./bibliografia.aux))
@@ -941,46 +635,46 @@ LaTeX Font Info:    ... okay on input line 189.
 LaTeX Info: Redefining \. on input line 189.
 LaTeX Info: Redefining \% on input line 189.
 
-(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count156
+\scratchcounter=\count157
 \scratchdimen=\dimen146
-\scratchbox=\box37
-\nofMPsegments=\count157
-\nofMParguments=\count158
+\scratchbox=\box39
+\nofMPsegments=\count158
+\nofMParguments=\count159
 \everyMPshowfont=\toks46
-\MPscratchCnt=\count159
+\MPscratchCnt=\count160
 \MPscratchDim=\dimen147
-\MPnumerator=\count160
-\makeMPintoPDFobject=\count161
+\MPnumerator=\count161
+\makeMPintoPDFobject=\count162
 \everyMPtoPDFconversion=\toks47
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box38
+\AtBeginShipoutBox=\box40
 Package hyperref Info: Link coloring ON on input line 189.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count162
+\c@section@level=\count163
 )
 LaTeX Info: Redefining \ref on input line 189.
 LaTeX Info: Redefining \pageref on input line 189.
@@ -990,15 +684,14 @@ LaTeX Info: Redefining \nameref on input line 189.
 \@outlinefile=\write3
 \openout3 = `informe.out'.
 
-\c@lstlisting=\count163
+\c@lstlisting=\count164
 \openout2 = `portada.aux'.
 
  (./portada.tex
 <imagenes/logo-unt.png, id=466, 106.4778pt x 133.9404pt>
 File: imagenes/logo-unt.png Graphic file (type png)
-
 <use imagenes/logo-unt.png>
-Package pdftex.def Info: imagenes/logo-unt.png used on input line 7.
+Package pdftex.def Info: imagenes/logo-unt.png  used on input line 7.
 (pdftex.def)             Requested size: 68.28383pt x 85.89526pt.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 42.
@@ -1017,11 +710,12 @@ Package babel Info: Redefining spanish shorthand "?
 
 
 
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
 nes/logo-unt.png>])
 \openout2 = `agradecimientos.aux'.
 
- (./agradecimientos.tex)
+
+(./agradecimientos.tex)
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 196.
 Package babel Info: Redefining spanish shorthand >>
@@ -1048,7 +742,7 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    Try loading font information for U+lasy on input line 3.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ulasy.fd
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 Package babel Info: Redefining spanish shorthand <<
@@ -1819,11 +1513,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 445.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 445.
- <imagenes/Grantt.jpg, id=711, 1346.02875pt x 369.63094pt>
+<imagenes/Grantt.jpg, id=711, 1346.02875pt x 369.63094pt>
 File: imagenes/Grantt.jpg Graphic file (type jpg)
-
 <use imagenes/Grantt.jpg>
-Package pdftex.def Info: imagenes/Grantt.jpg used on input line 450.
+Package pdftex.def Info: imagenes/Grantt.jpg  used on input line 450.
 (pdftex.def)             Requested size: 455.24411pt x 125.01295pt.
 )
 LaTeX Info: Redefining \. on input line 204.
@@ -1892,12 +1585,12 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 43.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 43.
-
 <imagenes/DiagramasUML/CasoGeneralDeUso.png, id=717, 894.34125pt x 663.47874pt>
+
 File: imagenes/DiagramasUML/CasoGeneralDeUso.png Graphic file (type png)
 <use imagenes/DiagramasUML/CasoGeneralDeUso.png>
-Package pdftex.def Info: imagenes/DiagramasUML/CasoGeneralDeUso.png used on inp
-ut line 47.
+Package pdftex.def Info: imagenes/DiagramasUML/CasoGeneralDeUso.png  used on in
+put line 47.
 (pdftex.def)             Requested size: 455.24411pt x 337.73187pt.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 53.
@@ -1928,12 +1621,12 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 54.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 54.
-
 <imagenes/DiagramasUML/gestionDeUsuarios.png, id=722, 636.3775pt x 470.75874pt>
+
 File: imagenes/DiagramasUML/gestionDeUsuarios.png Graphic file (type png)
 <use imagenes/DiagramasUML/gestionDeUsuarios.png>
-Package pdftex.def Info: imagenes/DiagramasUML/gestionDeUsuarios.png used on in
-put line 57.
+Package pdftex.def Info: imagenes/DiagramasUML/gestionDeUsuarios.png  used on i
+nput line 57.
 (pdftex.def)             Requested size: 318.66948pt x 235.73077pt.
 LaTeX Info: Redefining \. on input line 63.
 LaTeX Info: Redefining \% on input line 63.
@@ -1962,13 +1655,12 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 64.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 64.
-
 <imagenes/DiagramasUML/gestionDeRegistros.png, id=728, 636.3775pt x 470.75874pt
 >
 File: imagenes/DiagramasUML/gestionDeRegistros.png Graphic file (type png)
- <use imagenes/DiagramasUML/gestionDeRegistros.png>
-Package pdftex.def Info: imagenes/DiagramasUML/gestionDeRegistros.png used on i
-nput line 67.
+<use imagenes/DiagramasUML/gestionDeRegistros.png>
+Package pdftex.def Info: imagenes/DiagramasUML/gestionDeRegistros.png  used on 
+input line 67.
 (pdftex.def)             Requested size: 318.66948pt x 235.73077pt.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 74.
@@ -2012,8 +1704,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 207.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 207.
-
-[30]
+ [30]
 \openout2 = `disenio.aux'.
 
  (./disenio.tex
@@ -2759,12 +2450,11 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 1182.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1182.
- <imagenes/DiagramasUML/clase.png, id=1015, 814.04124pt x 1035.87pt>
+<imagenes/DiagramasUML/clase.png, id=1015, 814.04124pt x 1035.87pt>
 File: imagenes/DiagramasUML/clase.png Graphic file (type png)
-
 <use imagenes/DiagramasUML/clase.png>
-Package pdftex.def Info: imagenes/DiagramasUML/clase.png used on input line 118
-5.
+Package pdftex.def Info: imagenes/DiagramasUML/clase.png  used on input line 11
+85.
 (pdftex.def)             Requested size: 455.24411pt x 579.29294pt.
 LaTeX Info: Redefining \. on input line 1195.
 LaTeX Info: Redefining \% on input line 1195.
@@ -2805,14 +2495,13 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 1196.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1196.
-
 <imagenes/analisis/diagrama-actividad-inicioSesion.png, id=1020, 557.793pt x 45
 1.359pt>
 File: imagenes/analisis/diagrama-actividad-inicioSesion.png Graphic file (type 
 png)
- <use imagenes/analisis/diagrama-actividad-inicioSesion.png>
+<use imagenes/analisis/diagrama-actividad-inicioSesion.png>
 Package pdftex.def Info: imagenes/analisis/diagrama-actividad-inicioSesion.png 
-used on input line 1199.
+ used on input line 1199.
 (pdftex.def)             Requested size: 455.24411pt x 368.38121pt.
 LaTeX Info: Redefining \. on input line 1204.
 LaTeX Info: Redefining \% on input line 1204.
@@ -2841,14 +2530,13 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 1205.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1205.
-
 <imagenes/analisis/diagrama-actividad-registrar.png, id=1026, 496.035pt x 379.0
 89pt>
 File: imagenes/analisis/diagrama-actividad-registrar.png Graphic file (type png
 )
- <use imagenes/analisis/diagrama-actividad-registrar.png>
-Package pdftex.def Info: imagenes/analisis/diagrama-actividad-registrar.png use
-d on input line 1208.
+<use imagenes/analisis/diagrama-actividad-registrar.png>
+Package pdftex.def Info: imagenes/analisis/diagrama-actividad-registrar.png  us
+ed on input line 1208.
 (pdftex.def)             Requested size: 455.24411pt x 347.9158pt.
 LaTeX Info: Redefining \. on input line 1213.
 LaTeX Info: Redefining \% on input line 1213.
@@ -2877,14 +2565,13 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 1214.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1214.
-
 <imagenes/analisis/diagrama-actividad-crear-registro.png, id=1033, 422.451pt x 
 516.402pt>
 File: imagenes/analisis/diagrama-actividad-crear-registro.png Graphic file (typ
 e png)
- <use imagenes/analisis/diagrama-actividad-crear-registro.png>
+<use imagenes/analisis/diagrama-actividad-crear-registro.png>
 Package pdftex.def Info: imagenes/analisis/diagrama-actividad-crear-registro.pn
-g used on input line 1217.
+g  used on input line 1217.
 (pdftex.def)             Requested size: 422.44997pt x 516.40073pt.
 LaTeX Info: Redefining \. on input line 1222.
 LaTeX Info: Redefining \% on input line 1222.
@@ -2900,8 +2587,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 1222.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1222.
-
-[61 <./imagenes/analisis/diagrama-actividad-registrar.png>]
+ [61 <./imagenes/analisis/diagrama-actividad-registrar.png>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 1223.
 Package babel Info: Redefining spanish shorthand >>
@@ -2914,14 +2600,13 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 1223.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1223.
-
 <imagenes/analisis/diagrama-actividad-ver-mapa.png, id=1039, 557.793pt x 447.41
 7pt>
 File: imagenes/analisis/diagrama-actividad-ver-mapa.png Graphic file (type png)
 
- <use imagenes/analisis/diagrama-actividad-ver-mapa.png>
-Package pdftex.def Info: imagenes/analisis/diagrama-actividad-ver-mapa.png used
- on input line 1226.
+<use imagenes/analisis/diagrama-actividad-ver-mapa.png>
+Package pdftex.def Info: imagenes/analisis/diagrama-actividad-ver-mapa.png  use
+d on input line 1226.
 (pdftex.def)             Requested size: 455.24411pt x 365.16391pt.
 LaTeX Info: Redefining \. on input line 1231.
 LaTeX Info: Redefining \% on input line 1231.
@@ -2962,19 +2647,12 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 1239.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1239.
-
 <imagenes/DiagramasUML/sdIniciarSesion.png, id=1045, 553.06625pt x 433.62pt>
 File: imagenes/DiagramasUML/sdIniciarSesion.png Graphic file (type png)
-
 <use imagenes/DiagramasUML/sdIniciarSesion.png>
-Package pdftex.def Info: imagenes/DiagramasUML/sdIniciarSesion.png used on inpu
-t line 1242.
-(pdftex.def)             Requested size: 553.0649pt x 433.61894pt.
-
-Overfull \hbox (97.82079pt too wide) in paragraph at lines 1242--1246
- [][] 
- []
-
+Package pdftex.def Info: imagenes/DiagramasUML/sdIniciarSesion.png  used on inp
+ut line 1242.
+(pdftex.def)             Requested size: 455.24411pt x 356.92047pt.
 LaTeX Info: Redefining \. on input line 1247.
 LaTeX Info: Redefining \% on input line 1247.
 Package babel Info: Redefining spanish shorthand <<
@@ -2989,7 +2667,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 1247.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1247.
-[63 <./imagenes/analisis/diagrama-actividad-ver-mapa.png>]
+ [63 <./imagenes/analisis/diagrama-actividad-ver-mapa.png>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 1248.
 Package babel Info: Redefining spanish shorthand >>
@@ -3002,19 +2680,12 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 1248.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1248.
-
 <imagenes/DiagramasUML/sdRegistrar.png, id=1051, 573.14125pt x 422.57875pt>
 File: imagenes/DiagramasUML/sdRegistrar.png Graphic file (type png)
-
 <use imagenes/DiagramasUML/sdRegistrar.png>
-Package pdftex.def Info: imagenes/DiagramasUML/sdRegistrar.png used on input li
-ne 1251.
-(pdftex.def)             Requested size: 573.13985pt x 422.57771pt.
-
-Overfull \hbox (117.89574pt too wide) in paragraph at lines 1251--1255
- [][] 
- []
-
+Package pdftex.def Info: imagenes/DiagramasUML/sdRegistrar.png  used on input l
+ine 1251.
+(pdftex.def)             Requested size: 455.24411pt x 335.65834pt.
 LaTeX Info: Redefining \. on input line 1256.
 LaTeX Info: Redefining \% on input line 1256.
 Package babel Info: Redefining spanish shorthand <<
@@ -3029,7 +2700,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 1256.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1256.
-[64 <./imagenes/DiagramasUML/sdIniciarSesion.png>]
+ [64 <./imagenes/DiagramasUML/sdIniciarSesion.png>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 1257.
 Package babel Info: Redefining spanish shorthand >>
@@ -3042,13 +2713,11 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 1257.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1257.
-
 <imagenes/DiagramasUML/sdCrearRegistro.png, id=1057, 875.27pt x 473.77pt>
 File: imagenes/DiagramasUML/sdCrearRegistro.png Graphic file (type png)
-
 <use imagenes/DiagramasUML/sdCrearRegistro.png>
-Package pdftex.def Info: imagenes/DiagramasUML/sdCrearRegistro.png used on inpu
-t line 1260.
+Package pdftex.def Info: imagenes/DiagramasUML/sdCrearRegistro.png  used on inp
+ut line 1260.
 (pdftex.def)             Requested size: 455.24411pt x 246.41965pt.
 LaTeX Info: Redefining \. on input line 1265.
 LaTeX Info: Redefining \% on input line 1265.
@@ -3078,321 +2747,341 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1272.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1273.
+(babel)             in language  on input line 1274.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1273.
+(babel)             in language  on input line 1274.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1273.
+(babel)             in language  on input line 1274.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1273.
+(babel)             in language  on input line 1274.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1273.
+(babel)             in language  on input line 1274.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1273.
- <imagenes/capturas/home.png, id=1063, 481.8pt x 803.0pt>
-File: imagenes/capturas/home.png Graphic file (type png)
-
-<use imagenes/capturas/home.png>
-Package pdftex.def Info: imagenes/capturas/home.png used on input line 1276.
-(pdftex.def)             Requested size: 273.14923pt x 455.2642pt.
-LaTeX Info: Redefining \. on input line 1282.
-LaTeX Info: Redefining \% on input line 1282.
+(babel)             in language  on input line 1274.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1282.
+(babel)             in language  on input line 1276.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1282.
+(babel)             in language  on input line 1276.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1282.
+(babel)             in language  on input line 1276.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1282.
+(babel)             in language  on input line 1276.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1282.
+(babel)             in language  on input line 1276.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1282.
+(babel)             in language  on input line 1276.
+<Screenshots/login.png, id=1063, 542.025pt x 929.4725pt>
+File: Screenshots/login.png Graphic file (type png)
+<use Screenshots/login.png>
+Package pdftex.def Info: Screenshots/login.png  used on input line 1279.
+(pdftex.def)             Requested size: 273.14923pt x 468.4084pt.
+LaTeX Info: Redefining \. on input line 1286.
+LaTeX Info: Redefining \% on input line 1286.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1286.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1286.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1286.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1286.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1286.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1286.
  [66 <./imagenes/DiagramasUML/sdCrearRegistro.png>]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1283.
+(babel)             in language  on input line 1286.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1283.
+(babel)             in language  on input line 1286.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1283.
+(babel)             in language  on input line 1286.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1283.
+(babel)             in language  on input line 1286.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1283.
+(babel)             in language  on input line 1286.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1283.
- <imagenes/capturas/login.png, id=1070, 481.8pt x 803.0pt>
-File: imagenes/capturas/login.png Graphic file (type png)
-
-<use imagenes/capturas/login.png>
-Package pdftex.def Info: imagenes/capturas/login.png used on input line 1286.
-(pdftex.def)             Requested size: 273.14923pt x 455.2642pt.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1293.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1293.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1293.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1293.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1293.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1293.
-
-<imagenes/capturas/registro2.png, id=1071, 481.8pt x 803.0pt>
-File: imagenes/capturas/registro2.png Graphic file (type png)
-
-<use imagenes/capturas/registro2.png>
-Package pdftex.def Info: imagenes/capturas/registro2.png used on input line 129
-6.
-(pdftex.def)             Requested size: 273.14923pt x 455.2642pt.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1303.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1303.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1303.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1303.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1303.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1303.
-
-<imagenes/capturas/crear-tienda1.png, id=1072, 481.8pt x 803.0pt>
-File: imagenes/capturas/crear-tienda1.png Graphic file (type png)
-
-<use imagenes/capturas/crear-tienda1.png>
-Package pdftex.def Info: imagenes/capturas/crear-tienda1.png used on input line
- 1306.
-(pdftex.def)             Requested size: 273.14923pt x 455.2642pt.
-LaTeX Info: Redefining \. on input line 1311.
-LaTeX Info: Redefining \% on input line 1311.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1311.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1311.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1311.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1311.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1311.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1311.
- [67 <./imagenes/capturas/home.png (PNG copy)>]
-LaTeX Info: Redefining \. on input line 1311.
-LaTeX Info: Redefining \% on input line 1311.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1311.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1311.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1311.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1311.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1311.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1311.
- [68 <./imagenes/capturas/login.png (PNG copy)>]
-LaTeX Info: Redefining \. on input line 1311.
-LaTeX Info: Redefining \% on input line 1311.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1311.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1311.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1311.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1311.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1311.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1311.
- [69 <./imagenes/capturas/registro2.png (PNG copy)>]
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1313.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1313.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1313.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1313.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1313.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1313.
-
-<imagenes/capturas/crear-tienda2.png, id=1088, 481.8pt x 803.0pt>
-File: imagenes/capturas/crear-tienda2.png Graphic file (type png)
-
-<use imagenes/capturas/crear-tienda2.png>
-Package pdftex.def Info: imagenes/capturas/crear-tienda2.png used on input line
- 1316.
-(pdftex.def)             Requested size: 273.14923pt x 455.2642pt.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1323.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1323.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1323.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1323.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1323.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1323.
-
-<imagenes/capturas/administracion-tienda.png, id=1089, 481.8pt x 803.0pt>
-File: imagenes/capturas/administracion-tienda.png Graphic file (type png)
-
-<use imagenes/capturas/administracion-tienda.png>
-Package pdftex.def Info: imagenes/capturas/administracion-tienda.png used on in
-put line 1326.
-(pdftex.def)             Requested size: 273.14923pt x 455.2642pt.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1333.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1333.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1333.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1333.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1333.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1333.
-
-<imagenes/capturas/crear-producto1.png, id=1090, 481.8pt x 803.0pt>
-File: imagenes/capturas/crear-producto1.png Graphic file (type png)
-
-<use imagenes/capturas/crear-producto1.png>
-Package pdftex.def Info: imagenes/capturas/crear-producto1.png used on input li
-ne 1336.
-(pdftex.def)             Requested size: 273.14923pt x 455.2642pt.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1343.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1343.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1343.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1343.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1343.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1343.
-
-<imagenes/capturas/crear-producto2.png, id=1091, 481.8pt x 803.0pt>
-File: imagenes/capturas/crear-producto2.png Graphic file (type png)
-
-<use imagenes/capturas/crear-producto2.png>
-Package pdftex.def Info: imagenes/capturas/crear-producto2.png used on input li
-ne 1346.
-(pdftex.def)             Requested size: 273.14923pt x 455.2642pt.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1353.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1353.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1353.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1353.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1353.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1353.
-
-<imagenes/capturas/administracion-productos.png, id=1092, 481.8pt x 803.0pt>
-File: imagenes/capturas/administracion-productos.png Graphic file (type png)
-
-<use imagenes/capturas/administracion-productos.png>
-Package pdftex.def Info: imagenes/capturas/administracion-productos.png used on
- input line 1356.
-(pdftex.def)             Requested size: 273.14923pt x 455.2642pt.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1363.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1363.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1363.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1363.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1363.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1363.
-
-<imagenes/capturas/vista-tienda.png, id=1093, 481.8pt x 803.0pt>
-File: imagenes/capturas/vista-tienda.png Graphic file (type png)
-
-<use imagenes/capturas/vista-tienda.png>
-Package pdftex.def Info: imagenes/capturas/vista-tienda.png used on input line 
-1366.
-(pdftex.def)             Requested size: 273.14923pt x 455.2642pt.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1373.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1373.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1373.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1373.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1373.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1373.
-
-<imagenes/capturas/busqueda.png, id=1094, 481.8pt x 803.0pt>
-File: imagenes/capturas/busqueda.png Graphic file (type png)
-
-<use imagenes/capturas/busqueda.png>
-Package pdftex.def Info: imagenes/capturas/busqueda.png used on input line 1376
+(babel)             in language  on input line 1286.
+<Screenshots/configuracion.png, id=1070, 542.025pt x 928.46875pt>
+File: Screenshots/configuracion.png Graphic file (type png)
+<use Screenshots/configuracion.png>
+Package pdftex.def Info: Screenshots/configuracion.png  used on input line 1289
 .
-(pdftex.def)             Requested size: 273.14923pt x 455.2642pt.
+(pdftex.def)             Requested size: 273.14923pt x 467.90256pt.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1383.
+(babel)             in language  on input line 1296.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1383.
+(babel)             in language  on input line 1296.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1383.
+(babel)             in language  on input line 1296.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1383.
+(babel)             in language  on input line 1296.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1383.
+(babel)             in language  on input line 1296.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1383.
-
-<imagenes/capturas/pagina-producto.png, id=1095, 481.8pt x 803.0pt>
-File: imagenes/capturas/pagina-producto.png Graphic file (type png)
-
-<use imagenes/capturas/pagina-producto.png>
-Package pdftex.def Info: imagenes/capturas/pagina-producto.png used on input li
-ne 1386.
-(pdftex.def)             Requested size: 273.14923pt x 455.2642pt.
+(babel)             in language  on input line 1296.
+<Screenshots/perfil.png, id=1071, 542.025pt x 925.4575pt>
+File: Screenshots/perfil.png Graphic file (type png)
+<use Screenshots/perfil.png>
+Package pdftex.def Info: Screenshots/perfil.png  used on input line 1299.
+(pdftex.def)             Requested size: 273.14923pt x 466.38504pt.
+LaTeX Info: Redefining \. on input line 1304.
+LaTeX Info: Redefining \% on input line 1304.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 1393.
+(babel)             in language  on input line 1304.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 1393.
+(babel)             in language  on input line 1304.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 1393.
+(babel)             in language  on input line 1304.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 1393.
+(babel)             in language  on input line 1304.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 1393.
+(babel)             in language  on input line 1304.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 1393.
+(babel)             in language  on input line 1304.
+ [67 <./Screenshots/login.png>]
+LaTeX Info: Redefining \. on input line 1304.
+LaTeX Info: Redefining \% on input line 1304.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1304.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1304.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1304.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1304.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1304.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1304.
+ [68 <./Screenshots/configuracion.png>]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1306.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1306.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1306.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1306.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1306.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1306.
+<Screenshots/registroPaso1.png, id=1084, 542.025pt x 925.4575pt>
+File: Screenshots/registroPaso1.png Graphic file (type png)
+<use Screenshots/registroPaso1.png>
+Package pdftex.def Info: Screenshots/registroPaso1.png  used on input line 1312
+.
+(pdftex.def)             Requested size: 273.14923pt x 466.38504pt.
+<Screenshots/registroPaso2A.png, id=1085, 542.025pt x 926.46124pt>
+File: Screenshots/registroPaso2A.png Graphic file (type png)
+<use Screenshots/registroPaso2A.png>
+Package pdftex.def Info: Screenshots/registroPaso2A.png  used on input line 132
+2.
+(pdftex.def)             Requested size: 273.14923pt x 466.89087pt.
+<Screenshots/registroPaso2B.png, id=1086, 542.025pt x 927.465pt>
+File: Screenshots/registroPaso2B.png Graphic file (type png)
+<use Screenshots/registroPaso2B.png>
+Package pdftex.def Info: Screenshots/registroPaso2B.png  used on input line 133
+0.
+(pdftex.def)             Requested size: 273.14923pt x 467.39671pt.
+<Screenshots/registroPaso3A.png, id=1087, 542.025pt x 927.465pt>
+File: Screenshots/registroPaso3A.png Graphic file (type png)
+<use Screenshots/registroPaso3A.png>
+Package pdftex.def Info: Screenshots/registroPaso3A.png  used on input line 133
+9.
+(pdftex.def)             Requested size: 136.57462pt x 233.69128pt.
+<Screenshots/registroPaso3B.png, id=1088, 542.025pt x 927.465pt>
+File: Screenshots/registroPaso3B.png Graphic file (type png)
+<use Screenshots/registroPaso3B.png>
+Package pdftex.def Info: Screenshots/registroPaso3B.png  used on input line 134
+5.
+(pdftex.def)             Requested size: 136.57462pt x 233.69128pt.
+<Screenshots/registroPaso3C.png, id=1089, 542.025pt x 927.465pt>
+File: Screenshots/registroPaso3C.png Graphic file (type png)
+<use Screenshots/registroPaso3C.png>
+Package pdftex.def Info: Screenshots/registroPaso3C.png  used on input line 135
+1.
+(pdftex.def)             Requested size: 136.57462pt x 233.69128pt.
+<Screenshots/registroPaso3Completo.png, id=1090, 322.806pt x 1164.14925pt>
+File: Screenshots/registroPaso3Completo.png Graphic file (type png)
+<use Screenshots/registroPaso3Completo.png>
+Package pdftex.def Info: Screenshots/registroPaso3Completo.png  used on input l
+ine 1358.
+(pdftex.def)             Requested size: 273.14923pt x 985.1262pt.
 
-<imagenes/capturas/listado-ventas.png, id=1096, 481.8pt x 803.0pt>
-File: imagenes/capturas/listado-ventas.png Graphic file (type png)
 
-<use imagenes/capturas/listado-ventas.png>
-Package pdftex.def Info: imagenes/capturas/listado-ventas.png used on input lin
-e 1396.
-(pdftex.def)             Requested size: 273.14923pt x 455.2642pt.
+LaTeX Warning: Float too large for page by 354.97368pt on input line 1363.
+
+<Screenshots/ruedita.png, id=1091, 542.025pt x 927.465pt>
+File: Screenshots/ruedita.png Graphic file (type png)
+<use Screenshots/ruedita.png>
+Package pdftex.def Info: Screenshots/ruedita.png  used on input line 1367.
+(pdftex.def)             Requested size: 273.14923pt x 467.39671pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1376.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1376.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1376.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1376.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1376.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1376.
+<Screenshots/registrosLocales.png, id=1092, 542.025pt x 926.46124pt>
+File: Screenshots/registrosLocales.png Graphic file (type png)
+<use Screenshots/registrosLocales.png>
+Package pdftex.def Info: Screenshots/registrosLocales.png  used on input line 1
+379.
+(pdftex.def)             Requested size: 273.14923pt x 466.89087pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1386.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1386.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1386.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1386.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1386.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1386.
+<Screenshots/verRegistro1.png, id=1093, 322.806pt x 412.54124pt>
+File: Screenshots/verRegistro1.png Graphic file (type png)
+<use Screenshots/verRegistro1.png>
+Package pdftex.def Info: Screenshots/verRegistro1.png  used on input line 1388.
+
+(pdftex.def)             Requested size: 136.57462pt x 174.54399pt.
+<Screenshots/verRegistro2.png, id=1094, 320.99925pt x 461.3235pt>
+File: Screenshots/verRegistro2.png Graphic file (type png)
+<use Screenshots/verRegistro2.png>
+Package pdftex.def Info: Screenshots/verRegistro2.png  used on input line 1394.
+
+(pdftex.def)             Requested size: 136.57462pt x 196.28163pt.
+<Screenshots/verRegistro3.png, id=1095, 322.806pt x 463.7325pt>
+File: Screenshots/verRegistro3.png Graphic file (type png)
+<use Screenshots/verRegistro3.png>
+Package pdftex.def Info: Screenshots/verRegistro3.png  used on input line 1400.
+
+(pdftex.def)             Requested size: 136.57462pt x 196.20273pt.
+<Screenshots/verRegistroCompleto.png, id=1096, 322.806pt x 1339.404pt>
+File: Screenshots/verRegistroCompleto.png Graphic file (type png)
+<use Screenshots/verRegistroCompleto.png>
+Package pdftex.def Info: Screenshots/verRegistroCompleto.png  used on input lin
+e 1408.
+(pdftex.def)             Requested size: 273.14923pt x 1133.43028pt.
+
+LaTeX Warning: Float too large for page by 503.27776pt on input line 1413.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1416.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1416.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1416.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1416.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1416.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1416.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1418.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1418.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1418.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1418.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1418.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1418.
+<Screenshots/web/login.png, id=1097, 1365.1pt x 770.88pt>
+File: Screenshots/web/login.png Graphic file (type png)
+<use Screenshots/web/login.png>
+Package pdftex.def Info: Screenshots/web/login.png  used on input line 1421.
+(pdftex.def)             Requested size: 273.14923pt x 154.24384pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1427.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1427.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1427.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1427.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1427.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1427.
+<Screenshots/web/registroListar.png, id=1098, 1365.1pt x 770.88pt>
+File: Screenshots/web/registroListar.png Graphic file (type png)
+<use Screenshots/web/registroListar.png>
+Package pdftex.def Info: Screenshots/web/registroListar.png  used on input line
+ 1430.
+(pdftex.def)             Requested size: 273.14923pt x 154.24384pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1437.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1437.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1437.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1437.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1437.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1437.
+<Screenshots/web/registroVer1.png, id=1099, 1365.1pt x 770.88pt>
+File: Screenshots/web/registroVer1.png Graphic file (type png)
+<use Screenshots/web/registroVer1.png>
+Package pdftex.def Info: Screenshots/web/registroVer1.png  used on input line 1
+440.
+(pdftex.def)             Requested size: 273.14923pt x 154.24384pt.
+<Screenshots/web/registroVer2.png, id=1100, 1365.1pt x 770.88pt>
+File: Screenshots/web/registroVer2.png Graphic file (type png)
+<use Screenshots/web/registroVer2.png>
+Package pdftex.def Info: Screenshots/web/registroVer2.png  used on input line 1
+448.
+(pdftex.def)             Requested size: 273.14923pt x 154.24384pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1455.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1455.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1455.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1455.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1455.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1455.
+<Screenshots/web/usuarioListar.png, id=1101, 1365.1pt x 770.88pt>
+File: Screenshots/web/usuarioListar.png Graphic file (type png)
+<use Screenshots/web/usuarioListar.png>
+Package pdftex.def Info: Screenshots/web/usuarioListar.png  used on input line 
+1458.
+(pdftex.def)             Requested size: 273.14923pt x 154.24384pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1465.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1465.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1465.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1465.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1465.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1465.
+<Screenshots/web/usuarioVer.png, id=1102, 1365.1pt x 770.88pt>
+File: Screenshots/web/usuarioVer.png Graphic file (type png)
+<use Screenshots/web/usuarioVer.png>
+Package pdftex.def Info: Screenshots/web/usuarioVer.png  used on input line 146
+8.
+(pdftex.def)             Requested size: 273.14923pt x 154.24384pt.
 )
 LaTeX Info: Redefining \. on input line 210.
 LaTeX Info: Redefining \% on input line 210.
@@ -3408,7 +3097,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 210.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 210.
- [70]
+ [69]
 LaTeX Info: Redefining \. on input line 210.
 LaTeX Info: Redefining \% on input line 210.
 Package babel Info: Redefining spanish shorthand <<
@@ -3423,7 +3112,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 210.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 210.
- [71 <./imagenes/capturas/crear-tienda1.png (PNG copy)>]
+ [70 <./Screenshots/perfil.png>]
 LaTeX Info: Redefining \. on input line 210.
 LaTeX Info: Redefining \% on input line 210.
 Package babel Info: Redefining spanish shorthand <<
@@ -3438,7 +3127,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 210.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 210.
- [72 <./imagenes/capturas/crear-tienda2.png (PNG copy)>]
+ [71 <./Screenshots/registroPaso1.png>]
 LaTeX Info: Redefining \. on input line 210.
 LaTeX Info: Redefining \% on input line 210.
 Package babel Info: Redefining spanish shorthand <<
@@ -3453,7 +3142,8 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 210.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 210.
- [73 <./imagenes/capturas/administracion-tienda.png (PNG copy)>]
+
+[72 <./Screenshots/registroPaso2A.png>]
 LaTeX Info: Redefining \. on input line 210.
 LaTeX Info: Redefining \% on input line 210.
 Package babel Info: Redefining spanish shorthand <<
@@ -3468,7 +3158,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 210.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 210.
- [74 <./imagenes/capturas/crear-producto1.png (PNG copy)>]
+ [73 <./Screenshots/registroPaso2B.png>]
 LaTeX Info: Redefining \. on input line 210.
 LaTeX Info: Redefining \% on input line 210.
 Package babel Info: Redefining spanish shorthand <<
@@ -3483,7 +3173,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 210.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 210.
- [75 <./imagenes/capturas/crear-producto2.png (PNG copy)>]
+[74 <./Screenshots/registroPaso3A.png> <./Screenshots/registroPaso3B.png>]
 LaTeX Info: Redefining \. on input line 210.
 LaTeX Info: Redefining \% on input line 210.
 Package babel Info: Redefining spanish shorthand <<
@@ -3498,7 +3188,8 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 210.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 210.
- [76 <./imagenes/capturas/administracion-productos.png (PNG copy)>]
+
+[75 <./Screenshots/registroPaso3C.png>]
 LaTeX Info: Redefining \. on input line 210.
 LaTeX Info: Redefining \% on input line 210.
 Package babel Info: Redefining spanish shorthand <<
@@ -3513,7 +3204,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 210.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 210.
- [77 <./imagenes/capturas/vista-tienda.png (PNG copy)>]
+ [76 <./Screenshots/registroPaso3Completo.png>]
 LaTeX Info: Redefining \. on input line 210.
 LaTeX Info: Redefining \% on input line 210.
 Package babel Info: Redefining spanish shorthand <<
@@ -3528,7 +3219,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 210.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 210.
- [78 <./imagenes/capturas/busqueda.png (PNG copy)>]
+ [77 <./Screenshots/ruedita.png>]
 LaTeX Info: Redefining \. on input line 210.
 LaTeX Info: Redefining \% on input line 210.
 Package babel Info: Redefining spanish shorthand <<
@@ -3543,7 +3234,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 210.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 210.
- [79 <./imagenes/capturas/pagina-producto.png (PNG copy)>]
+ [78 <./Screenshots/registrosLocales.png>]
 LaTeX Info: Redefining \. on input line 210.
 LaTeX Info: Redefining \% on input line 210.
 Package babel Info: Redefining spanish shorthand <<
@@ -3558,7 +3249,56 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 210.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 210.
- [80 <./imagenes/capturas/listado-ventas.png (PNG copy)>]
+ [79 <./Screenshots/verRegistro1.png> <./Screenshots/verRegistro2.png> <./Scree
+nshots/verRegistro3.png>]
+LaTeX Info: Redefining \. on input line 210.
+LaTeX Info: Redefining \% on input line 210.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 210.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 210.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 210.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 210.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 210.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 210.
+ [80 <./Screenshots/verRegistroCompleto.png>]
+LaTeX Info: Redefining \. on input line 210.
+LaTeX Info: Redefining \% on input line 210.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 210.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 210.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 210.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 210.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 210.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 210.
+
+[81 <./Screenshots/web/login.png> <./Screenshots/web/registroListar.png> <./Scr
+eenshots/web/registroVer1.png>]
+LaTeX Info: Redefining \. on input line 210.
+LaTeX Info: Redefining \% on input line 210.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 210.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 210.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 210.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 210.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 210.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 210.
+ [82 <./Screenshots/web/registroVer2.png> <./Screenshots/web/usuarioListar.png>
+ <./Screenshots/web/usuarioVer.png>]
 \openout2 = `implementacion.aux'.
 
 
@@ -3587,13 +3327,11 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 38.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 38.
-
-<imagenes/implementacion/arquitectura.jpg, id=1154, 1505.625pt x 1230.5975pt>
+<imagenes/implementacion/arquitectura.jpg, id=1194, 1505.625pt x 1230.5975pt>
 File: imagenes/implementacion/arquitectura.jpg Graphic file (type jpg)
-
 <use imagenes/implementacion/arquitectura.jpg>
-Package pdftex.def Info: imagenes/implementacion/arquitectura.jpg used on input
- line 43.
+Package pdftex.def Info: imagenes/implementacion/arquitectura.jpg  used on inpu
+t line 43.
 (pdftex.def)             Requested size: 455.24411pt x 372.09259pt.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 49.
@@ -3607,13 +3345,11 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 49.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 49.
-
-<imagenes/implementacion/despliegue.png, id=1155, 593.96906pt x 143.78719pt>
+<imagenes/implementacion/despliegue.png, id=1195, 593.96906pt x 143.78719pt>
 File: imagenes/implementacion/despliegue.png Graphic file (type png)
-
 <use imagenes/implementacion/despliegue.png>
-Package pdftex.def Info: imagenes/implementacion/despliegue.png used on input l
-ine 54.
+Package pdftex.def Info: imagenes/implementacion/despliegue.png  used on input 
+line 54.
 (pdftex.def)             Requested size: 455.24411pt x 110.20966pt.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 57.
@@ -3627,7 +3363,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 57.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 57.
- [81
+ [83
 
 
 
@@ -3670,7 +3406,8 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 74.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 74.
- [82 <./imagenes/implementacion/despliegue.png>]
+
+[84 <./imagenes/implementacion/despliegue.png>]
 LaTeX Info: Redefining \. on input line 80.
 LaTeX Info: Redefining \% on input line 80.
 Package babel Info: Redefining spanish shorthand <<
@@ -3685,13 +3422,12 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 80.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 80.
- [83]
-<imagenes/arquitecturaAndroid.png, id=1189, 741.77126pt x 602.25pt>
+ [85]
+<imagenes/arquitecturaAndroid.png, id=1230, 741.77126pt x 602.25pt>
 File: imagenes/arquitecturaAndroid.png Graphic file (type png)
-
 <use imagenes/arquitecturaAndroid.png>
-Package pdftex.def Info: imagenes/arquitecturaAndroid.png used on input line 86
-.
+Package pdftex.def Info: imagenes/arquitecturaAndroid.png  used on input line 8
+6.
 (pdftex.def)             Requested size: 364.19667pt x 295.6932pt.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 92.
@@ -3705,12 +3441,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 92.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 92.
-
-<imagenes/phonegap.png, id=1190, 390.70969pt x 355.3275pt>
+<imagenes/phonegap.png, id=1231, 390.70969pt x 355.3275pt>
 File: imagenes/phonegap.png Graphic file (type png)
-
 <use imagenes/phonegap.png>
-Package pdftex.def Info: imagenes/phonegap.png used on input line 97.
+Package pdftex.def Info: imagenes/phonegap.png  used on input line 97.
 (pdftex.def)             Requested size: 227.62206pt x 207.0118pt.
 LaTeX Info: Redefining \. on input line 107.
 LaTeX Info: Redefining \% on input line 107.
@@ -3726,7 +3460,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 107.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 107.
- [84 <./imagenes/arquitecturaAndroid.png>]
+ [86 <./imagenes/arquitecturaAndroid.png>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 120.
 Package babel Info: Redefining spanish shorthand >>
@@ -3753,7 +3487,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 128.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 128.
- [85 <./imagenes/phonegap.png (PNG copy)>]
+ [87 <./imagenes/phonegap.png (PNG copy)>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 133.
 Package babel Info: Redefining spanish shorthand >>
@@ -3792,7 +3526,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 152.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 152.
- [86]
+ [88]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 154.
 Package babel Info: Redefining spanish shorthand >>
@@ -3817,11 +3551,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 162.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 162.
-
-<imagenes/REST.jpg, id=1215, 435.87843pt x 300.3722pt>
+<imagenes/REST.jpg, id=1256, 435.87843pt x 300.3722pt>
 File: imagenes/REST.jpg Graphic file (type jpg)
- <use imagenes/REST.jpg>
-Package pdftex.def Info: imagenes/REST.jpg used on input line 174.
+<use imagenes/REST.jpg>
+Package pdftex.def Info: imagenes/REST.jpg  used on input line 174.
 (pdftex.def)             Requested size: 364.19667pt x 250.97258pt.
 LaTeX Info: Redefining \. on input line 184.
 LaTeX Info: Redefining \% on input line 184.
@@ -3837,8 +3570,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 184.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 184.
-
-[87]
+ [89]
 LaTeX Info: Redefining \. on input line 190.
 LaTeX Info: Redefining \% on input line 190.
 Package babel Info: Redefining spanish shorthand <<
@@ -3853,7 +3585,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 190.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 190.
- [88 <./imagenes/REST.jpg>]
+ [90 <./imagenes/REST.jpg>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 200.
 Package babel Info: Redefining spanish shorthand >>
@@ -3892,13 +3624,12 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 209.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 209.
- [89]
-<imagenes/implementacion/https.png, id=1249, 679.03688pt x 340.27126pt>
+ [91]
+<imagenes/implementacion/https.png, id=1290, 679.03688pt x 340.27126pt>
 File: imagenes/implementacion/https.png Graphic file (type png)
-
 <use imagenes/implementacion/https.png>
-Package pdftex.def Info: imagenes/implementacion/https.png used on input line 2
-12.
+Package pdftex.def Info: imagenes/implementacion/https.png  used on input line 
+212.
 (pdftex.def)             Requested size: 409.71692pt x 205.31178pt.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 217.
@@ -3926,13 +3657,12 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 222.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 222.
- [90 <./imagenes/implementacion/https.png>] <imagenes/implementacion/acl.png, i
-d=1260, 563.10374pt x 428.35031pt>
+ [92 <./imagenes/implementacion/https.png>]
+<imagenes/implementacion/acl.png, id=1300, 563.10374pt x 428.35031pt>
 File: imagenes/implementacion/acl.png Graphic file (type png)
-
 <use imagenes/implementacion/acl.png>
-Package pdftex.def Info: imagenes/implementacion/acl.png used on input line 239
-.
+Package pdftex.def Info: imagenes/implementacion/acl.png  used on input line 23
+9.
 (pdftex.def)             Requested size: 409.71692pt x 311.6735pt.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 246.
@@ -3960,7 +3690,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 251.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 251.
- [91]
+ [93]
 LaTeX Info: Redefining \. on input line 251.
 LaTeX Info: Redefining \% on input line 251.
 Package babel Info: Redefining spanish shorthand <<
@@ -3975,7 +3705,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 251.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 251.
- [92 <./imagenes/implementacion/acl.png>]
+ [94 <./imagenes/implementacion/acl.png>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 260.
 Package babel Info: Redefining spanish shorthand >>
@@ -3988,11 +3718,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 260.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 260.
- <imagenes/MVP.png, id=1275, 304.13625pt x 188.95593pt>
+<imagenes/MVP.png, id=1315, 304.13625pt x 188.95593pt>
 File: imagenes/MVP.png Graphic file (type png)
-
 <use imagenes/MVP.png>
-Package pdftex.def Info: imagenes/MVP.png used on input line 269.
+Package pdftex.def Info: imagenes/MVP.png  used on input line 269.
 (pdftex.def)             Requested size: 304.1355pt x 188.95546pt.
 LaTeX Info: Redefining \. on input line 281.
 LaTeX Info: Redefining \% on input line 281.
@@ -4008,7 +3737,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 281.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 281.
- [93 <./imagenes/MVP.png>]
+ [95 <./imagenes/MVP.png>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 287.
 Package babel Info: Redefining spanish shorthand >>
@@ -4047,7 +3776,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 304.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 304.
- [94]
+ [96]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 310.
 Package babel Info: Redefining spanish shorthand >>
@@ -4074,7 +3803,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 331.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 331.
- [95])
+ [97])
 LaTeX Info: Redefining \. on input line 213.
 LaTeX Info: Redefining \% on input line 213.
 Package babel Info: Redefining spanish shorthand <<
@@ -4089,10 +3818,11 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 213.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 213.
- [96]
+ [98]
 \openout2 = `pruebas.aux'.
 
- (./pruebas.tex
+
+(./pruebas.tex
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand >>
@@ -4189,7 +3919,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 47.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 47.
-[97
+ [99
 
 
 
@@ -4256,7 +3986,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 72.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 72.
- [98]
+ [100]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 76.
 Package babel Info: Redefining spanish shorthand >>
@@ -4320,7 +4050,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 216.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 216.
- [99]
+ [101]
 \openout2 = `conclusiones.aux'.
 
  (./conclusiones.tex
@@ -4349,11 +4079,12 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 219.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 219.
- [100
+ [102
 
 
 
 ]
+Using TeX to sort glossary entries---this may take a while
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 223.
 Package babel Info: Redefining spanish shorthand >>
@@ -4366,41 +4097,11 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 223.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 223.
- [101
+[103
 
 
 
 ]
-LaTeX Info: Redefining \. on input line 223.
-LaTeX Info: Redefining \% on input line 223.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 223.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 223.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 223.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 223.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 223.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 223.
- [102]
-LaTeX Info: Redefining \. on input line 223.
-LaTeX Info: Redefining \% on input line 223.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 223.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 223.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 223.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 223.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 223.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 223.
- [103]
 LaTeX Info: Redefining \. on input line 223.
 LaTeX Info: Redefining \% on input line 223.
 Package babel Info: Redefining spanish shorthand <<
@@ -4416,6 +4117,36 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 223.
  [104]
+LaTeX Info: Redefining \. on input line 223.
+LaTeX Info: Redefining \% on input line 223.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 223.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 223.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 223.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 223.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 223.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 223.
+ [105]
+LaTeX Info: Redefining \. on input line 223.
+LaTeX Info: Redefining \% on input line 223.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 223.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 223.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 223.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 223.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 223.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 223.
+ [106]
 LaTeX Info: Redefining \. on input line 227.
 LaTeX Info: Redefining \% on input line 227.
 Package babel Info: Redefining spanish shorthand <<
@@ -4430,11 +4161,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 227.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 227.
- [105]
+ [107]
 \openout2 = `bibliografia.aux'.
 
-
-(./bibliografia.tex)
+ (./bibliografia.tex)
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 227.
 Package babel Info: Redefining spanish shorthand >>
@@ -4447,23 +4177,23 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 227.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 227.
- [106
+ [108
 
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 229.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 229.
- (./informe.aux (./portada.aux)
+ (./informe.aux
+(./portada.aux)
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
-
-(./agradecimientos.aux) (./introduccion.aux) (./requisitos.aux) (./analisis.aux
-) (./disenio.aux) (./implementacion.aux) (./pruebas.aux) (./conclusiones.aux)
-(./bibliografia.aux))
+ (./agradecimientos.aux) (./introduccion.aux) (./requisitos.aux) (./analisis.au
+x) (./disenio.aux) (./implementacion.aux) (./pruebas.aux)
+(./conclusiones.aux) (./bibliografia.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 229.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 229.
 Package rerunfilecheck Info: File `informe.out' has not changed.
-(rerunfilecheck)             Checksum: 6A4DCD4E676B0AB604E6BF1D00CAB464;8974.
+(rerunfilecheck)             Checksum: 8833A4AEC738E120C91279FC4E4A7088;9047.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -4471,29 +4201,29 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 229.
  ) 
 Here is how much of TeX's memory you used:
- 16748 strings out of 492995
- 266281 string characters out of 6132703
- 440081 words of memory out of 5000000
- 19469 multiletter control sequences out of 15000+600000
+ 16542 strings out of 492649
+ 265913 string characters out of 6129623
+ 443643 words of memory out of 5000000
+ 19597 multiletter control sequences out of 15000+600000
  12993 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,73p,1995b,708s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
-sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/loca
-l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/
-texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy10.pfb>
-Output written on informe.pdf (107 pages, 2206367 bytes).
+ 65i,11n,74p,2033b,716s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
+sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/
+local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
+al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/loca
+l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
+/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/
+texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/te
+xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy10.pfb>
+Output written on informe.pdf (109 pages, 7066944 bytes).
 PDF statistics:
- 1544 PDF objects out of 1728 (max. 8388607)
- 1361 compressed objects within 14 object streams
- 445 named destinations out of 1000 (max. 500000)
- 1091 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1586 PDF objects out of 1728 (max. 8388607)
+ 1371 compressed objects within 14 object streams
+ 449 named destinations out of 1000 (max. 500000)
+ 1136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

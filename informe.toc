@@ -1,4 +1,4 @@
-\select@language {spanish}
+\babel@toc {spanish}{}
 \contentsline {chapter}{Introducci\IeC {\'o}n}{7}{chapter*.6}
 \contentsline {section}{Objetivos del sistema}{7}{section*.7}
 \contentsline {section}{Selecci\IeC {\'o}n del modelo de ciclo de vida y de la metodolog\IeC {\'\i }a de desarrollo}{8}{section*.8}
@@ -65,53 +65,53 @@
 \contentsline {subsection}{Iniciar Sesion}{64}{section*.69}
 \contentsline {subsection}{Registrar}{65}{section*.70}
 \contentsline {subsection}{Crear Registro}{66}{section*.71}
-\contentsline {section}{Interfaz de Usuario}{67}{section*.72}
-\contentsline {subsection}{Iniciar Sesion}{67}{section*.73}
-\contentsline {subsection}{Iniciar Sesion}{70}{section*.74}
-\contentsline {subsection}{Iniciar Sesion}{70}{section*.75}
-\contentsline {subsection}{Iniciar Sesion}{70}{section*.76}
-\contentsline {subsection}{Iniciar Sesion}{70}{section*.77}
-\contentsline {subsection}{Iniciar Sesion}{70}{section*.78}
-\contentsline {subsection}{Iniciar Sesion}{70}{section*.79}
-\contentsline {subsection}{Iniciar Sesion}{70}{section*.80}
-\contentsline {subsection}{Iniciar Sesion}{70}{section*.81}
-\contentsline {subsection}{Iniciar Sesion}{70}{section*.82}
-\contentsline {subsection}{Iniciar Sesion}{70}{section*.83}
-\contentsline {subsection}{Iniciar Sesion}{70}{section*.84}
-\contentsline {subsection}{Iniciar Sesion}{70}{section*.85}
-\contentsline {chapter}{Disciplina de Implementaci\IeC {\'o}n}{81}{chapter*.86}
-\contentsline {section}{Arquitectura de la aplicaci\IeC {\'o}n}{81}{section*.87}
-\contentsline {section}{Diagrama de Despliegue}{82}{section*.88}
-\contentsline {section}{Elecci\IeC {\'o}n del Lenguaje}{82}{section*.89}
-\contentsline {section}{Arquitectura de Android}{83}{section*.90}
-\contentsline {section}{PhoneGap}{84}{section*.91}
-\contentsline {subsection}{Ventajas de PhoneGap}{85}{section*.92}
-\contentsline {subsection}{Desventaja de phoneGap}{86}{section*.93}
-\contentsline {section}{Web services}{86}{section*.94}
-\contentsline {subsection}{Razones para crear servicios Web}{87}{section*.95}
-\contentsline {subsection}{REST}{87}{section*.96}
-\contentsline {subsubsection}{Recursos}{89}{section*.97}
-\contentsline {section}{Caracter\IeC {\'\i }sticas de seguridad}{89}{section*.98}
-\contentsline {subsection}{Canal de comunicaci\IeC {\'o}n cifrado}{89}{section*.99}
-\contentsline {subsection}{ACL para cada objeto}{90}{section*.100}
-\contentsline {section}{Backbone.js}{91}{section*.101}
-\contentsline {subsection}{Modelo Vista Presentador (MVP)}{93}{section*.102}
-\contentsline {section}{jQuery}{94}{section*.103}
-\contentsline {section}{jQuery Mobile}{94}{section*.104}
-\contentsline {section}{Herramientas de desarrollo}{95}{section*.105}
-\contentsline {chapter}{Disciplina de Pruebas}{97}{chapter*.106}
-\contentsline {section}{Test de Unidades}{97}{section*.107}
-\contentsline {subsection}{Introducci\IeC {\'o}n}{97}{section*.108}
-\contentsline {subsection}{Pruebas de Caja Blanca}{97}{section*.109}
-\contentsline {section}{Test de M\IeC {\'o}dulos}{97}{section*.110}
-\contentsline {subsection}{Introducci\IeC {\'o}n}{97}{section*.111}
-\contentsline {subsection}{Pruebas de Caja Negra}{98}{section*.112}
-\contentsline {subsection}{Pruebas de Estr\IeC {\'e}s}{98}{section*.113}
-\contentsline {section}{Test de Integraci\IeC {\'o}n}{98}{section*.114}
-\contentsline {subsection}{Introducci\IeC {\'o}n}{98}{section*.115}
-\contentsline {subsection}{Pruebas de Integraci\IeC {\'o}n}{98}{section*.116}
-\contentsline {section}{Test de Aceptaci\IeC {\'o}n}{99}{section*.117}
-\contentsline {subsection}{Introducci\IeC {\'o}n}{99}{section*.118}
-\contentsline {subsection}{Prueba Alfa}{99}{section*.119}
-\contentsline {subsection}{Prueba Beta}{99}{section*.120}
-\contentsline {chapter}{Conclusiones}{100}{chapter*.121}
+\contentsline {section}{Interfaz de usuario}{67}{section*.72}
+\contentsline {subsection}{Aplicacion movil}{67}{section*.73}
+\contentsline {subsection}{Iniciar Sesion}{67}{section*.74}
+\contentsline {subsection}{Configuracion}{69}{section*.75}
+\contentsline {subsection}{Vista Perfil}{69}{section*.76}
+\contentsline {subsection}{Crear Registro}{69}{section*.77}
+\contentsline {subsection}{Lista de registros creados por el usuario}{69}{section*.78}
+\contentsline {subsection}{Ver registro}{69}{section*.79}
+\contentsline {subsection}{Sistema de gestion WEB}{69}{section*.80}
+\contentsline {subsection}{Iniciar Sesion}{69}{section*.81}
+\contentsline {subsection}{Lista de registros global con filtros}{69}{section*.82}
+\contentsline {subsection}{Ver registro}{69}{section*.83}
+\contentsline {subsection}{Lista de usuarios global con filtros}{69}{section*.84}
+\contentsline {subsection}{Ver registro}{69}{section*.85}
+\contentsline {chapter}{Disciplina de Implementaci\IeC {\'o}n}{83}{chapter*.86}
+\contentsline {section}{Arquitectura de la aplicaci\IeC {\'o}n}{83}{section*.87}
+\contentsline {section}{Diagrama de Despliegue}{84}{section*.88}
+\contentsline {section}{Elecci\IeC {\'o}n del Lenguaje}{84}{section*.89}
+\contentsline {section}{Arquitectura de Android}{85}{section*.90}
+\contentsline {section}{PhoneGap}{86}{section*.91}
+\contentsline {subsection}{Ventajas de PhoneGap}{87}{section*.92}
+\contentsline {subsection}{Desventaja de phoneGap}{88}{section*.93}
+\contentsline {section}{Web services}{88}{section*.94}
+\contentsline {subsection}{Razones para crear servicios Web}{89}{section*.95}
+\contentsline {subsection}{REST}{89}{section*.96}
+\contentsline {subsubsection}{Recursos}{91}{section*.97}
+\contentsline {section}{Caracter\IeC {\'\i }sticas de seguridad}{91}{section*.98}
+\contentsline {subsection}{Canal de comunicaci\IeC {\'o}n cifrado}{91}{section*.99}
+\contentsline {subsection}{ACL para cada objeto}{92}{section*.100}
+\contentsline {section}{Backbone.js}{93}{section*.101}
+\contentsline {subsection}{Modelo Vista Presentador (MVP)}{95}{section*.102}
+\contentsline {section}{jQuery}{96}{section*.103}
+\contentsline {section}{jQuery Mobile}{96}{section*.104}
+\contentsline {section}{Herramientas de desarrollo}{97}{section*.105}
+\contentsline {chapter}{Disciplina de Pruebas}{99}{chapter*.106}
+\contentsline {section}{Test de Unidades}{99}{section*.107}
+\contentsline {subsection}{Introducci\IeC {\'o}n}{99}{section*.108}
+\contentsline {subsection}{Pruebas de Caja Blanca}{99}{section*.109}
+\contentsline {section}{Test de M\IeC {\'o}dulos}{99}{section*.110}
+\contentsline {subsection}{Introducci\IeC {\'o}n}{99}{section*.111}
+\contentsline {subsection}{Pruebas de Caja Negra}{100}{section*.112}
+\contentsline {subsection}{Pruebas de Estr\IeC {\'e}s}{100}{section*.113}
+\contentsline {section}{Test de Integraci\IeC {\'o}n}{100}{section*.114}
+\contentsline {subsection}{Introducci\IeC {\'o}n}{100}{section*.115}
+\contentsline {subsection}{Pruebas de Integraci\IeC {\'o}n}{100}{section*.116}
+\contentsline {section}{Test de Aceptaci\IeC {\'o}n}{101}{section*.117}
+\contentsline {subsection}{Introducci\IeC {\'o}n}{101}{section*.118}
+\contentsline {subsection}{Prueba Alfa}{101}{section*.119}
+\contentsline {subsection}{Prueba Beta}{101}{section*.120}
+\contentsline {chapter}{Conclusiones}{102}{chapter*.121}
