@@ -67,40 +67,40 @@
 \contentsline {subsection}{Crear Registro}{65}{section*.71}
 \contentsline {section}{Interfaz de usuario}{66}{section*.72}
 \contentsline {subsection}{1. Aplicacion movil}{66}{section*.73}
-\contentsline {subsection}{Sistema de gestion WEB}{66}{section*.74}
-\contentsline {chapter}{Disciplina de Implementaci\IeC {\'o}n}{80}{chapter*.75}
-\contentsline {section}{Arquitectura de la aplicaci\IeC {\'o}n}{80}{section*.76}
-\contentsline {section}{Diagrama de Despliegue}{81}{section*.77}
-\contentsline {section}{Elecci\IeC {\'o}n del Lenguaje}{81}{section*.78}
-\contentsline {section}{Arquitectura de Android}{82}{section*.79}
-\contentsline {section}{PhoneGap}{83}{section*.80}
-\contentsline {subsection}{Ventajas de PhoneGap}{84}{section*.81}
-\contentsline {subsection}{Desventaja de phoneGap}{85}{section*.82}
-\contentsline {section}{Web services}{85}{section*.83}
-\contentsline {subsection}{Razones para crear servicios Web}{86}{section*.84}
-\contentsline {subsection}{REST}{86}{section*.85}
-\contentsline {subsubsection}{Recursos}{88}{section*.86}
-\contentsline {section}{Caracter\IeC {\'\i }sticas de seguridad}{88}{section*.87}
-\contentsline {subsection}{Canal de comunicaci\IeC {\'o}n cifrado}{88}{section*.88}
-\contentsline {subsection}{ACL para cada objeto}{89}{section*.89}
-\contentsline {section}{Backbone.js}{90}{section*.90}
-\contentsline {subsection}{Modelo Vista Presentador (MVP)}{92}{section*.91}
-\contentsline {section}{jQuery}{93}{section*.92}
-\contentsline {section}{jQuery Mobile}{93}{section*.93}
-\contentsline {section}{Herramientas de desarrollo}{94}{section*.94}
-\contentsline {chapter}{Disciplina de Pruebas}{96}{chapter*.95}
-\contentsline {section}{Test de Unidades}{96}{section*.96}
-\contentsline {subsection}{Introducci\IeC {\'o}n}{96}{section*.97}
-\contentsline {subsection}{Pruebas de Caja Blanca}{96}{section*.98}
-\contentsline {section}{Test de M\IeC {\'o}dulos}{96}{section*.99}
-\contentsline {subsection}{Introducci\IeC {\'o}n}{96}{section*.100}
-\contentsline {subsection}{Pruebas de Caja Negra}{97}{section*.101}
-\contentsline {subsection}{Pruebas de Estr\IeC {\'e}s}{97}{section*.102}
-\contentsline {section}{Test de Integraci\IeC {\'o}n}{97}{section*.103}
-\contentsline {subsection}{Introducci\IeC {\'o}n}{97}{section*.104}
-\contentsline {subsection}{Pruebas de Integraci\IeC {\'o}n}{97}{section*.105}
-\contentsline {section}{Test de Aceptaci\IeC {\'o}n}{98}{section*.106}
-\contentsline {subsection}{Introducci\IeC {\'o}n}{98}{section*.107}
-\contentsline {subsection}{Prueba Alfa}{98}{section*.108}
-\contentsline {subsection}{Prueba Beta}{98}{section*.109}
-\contentsline {chapter}{Conclusiones}{99}{chapter*.110}
+\contentsline {subsection}{2. Sistema WEB}{66}{section*.74}
+\contentsline {chapter}{Disciplina de Implementaci\IeC {\'o}n}{81}{chapter*.75}
+\contentsline {section}{Arquitectura de la aplicaci\IeC {\'o}n}{81}{section*.76}
+\contentsline {section}{Diagrama de Despliegue}{82}{section*.77}
+\contentsline {section}{Elecci\IeC {\'o}n del Lenguaje}{82}{section*.78}
+\contentsline {section}{Arquitectura de Android}{83}{section*.79}
+\contentsline {section}{PhoneGap}{84}{section*.80}
+\contentsline {subsection}{Ventajas de PhoneGap}{85}{section*.81}
+\contentsline {subsection}{Desventaja de phoneGap}{86}{section*.82}
+\contentsline {section}{Web services}{86}{section*.83}
+\contentsline {subsection}{Razones para crear servicios Web}{87}{section*.84}
+\contentsline {subsection}{REST}{87}{section*.85}
+\contentsline {subsubsection}{Recursos}{89}{section*.86}
+\contentsline {section}{Caracter\IeC {\'\i }sticas de seguridad}{89}{section*.87}
+\contentsline {subsection}{Canal de comunicaci\IeC {\'o}n cifrado}{89}{section*.88}
+\contentsline {subsection}{ACL para cada objeto}{90}{section*.89}
+\contentsline {section}{Backbone.js}{91}{section*.90}
+\contentsline {subsection}{Modelo Vista Presentador (MVP)}{93}{section*.91}
+\contentsline {section}{jQuery}{94}{section*.92}
+\contentsline {section}{jQuery Mobile}{94}{section*.93}
+\contentsline {section}{Herramientas de desarrollo}{95}{section*.94}
+\contentsline {chapter}{Disciplina de Pruebas}{97}{chapter*.95}
+\contentsline {section}{Test de Unidades}{97}{section*.96}
+\contentsline {subsection}{Introducci\IeC {\'o}n}{97}{section*.97}
+\contentsline {subsection}{Pruebas de Caja Blanca}{97}{section*.98}
+\contentsline {section}{Test de M\IeC {\'o}dulos}{97}{section*.99}
+\contentsline {subsection}{Introducci\IeC {\'o}n}{97}{section*.100}
+\contentsline {subsection}{Pruebas de Caja Negra}{98}{section*.101}
+\contentsline {subsection}{Pruebas de Estr\IeC {\'e}s}{98}{section*.102}
+\contentsline {section}{Test de Integraci\IeC {\'o}n}{98}{section*.103}
+\contentsline {subsection}{Introducci\IeC {\'o}n}{98}{section*.104}
+\contentsline {subsection}{Pruebas de Integraci\IeC {\'o}n}{98}{section*.105}
+\contentsline {section}{Test de Aceptaci\IeC {\'o}n}{99}{section*.106}
+\contentsline {subsection}{Introducci\IeC {\'o}n}{99}{section*.107}
+\contentsline {subsection}{Prueba Alfa}{99}{section*.108}
+\contentsline {subsection}{Prueba Beta}{99}{section*.109}
+\contentsline {chapter}{Conclusiones}{100}{chapter*.110}

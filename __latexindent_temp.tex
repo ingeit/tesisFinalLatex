@@ -1214,8 +1214,7 @@
 		\subsection{Crear Registro }
 			\begin{figure}[H]
 			\centering
-				\includegraphics[width=0.6\textwidth]
-				{imagenes/analisis/diagrama-actividad-crear-registro.png}
+				\includegraphics{imagenes/analisis/diagrama-actividad-crear-registro.png}
 					%%Me parece que queda mejor sin el hfill
 					%\hfill
 				\label{fig:diagrama-actividad-crear-tienda}
@@ -1240,7 +1239,7 @@
 		\subsection{Iniciar Sesion}
 			\begin{figure}[H]
 				\centering
-					\includegraphics{imagenes/DiagramasUML/sdIniciarSesion.png}
+				\includegraphics[width=1\textwidth]{imagenes/DiagramasUML/sdIniciarSesion.png}
 							%%Me parece que queda mejor sin el hfill
 							%\hfill
 					\label{fig:diagrama-secuencia-autenticar}
@@ -1249,7 +1248,7 @@
 		\subsection{Registrar}
 			\begin{figure}[H]
 				\centering
-				\includegraphics{imagenes/DiagramasUML/sdRegistrar.png}
+				\includegraphics[width=1\textwidth]{imagenes/DiagramasUML/sdRegistrar.png}
 							%%Me parece que queda mejor sin el hfill
 							%\hfill
 					\label{fig:diagrama-secuencia-registrar}
@@ -1257,8 +1256,8 @@
 
 		\subsection{Crear Registro}
 			\begin{figure}[H]
-				\centering
-				\includegraphics{imagenes/DiagramasUML/sdCrearRegistro.png}
+        \centering
+        \includegraphics[width=1\textwidth]{imagenes/DiagramasUML/sdCrearRegistro.png}
 							%%Me parece que queda mejor sin el hfill
 							%\hfill
 					\label{fig:diagrama-secuencia-crear-tienda}
@@ -1270,133 +1269,163 @@
 	%#
 	%#############################################################################
 
-	\section{Interfaz de Usuario}
-		\subsection{Iniciar Sesion}
-			\begin{figure}[H]
-				\centering
-					\includegraphics[width=0.6\textwidth]{imagenes/capturas/home.png}
-							%%Me parece que queda mejor sin el hfill
-							%\hfill
-							\caption{Pantalla inicial}
-					\label{fig:home}
-			\end{figure}
+	\section{Interfaz de usuario}
+			\subsection{1. Aplicacion movil}
 
-		\subsection{Iniciar Sesion}
-			\begin{figure}
-				\centering
-					\includegraphics[width=0.6\textwidth]{imagenes/capturas/login.png}
-							%%Me parece que queda mejor sin el hfill
-							%\hfill
-							\caption{Pantalla de login}
-					\label{fig:login}
-			\end{figure}
+				\begin{figure}[H]
+					\hspace*{1cm}\raggedright\large\textbf{Inicio de sesion}\par\medskip
+					\centering
+						\includegraphics[width=0.6\textwidth]{Screenshots/login.png}
+				\end{figure}
 
-		\subsection{Iniciar Sesion}
-			\begin{figure}
-				\centering
-					\includegraphics[width=0.6\textwidth]{imagenes/capturas/registro2.png}
-							%%Me parece que queda mejor sin el hfill
-							%\hfill
-							\caption{Pantalla de registro}
-					\label{fig:login}
-			\end{figure}
+				\begin{figure}
+					\hspace*{1cm}\raggedright\large\textbf{Configuracion}\par\medskip
+					\centering
+						\includegraphics[width=0.6\textwidth]{Screenshots/configuracion.png}
+				\end{figure}
 
-		\subsection{Iniciar Sesion}
-			\begin{figure}
-				\centering
-					\includegraphics[width=0.6\textwidth]{imagenes/capturas/crear-tienda1.png}
-							%%Me parece que queda mejor sin el hfill
-							%\hfill
-							\caption{Pantalla de creación de tienda, parte superior}
-					\label{fig:crear-tienda-1}
-			\end{figure}
+				\begin{figure}
+					\hspace*{1cm}\raggedright\large\textbf{Perfil}\par\medskip
+					\centering
+						\includegraphics[width=0.6\textwidth]{Screenshots/perfil.png}
+				\end{figure}
+				
+				\begin{figure}
+					\hspace*{1cm}\raggedright\large\textbf{Nuevo registro}\par\medskip
+					\centering
+					\textbf{Paso 1}\par\medskip
+					\includegraphics[width=0.6\textwidth]{Screenshots/registroPaso1.png}
+					\caption{Obtencion automatica de coordenadas}
+				\end{figure}
+				
+				\begin{figure}
+					\centering
+					\textbf{Paso 2. Sin fotos}\par\medskip
+					\includegraphics[width=0.6\textwidth]{Screenshots/registroPaso2A.png}
+					\caption{Obtencion manual de fotografias (vista limpia)}
+				\end{figure}
+				
+				\begin{figure}
+					\centering
+					\textbf{Paso 2. Con fotos}\par\medskip
+					\includegraphics[width=0.6\textwidth]{Screenshots/registroPaso2B.png}
+					\caption{Vista con fotos capturadas}
+				\end{figure}
+				
+				\begin{figure}[t]
+					\centering
+					\textbf{Paso 3}\par\medskip
+					\subfigure[Captura 1/3]{
+						\includegraphics[width=.3\textwidth]{Screenshots/registroPaso3A.png}
+					}
+					\subfigure[Captura 2/3]{
+						\includegraphics[width=.3\textwidth]{Screenshots/registroPaso3B.png}
+					}
+					
+					\subfigure[Captura 3/3]{
+						\includegraphics[width=.3\textwidth]{Screenshots/registroPaso3C.png}
+					}
+					\caption{Formulario para seleccion de insectos encontrados}
+				\end{figure}
 
-		\subsection{Iniciar Sesion}
-			\begin{figure}
-				\centering
-					\includegraphics[width=0.6\textwidth]{imagenes/capturas/crear-tienda2.png}
-							%%Me parece que queda mejor sin el hfill
-							%\hfill
-							\caption{Pantalla de creación de tienda, parte inferior}
-					\label{fig:crear-tienda-2}
-			\end{figure}
+				\begin{figure}
+					\centering
+					\textbf{Paso 3. Imagen completa}\par\medskip
+					\includegraphics[height=1.2\textwidth]{Screenshots/registroPaso3Completo.png}
+					\caption{Paso 3: Formulario para seleccion de insectos encontrados vista general a modo ilustrativo.}
+				\end{figure}
+				
+				\begin{figure}
+					\centering
+					\textbf{Paso 4}\par\medskip
+						\includegraphics[width=0.6\textwidth]{Screenshots/ruedita.png}
+						\caption{Paso 4: Ruleta animada indicadora de indice segun coincidencias de insectos}
+				\end{figure}
 
-		\subsection{Iniciar Sesion}
-			\begin{figure}
-				\centering
-					\includegraphics[width=0.6\textwidth]{imagenes/capturas/administracion-tienda.png}
-							%%Me parece que queda mejor sin el hfill
-							%\hfill
-							\caption{Pantalla de administración de la tienda}
-					\label{fig:admin-tienda}
-			\end{figure}
+				\begin{figure}
+					\hspace*{1cm}\raggedright\large\textbf{Listar registros creados}\par\medskip
+					\centering
+						\includegraphics[width=0.6\textwidth]{Screenshots/registrosLocales.png}
+						\caption{Lista con desplazamiento vertical para ver registros correspondientes al usuario logueado}
+				\end{figure}
 
-		\subsection{Iniciar Sesion}
-			\begin{figure}
-				\centering
-					\includegraphics[width=0.6\textwidth]{imagenes/capturas/crear-producto1.png}
-							%%Me parece que queda mejor sin el hfill
-							%\hfill
-							\caption{Pantalla de creación de producto, parte superior}
-					\label{fig:crear-producto-1}
-			\end{figure}
 
-		\subsection{Iniciar Sesion}
-			\begin{figure}
-				\centering
-					\includegraphics[width=0.6\textwidth]{imagenes/capturas/crear-producto2.png}
-							%%Me parece que queda mejor sin el hfill
-							%\hfill
-							\caption{Pantalla de creación de producto, parte inferior}
-					\label{fig:crear-producto2}
-			\end{figure}
+				\begin{figure}[t]
+					\hspace*{1cm}\raggedright\large\textbf{Ver registro}\par\medskip
+					\centering
+					\subfigure[Captura 1/3]{
+						\includegraphics[width=.3\textwidth]{Screenshots/verRegistro1.png}
+					}
+					\subfigure[Captura 2/3]{
+						\includegraphics[width=.3\textwidth]{Screenshots/verRegistro2.png}
+					}
+					
+					\subfigure[Captura 3/3]{
+						\includegraphics[width=.3\textwidth]{Screenshots/verRegistro3.png}
+					}
+					\caption{Formulario para seleccion de insectos encontrados}
+				\end{figure}
 
-		\subsection{Iniciar Sesion}
-			\begin{figure}
-				\centering
-					\includegraphics[width=0.6\textwidth]{imagenes/capturas/administracion-productos.png}
-							%%Me parece que queda mejor sin el hfill
-							%\hfill
-							\caption{Pantalla de administración de productos}
-					\label{fig:administrar-productos}
-			\end{figure}
+				\begin{figure}
+					\centering
+					\textbf{Vista completa}\par\medskip
+						\includegraphics[height=1.2\textwidth]{Screenshots/verRegistroCompleto.png}
+						\caption{Vista completa de un registro con desplazamiento vertical. Modo ilustrativo}
+				\end{figure}
 
-		\subsection{Iniciar Sesion}
-			\begin{figure}
-				\centering
-					\includegraphics[width=0.6\textwidth]{imagenes/capturas/vista-tienda.png}
-							%%Me parece que queda mejor sin el hfill
-							%\hfill
-							\caption{Pantalla de tienda}
-					\label{fig:tienda}
-			\end{figure}
+			\subsection{2. Sistema WEB}
 
-		\subsection{Iniciar Sesion}
-			\begin{figure}
-				\centering
-					\includegraphics[width=0.6\textwidth]{imagenes/capturas/busqueda.png}
-							%%Me parece que queda mejor sin el hfill
-							%\hfill
-							\caption{Pantalla de resultados de la búsqueda de productos}
-					\label{fig:busqueda}
-			\end{figure}
+				\begin{figure}[H]
+					\hspace*{1cm}\raggedright\large\textbf{Inicio de sesion}\par\medskip
+					\centering
+					\hspace*{-1cm}
+						\includegraphics[width=1\textwidth]{Screenshots/web/login.png}
+						\hspace*{-1cm}
+				\end{figure} 
+	
+				\begin{figure}
+					\centering
+						\includegraphics[width=0.6\textwidth]{Screenshots/web/registroListar.png}
+								%%Me parece que queda mejor sin el hfill
+								%\hfill
+								\caption{Pantalla de resultados de la busqueda de registros con filtros}
+						\label{fig:busqueda}
+				\end{figure}
 
-		\subsection{Iniciar Sesion}
-			\begin{figure}
-				\centering
-					\includegraphics[width=0.6\textwidth]{imagenes/capturas/pagina-producto.png}
-							%%Me parece que queda mejor sin el hfill
-							%\hfill
-							\caption{Pantalla de producto}
-					\label{fig:producto}
-			\end{figure}
+			
+				\begin{figure}
+					\centering
+						\includegraphics[width=0.6\textwidth]{Screenshots/web/registroVer1.png}
+								%%Me parece que queda mejor sin el hfill
+								%\hfill
+								\caption{Visualizacion rapida de registro en el sector derecho de la pantalla}
+				\end{figure}
 
-		\subsection{Iniciar Sesion}
-			\begin{figure}
-				\centering
-					\includegraphics[width=0.6\textwidth]{imagenes/capturas/listado-ventas.png}
-							%%Me parece que queda mejor sin el hfill
-							%\hfill
-							\caption{Pantalla de listado de ventas}
-					\label{fig:listado-ventas}
-			\end{figure}
+				\begin{figure}
+					\centering
+						\includegraphics[width=0.6\textwidth]{Screenshots/web/registroVer2.png}
+								%%Me parece que queda mejor sin el hfill
+								%\hfill
+								\caption{Visualizacion rapida de registro en el sector derecho de la pantalla}
+
+				\end{figure}
+
+			
+				\begin{figure}
+					\centering
+						\includegraphics[width=0.6\textwidth]{Screenshots/web/usuarioListar.png}
+								%%Me parece que queda mejor sin el hfill
+								%\hfill
+								\caption{Pantalla de resultados de la busqueda de usuarios con filtros}
+						
+				\end{figure}
+
+			
+				\begin{figure}
+					\centering
+						\includegraphics[width=0.6\textwidth]{Screenshots/web/usuarioVer.png}
+								%%Me parece que queda mejor sin el hfill
+								%\hfill
+								\caption{Visualizacion rapida del perfil de usuario en el sector derecho de la pantalla}
+
+				\end{figure}
