@@ -66,50 +66,39 @@
 \BOOKMARK [2][-]{section*.71}{Crear Registro}{section*.68}% 66
 \BOOKMARK [1][-]{section*.72}{Interfaz de usuario}{chapter*.41}% 67
 \BOOKMARK [2][-]{section*.73}{Aplicacion movil}{section*.72}% 68
-\BOOKMARK [2][-]{section*.74}{Iniciar Sesion}{section*.72}% 69
-\BOOKMARK [2][-]{section*.75}{Configuracion}{section*.72}% 70
-\BOOKMARK [2][-]{section*.76}{Vista Perfil}{section*.72}% 71
-\BOOKMARK [2][-]{section*.77}{Crear Registro}{section*.72}% 72
-\BOOKMARK [2][-]{section*.78}{Lista de registros creados por el usuario}{section*.72}% 73
-\BOOKMARK [2][-]{section*.79}{Ver registro}{section*.72}% 74
-\BOOKMARK [2][-]{section*.80}{Sistema de gestion WEB}{section*.72}% 75
-\BOOKMARK [2][-]{section*.81}{Iniciar Sesion}{section*.72}% 76
-\BOOKMARK [2][-]{section*.82}{Lista de registros global con filtros}{section*.72}% 77
-\BOOKMARK [2][-]{section*.83}{Ver registro}{section*.72}% 78
-\BOOKMARK [2][-]{section*.84}{Lista de usuarios global con filtros}{section*.72}% 79
-\BOOKMARK [2][-]{section*.85}{Ver registro}{section*.72}% 80
-\BOOKMARK [0][-]{chapter*.86}{Disciplina de Implementaci\363n}{}% 81
-\BOOKMARK [1][-]{section*.87}{Arquitectura de la aplicaci\363n}{chapter*.86}% 82
-\BOOKMARK [1][-]{section*.88}{Diagrama de Despliegue}{chapter*.86}% 83
-\BOOKMARK [1][-]{section*.89}{Elecci\363n del Lenguaje}{chapter*.86}% 84
-\BOOKMARK [1][-]{section*.90}{Arquitectura de Android}{chapter*.86}% 85
-\BOOKMARK [1][-]{section*.91}{PhoneGap}{chapter*.86}% 86
-\BOOKMARK [2][-]{section*.92}{Ventajas de PhoneGap}{section*.91}% 87
-\BOOKMARK [2][-]{section*.93}{Desventaja de phoneGap}{section*.91}% 88
-\BOOKMARK [1][-]{section*.94}{Web services}{chapter*.86}% 89
-\BOOKMARK [2][-]{section*.95}{Razones para crear servicios Web}{section*.94}% 90
-\BOOKMARK [2][-]{section*.96}{REST}{section*.94}% 91
-\BOOKMARK [1][-]{section*.98}{Caracter\355sticas de seguridad}{chapter*.86}% 92
-\BOOKMARK [2][-]{section*.99}{Canal de comunicaci\363n cifrado}{section*.98}% 93
-\BOOKMARK [2][-]{section*.100}{ACL para cada objeto}{section*.98}% 94
-\BOOKMARK [1][-]{section*.101}{Backbone.js}{chapter*.86}% 95
-\BOOKMARK [2][-]{section*.102}{Modelo Vista Presentador \(MVP\)}{section*.101}% 96
-\BOOKMARK [1][-]{section*.103}{jQuery}{chapter*.86}% 97
-\BOOKMARK [1][-]{section*.104}{jQuery Mobile}{chapter*.86}% 98
-\BOOKMARK [1][-]{section*.105}{Herramientas de desarrollo}{chapter*.86}% 99
-\BOOKMARK [0][-]{chapter*.106}{Disciplina de Pruebas}{}% 100
-\BOOKMARK [1][-]{section*.107}{Test de Unidades}{chapter*.106}% 101
-\BOOKMARK [2][-]{section*.108}{Introducci\363n}{section*.107}% 102
-\BOOKMARK [2][-]{section*.109}{Pruebas de Caja Blanca}{section*.107}% 103
-\BOOKMARK [1][-]{section*.110}{Test de M\363dulos}{chapter*.106}% 104
-\BOOKMARK [2][-]{section*.111}{Introducci\363n}{section*.110}% 105
-\BOOKMARK [2][-]{section*.112}{Pruebas de Caja Negra}{section*.110}% 106
-\BOOKMARK [2][-]{section*.113}{Pruebas de Estr\351s}{section*.110}% 107
-\BOOKMARK [1][-]{section*.114}{Test de Integraci\363n}{chapter*.106}% 108
-\BOOKMARK [2][-]{section*.115}{Introducci\363n}{section*.114}% 109
-\BOOKMARK [2][-]{section*.116}{Pruebas de Integraci\363n}{section*.114}% 110
-\BOOKMARK [1][-]{section*.117}{Test de Aceptaci\363n}{chapter*.106}% 111
-\BOOKMARK [2][-]{section*.118}{Introducci\363n}{section*.117}% 112
-\BOOKMARK [2][-]{section*.119}{Prueba Alfa}{section*.117}% 113
-\BOOKMARK [2][-]{section*.120}{Prueba Beta}{section*.117}% 114
-\BOOKMARK [0][-]{chapter*.121}{Conclusiones}{}% 115
+\BOOKMARK [2][-]{section*.74}{Sistema de gestion WEB}{section*.72}% 69
+\BOOKMARK [0][-]{chapter*.75}{Disciplina de Implementaci\363n}{}% 70
+\BOOKMARK [1][-]{section*.76}{Arquitectura de la aplicaci\363n}{chapter*.75}% 71
+\BOOKMARK [1][-]{section*.77}{Diagrama de Despliegue}{chapter*.75}% 72
+\BOOKMARK [1][-]{section*.78}{Elecci\363n del Lenguaje}{chapter*.75}% 73
+\BOOKMARK [1][-]{section*.79}{Arquitectura de Android}{chapter*.75}% 74
+\BOOKMARK [1][-]{section*.80}{PhoneGap}{chapter*.75}% 75
+\BOOKMARK [2][-]{section*.81}{Ventajas de PhoneGap}{section*.80}% 76
+\BOOKMARK [2][-]{section*.82}{Desventaja de phoneGap}{section*.80}% 77
+\BOOKMARK [1][-]{section*.83}{Web services}{chapter*.75}% 78
+\BOOKMARK [2][-]{section*.84}{Razones para crear servicios Web}{section*.83}% 79
+\BOOKMARK [2][-]{section*.85}{REST}{section*.83}% 80
+\BOOKMARK [1][-]{section*.87}{Caracter\355sticas de seguridad}{chapter*.75}% 81
+\BOOKMARK [2][-]{section*.88}{Canal de comunicaci\363n cifrado}{section*.87}% 82
+\BOOKMARK [2][-]{section*.89}{ACL para cada objeto}{section*.87}% 83
+\BOOKMARK [1][-]{section*.90}{Backbone.js}{chapter*.75}% 84
+\BOOKMARK [2][-]{section*.91}{Modelo Vista Presentador \(MVP\)}{section*.90}% 85
+\BOOKMARK [1][-]{section*.92}{jQuery}{chapter*.75}% 86
+\BOOKMARK [1][-]{section*.93}{jQuery Mobile}{chapter*.75}% 87
+\BOOKMARK [1][-]{section*.94}{Herramientas de desarrollo}{chapter*.75}% 88
+\BOOKMARK [0][-]{chapter*.95}{Disciplina de Pruebas}{}% 89
+\BOOKMARK [1][-]{section*.96}{Test de Unidades}{chapter*.95}% 90
+\BOOKMARK [2][-]{section*.97}{Introducci\363n}{section*.96}% 91
+\BOOKMARK [2][-]{section*.98}{Pruebas de Caja Blanca}{section*.96}% 92
+\BOOKMARK [1][-]{section*.99}{Test de M\363dulos}{chapter*.95}% 93
+\BOOKMARK [2][-]{section*.100}{Introducci\363n}{section*.99}% 94
+\BOOKMARK [2][-]{section*.101}{Pruebas de Caja Negra}{section*.99}% 95
+\BOOKMARK [2][-]{section*.102}{Pruebas de Estr\351s}{section*.99}% 96
+\BOOKMARK [1][-]{section*.103}{Test de Integraci\363n}{chapter*.95}% 97
+\BOOKMARK [2][-]{section*.104}{Introducci\363n}{section*.103}% 98
+\BOOKMARK [2][-]{section*.105}{Pruebas de Integraci\363n}{section*.103}% 99
+\BOOKMARK [1][-]{section*.106}{Test de Aceptaci\363n}{chapter*.95}% 100
+\BOOKMARK [2][-]{section*.107}{Introducci\363n}{section*.106}% 101
+\BOOKMARK [2][-]{section*.108}{Prueba Alfa}{section*.106}% 102
+\BOOKMARK [2][-]{section*.109}{Prueba Beta}{section*.106}% 103
+\BOOKMARK [0][-]{chapter*.110}{Conclusiones}{}% 104
