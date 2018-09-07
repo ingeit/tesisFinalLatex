@@ -65,9 +65,9 @@
 \contentsline {subsection}{Iniciar Sesion}{63}{section*.69}
 \contentsline {subsection}{Registrar}{64}{section*.70}
 \contentsline {subsection}{Crear Registro}{65}{section*.71}
-\contentsline {section}{Interfaz de usuario}{65}{section*.72}
-\contentsline {subsection}{1. Aplicacion movil}{65}{section*.73}
-\contentsline {subsection}{2. Sistema WEB}{65}{section*.74}
+\contentsline {section}{Interfaz de usuario}{66}{section*.72}
+\contentsline {subsection}{1. Aplicacion movil}{66}{section*.73}
+\contentsline {subsection}{2. Sistema WEB}{76}{section*.74}
 \contentsline {chapter}{Disciplina de Implementaci\IeC {\'o}n}{81}{chapter*.75}
 \contentsline {section}{Diagrama conceptual estructura Cliente/Servidor/Internet}{81}{section*.76}
 \contentsline {section}{Arquitectura de la aplicaci\IeC {\'o}n}{82}{section*.77}
