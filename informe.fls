@@ -64,6 +64,10 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/anysize/anysize.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/anysize/anysize.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/makeidx.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/makeidx.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.cfg
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.cfg
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
