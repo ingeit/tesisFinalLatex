@@ -300,13 +300,13 @@
 
     \end{enumerate}
 
-    \subsection{Suposiciones y Dependencias:}
+    \subsection{Suposiciones y Dependencias}
       \begin{itemize}
         \item \textbf{Suposiciones:} Se asume que los requisitos en este documento son estables una vez que sean aprobados por los responsables de la aplicación. Cualquier petición de cambios en la especificación debe ser aprobada por todas las partes intervinientes y será gestionada por el equipo de desarrollo.
         \item \textbf{Dependencias:} El sistema trabaja en conjunto con Google Maps y el sistema de posicionamiento global mediante satélites, algún cambio que se realicen en estos, el sistema podría presentar inconsistencias, errores, y hasta dejar de funcionar.
       \end{itemize}
 
-    \subsection{Requisitos de Usuario y Tecnológicos:}
+    \subsection{Requisitos de Usuario y Tecnológicos}
       \begin{itemize}
         \item \textbf{Requisitos de usuario:} Como se mencionó anteriormente, se identifican dos tipos de usuarios: Administradores y Alumnos. Los usuarios tendrán sus cuentas asociadas con Nombre de Usuario y Contraseña. Los mismos podrán iniciar sesión desde computadoras de escritorio o mediante la aplicación para dispositivos móviles Smartphones, siempre y cuando, dispongan de una cuenta valida. En caso contrario, deberán registrarse en el sistema mediante la aplicación correspondiente.
 
@@ -370,18 +370,18 @@
           \end{itemize}
       \end{itemize}
 
-    \subsection{Requisitos de Rendimiento:}
+    \subsection{Requisitos de Rendimiento}
 
       El Tiempo de respuesta de la aplicación de cada función solicitada por el usuario no debe ser superior a los 3 segundos en una velocidad efectiva de conexión con el servidor a través de 3G.
       No obstante, los registros al generarse de manera offline (sin conexión a internet), se guardarán de manera local, por lo que si se generaron varios registros, al momento de que el Smartphone detecte conexión a internet, el tiempo de respuesta se ve incrementando directamente proporcional a la cantidad de registros que se estén subiendo al servidor en la nube en ese momento.
 
-    \subsection{Requisitos de Desarrollo y Restricciones de Diseño:}
+    \subsection{Requisitos de Desarrollo y Restricciones de Diseño}
 
       El ciclo de vida será Prototipado Evolutivo, debiendo orientarse hacia el desarrollo de un sistema flexible que permita incorporar de manera sencilla cambios y nuevas funcionalidades.
 
-    \subsection{Ajuste a estándares:} Interfaz de usuario basada Material Desing (Google)
+    \subsection{Ajuste a estándares} Interfaz de usuario basada Material Desing (Google)
 
-    \subsection{Seguridad:} 
+    \subsection{Seguridad} 
       \begin{itemize}
         
         \item \textbf{En desarrollo:} Los desarrolladores acceden a la gestión del sistema operativo y/o sus aplicaciones a través de Secure Shell o SSH, el estándar de facto para la administración remota de servidores de manera segura. Tanto para la administración propia del servidor, como en las aplicaciones que se utilizan para administrar la base de datos (MySQL Workbench) y la gestión de archivos (SFTP), se realizan con clientes que establecen conexiones seguras con el servidor. La técnica empleada para dichas conexiones es el intercambio de claves públicas y validación con la clave privada de las aplicaciones cliente.
