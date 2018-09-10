@@ -36,6 +36,7 @@
 \documentclass[12pt,a4paper]{report}
 
 %% Paquetes adicionales
+\usepackage{hyperref}
 \usepackage[spanish,activeacute]{babel}    		% Soporte spanish
 \usepackage[spanish]{translator}
 \usepackage[utf8]{inputenc}		% Entradas con acentos, eñes, etc
@@ -160,7 +161,10 @@
 \floatstyle{boxed}
 \newfloat{logs}{thb}{lop}
 \floatname{logs}{Registro}
-
+\hypersetup{
+  colorlinks = true,
+  linkcolor  = black
+}
 
 %% Espaciado entre lineas
 %\baselinestretch{2.0}
