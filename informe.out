@@ -10,18 +10,18 @@
 \BOOKMARK [2][-]{section*.15}{Introducci\363n}{section*.14}% 10
 \BOOKMARK [2][-]{section*.16}{Objetivos y alcance del sistema}{section*.14}% 11
 \BOOKMARK [1][-]{section*.17}{Definiciones, acr\363nimos y abreviaturas}{chapter*.9}% 12
-\BOOKMARK [2][-]{section*.18}{Definiciones:}{section*.17}% 13
+\BOOKMARK [2][-]{section*.18}{Definiciones}{section*.17}% 13
 \BOOKMARK [1][-]{section*.19}{Descripci\363n general}{chapter*.9}% 14
 \BOOKMARK [2][-]{section*.20}{Proceso actual}{section*.19}% 15
 \BOOKMARK [2][-]{section*.21}{Reingenier\355a de proceso}{section*.19}% 16
 \BOOKMARK [1][-]{section*.22}{Requisitos espec\355ficos}{chapter*.9}% 17
-\BOOKMARK [2][-]{section*.23}{Suposiciones y Dependencias:}{section*.22}% 18
-\BOOKMARK [2][-]{section*.24}{Requisitos de Usuario y Tecnol\363gicos:}{section*.22}% 19
+\BOOKMARK [2][-]{section*.23}{Suposiciones y Dependencias}{section*.22}% 18
+\BOOKMARK [2][-]{section*.24}{Requisitos de Usuario y Tecnol\363gicos}{section*.22}% 19
 \BOOKMARK [2][-]{section*.25}{Requisitos de Interfaces Externas}{section*.22}% 20
-\BOOKMARK [2][-]{section*.26}{Requisitos de Rendimiento:}{section*.22}% 21
-\BOOKMARK [2][-]{section*.27}{Requisitos de Desarrollo y Restricciones de Dise\361o:}{section*.22}% 22
-\BOOKMARK [2][-]{section*.28}{Ajuste a est\341ndares:}{section*.22}% 23
-\BOOKMARK [2][-]{section*.29}{Seguridad:}{section*.22}% 24
+\BOOKMARK [2][-]{section*.26}{Requisitos de Rendimiento}{section*.22}% 21
+\BOOKMARK [2][-]{section*.27}{Requisitos de Desarrollo y Restricciones de Dise\361o}{section*.22}% 22
+\BOOKMARK [2][-]{section*.28}{Ajuste a est\341ndares}{section*.22}% 23
+\BOOKMARK [2][-]{section*.29}{Seguridad}{section*.22}% 24
 \BOOKMARK [1][-]{section*.30}{Estimaci\363n del proyecto}{chapter*.9}% 25
 \BOOKMARK [2][-]{section*.31}{Planificaci\363n de etapas}{section*.30}% 26
 \BOOKMARK [2][-]{section*.32}{Duraci\363n estimada de tareas}{section*.30}% 27
@@ -36,7 +36,7 @@
 \BOOKMARK [0][-]{chapter*.41}{Disciplina de Dise\361o}{}% 36
 \BOOKMARK [1][-]{section*.42}{Descripci\363n Textual de Casos de Uso}{chapter*.41}% 37
 \BOOKMARK [2][-]{section*.43}{Caso de Uso 01: Un usuario no registrado desea registrarse en el sistema.}{section*.42}% 38
-\BOOKMARK [2][-]{section*.44}{Caso de Uso 02: Un usuario registrado desea iniciar sesi\363n en la aplicaci\363n movil.}{section*.42}% 39
+\BOOKMARK [2][-]{section*.44}{Caso de Uso 02: Un usuario registrado desea iniciar sesi\363n en la aplicaci\363n m\363vil.}{section*.42}% 39
 \BOOKMARK [2][-]{section*.45}{Caso de Uso 03: Un usuario registrado desea crear un registro}{section*.42}% 40
 \BOOKMARK [2][-]{section*.46}{Caso de Uso 04: Un usuario registrado desea listar sus registros.}{section*.42}% 41
 \BOOKMARK [2][-]{section*.47}{Caso de Uso 05: Un usuario registrado desea ver un registro en particular}{section*.42}% 42
@@ -61,11 +61,11 @@
 \BOOKMARK [2][-]{section*.66}{Crear Registro }{section*.63}% 61
 \BOOKMARK [2][-]{section*.67}{Ver Mapa Interactivo}{section*.63}% 62
 \BOOKMARK [1][-]{section*.68}{Diagramas de Secuencia}{chapter*.41}% 63
-\BOOKMARK [2][-]{section*.69}{Iniciar Sesion}{section*.68}% 64
+\BOOKMARK [2][-]{section*.69}{Iniciar Sesi\363n}{section*.68}% 64
 \BOOKMARK [2][-]{section*.70}{Registrar}{section*.68}% 65
 \BOOKMARK [2][-]{section*.71}{Crear Registro}{section*.68}% 66
 \BOOKMARK [1][-]{section*.72}{Interfaz de usuario}{chapter*.41}% 67
-\BOOKMARK [2][-]{section*.73}{1. Aplicacion movil}{section*.72}% 68
+\BOOKMARK [2][-]{section*.73}{1. Aplicaci\363n m\363vil}{section*.72}% 68
 \BOOKMARK [2][-]{section*.74}{2. Sistema WEB}{section*.72}% 69
 \BOOKMARK [0][-]{chapter*.75}{Disciplina de Implementaci\363n}{}% 70
 \BOOKMARK [1][-]{section*.76}{Diagrama conceptual estructura Cliente/Servidor/Internet}{chapter*.75}% 71
@@ -81,19 +81,22 @@
 \BOOKMARK [2][-]{section*.86}{REST}{section*.84}% 81
 \BOOKMARK [1][-]{section*.88}{Express.js}{chapter*.75}% 82
 \BOOKMARK [1][-]{section*.89}{Herramientas de desarrollo}{chapter*.75}% 83
-\BOOKMARK [0][-]{chapter*.90}{Disciplina de Pruebas}{}% 84
-\BOOKMARK [1][-]{section*.91}{Test de Unidades}{chapter*.90}% 85
-\BOOKMARK [2][-]{section*.92}{Introducci\363n}{section*.91}% 86
-\BOOKMARK [2][-]{section*.93}{Pruebas de Caja Blanca}{section*.91}% 87
-\BOOKMARK [1][-]{section*.94}{Test de M\363dulos}{chapter*.90}% 88
+\BOOKMARK [1][-]{section*.90}{Persistencia de clases}{chapter*.75}% 84
+\BOOKMARK [2][-]{section*.91}{Modelo f\355sico del sistema}{section*.90}% 85
+\BOOKMARK [2][-]{section*.92}{Modelo relacional. Vista de la base de datos}{section*.90}% 86
+\BOOKMARK [0][-]{chapter*.93}{Disciplina de Pruebas}{}% 87
+\BOOKMARK [1][-]{section*.94}{Test de Unidades}{chapter*.93}% 88
 \BOOKMARK [2][-]{section*.95}{Introducci\363n}{section*.94}% 89
-\BOOKMARK [2][-]{section*.96}{Pruebas de Caja Negra}{section*.94}% 90
-\BOOKMARK [2][-]{section*.97}{Pruebas de Estr\351s}{section*.94}% 91
-\BOOKMARK [1][-]{section*.98}{Test de Integraci\363n}{chapter*.90}% 92
-\BOOKMARK [2][-]{section*.99}{Introducci\363n}{section*.98}% 93
-\BOOKMARK [2][-]{section*.100}{Pruebas de Integraci\363n}{section*.98}% 94
-\BOOKMARK [1][-]{section*.101}{Test de Aceptaci\363n}{chapter*.90}% 95
+\BOOKMARK [2][-]{section*.96}{Pruebas de Caja Blanca}{section*.94}% 90
+\BOOKMARK [1][-]{section*.97}{Test de M\363dulos}{chapter*.93}% 91
+\BOOKMARK [2][-]{section*.98}{Introducci\363n}{section*.97}% 92
+\BOOKMARK [2][-]{section*.99}{Pruebas de Caja Negra}{section*.97}% 93
+\BOOKMARK [2][-]{section*.100}{Pruebas de Estr\351s}{section*.97}% 94
+\BOOKMARK [1][-]{section*.101}{Test de Integraci\363n}{chapter*.93}% 95
 \BOOKMARK [2][-]{section*.102}{Introducci\363n}{section*.101}% 96
-\BOOKMARK [2][-]{section*.103}{Prueba Alfa}{section*.101}% 97
-\BOOKMARK [2][-]{section*.104}{Prueba Beta}{section*.101}% 98
-\BOOKMARK [0][-]{chapter*.105}{Conclusiones}{}% 99
+\BOOKMARK [2][-]{section*.103}{Pruebas de Integraci\363n}{section*.101}% 97
+\BOOKMARK [1][-]{section*.104}{Test de Aceptaci\363n}{chapter*.93}% 98
+\BOOKMARK [2][-]{section*.105}{Introducci\363n}{section*.104}% 99
+\BOOKMARK [2][-]{section*.106}{Prueba Alfa}{section*.104}% 100
+\BOOKMARK [2][-]{section*.107}{Prueba Beta}{section*.104}% 101
+\BOOKMARK [0][-]{chapter*.108}{Conclusiones}{}% 102

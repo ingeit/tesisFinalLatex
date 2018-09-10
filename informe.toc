@@ -11,18 +11,18 @@
 \contentsline {subsection}{Introducci\IeC {\'o}n}{9}{section*.15}
 \contentsline {subsection}{Objetivos y alcance del sistema}{10}{section*.16}
 \contentsline {section}{Definiciones, acr\IeC {\'o}nimos y abreviaturas}{10}{section*.17}
-\contentsline {subsection}{Definiciones:}{10}{section*.18}
+\contentsline {subsection}{Definiciones}{10}{section*.18}
 \contentsline {section}{Descripci\IeC {\'o}n general}{12}{section*.19}
 \contentsline {subsection}{Proceso actual}{12}{section*.20}
 \contentsline {subsection}{Reingenier\IeC {\'\i }a de proceso}{12}{section*.21}
 \contentsline {section}{Requisitos espec\IeC {\'\i }ficos}{14}{section*.22}
-\contentsline {subsection}{Suposiciones y Dependencias:}{19}{section*.23}
-\contentsline {subsection}{Requisitos de Usuario y Tecnol\IeC {\'o}gicos:}{20}{section*.24}
+\contentsline {subsection}{Suposiciones y Dependencias}{19}{section*.23}
+\contentsline {subsection}{Requisitos de Usuario y Tecnol\IeC {\'o}gicos}{20}{section*.24}
 \contentsline {subsection}{Requisitos de Interfaces Externas}{21}{section*.25}
-\contentsline {subsection}{Requisitos de Rendimiento:}{22}{section*.26}
-\contentsline {subsection}{Requisitos de Desarrollo y Restricciones de Dise\IeC {\~n}o:}{22}{section*.27}
-\contentsline {subsection}{Ajuste a est\IeC {\'a}ndares:}{22}{section*.28}
-\contentsline {subsection}{Seguridad:}{22}{section*.29}
+\contentsline {subsection}{Requisitos de Rendimiento}{22}{section*.26}
+\contentsline {subsection}{Requisitos de Desarrollo y Restricciones de Dise\IeC {\~n}o}{22}{section*.27}
+\contentsline {subsection}{Ajuste a est\IeC {\'a}ndares}{22}{section*.28}
+\contentsline {subsection}{Seguridad}{22}{section*.29}
 \contentsline {section}{Estimaci\IeC {\'o}n del proyecto}{24}{section*.30}
 \contentsline {subsection}{Planificaci\IeC {\'o}n de etapas}{24}{section*.31}
 \contentsline {subsection}{Duraci\IeC {\'o}n estimada de tareas}{25}{section*.32}
@@ -37,7 +37,7 @@
 \contentsline {chapter}{Disciplina de Dise\IeC {\~n}o}{30}{chapter*.41}
 \contentsline {section}{Descripci\IeC {\'o}n Textual de Casos de Uso}{30}{section*.42}
 \contentsline {subsection}{Caso de Uso 01: Un usuario no registrado desea registrarse en el sistema.}{30}{section*.43}
-\contentsline {subsection}{Caso de Uso 02: Un usuario registrado desea iniciar sesi\IeC {\'o}n en la aplicaci\IeC {\'o}n movil.}{33}{section*.44}
+\contentsline {subsection}{Caso de Uso 02: Un usuario registrado desea iniciar sesi\IeC {\'o}n en la aplicaci\IeC {\'o}n m\IeC {\'o}vil.}{33}{section*.44}
 \contentsline {subsection}{Caso de Uso 03: Un usuario registrado desea crear un registro}{34}{section*.45}
 \contentsline {subsection}{Caso de Uso 04: Un usuario registrado desea listar sus registros.}{36}{section*.46}
 \contentsline {subsection}{Caso de Uso 05: Un usuario registrado desea ver un registro en particular}{38}{section*.47}
@@ -62,11 +62,11 @@
 \contentsline {subsection}{Crear Registro }{61}{section*.66}
 \contentsline {subsection}{Ver Mapa Interactivo}{62}{section*.67}
 \contentsline {section}{Diagramas de Secuencia}{63}{section*.68}
-\contentsline {subsection}{Iniciar Sesion}{63}{section*.69}
+\contentsline {subsection}{Iniciar Sesi\IeC {\'o}n}{63}{section*.69}
 \contentsline {subsection}{Registrar}{64}{section*.70}
 \contentsline {subsection}{Crear Registro}{65}{section*.71}
 \contentsline {section}{Interfaz de usuario}{66}{section*.72}
-\contentsline {subsection}{1. Aplicacion movil}{66}{section*.73}
+\contentsline {subsection}{1. Aplicaci\IeC {\'o}n m\IeC {\'o}vil}{66}{section*.73}
 \contentsline {subsection}{2. Sistema WEB}{76}{section*.74}
 \contentsline {chapter}{Disciplina de Implementaci\IeC {\'o}n}{81}{chapter*.75}
 \contentsline {section}{Diagrama conceptual estructura Cliente/Servidor/Internet}{81}{section*.76}
@@ -83,19 +83,22 @@
 \contentsline {subsubsection}{Recursos}{88}{section*.87}
 \contentsline {section}{Express.js}{88}{section*.88}
 \contentsline {section}{Herramientas de desarrollo}{88}{section*.89}
-\contentsline {chapter}{Disciplina de Pruebas}{90}{chapter*.90}
-\contentsline {section}{Test de Unidades}{90}{section*.91}
-\contentsline {subsection}{Introducci\IeC {\'o}n}{90}{section*.92}
-\contentsline {subsection}{Pruebas de Caja Blanca}{90}{section*.93}
-\contentsline {section}{Test de M\IeC {\'o}dulos}{90}{section*.94}
-\contentsline {subsection}{Introducci\IeC {\'o}n}{90}{section*.95}
-\contentsline {subsection}{Pruebas de Caja Negra}{91}{section*.96}
-\contentsline {subsection}{Pruebas de Estr\IeC {\'e}s}{91}{section*.97}
-\contentsline {section}{Test de Integraci\IeC {\'o}n}{91}{section*.98}
-\contentsline {subsection}{Introducci\IeC {\'o}n}{91}{section*.99}
-\contentsline {subsection}{Pruebas de Integraci\IeC {\'o}n}{91}{section*.100}
-\contentsline {section}{Test de Aceptaci\IeC {\'o}n}{92}{section*.101}
+\contentsline {section}{Persistencia de clases}{89}{section*.90}
+\contentsline {subsection}{Modelo f\IeC {\'\i }sico del sistema}{89}{section*.91}
+\contentsline {subsection}{Modelo relacional. Vista de la base de datos}{90}{section*.92}
+\contentsline {chapter}{Disciplina de Pruebas}{91}{chapter*.93}
+\contentsline {section}{Test de Unidades}{91}{section*.94}
+\contentsline {subsection}{Introducci\IeC {\'o}n}{91}{section*.95}
+\contentsline {subsection}{Pruebas de Caja Blanca}{91}{section*.96}
+\contentsline {section}{Test de M\IeC {\'o}dulos}{91}{section*.97}
+\contentsline {subsection}{Introducci\IeC {\'o}n}{91}{section*.98}
+\contentsline {subsection}{Pruebas de Caja Negra}{92}{section*.99}
+\contentsline {subsection}{Pruebas de Estr\IeC {\'e}s}{92}{section*.100}
+\contentsline {section}{Test de Integraci\IeC {\'o}n}{92}{section*.101}
 \contentsline {subsection}{Introducci\IeC {\'o}n}{92}{section*.102}
-\contentsline {subsection}{Prueba Alfa}{92}{section*.103}
-\contentsline {subsection}{Prueba Beta}{92}{section*.104}
-\contentsline {chapter}{Conclusiones}{93}{chapter*.105}
+\contentsline {subsection}{Pruebas de Integraci\IeC {\'o}n}{92}{section*.103}
+\contentsline {section}{Test de Aceptaci\IeC {\'o}n}{93}{section*.104}
+\contentsline {subsection}{Introducci\IeC {\'o}n}{93}{section*.105}
+\contentsline {subsection}{Prueba Alfa}{93}{section*.106}
+\contentsline {subsection}{Prueba Beta}{93}{section*.107}
+\contentsline {chapter}{Conclusiones}{94}{chapter*.108}

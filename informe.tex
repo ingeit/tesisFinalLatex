@@ -36,7 +36,6 @@
 \documentclass[12pt,a4paper]{report}
 
 %% Paquetes adicionales
-\usepackage{hyperref}
 \usepackage[spanish,activeacute]{babel}    		% Soporte spanish
 \usepackage[spanish]{translator}
 \usepackage[utf8]{inputenc}		% Entradas con acentos, eñes, etc
@@ -44,7 +43,7 @@
 \usepackage{latexsym} 				% Símbolos
 \usepackage{graphicx} 				% Inclusión de gráficos
 \usepackage[pdftex=true,colorlinks=true,plainpages=true]{hyperref} % Soporte hipertexto
-%\usepackage[pdftex=true,plainpages=true]{hyperref} % Soporte hipertexto sin pintar los enlaces
+\usepackage[pdftex=true,plainpages=true]{hyperref} % Soporte hipertexto sin pintar los enlaces
 \usepackage{anysize} 				% Soporte para el comando \marginsize
 \usepackage{makeidx} 				% Soporte de indices alfabeticos
 \usepackage{subfigure} 				% Soporte de indices alfabeticos
@@ -161,10 +160,6 @@
 \floatstyle{boxed}
 \newfloat{logs}{thb}{lop}
 \floatname{logs}{Registro}
-\hypersetup{
-  colorlinks = true,
-  linkcolor  = black
-}
 
 %% Espaciado entre lineas
 %\baselinestretch{2.0}
