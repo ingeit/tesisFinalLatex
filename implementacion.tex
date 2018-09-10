@@ -12,7 +12,7 @@
 %                                                      %
 % * Bruno, Ricardo Hugo (CX 1409686)                   %
 %     rburnount@gmail.com                              %
-% * Gomez Veliz, Kevin Shionen (CX 1411828)            %
+% * Gómez Veliz, Kevin Shionen (CX 1411828)            %
 %     ing.gomezvelizkevin@gmail.com                    %
 %                                                      %
 %   Tutor                                              %
@@ -53,7 +53,6 @@
 
     \begin{figure}[H]
         \centering
-        %lo que agregué entre corchetes hace que el ancho de la imagen ocupe el 80% del área de texto. Si sacás eso la imagen no se redimensiona y se va de la hoja. Se puede usar algo parecido para limitar el alto si es necesario.
         \includegraphics[width=1\textwidth]{imagenes/implementacion/despliegue.png}
         \caption{Diagrama de Despliegue}
         \label{diagrama-despliegue}
@@ -62,26 +61,26 @@
 
 \section{Modelo-Vista-Controlador}
 
-Modelo-Vista-Controlador (en adelante MVC) es un patron de diseño que permite
-separar la capa de datos y logica de negocios (modelos y controladores), de la interfaz
+Modelo-Vista-Controlador (en adelante MVC) es un patrón de diseño que permite
+separar la capa de datos y lógica de negocios (modelos y controladores), de la interfaz
 de usuario (vista).
 
 \subsection{Componentes del patrón}
 \begin{itemize}
-    \item \textbf{Modelo}: Es la representacion de la informacion con la cual el sistema opera. Se
+    \item \textbf{Modelo}: Es la representación de la información con la cual el sistema opera. Se
     puede pensar en un modelo como una tabla en el sistema gestor de bases de datos.
-    Si bien este enfoque resulta sumamente util para trabajar con el patron MVC,
-    el modelo tambien requiere de funcionalidades que faciliten la interaccion con los
-    demas controladores, vistas y modelos del sistema.
-    \item \textbf{Vista}: Es la representacion grafica de los datos. Provee la interfaz mediante la cual
+    Si bien este enfoque resulta sumamente útil para trabajar con el patrón MVC,
+    el modelo también requiere de funcionalidades que faciliten la interacción con los
+    demás controladores, vistas y modelos del sistema.
+    \item \textbf{Vista}: Es la representación grafica de los datos. Provee la interfaz mediante la cual
     los usuarios realizan la entrada de los datos y observan el resultado del procesamiento
     de dichos datos.
     \item \textbf{Controlador}: Sirve como nexo entre las vistas y los modelos. El controlador responde
-    usualmente a eventos que son generados por el usuario en su interaccion con
+    usualmente a eventos que son generados por el usuario en su interacción con
     la vista. La vista brinda al usuario un mecanismo para comunicarse con un controlador,
     y es este ultimo el encargado de obtener los datos ingresados por el usuario,
     pasarlos al modelo adecuado para su procesamiento, recibir la salida del modelo y
-    enviar dicha salida a la vista para su visualizacion.
+    enviar dicha salida a la vista para su visualización.
     
 \end{itemize}
 
@@ -91,7 +90,7 @@ de usuario (vista).
 
     Independientemente del paradigma de ingeniería de software, el lenguaje de programación tendrá impacto en la planificación, el análisis, el diseño, la codificación, la prueba y el mantenimiento de un proyecto. Para la construcción de la aplicación se eligió la utilización de los lenguajes web HTML5, CSS3 y JavaScript.
 
-    La elección de estos lenguajes para la construcción de la apliación se debe a las siguientes ventajas que ofrecen:
+    La elección de estos lenguajes para la construcción de la aplicación se debe a las siguientes ventajas que ofrecen:
     \begin{itemize}
         \item \emph{Mayor portabilidad:} Al ser tecnologías estándares y soportadas por la mayoría de los teléfonos celulares modernos, es posible que una misma aplicación sea muy fácilmente adaptable a varias plataformas móviles.
         \item \emph{Soporte futuro:} Todas las plataformas móviles están trabajando para mejorar el soporte que ofrecen a las tecnologías web, ofreciendo una mejor experiencia al usuario.
@@ -102,18 +101,17 @@ de usuario (vista).
 
 \begin{figure}[H]
   \centering
-    %lo que agregué entre corchetes hace que el ancho de la imagen ocupe el 80% del área de texto. Si sacás eso la imagen no se redimensiona y se va de la hoja. Se puede usar algo parecido para limitar el alto si es necesario.
     \includegraphics[width=0.5\textwidth]{imagenes/cordova-architecture.png}
     
      \caption{Arquitectura de Apache Cordova}
     \label{arquitectura-Apache Cordova}
 \end{figure}
 
-Apache Cordova es un \gls{framework} de código abierto que actúa como un intermediario entre las aplicaciones web y los dispositivos móviles. Permite crear aplicaciones móviles instalables utilizando tecnología web: \gls{JavaScript}, \gls{HTML}5 y \gls{CSS}3.
+Apache Cordova es un \gls{framework} de código abierto que actúa como un intermediario entre las aplicaciones web y los dispositivos móviles. Permite crear aplicaciones móviles listas para instalar utilizando tecnología web: \gls{JavaScript}, \gls{HTML}5 y \gls{CSS}3.
 
-Las aplicaciones resultantes no son totalmente nativas, ni puramente basado en la web. La desventaja de que una aplicación sea totalmente nativa es que sólo se podrá utilizar para la plataforma para la que fue realizada, es decir si se hace una aplicación para Android luego no se podrá reutilizar el código para hacer la misma aplicación para iOS.
+Las aplicaciones resultantes no son totalmente nativas, ni puramente basado en la web. La desventaja de que una aplicación sea totalmente nativa es que solo se podrá utilizar para la plataforma para la que fue realizada, es decir si se hace una aplicación para Android luego no se podrá reutilizar el código para hacer la misma aplicación para iOS.
 
-Con Apache Cordova se puede reutilizar el código de una aplicación para crear el paquete instalable de cualquiera de las 7 plataformas móviles soportadas: iOS, Android, Blackberry, Windows Phone, WebOS de Palm, Symbianm, Bada, entre otras.
+Con Apache Cordova se puede reutilizar el código de una aplicación para crear el paquete instalador de cualquiera de las 7 plataformas móviles soportadas: iOS, Android, Blackberry, Windows Phone, WebOS de Palm, Symbian, Bada, entre otras.
 
 Apache Cordova permite acceder a funciones nativas como el acelerómetro, cámara, brújula, contactos, archivos, ubicación geográfica, almacenamiento  y notificaciones.
 
@@ -166,9 +164,7 @@ Los sistemas que siguen los principios REST se llaman con frecuencia RESTful.
 
 \begin{figure}[htbp]
   \centering
-    %lo que agregué entre corchetes hace que el ancho de la imagen ocupe el 80% del área de texto. Si sacás eso la imagen no se redimensiona y se va de la hoja. Se puede usar algo parecido para limitar el alto si es necesario.
-    \includegraphics[width=0.8\textwidth]{imagenes/REST.jpg}
-    
+    \includegraphics[width=1\textwidth]{imagenes/REST.jpg}
      \caption{Web Services REST}
     \label{fig:REST}
 \end{figure}
@@ -176,7 +172,7 @@ Los sistemas que siguen los principios REST se llaman con frecuencia RESTful.
 REST afirma que la web ha disfrutado de escalabilidad como resultado de una serie de diseños fundamentales clave:
 
 \begin{itemize}
-    \item \emph{Un protocolo cliente/servidor sin estado:} cada mensaje HTTP contiene toda la información necesaria para comprender la petición. Como resultado, ni el cliente ni el servidor necesitan recordar ningún estado de las comunicaciones entre mensajes. Sin embargo, en la práctica, muchas aplicaciones basadas en HTTP utilizan cookies y otros mecanismos para mantener el estado de la sesión (algunas de estas prácticas, como la reescritura de URLs, no son permitidas por REST)
+    \item \emph{Un protocolo cliente/servidor sin estado:} cada mensaje HTTP contiene toda la información necesaria para comprender la petición. Como resultado, ni el cliente ni el servidor necesitan recordar ningún estado de las comunicaciones entre mensajes. Sin embargo, en la práctica, muchas aplicaciones basadas en HTTP utilizan cookies y otros mecanismos para mantener el estado de la sesión (algunas de estas prácticas, como la re escritura de URLs, no son permitidas por REST)
     
     \item \emph{Un conjunto de operaciones bien definidas que se aplican a todos los recursos de información:} HTTP en sí define un conjunto pequeño de operaciones, las más importantes son POST, GET, PUT y DELETE.
     
@@ -199,9 +195,9 @@ Express proporciona una delgada capa de características de aplicación web bás
 
 \begin{itemize}
 
-\item \emph {Visual Code:} Visual Studio Code es un editor de código fuente desarrollado por Microsoft para Windows , Linux y macOS. Incluye soporte para la depuración, control integrado de Git.Es gratuito y de código abierto.
+\item \emph {Visual Code:} Visual Studio Code es un editor de código fuente desarrollado por Microsoft para Windows , Linux y macOS. Incluye soporte para la depuración, control integrado de Git. Es gratuito y de código abierto.
 
-\item \emph {Draw.io:} Es un stack de tecnología de codigo abierto para crear aplicaciones de diagramación, entre ellas UML.
+\item \emph {Draw.io:} Es un stack de tecnología de código abierto para crear aplicaciones de diagramación, entre ellas UML.
 Permite dibujar todos los tipos de diagramas de clases, código inverso, generar código desde diagramas y generar documentación.
 
 \item \emph{\LaTeX:} Es un sistema de composición de textos, orientado especialmente a la creación de libros, documentos científicos y técnicos que contengan fórmulas matemáticas.
@@ -212,3 +208,17 @@ Permite dibujar todos los tipos de diagramas de clases, código inverso, generar
 
 \end{itemize}
 
+\section{Persistencia de clases}
+
+    \subsection{Modelo físico del sistema}
+        En esta actividad se dene la estructura física de los datos utilizada en el sistema. 
+        Este esquema contempla las maneras de acceder físicamente a los datos, por medio de claves, índices, etc., para cumplir todos los requisitos. 
+        En esta fase se tienen que tener en cuenta aspectos de funcionalidad y rendimiento en el funcionamiento de la aplicación. Es decir, se modificara el diseño lógico de datos, para convertirlo en un modelo físico, que contemple todas estos aspectos de funcionalidad y rendimiento. Se comentaran de manera individualiza el porque de cada una de las modificaciones realizadas en el modelo físico, justificando su ejecución.
+
+		\subsection{Modelo relacional. Vista de la base de datos}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=1\textwidth]{imagenes/implementacion/db.png}
+				\caption{Modelo completo}
+				\label{diagrama-despliegue}
+			\end{figure}
