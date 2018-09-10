@@ -35,68 +35,50 @@
 \BOOKMARK [2][-]{section*.40}{Casos de Uso Principales}{section*.36}% 35
 \BOOKMARK [0][-]{chapter*.41}{Disciplina de Dise\361o}{}% 36
 \BOOKMARK [1][-]{section*.42}{Descripci\363n Textual de Casos de Uso}{chapter*.41}% 37
-\BOOKMARK [2][-]{section*.43}{Caso de Uso 01: Un usuario no registrado desea registrarse en el sistema.}{section*.42}% 38
-\BOOKMARK [2][-]{section*.44}{Caso de Uso 02: Un usuario registrado desea iniciar sesi\363n en la aplicaci\363n m\363vil.}{section*.42}% 39
-\BOOKMARK [2][-]{section*.45}{Caso de Uso 03: Un usuario registrado desea crear un registro}{section*.42}% 40
-\BOOKMARK [2][-]{section*.46}{Caso de Uso 04: Un usuario registrado desea listar sus registros.}{section*.42}% 41
-\BOOKMARK [2][-]{section*.47}{Caso de Uso 05: Un usuario registrado desea ver un registro en particular}{section*.42}% 42
-\BOOKMARK [2][-]{section*.48}{Caso de Uso 06: Un usuario registrado desea ver el mapa general.}{section*.42}% 43
-\BOOKMARK [2][-]{section*.49}{Caso de Uso 07: Un usuario registrado desea ver su perfil.}{section*.42}% 44
-\BOOKMARK [2][-]{section*.50}{Caso de Uso 08: Un usuario registrado desea modificar su perfil.}{section*.42}% 45
-\BOOKMARK [2][-]{section*.51}{Caso de Uso 10: Un usuario registrado desea eliminar su cuenta.}{section*.42}% 46
-\BOOKMARK [2][-]{section*.52}{Caso de Uso 11: Un administrador desea iniciar sesi\363n.}{section*.42}% 47
-\BOOKMARK [2][-]{section*.53}{Caso de Uso 12: Un administrador desea borrar o dar de baja un alumno.}{section*.42}% 48
-\BOOKMARK [2][-]{section*.54}{Caso de Uso 13: Un administrador desea cambiar el rol a un usuario.}{section*.42}% 49
-\BOOKMARK [2][-]{section*.55}{Caso de Uso 14: Un administrador desea listar los alumnos.}{section*.42}% 50
-\BOOKMARK [2][-]{section*.56}{Caso de Uso 15: Un administrador desea listar los registros.}{section*.42}% 51
-\BOOKMARK [2][-]{section*.57}{Caso de Uso 16: Un administrador desea ver un registro en particular.}{section*.42}% 52
-\BOOKMARK [2][-]{section*.58}{Caso de Uso UC17: Un administrador desea validar o invalidar registros.}{section*.42}% 53
-\BOOKMARK [2][-]{section*.59}{Caso de Uso UC18/19/20: Un administrador desea buscar registros por fecha de creaci\363n/Instituci\363n/Indice.}{section*.42}% 54
-\BOOKMARK [2][-]{section*.60}{Caso de Uso UC22: Un administrador desea exportar a Excel la informaci\363n.}{section*.42}% 55
-\BOOKMARK [1][-]{section*.61}{Diagrama de Clases}{chapter*.41}% 56
-\BOOKMARK [2][-]{section*.62}{Vista general}{section*.61}% 57
-\BOOKMARK [1][-]{section*.63}{Diagramas de Actividad}{chapter*.41}% 58
-\BOOKMARK [2][-]{section*.64}{Inicio de Sesi\363n}{section*.63}% 59
-\BOOKMARK [2][-]{section*.65}{Registrar Usuario}{section*.63}% 60
-\BOOKMARK [2][-]{section*.66}{Crear Registro }{section*.63}% 61
-\BOOKMARK [2][-]{section*.67}{Ver Mapa Interactivo}{section*.63}% 62
-\BOOKMARK [1][-]{section*.68}{Diagramas de Secuencia}{chapter*.41}% 63
-\BOOKMARK [2][-]{section*.69}{Iniciar Sesi\363n}{section*.68}% 64
-\BOOKMARK [2][-]{section*.70}{Registrar}{section*.68}% 65
-\BOOKMARK [2][-]{section*.71}{Crear Registro}{section*.68}% 66
-\BOOKMARK [1][-]{section*.72}{Interfaz de usuario}{chapter*.41}% 67
-\BOOKMARK [2][-]{section*.73}{1. Aplicaci\363n m\363vil}{section*.72}% 68
-\BOOKMARK [2][-]{section*.74}{2. Sistema WEB}{section*.72}% 69
-\BOOKMARK [0][-]{chapter*.75}{Disciplina de Implementaci\363n}{}% 70
-\BOOKMARK [1][-]{section*.76}{Diagrama conceptual estructura Cliente/Servidor/Internet}{chapter*.75}% 71
-\BOOKMARK [1][-]{section*.77}{Arquitectura de la aplicaci\363n}{chapter*.75}% 72
-\BOOKMARK [1][-]{section*.78}{Modelo-Vista-Controlador}{chapter*.75}% 73
-\BOOKMARK [2][-]{section*.79}{Componentes del patr\363n}{section*.78}% 74
-\BOOKMARK [1][-]{section*.80}{Elecci\363n del Lenguaje}{chapter*.75}% 75
-\BOOKMARK [1][-]{section*.81}{Apache Cordova}{chapter*.75}% 76
-\BOOKMARK [2][-]{section*.82}{Ventajas de Apache Cordova}{section*.81}% 77
-\BOOKMARK [2][-]{section*.83}{Desventaja de Apache Cordova}{section*.81}% 78
-\BOOKMARK [1][-]{section*.84}{Web services}{chapter*.75}% 79
-\BOOKMARK [2][-]{section*.85}{Razones para crear servicios Web}{section*.84}% 80
-\BOOKMARK [2][-]{section*.86}{REST}{section*.84}% 81
-\BOOKMARK [1][-]{section*.88}{Express.js}{chapter*.75}% 82
-\BOOKMARK [1][-]{section*.89}{Herramientas de desarrollo}{chapter*.75}% 83
-\BOOKMARK [1][-]{section*.90}{Persistencia de clases}{chapter*.75}% 84
-\BOOKMARK [2][-]{section*.91}{Modelo f\355sico del sistema}{section*.90}% 85
-\BOOKMARK [2][-]{section*.92}{Modelo relacional. Vista de la base de datos}{section*.90}% 86
-\BOOKMARK [0][-]{chapter*.93}{Disciplina de Pruebas}{}% 87
-\BOOKMARK [1][-]{section*.94}{Test de Unidades}{chapter*.93}% 88
-\BOOKMARK [2][-]{section*.95}{Introducci\363n}{section*.94}% 89
-\BOOKMARK [2][-]{section*.96}{Pruebas de Caja Blanca}{section*.94}% 90
-\BOOKMARK [1][-]{section*.97}{Test de M\363dulos}{chapter*.93}% 91
-\BOOKMARK [2][-]{section*.98}{Introducci\363n}{section*.97}% 92
-\BOOKMARK [2][-]{section*.99}{Pruebas de Caja Negra}{section*.97}% 93
-\BOOKMARK [2][-]{section*.100}{Pruebas de Estr\351s}{section*.97}% 94
-\BOOKMARK [1][-]{section*.101}{Test de Integraci\363n}{chapter*.93}% 95
-\BOOKMARK [2][-]{section*.102}{Introducci\363n}{section*.101}% 96
-\BOOKMARK [2][-]{section*.103}{Pruebas de Integraci\363n}{section*.101}% 97
-\BOOKMARK [1][-]{section*.104}{Test de Aceptaci\363n}{chapter*.93}% 98
-\BOOKMARK [2][-]{section*.105}{Introducci\363n}{section*.104}% 99
-\BOOKMARK [2][-]{section*.106}{Prueba Alfa}{section*.104}% 100
-\BOOKMARK [2][-]{section*.107}{Prueba Beta}{section*.104}% 101
-\BOOKMARK [0][-]{chapter*.108}{Conclusiones}{}% 102
+\BOOKMARK [1][-]{section*.43}{Diagrama de Clases}{chapter*.41}% 38
+\BOOKMARK [2][-]{section*.44}{Vista general}{section*.43}% 39
+\BOOKMARK [1][-]{section*.45}{Diagramas de Actividad}{chapter*.41}% 40
+\BOOKMARK [2][-]{section*.46}{Inicio de Sesi\363n}{section*.45}% 41
+\BOOKMARK [2][-]{section*.47}{Registrar Usuario}{section*.45}% 42
+\BOOKMARK [2][-]{section*.48}{Crear Registro }{section*.45}% 43
+\BOOKMARK [2][-]{section*.49}{Ver Mapa Interactivo}{section*.45}% 44
+\BOOKMARK [1][-]{section*.50}{Diagramas de Secuencia}{chapter*.41}% 45
+\BOOKMARK [2][-]{section*.51}{Iniciar Sesi\363n}{section*.50}% 46
+\BOOKMARK [2][-]{section*.52}{Registrar}{section*.50}% 47
+\BOOKMARK [2][-]{section*.53}{Crear Registro}{section*.50}% 48
+\BOOKMARK [1][-]{section*.54}{Interfaz de usuario}{chapter*.41}% 49
+\BOOKMARK [2][-]{section*.55}{1. Aplicaci\363n m\363vil}{section*.54}% 50
+\BOOKMARK [2][-]{section*.56}{2. Sistema WEB}{section*.54}% 51
+\BOOKMARK [0][-]{chapter*.57}{Disciplina de Implementaci\363n}{}% 52
+\BOOKMARK [1][-]{section*.58}{Diagrama conceptual estructura Cliente/Servidor/Internet}{chapter*.57}% 53
+\BOOKMARK [1][-]{section*.59}{Arquitectura de la aplicaci\363n}{chapter*.57}% 54
+\BOOKMARK [1][-]{section*.60}{Modelo-Vista-Controlador}{chapter*.57}% 55
+\BOOKMARK [2][-]{section*.61}{Componentes del patr\363n}{section*.60}% 56
+\BOOKMARK [1][-]{section*.62}{Elecci\363n del Lenguaje}{chapter*.57}% 57
+\BOOKMARK [1][-]{section*.63}{Apache Cordova}{chapter*.57}% 58
+\BOOKMARK [2][-]{section*.64}{Ventajas de Apache Cordova}{section*.63}% 59
+\BOOKMARK [2][-]{section*.65}{Desventaja de Apache Cordova}{section*.63}% 60
+\BOOKMARK [1][-]{section*.66}{Web services}{chapter*.57}% 61
+\BOOKMARK [2][-]{section*.67}{Razones para crear servicios Web}{section*.66}% 62
+\BOOKMARK [2][-]{section*.68}{REST}{section*.66}% 63
+\BOOKMARK [1][-]{section*.70}{Express.js}{chapter*.57}% 64
+\BOOKMARK [1][-]{section*.71}{Herramientas de desarrollo}{chapter*.57}% 65
+\BOOKMARK [1][-]{section*.72}{Persistencia de clases}{chapter*.57}% 66
+\BOOKMARK [2][-]{section*.73}{Modelo f\355sico del sistema}{section*.72}% 67
+\BOOKMARK [2][-]{section*.74}{Modelo relacional. Vista de la base de datos}{section*.72}% 68
+\BOOKMARK [0][-]{chapter*.75}{Disciplina de Pruebas}{}% 69
+\BOOKMARK [1][-]{section*.76}{Test de Unidades}{chapter*.75}% 70
+\BOOKMARK [2][-]{section*.77}{Introducci\363n}{section*.76}% 71
+\BOOKMARK [2][-]{section*.78}{Pruebas de Caja Blanca}{section*.76}% 72
+\BOOKMARK [1][-]{section*.79}{Test de M\363dulos}{chapter*.75}% 73
+\BOOKMARK [2][-]{section*.80}{Introducci\363n}{section*.79}% 74
+\BOOKMARK [2][-]{section*.81}{Pruebas de Caja Negra}{section*.79}% 75
+\BOOKMARK [2][-]{section*.82}{Pruebas de Estr\351s}{section*.79}% 76
+\BOOKMARK [1][-]{section*.83}{Test de Integraci\363n}{chapter*.75}% 77
+\BOOKMARK [2][-]{section*.84}{Introducci\363n}{section*.83}% 78
+\BOOKMARK [2][-]{section*.85}{Pruebas de Integraci\363n}{section*.83}% 79
+\BOOKMARK [1][-]{section*.86}{Test de Aceptaci\363n}{chapter*.75}% 80
+\BOOKMARK [2][-]{section*.87}{Introducci\363n}{section*.86}% 81
+\BOOKMARK [2][-]{section*.88}{Prueba Alfa}{section*.86}% 82
+\BOOKMARK [2][-]{section*.89}{Prueba Beta}{section*.86}% 83
+\BOOKMARK [0][-]{chapter*.90}{Conclusiones}{}% 84

@@ -35,7 +35,7 @@
 
   \section{Introducción}
 
-    Esta especificación tiene como objetivo analizar y documentar las necesidades funcionales que deberán ser soportadas por el sistema a desarrollar. Para ello, se identificarán los requisitos que ha de satisfacer el nuevo sistema mediante entrevistas, el estudio de los problemas de las unidades afectadas y sus necesidades actuales. Además de identificar los requisitos se deberán establecer las prioridades, los cual proporciona un punto de referencia para validar el sistema final que compruebe que se ajusta a las necesidades del usuario.
+    Esta especificación tiene como objetivo analizar y documentar las necesidades funcionales que deberán ser soportadas por el sistema a desarrollar. Para ello, se identificarán los requisitos que ha de satisfacer el nuevo sistema mediante entrevistas, el estudio de los problemas de las unidades afectadas y sus necesidades actuales. Además de identificar los requisitos se deberán establecer las prioridades, las cuales proporcionan un punto de referencia para validar el sistema final, que comprueben que se ajusten a las necesidades del usuario.
 
   \section{Identificación de usuarios participantes}
 
@@ -90,7 +90,7 @@
     \subsection{Definiciones}
       \begin{itemize}
         
-        \item \emph{Salida de campo:} La principal aportación de la salida de campo es que permite al alumnado adquirir un aprendizaje significativo en el que el principal elemento del proceso de enseñanza- aprendizaje es la construcción de significados. La persona aprende un concepto, un fenómeno, un procedimiento, un comportamiento, etc.
+        \item \emph{Salida de campo:} La principal aportación de la salida de campo es que permite al alumnado adquirir un aprendizaje significativo en el que el principal elemento del proceso de enseñanza-aprendizaje es la construcción de significados. La persona aprende un concepto, un fenómeno, un procedimiento, un comportamiento, etc.
         
         \item \emph{Insectos:} Nuestro universo de estudio obliga solo a tener en cuenta 4 insectos, los cuales sirven para indicar el posible grado de contaminación del agua. Estos insectos son los siguientes:
         
@@ -134,7 +134,7 @@
         
         \item \emph{BD:} Base de datos.
         
-        \item \emph{CRUD:} Es el acrónimo de "Crear, Leer, Actualizar y Borrar" (del original en ingles: Create, Read, Update and Delete),que se usa para referirse a las funciones básicas en bases de datos.
+        \item \emph{CRUD:} Es el acrónimo de ``Crear, Leer, Actualizar y Borrar'' (del original en ingles: Create, Read, Update and Delete), que se usa para referirse a las funciones básicas en bases de datos.
         
         \item \emph{MCVS:} Modelo de Ciclo de Vida del Sistema.
       \end{itemize}
@@ -147,16 +147,16 @@
 
     \subsection{Proceso actual}
 
-      Este seguimiento se realizaba mediante salidas de campos con alumnos de las escuelas rurales donde realizaban las siguientes actividades.
+      Este seguimiento se realizaba mediante salidas de campos con alumnos de las escuelas rurales donde realizaban las siguientes actividades:
       
       \begin{itemize}
         \item Los alumnos obtienen muestras del río o afluente intentando capturar algunos de los insectos del universo de estudio.
         
-        \item Los docentes a cargo verifican dichas muestras, e identifican las coincidencias, obteniendo de esta forma, un indice de contaminación.  
+        \item Los docentes a cargo verifican dichas muestras, identificando las coincidencias, obteniendo de esta forma, un indice de contaminación.  
       \end{itemize}
       
       Todo esto se realiza de manera manual, anotando en papel y luego es transcripto a una planilla Excel.
-      Todo el procedimiento antes descripto, dificulta la trazabilidad y administración de la información (introduciendo errores y demoras por manejo manual de la información), por lo que todo esto sería más efectivo y sencillo con la ayuda de la tecnología.
+      Todo el procedimiento antes descripto, dificulta la trazabilidad y administración de la información (introduciendo errores y demoras por el manejo manual de la información), por lo que todo esto sería más efectivo y sencillo con la ayuda de la tecnología. \newpage
 
     \subsection{Reingeniería de proceso}
 
@@ -171,11 +171,11 @@
           \item La segunda imagen será una foto del paisaje que servirá como un futuro punto de referencia para próximas salidas de campo. 
         \end{itemize}
         
-        \item Capturar coordenadas de manera automática con una precisión propia al GPS integrado del Smartphone, las cuales se guardaran como \emph{latitud} y \emph{longitud}
+        \item Capturar coordenadas de manera automática con una precisión propia al GPS integrado del Smartphone, las cuales se guardarán como \emph{latitud} y \emph{longitud}
         
         \item El usuario deberá seleccionar, según su criterio personal, cuales de los 4 insectos fueron encontrados por él, mediante un formulario interactivo, el cual consta de imágenes reales de los mismos para una buena comparación y un campo de observaciones para realizar comentarios subjetivos sobre la muestra en cuestión.
         
-        \item Al completar toda la información mencionada anteriormente, se mostrara una ruleta animada virtual, la cual mostrará un valor (indice de contaminación), indicando el posible grado contaminación del agua en donde se realizo la muestra.
+        \item Al completar toda la información mencionada anteriormente, se visualizará una ruleta virtual animada, la cual mostrará un valor (indice de contaminación), indicando el posible grado contaminación del agua en donde se realizo la muestra.
 
         \item Lo anterior se realizará sin conexión a internet (2G, 3G, Wifi, etc), generando un registro de manera local, que luego, de manera automática, se subirá a los servidores al momento de adquirir alguna conexión a internet.
 
@@ -195,7 +195,7 @@
         Los usuarios deben poder configurar/modificar las opciones de su perfil como ser: nombre, apellido, lugar de residencia, institución a la que pertenece y grado correspondiente.
         Los usuarios no pueden consultar la información personal de otros usuarios.
 
-        \item \emph{Gestión de registros:} Debe permitir gestionar los registros (CRUD). Los usuarios generar registros. Los administradores pueden interactuar con los mismo cambiando su estado (pendiente - valido - invalido) según la información brindada por los mismos (no verificada por los administradores - correcta - incorrecta) respectivamente.
+        \item \emph{Gestión de registros:} Debe permitir gestionar los registros (CRUD). Los usuarios generar registros. Los administradores pueden interactuar con los mismos, cambiando su estado (pendiente - valido - invalido) según la información brindada por los mismos (no verificada por los administradores - correcta - incorrecta) respectivamente.
 
         \item \emph{Consultas de registros realizados:} Los usuarios podrán consultar un listado de sus registros creados con la información completa.
         Los usuarios no podrán consultar los registros de otros usuarios.
@@ -205,7 +205,7 @@
         Todos los registros que estén en un estado \emph{rechazado} no se eliminaran de la base de datos, no obstante, los mismos no se tomaran en cuenta para el renderizado del mapa final. 
 
       \end{itemize}
-
+      \newpage 
   \section{Requisitos específicos}
 
     \begin{enumerate}[A.]
@@ -233,11 +233,11 @@
             \\ \textbf{Introducción:} El sistema permite ver detalles relacionados a los usuarios existentes en él. Se debe visualizar usuario, nombre, apellido, institución, grado, residencia, foto de perfil y cantidad de registros generados
             \\ \textbf{Entrada:} @IdUsuario
             \\ \textbf{Proceso:} El sistema comprueba la existencia previa del usuario en base a @IdUsuario. En caso de éxito, se presenta la información del mismo. En caso de error se devolverá un mensaje con el motivo del mismo.
-            \\ \textbf{Salida:} Usuario + Nombre + Apellido + Institución + Grado + Residencia + Email + Foto Perfil + CantidadRegistros
+            \\ \textbf{Salida:} Usuario + Nombre + Apellido + Institución + Grado + Residencia + Email + Foto Perfil + Cantidad Registros
             \\
           \item \textbf{Cambiar contraseña de usuario:}
             \\ \textbf{Introducción:} El sistema permite cambiar la contraseña a los usuarios existentes en él.
-            \\ \textbf{Entrada:} @IdUsuario + ContraseñaAnterior + ContraseñaNueva
+            \\ \textbf{Entrada:} @IdUsuario + Contraseña Anterior + Contraseña Nueva
             \\ \textbf{Proceso:} El sistema comprueba la existencia previa del usuario en base a @IdUsuario, luego se impactara la nueva contraseña, dejando en desuso la anterior. En caso de éxito, se presenta la información del mismo. En caso de error se devolverá un mensaje con el motivo del mismo.
             \\ \textbf{Salida:} @IdUsuario + Mensaje
             \\
@@ -250,8 +250,8 @@
           \item \textbf{Búsqueda de usuarios:}
             \\ \textbf{Introducción:} El sistema permite introducir parámetros con los que se buscará usuarios que coincidan con los mismos.
             \\ \textbf{Entrada:} Usuario o Nombre o Apellido o Email
-            \\ \textbf{Proceso:} El sistema lista al usuario que cumpla con los parámetros de búsqueda en caso de coincidencia. En caso de no encontrar algún usuario, se mostrara un mensaje vacío, indicando que la búsqueda no arrojo resultados.
-            \\ \textbf{Salida:} Usuario + Nombre + Apellido + Institución + Grado + Residencia + Email + Foto Perfil + CantidadRegistros
+            \\ \textbf{Proceso:} El sistema lista al usuario que cumpla con los parámetros de búsqueda en caso de coincidencia. En caso de no encontrar algún usuario, se mostrará un mensaje vacío, indicando que la búsqueda no arrojo resultados.
+            \\ \textbf{Salida:} Usuario + Nombre + Apellido + Institución + Grado + Residencia + Email + Foto Perfil + Cantidad Registros
             \\
         \end{itemize}
 
@@ -259,8 +259,8 @@
         \begin{itemize}
           \item \textbf{Alta de registros:}
             \\ \textbf{Introducción:} El sistema permite dar de alta un nuevo registro ingresando indice, insectos encontrados, fecha, latitud, longitud, foto del paisaje, foto de la muestra, foto del mapa (vista aérea con un PIN indicando la ubicación terrestre), observaciones del usuario, IdUsuario (creador del registro), IdUbicacion (país, localidad, provincia).
-            \\ \textbf{Entrada:} Indice + InsectosEncontrados + Fecha Creación + Latitud + Longitud + FotoPaisaje + FotoMuestra + FotoMapa + ObservacionesUsuario + IdUsuario + IdUbicación
-            \\ \textbf{Proceso:} El sistema crea un registro con un valor de estado de validación inicial igual a "Pendiente" y con observaciones del administrador sin contenido, además, codifica todas las fotos y genera un IdRegistro a partir del máximo existente hasta el momento. En caso de éxito, se devolverá un mensaje de éxito y el IdRegistro.
+            \\ \textbf{Entrada:} Indice + Insectos Encontrados + Fecha Creación + Latitud + Longitud + Foto Paisaje + Foto Muestra + Foto Mapa + Observaciones Usuario + IdUsuario + IdUbicación
+            \\ \textbf{Proceso:} El sistema crea un registro con un valor de estado de validación inicial igual a ``Pendiente'' y con observaciones del administrador sin contenido, además, codifica todas las fotos y genera un IdRegistro a partir del máximo existente hasta el momento. En caso de éxito, se devolverá un mensaje de éxito y el IdRegistro.
             \\ \textbf{Salida:} IdRegistro + Mensaje
             \\
           \item \textbf{Cambiar estado de registros:}
@@ -271,7 +271,7 @@
             \\
           \item \textbf{Asignar observaciones de administrador a registros:}
             \\ \textbf{Introducción:} El sistema permite agregar observaciones de administrador al registro. Solo los administradores del sistema tendrán los permisos para realizar esta acción.
-            \\ \textbf{Entrada:} @IdRegistro + ObservacionesAdministrador
+            \\ \textbf{Entrada:} @IdRegistro + Observaciones Administrador
             \\ \textbf{Proceso:} El sistema modifica el registro agregando una observación de administrador. En caso de éxito, se devolverá un mensaje de éxito y el IdRegistro.
             \\ \textbf{Salida:} IdRegistro + Mensaje
             \\
@@ -279,13 +279,13 @@
             \\ \textbf{Introducción:} El sistema permite ver detalles relacionados a los registros existentes en él. Se debe visualizar indice, insectos encontrados, fecha, latitud, longitud, foto del paisaje, foto de la muestra, foto del mapa, observaciones del usuario, estado de validación, usuario que lo creó, país, provincia, localidad.
             \\ \textbf{Entrada:} @IdRegistro
             \\ \textbf{Proceso:} El sistema comprueba la existencia previa del registro en base a @IdRegistro. En caso de éxito, se presenta la información del mismo. En caso de error se devolverá un mensaje con el motivo del mismo.
-            \\ \textbf{Salida:} Indice + InsectosEncontrados + Fecha Creación + Latitud + Longitud + FotoPaisaje + FotoMuestra + FotoMapa + ObservacionesUsuario + ObservacionesAdministrador + Estado Validación + IdUsuario + IdUbicación
+            \\ \textbf{Salida:} Indice + Insectos Encontrados + Fecha Creación + Latitud + Longitud + Foto Paisaje + Foto Muestra + Foto Mapa + Observaciones Usuario + Observaciones Administrador + Estado Validación + IdUsuario + IdUbicación
             \\
           \item \textbf{Búsqueda de registros}
             \\ \textbf{Introducción:} El sistema permite buscar registros filtrando por los registros creados desde un intervalo de fechas, por estado de validación, por indice.
-            \\ \textbf{Entrada:} Fecha Inicio Fecha Fin + EstadoValidación + Indice
-            \\ \textbf{Proceso:} El sistema lista los registros que cumplan con los parámetros de búsqueda en caso de coincidencia. En caso de no encontrar algún registro, se mostrara un mensaje vacío, indicando que la búsqueda no arrojo resultados. Si la búsqueda no contiene parámetros, se listan todos los registros existentes en el sistema
-            \\ \textbf{Salida:} Indice + InsectosEncontrados + Fecha Creación + Latitud + Longitud + ObservacionesUsuario + ObservacionesAdministrador + Estado Validación + IdUsuario + IdUbicación
+            \\ \textbf{Entrada:} Fecha Inicio Fecha Fin + Estado Validación + Indice
+            \\ \textbf{Proceso:} El sistema lista los registros que cumplan con los parámetros de búsqueda en caso de coincidencia. En caso de no encontrar algún registro, se mostrará un mensaje vacío, indicando que la búsqueda no arrojo resultados. Si la búsqueda no contiene parámetros, se listan todos los registros existentes en el sistema
+            \\ \textbf{Salida:} Indice + Insectos Encontrados + Fecha Creación + Latitud + Longitud + Observaciones Usuario + Observaciones Administrador + Estado Validación + IdUsuario + IdUbicación
         \end{itemize}
 
       \item \textbf{Gestión de Mapas}
