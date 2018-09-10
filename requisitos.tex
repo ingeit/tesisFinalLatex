@@ -83,7 +83,7 @@
     \subsection{Objetivos y alcance del sistema}
 
       El presente proyecto tiene como objetivo principal ayudar al medio ambiente, utilizando un sistema de gestión que permite la creación y administración de registros, los cuales contienen datos de muestras del universo de estudio que, al ser procesadas, brinda el estado de contaminación de un río o afluente, mediante indicadores biológicos.
-      Estos registros cuentan con contenido multimedia y coordenadas geograficas
+      Estos registros cuentan con contenido multimedia y coordenadas geográficas
 
   \section{Definiciones, acrónimos y abreviaturas}
 
@@ -113,22 +113,22 @@
             Cantidad de insectos encontrados  & Indice & Interpretación \\ \hline 
             0                     & 0 & Muy contaminado \\ \hline
             1                     & 1 & Contaminado \\ \hline
-            2                     & 2 & Con contaminacion media \\ \hline
+            2                     & 2 & Con contaminación media \\ \hline
             3                     & 3 & En buen estado \\ \hline
             4                     & 4 & En excelente estado \\ 
             \hline
           \end{tabular}
         \end{table}
         
-        \item \emph{Foto paisaje}: Foto obtenida del paisaje en donde se realizo la muestra de los insectos encontrados, con el fin de facilitar un punto de referencia visual para proximas salidas de campo.
+        \item \emph{Foto paisaje}: Foto obtenida del paisaje en donde se realizo la muestra de los insectos encontrados, con el fin de facilitar un punto de referencia visual para próximas salidas de campo.
         
-        \item \emph{Foto insectos}: Foto obtenida de la muestra que sirve para que los administradores de la aplicación validen, o no, el registro en cuestion.
+        \item \emph{Foto insectos}: Foto obtenida de la muestra que sirve para que los administradores de la aplicación validen, o no, el registro en cuestión.
         
-        \item \emph{Coordenadas geograficas}: Se usan para referenciar, mediante latitud y longitud, el lugar en donde se realizo el registro.
+        \item \emph{Coordenadas geográficas}: Se usan para referenciar, mediante latitud y longitud, el lugar en donde se realizo el registro.
         
         \item \emph{Mapa}: Mapa digital (Google Maps) en donde se muestran los registros realizados por los usuarios.
         
-        \item \emph{HTML:} HyperText Markup Language. Lenguaje de marcado para la elaboracion de paginas web. En nuestro caso, genera la vista final del sistema.
+        \item \emph{HTML:} HyperText Markup Language. Lenguaje de marcado para la elaboración de paginas web. En nuestro caso, genera la vista final del sistema.
         
         \item \emph{HTTPS:} Hypertext Transfer Protocol Secure.
         
@@ -181,10 +181,10 @@
 
         \item Los administradores podrán gestionar, mediante un navegador web (Google Chrome, Internet Explorer, Mozilla, etc) o desde la aplicación en el Smartphone, los registros previamente creados y guardados en el servidor.
 
-        \item Analizando todos los registros, se creará un renderizado de un mapa  (Google Maps) en donde los administradores y usuarios podrán visualizar, con trazos de diferentes colores, el grado de contaminación del agua en el curso de los riós o afluentes analizados en las salidas de campo.
+        \item Analizando todos los registros, se creará un renderizado de un mapa  (Google Maps) en donde los administradores y usuarios podrán visualizar, con trazos de diferentes colores, el grado de contaminación del agua en el curso de los ríos o afluentes analizados en las salidas de campo.
       \end{itemize}
 
-      El sistema debe ser seguro, escalable, de fácil mantenimiento y muy simple de usar utilizando sólo interfaces táctiles para los usuarios finales. El futuro sistema llevará el nombre \emph{Agüita}.
+      El sistema debe ser seguro, escalable, de fácil mantenimiento y muy simple de usar utilizando solo interfaces táctiles para los usuarios finales. El futuro sistema llevará el nombre \emph{Agüita}.
 
       Las funciones que debe realizar el sistema se pueden agrupar de la siguiente manera:
 
@@ -384,12 +384,12 @@
     \subsection{Seguridad:} 
       \begin{itemize}
         
-        \item \textbf{En desarrollo:} Los desarrolladores acceden a la gestión del sistema operativo y/o sus aplicaciónes a través de Secure Shell o SSH, el estándar de facto para la administración remota de servidores de manera segura. Tanto para la administración propia del servidor, como en las aplicaciónes que se utilizan para administrar la base de datos (MySQL Workbench) y la gestión de archivos (SFTP), se realizan con clientes que establecen conexiones seguras con el servidor. La técnica empleada para dichas conexiones es el intercambio de claves públicas y validación con la clave privada de las aplicaciónes cliente.
+        \item \textbf{En desarrollo:} Los desarrolladores acceden a la gestión del sistema operativo y/o sus aplicaciones a través de Secure Shell o SSH, el estándar de facto para la administración remota de servidores de manera segura. Tanto para la administración propia del servidor, como en las aplicaciones que se utilizan para administrar la base de datos (MySQL Workbench) y la gestión de archivos (SFTP), se realizan con clientes que establecen conexiones seguras con el servidor. La técnica empleada para dichas conexiones es el intercambio de claves públicas y validación con la clave privada de las aplicaciones cliente.
         \item \textbf{En producción:} Los usuarios del sistema acceden al mismo mediante la aplicación móvil o cualquier explorador web. Para operar con la aplicación, deben proveer un usuario y una contraseña. Esta información es procesada en el servidor en un proceso de validación de credenciales y devuelve al cliente el mensaje de inicio de sesión correcto. La comunicación entre cliente servidor viajara encriptada mediante el protocolo HTTPS.
         \item \textbf{Roles y permisos:} Para reforzar la seguridad de la aplicación, cada usuario posee un rol (``Administrador'' o ``Alumno''), el cual tiene asociados diferentes permisos. Esto permite restringir el acceso a usuarios del grupo ``Alumno'' a la aplicación WEB de gestión y administración de registros. El rol ``Administrador'' tiene todos los permisos y privilegios, pudiendo así, gestionar el sistema e incluso generar registros como lo harían los Alumnos.
         \item \textbf{Red:} En la capa de red se crearon reglas de acceso al servidor mediante el uso del firewall provisto por el Sistema Operativo Ubuntu. A través de estas reglas se establece que servicios podrá ofrecer el servidor a los clientes de la aplicación.
         \item \textbf{Sistema Operativo:} En el sistema operativo se definen los usuarios y los permisos que poseen para realizar lecturas, escrituras y/o ejecuciones de archivos alojados en la memoria del servidor. De esta forma se previene que usuarios no autorizados puedan modificar, eliminar y ejecutar archivos en el servidor, incluso en la base de datos.
-        \item \textbf{Servidor web:} A nivel servidor web, se preve la implementación del protocolo de aplicación HTTPS que permite encriptar el trafico de información desde el servidor web hacia los navegadores o aplicaciónes que realicen solicitudes, estableciendo un eslabón mas en la seguridad del sistema.
+        \item \textbf{Servidor web:} A nivel servidor web, se prevé la implementación del protocolo de aplicación HTTPS que permite encriptar el trafico de información desde el servidor web hacia los navegadores o aplicaciones que realicen solicitudes, estableciendo un eslabón mas en la seguridad del sistema.
         \item \textbf{Política de respaldo:} El administrador llevará a cabo un respaldo de datos en discos externos o en la nube por el tiempo que el considere necesario. Ademas, se exportaran los registros en un archivo excel manteniendo la información necesaria para la recuperación de los registros a futuro.
         Por otro lado, el motor de Base de datos estará configurado para realizar backups cada cierto intervalo de tiempo definido por el administrador. Conservar los respectivos archivos de respaldo de los últimos 6 backups.
         \item \textbf{Política de Borrado:} No se ha definido
@@ -446,6 +446,5 @@
 
     \begin{figure}[htbp]
       \centering
-        %lo que agregué entre corchetes hace que el ancho de la imagen ocupe el 80% del área de texto. Si sacás eso la imagen no se redimensiona y se va de la hoja. Se puede usar algo parecido para limitar el alto si es necesario.
         \includegraphics[width=1\textwidth]{imagenes/Grantt.jpg}
     \end{figure} 
