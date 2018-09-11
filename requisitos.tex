@@ -130,8 +130,6 @@
         
         \item \emph{HTML:} HyperText Markup Language. Lenguaje de marcado para la elaboración de paginas web. En nuestro caso, genera la vista final del sistema.
         
-        \item \emph{HTTPS:} Hypertext Transfer Protocol Secure.
-        
         \item \emph{BD:} Base de datos.
         
         \item \emph{CRUD:} Es el acrónimo de ``Crear, Leer, Actualizar y Borrar'' (del original en ingles: Create, Read, Update and Delete), que se usa para referirse a las funciones básicas en bases de datos.
@@ -385,7 +383,7 @@
       \begin{itemize}
         
         \item \textbf{En desarrollo:} Los desarrolladores acceden a la gestión del sistema operativo y/o sus aplicaciones a través de Secure Shell o SSH, el estándar de facto para la administración remota de servidores de manera segura. Tanto para la administración propia del servidor, como en las aplicaciones que se utilizan para administrar la base de datos (MySQL Workbench) y la gestión de archivos (SFTP), se realizan con clientes que establecen conexiones seguras con el servidor. La técnica empleada para dichas conexiones es el intercambio de claves públicas y validación con la clave privada de las aplicaciones cliente.
-        \item \textbf{En producción:} Los usuarios del sistema acceden al mismo mediante la aplicación móvil o cualquier explorador web. Para operar con la aplicación, deben proveer un usuario y una contraseña. Esta información es procesada en el servidor en un proceso de validación de credenciales y devuelve al cliente el mensaje de inicio de sesión correcto. La comunicación entre cliente servidor viajara encriptada mediante el protocolo HTTPS.
+        \item \textbf{En producción:} Los usuarios del sistema acceden al mismo mediante la aplicación móvil o cualquier explorador web. Para operar con la aplicación, deben proveer un usuario y una contraseña. Esta información es procesada en el servidor en un proceso de validación de credenciales y devuelve al cliente el mensaje de inicio de sesión correcto. La comunicación entre cliente servidor viajara encriptada mediante el protocolo \gls{HTTPS}.
         \item \textbf{Roles y permisos:} Para reforzar la seguridad de la aplicación, cada usuario posee un rol (``Administrador'' o ``Alumno''), el cual tiene asociados diferentes permisos. Esto permite restringir el acceso a usuarios del grupo ``Alumno'' a la aplicación WEB de gestión y administración de registros. El rol ``Administrador'' tiene todos los permisos y privilegios, pudiendo así, gestionar el sistema e incluso generar registros como lo harían los Alumnos.
         \item \textbf{Red:} En la capa de red se crearon reglas de acceso al servidor mediante el uso del firewall provisto por el Sistema Operativo Ubuntu. A través de estas reglas se establece que servicios podrá ofrecer el servidor a los clientes de la aplicación.
         \item \textbf{Sistema Operativo:} En el sistema operativo se definen los usuarios y los permisos que poseen para realizar lecturas, escrituras y/o ejecuciones de archivos alojados en la memoria del servidor. De esta forma se previene que usuarios no autorizados puedan modificar, eliminar y ejecutar archivos en el servidor, incluso en la base de datos.
