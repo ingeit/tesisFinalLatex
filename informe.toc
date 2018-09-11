@@ -33,7 +33,7 @@
 \contentsline {subsection}{Diagrama General de Casos de Uso}{29}{section*.37}
 \contentsline {subsection}{Gesti\IeC {\'o}n de Usuarios}{30}{section*.38}
 \contentsline {subsection}{Gesti\IeC {\'o}n de Registros}{30}{section*.39}
-\contentsline {subsection}{Casos de Uso Principales}{30}{section*.40}
+\contentsline {subsection}{Casos de Uso Principales}{31}{section*.40}
 \contentsline {chapter}{Disciplina de Dise\IeC {\~n}o}{32}{chapter*.41}
 \contentsline {section}{Descripci\IeC {\'o}n Textual de Casos de Uso}{32}{section*.42}
 \contentsline {section}{Diagrama de Clases}{58}{section*.43}
