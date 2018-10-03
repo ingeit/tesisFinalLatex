@@ -20,5 +20,13 @@
         "sincronización",
         "smartphone",
         "subsistema"
+    ],
+    "spellright.language": [
+        "es"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "plaintext",
+        "latex"
     ]
 }
