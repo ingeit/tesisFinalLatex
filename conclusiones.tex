@@ -34,13 +34,33 @@
 
 El desarrollo de nuestro proyecto final nos permitió poner en práctica temas que aprendimos en distintas asignaturas durante el transcurso de nuestra carrera, el aprendizaje y la experiencia de implementar nuevas tecnologías, enfrentándonos a problemas reales de diseño e integración que nos forzaron a tomar decisiones a fin de encontrar soluciones eficientes a los mismos. Además, nos dio la posibilidad de aprender a trabajar con herramientas con los cuales no estábamos familiarizados.
 
-Con la puesta en funcionamiento de este proyecto pudimos generar un producto que
-da valor agregado a la metodología de trabajo existente de los docentes de la Facultad de Ciencias Naturales e Instituto Miguel Lillo en conjunto con alumnos de escuelas rurales, que no poseen automatismo en dicha metodología, cumpliendo así, con los objetivos planteados inicialmente, obteniendo un producto seguro, escalable, de fácil mantenimiento y simple de usar.
+%% desde aqui se agrego: 
+%% IMPORTANTE: amigo, cuando leas, lee DESPACIO, tranquilo, no a las apuradas.. frenate en las comas y en los puntos. hace las pausas correspondientes, porque sino te va a parecer que esta mal redactado. y yo creo que lo deje bastante pulido y bien redactado ajajajaj
 
-Se logró implementar a través de Web services una comunicación eficiente con la base de datos, con mecanismos de seguridad que impiden la visualización o alteración indebida de los datos sensibles de los usuarios.
+En cuanto a la dificultad, consideramos que fue media/alta debido a varias razones, una de ellas fue acceder al hardware del dispositivo mediante herramientas "web" requirió mucha investigación, pruebas y corrección de mínimos detalles para facilitar la interacción del usuario final con la aplicación. Otra de las razones fue implementar CouchDB (Base de datos no relacional) por ser robusta en lo que se refiere a replicaciones, dado que se amoldaba a nuestro requisito de generar registros de manera offline y al detectar conexión a internet, subirlos automáticamente. Pero esto nos genero un gran problema, dicha base de datos realizaba versionados, por lo que para cada actualización y replicación, la misma crecía exponencialmente su tamaño en disco, lo que iba a ser un problema en un futuro por la cantidad de registros que el sistema gestionaría. Consideramos que tomamos una decisión errónea al seleccionar e implementar esa base de datos en el sistema, solo habiendo investigado y leído la documentación oficial, de manera parcial y no en su totalidad.
+Este error nos costo bastante en lo que a tiempo se refiere, ya que tuvimos que rediseñar la lógica de la aplicación para poder implementar una base de datos relacional (MySQL) y esto implico crear un protocolo de auto-sincronización, lo que genero mas trabajo y mas tiempo de desarrollo (aproximadamente 18 meses).
 
-Comprendimos la importancia del uso de un desarrollo modular y orientado a objetos para la realización de proyectos flexibles, escalables, más legibles y manejables en aplicaciones actuales.
+En las pruebas alpha realizadas, pudimos observar una buena respuesta al uso de la aplicación de los docentes de la Facultad de Ciencias Naturales e Instituto Miguel Lillo, sin embargo, se detectaron algunas fallas y falta de funcionalidades. Esto genero una lista con ítems a corregir e implementar, lo que genero aun mas tiempo de desarrollo para la puesta en producción del sistema en su versión final.
+
+
+
+%% HASTA AQUI y linea 63 tambien es nueva.
+%% BRO, desde la linea 37 hasta aqui es lo que agregue, te pido que antes de corregir algo, borrar o agregar, tengas en cuenta que
+%% puse todo eso por varias razones:
+%% 1 Cohen pidio explicitamente en el mail que pongamos los errores q tuvimos, en q nos equivocamos y el tiempo deddicado a esto
+%% 2 por lo anterior, me imagino q a los docentes les gusta saber cuando los alumnos se equivocan y aprenden de sus errores, y ademas, son sinceros y no ocultan nada
+%% 3 porque es verdad que nos paso eso y no hay q disminuir esa realidad
+%% 4 yo puse q tuvimos ese error por solo leer lo necesario de la DOC oficialde couch, lo cual me parece que a grandes rasgos y en general, ese fue nuestro problema, fue implementar de una por la sincronizacion sin antes leer los problemas de attachment que tenia esa base de datos.. asi que mala nuestra.. si vos pensas que nuestro error fue por otro motivo, ponelo ahi, avisame y lo debatimos..
+%% Por otro lado bro, yo se que algunas cosas estan repetidas, pero no importa, porque eso son conclusiones, es como un mini resumen de lo que escribimos en las 100 hojas, asi que no esta mal que aca volvamos a repetir algunas cosas, porq esto es una conclusion, es repetir y contar las cosas importantes del proyecto en lo que a nuestra experiencia refiere.
+%% la idea mia es hacer enfasis en porque nos demoramos tanto en este proyecto, entocnes si podes ver, cada cosa nos llevo mas tiempo de desarrollo jajaj, lo cual me parece q lo dejemos ahi, asi justificamos los 2 años que estuvumos con esto...
+
+
+
+
+Con la futura puesta en funcionamiento de este proyecto podremos generar un producto que da valor agregado a la metodología de trabajo existente de los docentes de la Facultad de Ciencias Naturales e Instituto Miguel Lillo en conjunto con alumnos de escuelas rurales, que no poseen automatismo en dicha metodología, cumpliendo así, con los objetivos planteados inicialmente, obteniendo un producto seguro, escalable, de fácil mantenimiento y simple de usar.
 
 También podemos decir que este sistema queda abierto a la incorporación de futuras actualizaciones para satisfacer las necesidades de los usuarios cuando los procesos así lo requieran.
+
+Algunas de nuestras ideas para una actualización y agregación de funciones al sistema seria incorporar inteligencia artificial para el reconocimiento automático de imágenes al sacar fotos de los insectos. Ademas se podría desarrollar un termómetro con una conexión mediante Bluetooth al dispositivo, para medir la temperatura del agua al momento de realizar un registro, ya que este parámetro es importante para el análisis futuro de la biodiversidad.
 
 \label{chap:conclusiones}
