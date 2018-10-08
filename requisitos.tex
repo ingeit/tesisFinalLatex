@@ -211,8 +211,8 @@
         \begin{itemize}  
           \item \textbf{Alta de usuarios:}
             \\ \textbf{Introducción:} El sistema permite introducir información sobre usuarios en la aplicación.
-            \\ \textbf{Entrada:} Email + Usuario + Contraseña + Nombre + Apellido + Institución + Grado + Residencia + Rol + Foto Perfil + Estado 
-            \\ \textbf{Proceso:} El sistema comprueba la inexistencia previa de un usuario, buscando coincidencias en el nombre de usuario y mail. Además genera un IdUsuario a partir del máximo existente hasta el momento. En caso de éxito, se devolverá un mensaje de éxito y el IdUsuario. En caso de error se devolverá un mensaje con el motivo del mismo.
+            \\ \textbf{Entrada:} IdUsuario + Email + Usuario + Contraseña + Nombre + Apellido + Institución + Grado + Residencia + Rol + Foto Perfil + Estado 
+            \\ \textbf{Proceso:} El sistema comprueba la inexistencia previa de un usuario, buscando coincidencias en el nombre de usuario y mail. En caso de no encontrar un usuario con los nombre de usuario y mail especificados, se creará y guardará el nuevo usuario, al cual se le asignará el número único IdUsuario (este número se obtiene a partir del máximo existente hasta el momento, siendo 1 para el primer usuario). En este caso, se devolverá un mensaje de éxito y el IdUsuario. En caso que ya existiera un usuario con los nombre de usuario y mail especificados, se devolverá un mensaje de error informando tal situación
             \\ \textbf{Salida:} @IdUsuario + mensaje
             \\
           \item \textbf{Modificación de usuarios:}
@@ -222,9 +222,9 @@
             \\ \textbf{Salida:} @IdUsuario + mensaje
             \\
           \item \textbf{Cambiar estado de usuarios:}
-            \\ \textbf{Introducción:} El sistema permite habilitar/inhabilitar  usuarios existentes en la aplicación.
-            \\ \textbf{Entrada:} @IdUsuario + Estado
-            \\ \textbf{Proceso:} El sistema comprueba la existencia previa de un usuario en base a @IdUsuario cambiando el estado del mismo. Los registros asociados a este usuario no deben eliminarse ni modificarse. En caso de error se devolverá un mensaje con el motivo del mismo.
+            \\ \textbf{Introducción:} El sistema permite habilitar/inhabilitar usuarios existentes en la aplicación.
+            \\ \textbf{Entrada:} @IdUsuario + Estado Actual
+            \\ \textbf{Proceso:} El sistema comprueba la existencia previa de un usuario en base a @IdUsuario para poder modificar su estado. Hay dos tipos de estado: ``Habilitado" - ``Inhabilitado". Este proceso permuta el estado actual del usuario. Si un usuario tiene estado ``Habilitado", este se cambia a ``Inhabilitado" y viceversa. Los registros asociados al usuario no deben eliminarse ni modificarse. En caso de error se devolverá un mensaje con el motivo del mismo.
             \\ \textbf{Salida:} @IdUsuario + Mensaje
             \\
           \item \textbf{Ver detalles de usuario:}
@@ -242,7 +242,7 @@
           \item \textbf{Cambiar rol de usuario:}
             \\ \textbf{Introducción:} El sistema permite cambiar el Rol a los usuarios existentes en él. Esta acción solo la pueden realizar los usuarios del grupo ``Administradores"
             \\ \textbf{Entrada:} @IdUsuario + Rol
-            \\ \textbf{Proceso:} El sistema comprueba la existencia previa del usuario en base a @IdUsuario, luego modificara el Rol del mismo. En caso de éxito, se presenta la información del mismo. En caso de error se devolverá un mensaje con el motivo del mismo.
+            \\ \textbf{Proceso:} El sistema comprueba la existencia previa del usuario en base a @IdUsuario. Hay dos tipos de roles: ``Administrador" - ``Usuario". Este proceso modificará el Rol del mismo según valor de entrada. En caso de éxito, se presenta la información del mismo. En caso de error se devolverá un mensaje con el motivo del mismo.
             \\ \textbf{Salida:} @IdUsuario + Mensaje
             \\
           \item \textbf{Búsqueda de usuarios:}
@@ -257,8 +257,8 @@
         \begin{itemize}
           \item \textbf{Alta de registros:}
             \\ \textbf{Introducción:} El sistema permite dar de alta un nuevo registro ingresando indice, insectos encontrados, fecha, latitud, longitud, foto del paisaje, foto de la muestra, foto del mapa (vista aérea con un PIN indicando la ubicación terrestre), observaciones del usuario, IdUsuario (creador del registro), IdUbicacion (país, localidad, provincia).
-            \\ \textbf{Entrada:} Indice + Insectos Encontrados + Fecha Creación + Latitud + Longitud + Foto Paisaje + Foto Muestra + Foto Mapa + Observaciones Usuario + IdUsuario + IdUbicación
-            \\ \textbf{Proceso:} El sistema crea un registro con un valor de estado de validación inicial igual a ``Pendiente'' y con observaciones del administrador sin contenido, además, codifica todas las fotos y genera un IdRegistro a partir del máximo existente hasta el momento. En caso de éxito, se devolverá un mensaje de éxito y el IdRegistro.
+            \\ \textbf{Entrada:} IdRegistro + Indice + Insectos Encontrados + Fecha Creación + Latitud + Longitud + Foto Paisaje + Foto Muestra + Foto Mapa + Observaciones Usuario + IdUsuario + IdUbicación
+            \\ \textbf{Proceso:} El sistema crea un registro al cual se le asignará el número único IdRegistro (este número se obtiene a partir del máximo existente hasta el momento, siendo 1 para el primer registro). Los estados de validación posibles son ``Valido'', ``Invalido'' y ``Pendiente''. Un registro nuevo se creará con un valor de estado de validación igual a ``Pendiente''.  y con observaciones del administrador sin contenido, además, las fotos se almacenarán en Base64. En caso de éxito, se devolverá un mensaje de éxito y el IdRegistro.
             \\ \textbf{Salida:} IdRegistro + Mensaje
             \\
           \item \textbf{Cambiar estado de registros:}
