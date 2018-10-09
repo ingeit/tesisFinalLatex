@@ -224,7 +224,7 @@
           \item \textbf{Cambiar estado de usuarios:}
             \\ \textbf{Introducción:} El sistema permite habilitar/inhabilitar usuarios existentes en la aplicación.
             \\ \textbf{Entrada:} @IdUsuario + Estado Actual
-            \\ \textbf{Proceso:} El sistema comprueba la existencia previa de un usuario en base a @IdUsuario para poder modificar su estado. Hay dos tipos de estado: ``Habilitado" - ``Inhabilitado". Este proceso permuta el estado actual del usuario. Si un usuario tiene estado ``Habilitado", este se cambia a ``Inhabilitado" y viceversa. Los registros asociados al usuario no deben eliminarse ni modificarse. En caso de error se devolverá un mensaje con el motivo del mismo.
+            \\ \textbf{Proceso:} El sistema comprueba la existencia previa de un usuario en base a @IdUsuario para poder modificar su estado. Hay dos tipos de estado: ``Habilitado'' - ``Inhabilitado''. Este proceso permuta el estado actual del usuario. Si un usuario tiene estado ``Habilitado'', este se cambia a ``Inhabilitado'' y viceversa. Los registros asociados al usuario no deben eliminarse ni modificarse. En caso de error se devolverá un mensaje con el motivo del mismo.
             \\ \textbf{Salida:} @IdUsuario + Mensaje
             \\
           \item \textbf{Ver detalles de usuario:}
@@ -240,9 +240,9 @@
             \\ \textbf{Salida:} @IdUsuario + Mensaje
             \\
           \item \textbf{Cambiar rol de usuario:}
-            \\ \textbf{Introducción:} El sistema permite cambiar el Rol a los usuarios existentes en él. Esta acción solo la pueden realizar los usuarios del grupo ``Administradores"
+            \\ \textbf{Introducción:} El sistema permite cambiar el Rol a los usuarios existentes en él. Esta acción solo la pueden realizar los usuarios del grupo ``Administradores''
             \\ \textbf{Entrada:} @IdUsuario + Rol
-            \\ \textbf{Proceso:} El sistema comprueba la existencia previa del usuario en base a @IdUsuario. Hay dos tipos de roles: ``Administrador" - ``Usuario". Este proceso modificará el Rol del mismo según valor de entrada. En caso de éxito, se presenta la información del mismo. En caso de error se devolverá un mensaje con el motivo del mismo.
+            \\ \textbf{Proceso:} El sistema comprueba la existencia previa del usuario en base a @IdUsuario. Hay dos tipos de roles: ``Administrador'' - ``Usuario''. Este proceso modificará el Rol del mismo según valor de entrada. En caso de éxito, se presenta la información del mismo. En caso de error se devolverá un mensaje con el motivo del mismo.
             \\ \textbf{Salida:} @IdUsuario + Mensaje
             \\
           \item \textbf{Búsqueda de usuarios:}
@@ -262,7 +262,7 @@
             \\ \textbf{Salida:} IdRegistro + Mensaje
             \\
           \item \textbf{Cambiar estado de registros:}
-            \\ \textbf{Introducción:} El sistema permite cambiar el estado de un registro. Solo los administradores del sistema tendrán los permisos para realizar esta acción. Se podrá cambiar el estado del registro ``Valido'' / ``Invalido'' y viceversa. Inicialmente, el registro se crea con un estado ``Pendiente", el cual, una vez modificado, no se podrá volver a asignar.
+            \\ \textbf{Introducción:} El sistema permite cambiar el estado de un registro. Solo los administradores del sistema tendrán los permisos para realizar esta acción. Se podrá cambiar el estado del registro ``Valido'' / ``Invalido'' y viceversa. Inicialmente, el registro se crea con un estado ``Pendiente'', el cual, una vez modificado, no se podrá volver a asignar.
             \\ \textbf{Entrada:} @IdRegistro + Estado Validación
             \\ \textbf{Proceso:} El sistema modifica el registro con el valor de estado validación correspondiente. En caso de éxito, se devolverá un mensaje de éxito y el IdRegistro.
             \\ \textbf{Salida:} IdRegistro + Mensaje
@@ -289,7 +289,7 @@
       \item \textbf{Gestión de Mapas}
         \begin{itemize}
           \item \textbf{Ver mapa}
-          \\ \textbf{Introducción:} El sistema permite ver el mapa interactivo con la información de los registros almacenados que cumplan con la condición de estado de validación igual a "Valido".
+          \\ \textbf{Introducción:} El sistema permite ver el mapa interactivo con la información de los registros almacenados que cumplan con la condición de estado de validación igual a ``Valido''.
           \\ \textbf{Entrada:} Arreglo de Registros 
           \\ \textbf{Proceso:} Mostrar un mapa con puntos obtenidos mediante la latitud y longitud de cada registros del arreglo.
           Los puntos indican, ademas de la posición geográfica del registro, el usuario que lo creó y el indice de contaminación numéricamente y ademas con un color de entre 4 diferentes para una rápida identificación visual.
@@ -308,7 +308,7 @@
       \begin{itemize}
         \item \textbf{Requisitos de usuario:} Como se mencionó anteriormente, se identifican dos tipos de usuarios: Administradores y Alumnos. Los usuarios tendrán sus cuentas asociadas con Nombre de Usuario y Contraseña. Los mismos podrán iniciar sesión desde computadoras de escritorio (Sistema de administración y gestión de registros) o mediante la aplicación para dispositivos móviles Smartphones, siempre y cuando, dispongan de una cuenta valida. En caso contrario, deberán registrarse en el sistema mediante la aplicación correspondiente.
 
-        \item \textbf{Requisitos tecnológicos:} Los administradores podrán iniciar sesión en el sistema mediante computadoras de escritorio, facilitando la gestión y administración del mismo. Ésta versión WEB restringe el uso a aquellos usuarios del grupo ``Alumnos", por otra parte, los alumnos podrán hacer uso del sistema solo para generar registros, y ver el mapa interactivo mediante la aplicación para Smartphones que deberán descargar la tienda.
+        \item \textbf{Requisitos tecnológicos:} Los administradores podrán iniciar sesión en el sistema mediante computadoras de escritorio, facilitando la gestión y administración del mismo. Ésta versión WEB restringe el uso a aquellos usuarios del grupo ``Alumnos'', por otra parte, los alumnos podrán hacer uso del sistema solo para generar registros, y ver el mapa interactivo mediante la aplicación para Smartphones que deberán descargar la tienda.
         Se utilizará una plataforma de servicios en la nube o un servidor físico local provisto por el cliente de este sistema, para administrar una máquina virtual que hará de servidor web y servidor de base de datos. El sistema operativo que correrá la máquina virtual será Ubuntu Server, éste es un sistema operativo gratuito y de código abierto, por otra parte, el sistema gestor de base de datos será del tipo MySQL. Ambos sistemas (operativo y gestor de base de datos), serán instalados en su ultima versión estable al momento de la entrega del software.
         El sistema se ejecutara sobre un esquema de peticiones Cliente/Servidor (API Rest). La elección esta infraestructura se debe principalmente a 3 motivos: 
         \begin{itemize}
